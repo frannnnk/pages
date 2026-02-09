@@ -1,0 +1,36 @@
+{
+  "date": "2026-02-09",
+  "title": "Frank 早報 - 2026-02-09",
+  "sections": [
+    {
+      "title": "國際新聞",
+      "items": [
+        {"title": "日本首相高市早苗閃電選舉大勝", "desc": "日本保守派首相在風險極高的閃電選舉中取得壓倒性勝利，執政聯盟在眾议院贏得三分之二多數席位。", "url": "https://www.bbc.com/news/articles/cx2y7d2z29xo"},
+        {"title": "美國與伊朗阿曼舉行核談判", "desc": "美國與伊朗在阿曼結束核談判，伊朗稱之為「好的開始」，區域戰爭陰霾持續。", "url": "https://www.aljazeera.com/news/2026/2/6/iran-us-hold-talks-in-oman"},
+        {"title": "以色列內閣批准西岸政策改革", "desc": "以色列安全內閣批准加強對約旦河西岸控制、削弱巴勒斯坦權力機構權力的措施。", "url": "https://apnews.com/article/west-bank-israel-settlement"},
+        {"title": "道瓊斯指數創歷史新高", "desc": "經歷動盪一週後，股市在週五反彈，道瓊斯創下歷史新高。", "url": "https://www.nytimes.com/2026/02/06/business/stock-market-rebound"},
+        {"title": "歐洲冬季混亂 5000航班受影響", "desc": "柏林機場關閉，超過150個航班被取消，歐洲持續受惡劣天氣影響。", "url": "https://www.traveltourister.com/news/europe-winter-apocalypse"}
+      ]
+    },
+    {
+      "title": "中國大陸新聞",
+      "items": [
+        {"title": "中國 AI 模型 DeepSeek 成本僅 600 萬美元", "desc": "中國 AI 實驗室以僅 600 萬美元成本匹配 OpenAI 最佳推理模型。", "url": "https://dev.to/aristoaistack/deepseek-ai-2026"},
+        {"title": "中國春運旅客量創新高", "desc": "農曆新年期間旅客運輸量創歷史新高，疫情後經濟復甦明顯。", "url": "https://www.chinadaily.com.cn"},
+        {"title": "中國電動車市場持續增長", "desc": "中國新能源汽車銷量同比增長， 比亞迪等品牌表現強勁。", "url": "https://www.reuters.com"},
+        {"title": "中美貿易談判持續進行", "desc": "中美官員就貿易議題進行會談，雙方尋求達成共識。", "url": "https://www.bbc.com/news"},
+        {"title": "中國人口數據發布", "desc": "最新人口統計數據顯示中國人口結構變化趨勢。", "url": "https://www.xinhuanet.com"}
+      ]
+    },
+    {
+      "title": "香港新聞",
+      "items": [
+        {"title": "香港國際機場運力持續恢復", "desc": "機場客運量持續增長，航線網絡逐步恢復至疫情前水平。", "url": "https://www.hongkongairport.com"},
+        {"title": "香港股市週邊波動", "desc": "受全球市場影響，港股出現波動，投資者審慎觀望。", "url": "https://www.hkej.com"},
+        {"title": "香港旅遊業復甦勢頭強勁", "desc": "農曆新年期間訪港旅客量按年大幅增長。", "url": "https://news.gov.hk"},
+        {"title": "香港房產市場最新動向", "desc": "樓市成交量及價格走勢成為市場焦點。", "url": "https://property.hkej.com"},
+        {"title": "香港科技發展動態", "desc": "創新科技領域發展迅速，多個項目取得進展。", "url": "https://www.hkstp.org"}
+      ]
+    }
+  ]
+}
