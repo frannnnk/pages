@@ -8,32 +8,20 @@
         {
           "title": "結束烏克蘭戰爭的和談即將恢復",
           "pub_date": "2026-02-08",
-          "desc": "阿布達比舉行和平談判，烏克蘭和俄羅斯談判代表進行面對面會談，美國總統特朗普表示比以往任何時候都更加樂觀。",
+          "desc": "阿布達比舉行和平談判，烏克蘭和俄羅斯談判代表進行面對面會談。",
           "url": "https://www.npr.org/2026/02/04/nx-s1-5698180/peace-talks-to-end-the-war-in-ukraine-set-to-resume"
         },
         {
           "title": "基輔燭光成戰時停電最後選擇",
           "pub_date": "2026-02-08",
-          "desc": "俄羅斯持續攻擊烏克蘭能源電網，燭光成為基輔市民在緊急電源失效時的最後選擇。",
+          "desc": "俄羅斯持續攻擊烏克蘭能源電網，燭光成為市民最後選擇。",
           "url": "https://www.npr.org/2026/02/04/g-s1-108433/ukraine-kyiv-blackout-russia-energy-attacks-power-outages"
-        },
-        {
-          "title": "史蒂夫·維特科夫促成烏克蘭和平談判",
-          "pub_date": "2026-02-08",
-          "desc": "白宮中東特使史蒂夫·維特科夫積極促成結束烏克蘭戰爭的談判。",
-          "url": "https://www.npr.org/2026/02/04/nx-s1-5698181/steve-witkoff-is-brokering-an-end-to-the-war-in-ukraine-how-his-efforts-are-going"
         },
         {
           "title": "中美貿易談判持續進行",
           "pub_date": "2026-02-08",
           "desc": "中美官員就貿易議題繼續會談，關稅問題仍是談判焦點。",
           "url": "https://www.bbc.com/news/china-us-trade-talks"
-        },
-        {
-          "title": "超級碗經濟學論文精選",
-          "pub_date": "2026-02-08",
-          "desc": "經濟學家研究發現企業採用 AI 後生產力先下降後上升，稱之為「J 曲線效應」。",
-          "url": "https://www.npr.org/sections/planet-money/2026/02/03/g-s1-107994/5-papers-from-the-super-bowl-of-economics"
         }
       ]
     },
@@ -43,7 +31,7 @@
         {
           "title": "中國省份設定 2026 年較低增長目標",
           "pub_date": "2026-02-08",
-          "desc": "中國多個省份設定較低的 2026 年 GDP 增長目標，可能下調至 4.5-5%。",
+          "desc": "中國多個省份設定較低的 GDP 增長目標，可能下調至 4.5-5%。",
           "url": "https://www.ft.com/china/provinces-gdp-targets-2026"
         },
         {
@@ -57,18 +45,6 @@
           "pub_date": "2026-02-08",
           "desc": "機場客運量持續增長，航線網絡逐步恢復至疫情前水平。",
           "url": "https://www.hongkongairport.com/tc/"
-        },
-        {
-          "title": "香港旅遊業復甦勢頭強勁",
-          "pub_date": "2026-02-08",
-          "desc": "農曆新年期間訪港旅客量按年大幅增長。",
-          "url": "https://news.gov.hk/tourism-recovery"
-        },
-        {
-          "title": "香港經濟展望 2026",
-          "pub_date": "2026-02-08",
-          "desc": "政府推動經濟發展措施支持香港經濟，外部不確定性持續。",
-          "url": "https://www.hkeconomy.gov.hk/en/situation/development/index.htm"
         }
       ]
     },
@@ -78,20 +54,14 @@
         {
           "title": "港大商學院發布香港經濟政策綠皮書 2026",
           "pub_date": "2026-02-07",
-          "desc": "港大商學院發布香港經濟政策綠皮書 2026，聚焦香港經濟可持續增長新機遇。",
+          "desc": "港大商學院發布香港經濟政策綠皮書，聚焦香港經濟可持續增長。",
           "url": "https://www.hku.hk/press/news_detail_28882.html"
         },
         {
-          "title": "香港未來經濟峰會 2026 探討可持續增長",
-          "pub_date": "2026-02-07",
-          "desc": "峰會圓滿舉行，與會者討論保險業創新、虛擬貨幣監管環境。",
-          "url": "https://www.eurekalert.org/news-releases/1114171"
-        },
-        {
-          "title": "港幣兌美元匯率穩定",
+          "title": "香港旅遊業復甦勢頭強勁",
           "pub_date": "2026-02-08",
-          "desc": "港幣兌美元匯率維持在聯繫匯率制度水平。",
-          "url": "https://www.hkej.com/hkd-usd-exchange"
+          "desc": "農曆新年期間訪港旅客量按年大幅增長。",
+          "url": "https://news.gov.hk/tourism-recovery"
         }
       ]
     }
@@ -110,12 +80,71 @@
         "pub_date": "2026-02-08",
         "desc": "提供 GDS Holdings Limited (NASDAQ: GDS) 即時股價及圖表。",
         "url": "https://finance.yahoo.com/quote/GDS/"
+      }
+    ]
+  },
+  "ai_section": {
+    "title": "AI 和 OpenClaw 新聞",
+    "items": [
+      {
+        "title": "OpenAI 發布 GPT-5.3-Codex",
+        "pub_date": "2026-02-07",
+        "desc": "OpenAI 推出最新代碼模型，號稱最快代理編碼模型，速度提升 25%。",
+        "url": "https://openai.com/index/introducing-gpt-5-3-codex/"
       },
       {
-        "title": "GDS 股價因私募配售下跌 8.1%",
+        "title": "Elon Musk 宣佈 SpaceX 與 xAI 合併",
         "pub_date": "2026-02-07",
-        "desc": "完成私募配售後股價下跌，分析師關注公司治理結構變化。",
-        "url": "https://simplywall.st/stocks/us/software/nasdaq-gds/gds-holdings/news/gds-holdings-gds-is-down-81-after-convertible-raise-and-gove"
+        "desc": "馬斯克宣佈合併 SpaceX 和人工智能企業 xAI，打造更強大 AI 帝國。",
+        "url": "https://www.crescendo.ai/news/latest-ai-news-and-updates"
+      },
+      {
+        "title": "UN 專家呼籲加強 AI 全球監管",
+        "pub_date": "2026-02-06",
+        "desc": "聯合國專家組發布報告，呼籲對快速發展的人工智能領域進行全球監管。",
+        "url": "https://news.un.org/en/story/2026/02/1166891"
+      },
+      {
+        "title": "Anthropic 推出新 AI 工具引發軟件股動盪",
+        "pub_date": "2026-02-07",
+        "desc": "Anthropic 發布的人工智能工具被投資者視為潛在顛覆產品，軟件股應聲下跌。",
+        "url": "https://abcnews.go.com/Business/new-ai-tool-hammered-software-stocks-week/story?id=129845251"
+      },
+      {
+        "title": "Google 計劃加倍 AI 投資對抗競爭對手",
+        "pub_date": "2026-02-05",
+        "desc": "Google 在人工智能領域加碼投資，試圖扭轉早期劣勢。",
+        "url": "https://www.nytimes.com/2026/02/04/business/google-earnings-ai.html"
+      },
+      {
+        "title": "OpenClaw 從 Clawdbot 到 Moltbot 再到現在的進化",
+        "pub_date": "2026-02-07",
+        "desc": "開源 AI 代理 OpenClaw 經歷多次更名，如今成為網路上最熱門 AI 工具之一。",
+        "url": "https://www.ibm.com/think/news/clawdbot-ai-agent-testing-limits-vertical-integration"
+      },
+      {
+        "title": "OpenClaw 安全問題引發專家關注",
+        "pub_date": "2026-02-05",
+        "desc": "彭博報導指出 OpenClaw 作為 AI 個人助理功能強大，但安全性仍在改進中。",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-04/openclaw-s-an-ai-sensation-but-its-security-a-work-in-progress"
+      },
+      {
+        "title": "科學家監測 OpenClaw 等 AI 聊天機器人行為",
+        "pub_date": "2026-02-07",
+        "desc": "科學家建立平台追蹤 AI 代理的社交媒體行為和研究論文發布。",
+        "url": "https://www.nature.com/articles/d41586-026-00370-w"
+      },
+      {
+        "title": "OpenClaw 用戶分享：讓 AI 刪除 75,000 封舊郵件",
+        "pub_date": "2026-02-06",
+        "desc": "OpenClaw 用戶分享使用經驗，讓 AI 代理管理大量郵件的案例引發熱議。",
+        "url": "https://www.theguardian.com/technology/2026/feb/02/openclaw-viral-ai-agent-personal-assistant-artificial-intelligence"
+      },
+      {
+        "title": "專家警告 OpenClaw 等 AI 個人助理的風險",
+        "pub_date": "2026-02-06",
+        "desc": "儘管 AI 個人助理被視為重大突破，但專家警告存在安全和隱私風險。",
+        "url": "https://www.theguardian.com/technology/2026/feb/02/openclaw-viral-ai-agent-personal-assistant-artificial-intelligence"
       }
     ]
   }
