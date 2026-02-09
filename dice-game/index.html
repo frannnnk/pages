@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🎲 骰子单双游戏 - 马丁格尔策略模拟</title>
+    <title>🎲 骰子单双游戏 - 马丁格尔策略模拟器</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
         * {
@@ -21,7 +21,7 @@
         }
 
         .container {
-            max-width: 800px;
+            max-width: 1000px;
             margin: 0 auto;
         }
 
@@ -29,24 +29,32 @@
             text-align: center;
             color: #d4af37;
             text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
-            margin-bottom: 20px;
+            margin-bottom: 10px;
             font-size: 2rem;
         }
 
         .subtitle {
             text-align: center;
             color: #8b8b8b;
-            margin-bottom: 30px;
+            margin-bottom: 20px;
             font-size: 0.9rem;
         }
 
-        .game-board {
+        .game-section {
             background: linear-gradient(145deg, #2d2d2d, #1a1a1a);
             border: 4px solid #4a4a4a;
             border-radius: 15px;
-            padding: 30px;
+            padding: 20px;
             margin-bottom: 20px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.5), inset 0 2px 10px rgba(255,255,255,0.1);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+
+        .section-title {
+            color: #d4af37;
+            font-size: 1.2rem;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #4a4a4a;
         }
 
         .stats-row {
@@ -54,71 +62,59 @@
             justify-content: space-around;
             margin-bottom: 20px;
             flex-wrap: wrap;
-            gap: 15px;
+            gap: 10px;
         }
 
         .stat-box {
             background: linear-gradient(145deg, #3d3d3d, #2a2a2a);
             border: 2px solid #d4af37;
             border-radius: 10px;
-            padding: 15px 25px;
+            padding: 12px 20px;
             text-align: center;
-            min-width: 120px;
+            min-width: 100px;
         }
 
         .stat-label {
-            font-size: 0.8rem;
+            font-size: 0.75rem;
             color: #8b8b8b;
             margin-bottom: 5px;
         }
 
         .stat-value {
-            font-size: 1.5rem;
+            font-size: 1.3rem;
             font-weight: bold;
             color: #d4af37;
-            text-shadow: 0 0 10px rgba(212,175,55,0.5);
         }
 
         .balance-value {
-            font-size: 2rem;
+            font-size: 1.8rem;
         }
 
         .dice-area {
             display: flex;
             justify-content: center;
             gap: 40px;
-            margin: 30px 0;
+            margin: 20px 0;
         }
 
         .dice {
-            width: 80px;
-            height: 80px;
+            width: 70px;
+            height: 70px;
             background: linear-gradient(145deg, #ffffff, #e0e0e0);
-            border-radius: 15px;
+            border-radius: 12px;
             display: flex;
             justify-content: center;
             align-items: center;
-            font-size: 2.5rem;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.4), inset 0 -3px 10px rgba(0,0,0,0.2);
-            transition: transform 0.1s;
-        }
-
-        .dice.rolling {
-            animation: roll 0.1s infinite;
-        }
-
-        @keyframes roll {
-            0%, 100% { transform: rotate(0deg); }
-            25% { transform: rotate(10deg); }
-            75% { transform: rotate(-10deg); }
+            font-size: 2rem;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.4);
         }
 
         .result-message {
             text-align: center;
-            font-size: 1.5rem;
-            margin: 20px 0;
-            min-height: 40px;
-            text-shadow: 0 0 10px currentColor;
+            font-size: 1.2rem;
+            margin: 15px 0;
+            min-height: 30px;
+            font-weight: bold;
         }
 
         .result-win {
@@ -129,30 +125,23 @@
             color: #f87171;
         }
 
-        .bet-area {
+        .bet-controls {
             display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 15px;
-        }
-
-        .bet-buttons {
-            display: flex;
-            gap: 15px;
             flex-wrap: wrap;
+            gap: 10px;
             justify-content: center;
+            margin: 15px 0;
         }
 
         .bet-btn {
-            padding: 15px 30px;
-            font-size: 1.1rem;
+            padding: 12px 25px;
+            font-size: 1rem;
             font-family: 'Courier New', monospace;
             border: 3px solid;
-            border-radius: 10px;
+            border-radius: 8px;
             cursor: pointer;
             transition: all 0.3s;
             font-weight: bold;
-            text-transform: uppercase;
         }
 
         .bet-btn:disabled {
@@ -166,35 +155,44 @@
             color: #9d4edd;
         }
 
-        .bet-odd:hover:not(:disabled) {
-            background: linear-gradient(145deg, #6b2d5a, #4a1942);
-            box-shadow: 0 0 20px rgba(157,78,221,0.4);
-            transform: translateY(-2px);
-        }
-
         .bet-even {
             background: linear-gradient(145deg, #1e3a5f, #142838);
             border-color: #60a5fa;
             color: #60a5fa;
         }
 
-        .bet-even:hover:not(:disabled) {
-            background: linear-gradient(145deg, #2d4a6f, #1e3a5f);
-            box-shadow: 0 0 20px rgba(96,165,250,0.4);
-            transform: translateY(-2px);
+        .bet-input {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            justify-content: center;
+            flex-wrap: wrap;
         }
 
-        .action-buttons {
-            display: flex;
-            gap: 15px;
-            flex-wrap: wrap;
-            justify-content: center;
-            margin-top: 20px;
+        .bet-input label {
+            color: #8b8b8b;
+        }
+
+        .bet-input input {
+            width: 100px;
+            padding: 10px;
+            font-size: 1rem;
+            font-family: 'Courier New', monospace;
+            background: #1a1a1a;
+            border: 2px solid #4a4a4a;
+            border-radius: 8px;
+            color: #d4af37;
+            text-align: center;
+        }
+
+        .bet-input input:focus {
+            outline: none;
+            border-color: #d4af37;
         }
 
         .action-btn {
-            padding: 12px 25px;
-            font-size: 1rem;
+            padding: 10px 20px;
+            font-size: 0.9rem;
             font-family: 'Courier New', monospace;
             border: 2px solid #4a4a4a;
             border-radius: 8px;
@@ -214,8 +212,20 @@
             border-color: #8b4513;
         }
 
-        .double-btn:hover:not(:disabled) {
-            box-shadow: 0 0 15px rgba(139,69,19,0.5);
+        .auto-btn {
+            background: linear-gradient(145deg, #1e5f2d, #143820);
+            border-color: #22c55e;
+        }
+
+        .auto-btn.running {
+            background: linear-gradient(145deg, #7f1d1d, #581c1c);
+            border-color: #ef4444;
+        }
+
+        .reset-btn {
+            background: linear-gradient(145deg, #8b0000, #5c0000);
+            border-color: #dc2626;
+            color: #fca5a5;
         }
 
         .chart-area {
@@ -232,85 +242,86 @@
             margin-bottom: 15px;
         }
 
-        .bet-input {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            margin-bottom: 15px;
-        }
-
-        .bet-input label {
-            color: #8b8b8b;
-        }
-
-        .bet-input input {
-            width: 100px;
-            padding: 10px;
-            font-size: 1.2rem;
-            font-family: 'Courier New', monospace;
-            background: #1a1a1a;
-            border: 2px solid #4a4a4a;
-            border-radius: 8px;
-            color: #d4af37;
-            text-align: center;
-        }
-
-        .bet-input input:focus {
-            outline: none;
-            border-color: #d4af37;
-        }
-
-        .reset-btn {
-            background: linear-gradient(145deg, #8b0000, #5c0000);
-            border-color: #dc2626;
-            color: #fca5a5;
-        }
-
-        .reset-btn:hover {
-            box-shadow: 0 0 15px rgba(220,38,38,0.5);
-        }
-
-        .info-text {
-            color: #8b8b8b;
-            font-size: 0.9rem;
-            text-align: center;
-            margin-top: 15px;
-        }
-
         .warning {
             background: rgba(248,113,113,0.1);
             border: 1px solid #f87171;
             border-radius: 8px;
-            padding: 10px;
+            padding: 15px;
             margin-top: 20px;
             text-align: center;
             font-size: 0.85rem;
             color: #f87171;
         }
 
+        .config-row {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 15px;
+        }
+
+        .config-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .config-item label {
+            color: #8b8b8b;
+            font-size: 0.9rem;
+        }
+
+        .config-item input {
+            width: 100px;
+            padding: 8px;
+            font-size: 0.9rem;
+            font-family: 'Courier New', monospace;
+            background: #1a1a1a;
+            border: 2px solid #4a4a4a;
+            border-radius: 6px;
+            color: #d4af37;
+            text-align: center;
+        }
+
+        .config-item input:focus {
+            outline: none;
+            border-color: #d4af37;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 20px;
+            background: #1a1a1a;
+            border-radius: 10px;
+            overflow: hidden;
+            margin: 10px 0;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #d4af37, #f0d78c);
+            transition: width 0.3s;
+        }
+
         @media (max-width: 600px) {
             .dice {
                 width: 60px;
                 height: 60px;
-                font-size: 1.8rem;
+                font-size: 1.5rem;
             }
 
             .stat-box {
-                min-width: 90px;
-                padding: 10px 15px;
+                min-width: 80px;
+                padding: 8px 12px;
             }
 
             .stat-value {
-                font-size: 1.2rem;
+                font-size: 1.1rem;
             }
 
             .balance-value {
                 font-size: 1.5rem;
-            }
-
-            .bet-btn {
-                padding: 12px 20px;
-                font-size: 1rem;
             }
         }
     </style>
@@ -320,7 +331,10 @@
         <h1>🎲 骰子单双游戏</h1>
         <p class="subtitle">马丁格尔策略模拟器 | 初始资金: 7000 HKD | 最低下注: 100 HKD</p>
 
-        <div class="game-board">
+        <!-- 手动模式 -->
+        <div class="game-section">
+            <h2 class="section-title">🎮 手动模式</h2>
+
             <div class="stats-row">
                 <div class="stat-box">
                     <div class="stat-label">💰 当前资金</div>
@@ -331,12 +345,12 @@
                     <div class="stat-value" id="winRate">--%</div>
                 </div>
                 <div class="stat-box">
-                    <div class="stat-label">📈 最大盈利</div>
-                    <div class="stat-value" id="maxProfit">0</div>
+                    <div class="stat-label">🎲 总次数</div>
+                    <div class="stat-value" id="totalBets">0</div>
                 </div>
                 <div class="stat-box">
-                    <div class="stat-label">📉 最大亏损</div>
-                    <div class="stat-value" id="maxLoss">0</div>
+                    <div class="stat-label">❄️ 最长连输</div>
+                    <div class="stat-value" id="maxLoseStreak">0</div>
                 </div>
             </div>
 
@@ -347,77 +361,115 @@
 
             <div class="result-message" id="resultMessage">请选择单或双开始游戏</div>
 
-            <div class="bet-area">
+            <div class="bet-controls">
                 <div class="bet-input">
-                    <label>下注金额：</label>
-                    <input type="number" id="betAmount" value="100" min="100" step="100">
+                    <label>下注：</label>
+                    <input type="number" id="betAmount" value="100" min="100">
                 </div>
-                <div class="bet-buttons">
-                    <button class="bet-btn bet-odd" id="betOdd" onclick="play('odd')">
-                        🔴 单 (1+3=4)
-                    </button>
-                    <button class="bet-btn bet-even" id="betEven" onclick="play('even')">
-                        🔵 双 (2+2=4)
-                    </button>
-                </div>
+                <button class="bet-btn bet-odd" id="betOdd" onclick="playManual('odd')">🔴 单</button>
+                <button class="bet-btn bet-even" id="betEven" onclick="playManual('even')">🔵 双</button>
+            </div>
+
+            <div class="bet-controls">
+                <button class="action-btn double-btn" id="doubleBtn" onclick="toggleDouble()" disabled>🔄 翻倍 (OFF)</button>
+                <button class="action-btn" onclick="resetGame()">🔄 重置</button>
             </div>
         </div>
 
-        <div class="action-buttons">
-            <button class="action-btn double-btn" id="doubleBtn" onclick="toggleDouble()" disabled>
-                🔄 翻倍下一注 (OFF)
-            </button>
-            <button class="action-btn" onclick="resetGame()">
-                🔄 重新开始
-            </button>
-            <button class="action-btn" onclick="exportData()">
-                📊 导出数据
-            </button>
+        <!-- 自动模式 -->
+        <div class="game-section">
+            <h2 class="section-title">⚡ 自动模拟模式</h2>
+
+            <div class="config-row">
+                <div class="config-item">
+                    <label>初始资金：</label>
+                    <input type="number" id="autoBalance" value="7000" min="1000">
+                </div>
+                <div class="config-item">
+                    <label>初始下注：</label>
+                    <input type="number" id="autoBet" value="100" min="10">
+                </div>
+                <div class="config-item">
+                    <label>模拟次数：</label>
+                    <input type="number" id="autoRounds" value="1000" min="100" max="100000">
+                </div>
+            </div>
+
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill" style="width: 0%"></div>
+            </div>
+
+            <div class="stats-row">
+                <div class="stat-box">
+                    <div class="stat-label">💰 最终资金</div>
+                    <div class="stat-value" id="autoBalanceResult">7000</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-label">🎲 模拟次数</div>
+                    <div class="stat-value" id="autoBetsResult">0</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-label">❌ 破产次数</div>
+                    <div class="stat-value" id="bankruptcyCount" style="color: #f87171;">0</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-label">🔥 最大连输</div>
+                    <div class="stat-value" id="autoMaxLoseStreak" style="color: #f87171;">0</div>
+                </div>
+            </div>
+
+            <div class="bet-controls">
+                <button class="action-btn auto-btn" id="autoBtn" onclick="toggleAuto()">🚀 开始自动模拟</button>
+                <button class="action-btn" onclick="exportAutoData()">📊 导出数据</button>
+            </div>
         </div>
 
+        <!-- 图表 -->
         <div class="chart-area">
             <div class="chart-title">📈 资金变化曲线</div>
             <canvas id="fundChart" width="100%" height="300"></canvas>
         </div>
 
-        <div class="stats-row" style="margin-top: 20px;">
-            <div class="stat-box">
-                <div class="stat-label">🎲 总次数</div>
-                <div class="stat-value" id="totalBets">0</div>
+        <!-- 批量测试结果 -->
+        <div class="game-section">
+            <h2 class="section-title">📊 批量测试 (100次模拟)</h2>
+            <div class="stats-row">
+                <div class="stat-box">
+                    <div class="stat-label">🏆 盈利次数</div>
+                    <div class="stat-value" id="batchWinCount" style="color: #4ade80;">--</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-label">💸 破产次数</div>
+                    <div class="stat-value" id="batchBankruptCount" style="color: #f87171;">--</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-label">📊 破产率</div>
+                    <div class="stat-value" id="bankruptcyRate">--%</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-label">⚠️ 首次破产平均次数</div>
+                    <div class="stat-value" id="avgRoundsToBankrupt">--</div>
+                </div>
             </div>
-            <div class="stat-box">
-                <div class="stat-label">✅ 赢</div>
-                <div class="stat-value" id="totalWins" style="color: #4ade80;">0</div>
-            </div>
-            <div class="stat-box">
-                <div class="stat-label">❌ 输</div>
-                <div class="stat-value" id="totalLosses" style="color: #f87171;">0</div>
-            </div>
-            <div class="stat-box">
-                <div class="stat-label">🔥 最长连赢</div>
-                <div class="stat-value" id="maxWinStreak">0</div>
-            </div>
-            <div class="stat-box">
-                <div class="stat-label">❄️ 最长连输</div>
-                <div class="stat-value" id="maxLoseStreak" style="color: #f87171;">0</div>
+            <div class="bet-controls">
+                <button class="action-btn auto-btn" onclick="runBatchTest()">🔬 运行批量测试</button>
             </div>
         </div>
 
         <div class="warning">
-            ⚠️ 注意：此游戏仅供模拟测试马丁格尔策略之用，请勿用于真实赌博。<br>
-            数学上，翻倍策略在无限次游戏中必然破产（除非资金无限且赌场无限额）。
+            ⚠️ 注意：此模拟仅供测试马丁格尔策略之用，请勿用于真实赌博。<br>
+            数学证明：无限次游戏中，翻倍策略必然破产（除非资金无限且赌场无限额）。
         </div>
     </div>
 
     <script>
-        // 游戏状态
+        // ===== 手动模式 =====
         let balance = 7000;
         let initialBalance = 7000;
         let currentBet = 100;
         let doubleNext = false;
         let isRolling = false;
 
-        // 统计数据
         let totalBets = 0;
         let totalWins = 0;
         let totalLosses = 0;
@@ -428,16 +480,19 @@
         let maxProfit = 0;
         let maxLoss = 0;
 
-        // 资金历史
-        let balanceHistory = [7000];
-
-        // Chart
         let fundChart = null;
+        let autoChart = null;
+        let batchChart = null;
 
-        // 初始化
+        // 自动模式数据
+        let autoData = [];
+        let isAutoRunning = false;
+        let autoAnimationId = null;
+
         document.addEventListener('DOMContentLoaded', () => {
             initChart();
-            updateDisplay();
+            updateManualDisplay();
+            initBatchChart();
         });
 
         function initChart() {
@@ -454,8 +509,7 @@
                         borderWidth: 2,
                         fill: true,
                         tension: 0.1,
-                        pointRadius: 2,
-                        pointBackgroundColor: '#d4af37'
+                        pointRadius: 2
                     }]
                 },
                 options: {
@@ -464,33 +518,26 @@
                     scales: {
                         y: {
                             beginAtZero: false,
-                            grid: {
-                                color: 'rgba(255,255,255,0.1)'
-                            },
-                            ticks: {
-                                color: '#8b8b8b'
-                            }
+                            grid: { color: 'rgba(255,255,255,0.1)' },
+                            ticks: { color: '#8b8b8b' }
                         },
                         x: {
-                            grid: {
-                                color: 'rgba(255,255,255,0.1)'
-                            },
-                            ticks: {
-                                color: '#8b8b8b',
-                                maxTicksLimit: 10
-                            }
+                            grid: { color: 'rgba(255,255,255,0.1)' },
+                            ticks: { color: '#8b8b8b', maxTicksLimit: 10 }
                         }
                     },
-                    plugins: {
-                        legend: {
-                            display: false
-                        }
-                    }
+                    plugins: { legend: { display: false } }
                 }
             });
         }
 
-        function play(choice) {
+        function initBatchChart() {
+            const ctx = document.getElementById('batchChartCanvas');
+            if (!ctx) return;
+        }
+
+        // 手动模式
+        function playManual(choice) {
             if (isRolling) return;
 
             const betInput = document.getElementById('betAmount');
@@ -501,116 +548,95 @@
                 return;
             }
 
-            // 如果选择翻倍
             if (doubleNext) {
-                const doubledBet = betAmount * 2;
-                if (doubledBet <= balance) {
-                    betInput.value = doubledBet;
+                const doubled = betAmount * 2;
+                if (doubled <= balance) {
+                    betInput.value = doubled;
                 }
-                // 无论是否成功翻倍，都重置翻倍状态
                 doubleNext = false;
                 updateDoubleButton();
             }
 
             isRolling = true;
-            disableButtons(true);
+            disableManualButtons(true);
 
-            // 骰子动画
             const dice1 = document.getElementById('dice1');
             const dice2 = document.getElementById('dice2');
             dice1.classList.add('rolling');
             dice2.classList.add('rolling');
 
-            // 随机结果（0.5秒后显示）
             setTimeout(() => {
-                const result1 = Math.floor(Math.random() * 6) + 1;
-                const result2 = Math.floor(Math.random() * 6) + 1;
-                const total = result1 + result2;
+                const r1 = Math.floor(Math.random() * 6) + 1;
+                const r2 = Math.floor(Math.random() * 6) + 1;
+                const total = r1 + r2;
                 const isOdd = total % 2 === 1;
 
-                dice1.textContent = result1;
-                dice2.textContent = result2;
+                dice1.textContent = r1;
+                dice2.textContent = r2;
                 dice1.classList.remove('rolling');
                 dice2.classList.remove('rolling');
 
-                // 判断输赢
-                const userChoice = choice;
-                const win = (userChoice === 'odd' && isOdd) || (userChoice === 'even' && !isOdd);
-
-                // 更新资金
+                const win = (choice === 'odd' && isOdd) || (choice === 'even' && !isOdd);
                 const bet = parseInt(betInput.value);
+
                 if (win) {
                     balance += bet;
                     totalWins++;
                     currentWinStreak++;
                     currentLoseStreak = 0;
-                    updateResultMessage('win', result1, result2, total, bet);
+                    updateResultMessage('win', r1, r2, total, bet);
                 } else {
                     balance -= bet;
                     totalLosses++;
                     currentLoseStreak++;
                     currentWinStreak = 0;
-                    updateResultMessage('lose', result1, result2, total, bet);
+                    updateResultMessage('lose', r1, r2, total, bet);
                 }
 
                 totalBets++;
-                updateStats();
-                updateDisplay();
+                maxWinStreak = Math.max(maxWinStreak, currentWinStreak);
+                maxLoseStreak = Math.max(maxLoseStreak, currentLoseStreak);
+
+                const profit = balance - initialBalance;
+                if (profit > maxProfit) maxProfit = profit;
+                if (profit < maxLoss) maxLoss = profit;
+
+                updateManualDisplay();
                 addToChart();
 
-                // 检查是否破产
                 if (balance < 100) {
-                    alert('💸 资金不足！游戏结束。\n总下注次数：' + totalBets + '\n最终资金：' + balance);
-                    disableButtons(true);
+                    alert('💸 资金不足！游戏结束。\n总下注次数：' + totalBets);
+                    disableManualButtons(true);
                 } else {
-                    disableButtons(false);
+                    disableManualButtons(false);
                 }
 
                 isRolling = false;
-            }, 500);
+            }, 300);
         }
 
         function updateResultMessage(result, d1, d2, total, bet) {
             const msg = document.getElementById('resultMessage');
-            const totalText = d1 + ' + ' + d2 + ' = ' + total + ' ';
-            const typeText = total % 2 === 1 ? '单' : '双';
-
+            const type = total % 2 === 1 ? '单' : '双';
             if (result === 'win') {
                 msg.className = 'result-message result-win';
-                msg.textContent = '🎉 赢了！' + totalText + typeText + '，赢 ' + bet + '！';
+                msg.textContent = `🎉 赢了！${d1}+${d2}=${total}${type}，赢 ${bet}！`;
             } else {
                 msg.className = 'result-message result-lose';
-                msg.textContent = '💔 输了！' + totalText + typeText + '，输 ' + bet + '！';
+                msg.textContent = `💔 输了！${d1}+${d2}=${total}${type}，输 ${bet}！`;
             }
         }
 
-        function updateStats() {
-            maxWinStreak = Math.max(maxWinStreak, currentWinStreak);
-            maxLoseStreak = Math.max(maxLoseStreak, currentLoseStreak);
-
-            const profit = balance - initialBalance;
-            if (profit > maxProfit) maxProfit = profit;
-            if (profit < maxLoss) maxLoss = profit;
-        }
-
-        function updateDisplay() {
+        function updateManualDisplay() {
             document.getElementById('balance').textContent = balance;
-
             const winRate = totalBets > 0 ? ((totalWins / totalBets) * 100).toFixed(1) : '--';
             document.getElementById('winRate').textContent = winRate + '%';
-
             document.getElementById('totalBets').textContent = totalBets;
-            document.getElementById('totalWins').textContent = totalWins;
-            document.getElementById('totalLosses').textContent = totalLosses;
-            document.getElementById('maxWinStreak').textContent = maxWinStreak;
             document.getElementById('maxLoseStreak').textContent = maxLoseStreak;
-            document.getElementById('maxProfit').textContent = maxProfit;
-            document.getElementById('maxLoss').textContent = maxLoss;
         }
 
         function addToChart() {
-            const label = totalBets + '';
-            fundChart.data.labels.push(label);
+            fundChart.data.labels.push(totalBets + '');
             fundChart.data.datasets[0].data.push(balance);
             fundChart.update('none');
         }
@@ -622,18 +648,18 @@
 
         function updateDoubleButton() {
             const btn = document.getElementById('doubleBtn');
-            if (doubleNext) {
-                btn.textContent = '🔄 翻倍下一注 (ON)';
-                btn.style.boxShadow = '0 0 15px rgba(139,69,19,0.8)';
-            } else {
-                btn.textContent = '🔄 翻倍下一注 (OFF)';
-                btn.style.boxShadow = '';
-            }
+            btn.textContent = doubleNext ? '🔄 翻倍 (ON)' : '🔄 翻倍 (OFF)';
+            btn.style.boxShadow = doubleNext ? '0 0 15px rgba(139,69,19,0.8)' : '';
+        }
+
+        function disableManualButtons(disabled) {
+            document.getElementById('betOdd').disabled = disabled;
+            document.getElementById('betEven').disabled = disabled;
+            document.getElementById('doubleBtn').disabled = disabled;
         }
 
         function resetGame() {
-            if (!confirm('确定要重新开始吗？所有数据将被清空。')) return;
-
+            if (!confirm('确定重置吗？')) return;
             balance = 7000;
             initialBalance = 7000;
             totalBets = 0;
@@ -645,7 +671,6 @@
             maxLoseStreak = 0;
             maxProfit = 0;
             maxLoss = 0;
-            balanceHistory = [7000];
             doubleNext = false;
 
             document.getElementById('betAmount').value = 100;
@@ -654,73 +679,203 @@
             document.getElementById('resultMessage').textContent = '请选择单或双开始游戏';
             document.getElementById('resultMessage').className = 'result-message';
 
-            // 重置图表
             fundChart.data.labels = ['起始'];
             fundChart.data.datasets[0].data = [7000];
             fundChart.update();
 
-            updateDisplay();
+            updateManualDisplay();
             updateDoubleButton();
-            disableButtons(false);
+            disableManualButtons(false);
         }
 
-        function disableButtons(disabled) {
-            document.getElementById('betOdd').disabled = disabled;
-            document.getElementById('betEven').disabled = disabled;
-            document.getElementById('doubleBtn').disabled = disabled;
+        // ===== 自动模式 =====
+        function toggleAuto() {
+            if (isAutoRunning) {
+                stopAuto();
+            } else {
+                startAuto();
+            }
         }
 
-        function exportData() {
+        function startAuto() {
+            const initBal = parseInt(document.getElementById('autoBalance').value);
+            const initBet = parseInt(document.getElementById('autoBet').value);
+            const maxRounds = parseInt(document.getElementById('autoRounds').value);
+
+            if (isNaN(initBal) || isNaN(initBet) || isNaN(maxRounds)) {
+                alert('请输入有效的数字');
+                return;
+            }
+
+            isAutoRunning = true;
+            document.getElementById('autoBtn').textContent = '⏹️ 停止模拟';
+            document.getElementById('autoBtn').classList.add('running');
+
+            let balance = initBal;
+            let bet = initBet;
+            let rounds = 0;
+            let maxLoseStreak = 0;
+            let currentLose = 0;
+            autoData = [{round: 0, balance: balance}];
+
+            const startTime = Date.now();
+            const batchSize = 100; // 每批处理次数
+            const delayMs = 10; // 每批之间的延迟
+
+            function runBatch() {
+                if (!isAutoRunning || rounds >= maxRounds || balance < bet) {
+                    // 结束
+                    isAutoRunning = false;
+                    document.getElementById('autoBtn').textContent = '🚀 开始自动模拟';
+                    document.getElementById('autoBtn').classList.remove('running');
+
+                    const elapsed = ((Date.now() - startTime) / 1000).toFixed(2);
+                    document.getElementById('autoBalanceResult').textContent = balance;
+                    document.getElementById('autoBetsResult').textContent = rounds + ' (' + elapsed + 's)';
+                    document.getElementById('autoMaxLoseStreak').textContent = maxLoseStreak;
+
+                    if (balance < bet) {
+                        alert(`💸 破产！\n总次数：${rounds}\n最大连输：${maxLoseStreak}\n用时：${elapsed}秒`);
+                    } else {
+                        alert(`✅ 模拟完成！\n总次数：${rounds}\n最终资金：${balance}\n盈利：${balance - initBal}\n用时：${elapsed}秒`);
+                    }
+                    return;
+                }
+
+                // 处理一批
+                for (let i = 0; i < batchSize && isAutoRunning && balance >= bet && rounds < maxRounds; i++) {
+                    const isOdd = Math.random() < 0.5;
+                    rounds++;
+
+                    if (isOdd) {
+                        balance += bet;
+                        currentLose = 0;
+                    } else {
+                        balance -= bet;
+                        currentLose++;
+                        maxLoseStreak = Math.max(maxLoseStreak, currentLose);
+                    }
+
+                    bet = balance >= bet * 2 ? bet * 2 : bet;
+
+                    if (rounds % 100 === 0 || rounds === 1 || balance < bet) {
+                        autoData.push({round: rounds, balance: balance});
+                    }
+                }
+
+                // 更新UI
+                const progress = (rounds / maxRounds) * 100;
+                document.getElementById('progressFill').style.width = progress + '%';
+                document.getElementById('autoBalanceResult').textContent = balance;
+                document.getElementById('autoBetsResult').textContent = rounds;
+                document.getElementById('autoMaxLoseStreak').textContent = maxLoseStreak;
+
+                // 继续
+                autoAnimationId = setTimeout(runBatch, delayMs);
+            }
+
+            runBatch();
+        }
+
+        function stopAuto() {
+            isAutoRunning = false;
+            if (autoAnimationId) {
+                clearTimeout(autoAnimationId);
+            }
+            document.getElementById('autoBtn').textContent = '🚀 开始自动模拟';
+            document.getElementById('autoBtn').classList.remove('running');
+        }
+
+        function exportAutoData() {
+            if (autoData.length === 0) {
+                alert('没有数据可导出');
+                return;
+            }
+
             const data = {
                 日期: new Date().toLocaleString('zh-CN'),
-                初始资金: 7000,
-                最终资金: balance,
-                总下注次数: totalBets,
-                赢: totalWins,
-                输: totalLosses,
-                胜率: totalBets > 0 ? ((totalWins / totalBets) * 100).toFixed(2) + '%' : '0%',
-                最大盈利: maxProfit,
-                最大亏损: maxLoss,
-                最长连赢: maxWinStreak,
-                最长连输: maxLoseStreak,
-                资金历史: balanceHistory
+                初始资金: document.getElementById('autoBalance').value,
+                最终资金: document.getElementById('autoBalanceResult').textContent,
+                模拟次数: document.getElementById('autoBetsResult').textContent,
+                最大连输: document.getElementById('autoMaxLoseStreak').textContent,
+                资金历史: autoData
             };
 
-            const json = JSON.stringify(data, null, 2);
-            const blob = new Blob([json], { type: 'application/json' });
-            const url = URL.createObjectURL(blob);
+            const blob = new Blob([JSON.stringify(data, null, 2)], {type: 'application/json'});
             const a = document.createElement('a');
-            a.href = url;
-            a.download = 'dice-game-data-' + new Date().toISOString().slice(0,10) + '.json';
+            a.href = URL.createObjectURL(blob);
+            a.download = 'auto-simulation-' + new Date().toISOString().slice(0,10) + '.json';
             a.click();
-            URL.revokeObjectURL(url);
+        }
+
+        // ===== 批量测试 =====
+        function runBatchTest() {
+            const btn = document.querySelector('.action-btn.auto-btn');
+            btn.disabled = true;
+            btn.textContent = '🔬 测试中...';
+
+            const SIMULATIONS = 100;
+            const initBal = 7000;
+            const initBet = 100;
+            const maxRounds = 10000;
+
+            let bankruptCount = 0;
+            let totalRoundsToBankrupt = 0;
+            let roundData = [];
+
+            for (let sim = 0; sim < SIMULATIONS; sim++) {
+                let balance = initBal;
+                let bet = initBet;
+                let rounds = 0;
+                let bankrupt = false;
+
+                while (rounds < maxRounds && balance >= bet) {
+                    const isOdd = Math.random() < 0.5;
+                    rounds++;
+
+                    if (isOdd) {
+                        balance += bet;
+                        bet = initBet;
+                    } else {
+                        balance -= bet;
+                        if (balance >= bet * 2) {
+                            bet *= 2;
+                        } else {
+                            bet = balance;
+                        }
+                    }
+                }
+
+                if (balance < bet || balance < initBet) {
+                    bankruptCount++;
+                    totalRoundsToBankrupt += rounds;
+                }
+
+                if (sim < 10) { // 记录前10次
+                    roundData.push({sim: sim + 1, rounds: rounds, final: balance, bankrupt: bankrupt});
+                }
+            }
+
+            const avgRounds = bankruptCount > 0 ? Math.round(totalRoundsToBankrupt / bankruptCount) : 'N/A';
+
+            document.getElementById('batchWinCount').textContent = SIMULATIONS - bankruptCount;
+            document.getElementById('batchBankruptCount').textContent = bankruptCount;
+            document.getElementById('bankruptcyRate').textContent = ((bankruptCount / SIMULATIONS) * 100).toFixed(1) + '%';
+            document.getElementById('avgRoundsToBankrupt').textContent = avgRounds;
+
+            btn.disabled = false;
+            btn.textContent = '🔬 运行批量测试';
+
+            alert(`📊 批量测试完成 (100次模拟)\n\n🏆 盈利完成：${SIMULATIONS - bankruptCount}次\n💸 破产：${bankruptCount}次\n⚠️ 破产率：${((bankruptCount / SIMULATIONS) * 100).toFixed(1)}%\n📈 破产平均次数：${avgRounds}`);
         }
 
         // 键盘快捷键
         document.addEventListener('keydown', (e) => {
-            if (e.key === '1' || e.key === 'o') {
-                if (!document.getElementById('betOdd').disabled) {
-                    play('odd');
-                }
-            } else if (e.key === '2' || e.key === 'e') {
-                if (!document.getElementById('betEven').disabled) {
-                    play('even');
-                }
-            } else if (e.key === 'd' || e.key === 'f') {
-                if (!document.getElementById('doubleBtn').disabled) {
-                    toggleDouble();
-                }
-            } else if (e.key === 'r') {
-                resetGame();
-            }
+            if (e.key === '1' || e.key === 'o') playManual('odd');
+            else if (e.key === '2' || e.key === 'e') playManual('even');
+            else if (e.key === 'd' || e.key === 'f') toggleDouble();
+            else if (e.key === 'r') resetGame();
         });
-
-        // 提示快捷键
-        console.log('🎲 骰子游戏快捷键：');
-        console.log('1 或 O - 押单');
-        console.log('2 或 E - 押双');
-        console.log('D 或 F - 翻倍下一注');
-        console.log('R - 重新开始');
     </script>
 </body>
 </html>
