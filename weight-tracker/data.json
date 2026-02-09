@@ -1,5 +1,21 @@
 [
     {
+        "date": "2026-02-10",
+        "time": "07:15",
+        "weight": 89.4,
+        "bmi": 29.2,
+        "body_fat": 32.7,
+        "visceral_fat": 12.0,
+        "muscle_mass": 56.9,
+        "bmr": 1670,
+        "protein": 11.9,
+        "body_age": 41,
+        "food": [],
+        "exercise": [],
+        "notes": "第一次追踪记录。体重下降0.6kg！建议控制饮食，减少高油高热量食物摄入，逐步增加运动量。",
+        "images": ["file_25---dd469f3a-f37a-4992-bbf8-56464109d78b.jpg"]
+    },
+    {
         "date": "2026-02-09",
         "time": "22:30",
         "weight": 90.0,

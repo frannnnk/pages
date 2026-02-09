@@ -5,296 +5,94 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Frank's Weight Tracker</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            background: linear-gradient(180deg, #e8f4f8 0%, #f5fafc 50%, #ffffff 100%);
-            min-height: 100vh;
-            color: #334155;
-            padding: 30px 20px;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-        }
-
-        h1 {
-            text-align: center;
-            color: #0ea5e9;
-            font-size: 2rem;
-            margin-bottom: 8px;
-        }
-
-        .subtitle {
-            text-align: center;
-            color: #94a3b8;
-            margin-bottom: 40px;
-            font-size: 0.95rem;
-        }
-
-        .entries {
-            display: flex;
-            flex-direction: column;
-            gap: 16px;
-        }
-
-        .entry-card {
-            background: white;
-            border-radius: 16px;
-            padding: 24px;
-            box-shadow: 0 2px 12px rgba(14, 165, 233, 0.08);
-            border: 1px solid #e0f2fe;
-            transition: all 0.3s;
-        }
-
-        .entry-card:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 4px 20px rgba(14, 165, 233, 0.15);
-        }
-
-        .entry-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 16px;
-        }
-
-        .entry-date {
-            font-size: 1.1rem;
-            font-weight: 600;
-            color: #0ea5e9;
-        }
-
-        .entry-time {
-            font-size: 0.85rem;
-            color: #94a3b8;
-        }
-
-        .entry-summary {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-            gap: 12px;
-            margin-bottom: 16px;
-        }
-
-        .summary-item {
-            text-align: center;
-            padding: 12px;
-            background: #f0f9ff;
-            border-radius: 10px;
-        }
-
-        .summary-label {
-            font-size: 0.75rem;
-            color: #7dd3fc;
-            margin-bottom: 4px;
-        }
-
-        .summary-value {
-            font-size: 1.2rem;
-            font-weight: 600;
-            color: #0284c7;
-        }
-
-        .summary-unit {
-            font-size: 0.8rem;
-            color: #94a3b8;
-        }
-
-        .entry-food {
-            padding: 12px 16px;
-            background: #f0fdf4;
-            border-radius: 10px;
-            border-left: 3px solid #4ade80;
-            margin-bottom: 12px;
-        }
-
-        .entry-food-label {
-            font-size: 0.75rem;
-            color: #4ade80;
-            margin-bottom: 4px;
-        }
-
-        .entry-food-text {
-            font-size: 0.9rem;
-            color: #166534;
-            line-height: 1.5;
-        }
-
-        .entry-link {
-            display: inline-block;
-            padding: 8px 16px;
-            background: linear-gradient(135deg, #0ea5e9, #0284c7);
-            color: white;
-            text-decoration: none;
-            border-radius: 8px;
-            font-size: 0.85rem;
-            font-weight: 500;
-            transition: all 0.3s;
-        }
-
-        .entry-link:hover {
-            background: linear-gradient(135deg, #0284c7, #0369a1);
-            transform: translateY(-1px);
-        }
-
-        .empty-state {
-            text-align: center;
-            padding: 60px 20px;
-            color: #94a3b8;
-        }
-
-        .empty-icon {
-            font-size: 3rem;
-            margin-bottom: 16px;
-        }
-
-        .empty-text {
-            font-size: 1rem;
-        }
-
-        @media (max-width: 600px) {
-            .entry-header {
-                flex-direction: column;
-                align-items: flex-start;
-                gap: 4px;
-            }
-
-            .entry-summary {
-                grid-template-columns: repeat(2, 1fr);
-            }
-        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: linear-gradient(180deg, #e8f4f8 0%, #f5fafc 50%, #ffffff 100%); min-height: 100vh; color: #334155; padding: 30px 20px; }
+        .container { max-width: 800px; margin: 0 auto; }
+        h1 { text-align: center; color: #0ea5e9; font-size: 2rem; margin-bottom: 8px; }
+        .subtitle { text-align: center; color: #94a3b8; margin-bottom: 40px; font-size: 0.95rem; }
+        .entries { display: flex; flex-direction: column; gap: 16px; }
+        .entry-card { background: white; border-radius: 16px; padding: 24px; box-shadow: 0 2px 12px rgba(14, 165, 233, 0.08); border: 1px solid #e0f2fe; transition: all 0.3s; }
+        .entry-card:hover { transform: translateY(-2px); box-shadow: 0 4px 20px rgba(14, 165, 233, 0.15); }
+        .entry-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; }
+        .entry-date { font-size: 1.1rem; font-weight: 600; color: #0ea5e9; }
+        .entry-time { font-size: 0.85rem; color: #94a3b8; }
+        .entry-summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 12px; margin-bottom: 16px; }
+        .summary-item { text-align: center; padding: 12px; background: #f0f9ff; border-radius: 10px; }
+        .summary-label { font-size: 0.75rem; color: #7dd3fc; margin-bottom: 4px; }
+        .summary-value { font-size: 1.2rem; font-weight: 600; color: #0284c7; }
+        .summary-unit { font-size: 0.8rem; color: #94a3b8; }
+        .entry-food { padding: 12px 16px; background: #f0fdf4; border-radius: 10px; border-left: 3px solid #4ade80; margin-bottom: 12px; }
+        .entry-food-label { font-size: 0.75rem; color: #4ade80; margin-bottom: 4px; }
+        .entry-food-text { font-size: 0.9rem; color: #166534; line-height: 1.5; }
+        .entry-link { display: inline-block; padding: 8px 16px; background: linear-gradient(135deg, #0ea5e9, #0284c7); color: white; text-decoration: none; border-radius: 8px; font-size: 0.85rem; font-weight: 500; transition: all 0.3s; }
+        .entry-link:hover { background: linear-gradient(135deg, #0284c7, #0369a1); transform: translateY(-1px); }
+        .empty-state { text-align: center; padding: 60px 20px; color: #94a3b8; }
+        .empty-icon { font-size: 3rem; margin-bottom: 16px; }
+        .empty-text { font-size: 1rem; }
+        @media (max-width: 600px) { .entry-header { flex-direction: column; align-items: flex-start; gap: 4px; } .entry-summary { grid-template-columns: repeat(2, 1fr); } }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Frank's Weight Tracker</h1>
         <p class="subtitle">体重追踪 & 身体数据记录</p>
-
-        <div class="entries" id="entries">
-            <!-- 记录会动态添加在这里 -->
-            <div class="empty-state">
-                <div class="empty-icon">📊</div>
-                <div class="empty-text">还没有记录</div>
-                <div class="empty-text">开始你的健康之旅吧！</div>
+        <div class="entries">
+        
+        <div class="entry-card">
+            <div class="entry-header">
+                <div>
+                    <div class="entry-date">2026-02-10</div>
+                    <div class="entry-time">07:15</div>
+                </div>
+            </div>
+            <div class="entry-summary">
+                <div class="summary-item">
+                    <div class="summary-label">体重</div>
+                    <div class="summary-value">89.4<span class="summary-unit"> kg</span></div>
+                </div>
+                <div class="summary-item">
+                    <div class="summary-label">BMI</div>
+                    <div class="summary-value">29.2</div>
+                </div>
+                <div class="summary-item">
+                    <div class="summary-label">体脂率</div>
+                    <div class="summary-value">32.7<span class="summary-unit">%</span></div>
+                </div>
+                <div class="summary-item">
+                    <div class="summary-label">内脏脂肪</div>
+                    <div class="summary-value">12.0</div>
+                </div>
+            </div>
+                <a href="2026-02-10/" class="entry-link">查看详情</a>
+            </div>
+        <div class="entry-card">
+            <div class="entry-header">
+                <div>
+                    <div class="entry-date">2026-02-09</div>
+                    <div class="entry-time">22:30</div>
+                </div>
+            </div>
+            <div class="entry-summary">
+                <div class="summary-item">
+                    <div class="summary-label">体重</div>
+                    <div class="summary-value">90.0<span class="summary-unit"> kg</span></div>
+                </div>
+                <div class="summary-item">
+                    <div class="summary-label">BMI</div>
+                    <div class="summary-value">29.4</div>
+                </div>
+                <div class="summary-item">
+                    <div class="summary-label">体脂率</div>
+                    <div class="summary-value">32.8<span class="summary-unit">%</span></div>
+                </div>
+                <div class="summary-item">
+                    <div class="summary-label">内脏脂肪</div>
+                    <div class="summary-value">12.0</div>
+                </div>
+            </div>
+                <a href="2026-02-09/" class="entry-link">查看详情</a>
             </div>
         </div>
     </div>
-
-    <script>
-        const entries = [];
-
-        // 尝试从 data.json 加载数据
-        async function loadData() {
-            try {
-                const response = await fetch('data.json');
-                if (response.ok) {
-                    const data = await response.json();
-                    entries.push(...data);
-                }
-            } catch (e) {
-                console.log('No existing data found');
-            }
-            renderEntries();
-        }
-
-        function renderEntries() {
-            const container = document.getElementById('entries');
-            
-            if (entries.length === 0) {
-                container.innerHTML = `
-                    <div class="empty-state">
-                        <div class="empty-icon">📊</div>
-                        <div class="empty-text">还没有记录</div>
-                        <div class="empty-text">开始你的健康之旅吧！</div>
-                    </div>
-                `;
-                return;
-            }
-
-            container.innerHTML = entries.map((entry) => {
-                // Get food summary from first meal
-                let foodSummary = '';
-                if (entry.food && entry.food.length > 0) {
-                    foodSummary = entry.food[0].desc;
-                }
-                
-                // Get exercise summary from first exercise
-                let exerciseSummary = '';
-                if (entry.exercise && entry.exercise.length > 0) {
-                    exerciseSummary = entry.exercise[0].desc;
-                }
-
-                return `
-                <div class="entry-card">
-                    <div class="entry-header">
-                        <div>
-                            <div class="entry-date">${entry.date}</div>
-                            <div class="entry-time">${entry.time || ''}</div>
-                        </div>
-                    </div>
-                    <div class="entry-summary">
-                        <div class="summary-item">
-                            <div class="summary-label">体重</div>
-                            <div class="summary-value">${entry.weight}<span class="summary-unit"> kg</span></div>
-                        </div>
-                        <div class="summary-item">
-                            <div class="summary-label">BMI</div>
-                            <div class="summary-value">${entry.bmi || ''}</div>
-                        </div>
-                        <div class="summary-item">
-                            <div class="summary-label">体脂率</div>
-                            <div class="summary-value">${entry.body_fat || ''}<span class="summary-unit">%</span></div>
-                        </div>
-                        <div class="summary-item">
-                            <div class="summary-label">内脏脂肪</div>
-                            <div class="summary-value">${entry.visceral_fat || ''}</div>
-                        </div>
-                    </div>
-                    ${foodSummary ? `
-                        <div class="entry-food">
-                            <div class="entry-food-label">📝 饮食记录</div>
-                            <div class="entry-food-text">${foodSummary}</div>
-                        </div>
-                    ` : ''}
-                    ${exerciseSummary ? `
-                        <div class="entry-food" style="background: #fef3c7; border-color: #fbbf24;">
-                            <div class="entry-food-label" style="color: #fbbf24;">🏃 运动记录</div>
-                            <div class="entry-food-text" style="color: #92400e;">${exerciseSummary}</div>
-                        </div>
-                    ` : ''}
-                    <a href="${entry.date}/" class="entry-link">查看详情 →</a>
-                </div>
-                `;
-            }).join('');
-        }
-
-        loadData();
-
-        // 添加新记录
-        function addEntry(entry) {
-            entries.unshift(entry);
-            renderEntries();
-        }
-
-        // 导出数据
-        function exportData() {
-            const data = JSON.stringify(entries, null, 2);
-            const blob = new Blob([data], { type: 'application/json' });
-            const url = URL.createObjectURL(blob);
-            const a = document.createElement('a');
-            a.href = url;
-            a.download = 'weight-tracker-data.json';
-            a.click();
-        }
-
-        console.log('⚖️ Weight Tracker loaded. 使用 addEntry() 添加新记录。');
-    </script>
 </body>
 </html>
