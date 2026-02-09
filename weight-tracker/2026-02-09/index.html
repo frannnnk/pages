@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2026-02-09 - Frank's Weight Tracker</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(180deg, #e8f4f8 0%, #f5fafc 50%, #ffffff 100%);
+            min-height: 100vh;
+            color: #334155;
+            padding: 30px 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            color: #0ea5e9;
+            text-decoration: none;
+            font-size: 0.9rem;
+            margin-bottom: 24px;
+            transition: color 0.3s;
+        }
+
+        .back-link:hover {
+            color: #0284c7;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 32px;
+        }
+
+        .date {
+            font-size: 2rem;
+            font-weight: 600;
+            color: #0ea5e9;
+            margin-bottom: 4px;
+        }
+
+        .time {
+            color: #94a3b8;
+            font-size: 1rem;
+        }
+
+        .section {
+            background: white;
+            border-radius: 16px;
+            padding: 24px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 12px rgba(14, 165, 233, 0.08);
+            border: 1px solid #e0f2fe;
+        }
+
+        .section-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #0ea5e9;
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 12px;
+        }
+
+        .stat-card {
+            text-align: center;
+            padding: 16px 12px;
+            background: #f0f9ff;
+            border-radius: 12px;
+        }
+
+        .stat-label {
+            font-size: 0.8rem;
+            color: #7dd3fc;
+            margin-bottom: 6px;
+        }
+
+        .stat-value {
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: #0284c7;
+        }
+
+        .stat-unit {
+            font-size: 0.85rem;
+            color: #94a3b8;
+        }
+
+        .food-section {
+            background: #f0fdf4;
+            border-color: #4ade80;
+        }
+
+        .food-section .section-title {
+            color: #16a34a;
+        }
+
+        .food-list {
+            list-style: none;
+        }
+
+        .food-item {
+            padding: 12px 0;
+            border-bottom: 1px solid #dcfce7;
+        }
+
+        .food-item:last-child {
+            border-bottom: none;
+        }
+
+        .food-meal {
+            font-size: 0.85rem;
+            color: #4ade80;
+            margin-bottom: 4px;
+        }
+
+        .food-desc {
+            font-size: 0.95rem;
+            color: #166534;
+            line-height: 1.5;
+        }
+
+        .food-cal {
+            font-size: 0.8rem;
+            color: #22c55e;
+            margin-top: 4px;
+        }
+
+        .exercise-section {
+            background: #fefce8;
+            border-color: #fbbf24;
+        }
+
+        .exercise-section .section-title {
+            color: #ca8a04;
+        }
+
+        .exercise-item {
+            padding: 12px 0;
+            border-bottom: 1px solid #fef3c7;
+        }
+
+        .exercise-item:last-child {
+            border-bottom: none;
+        }
+
+        .exercise-desc {
+            font-size: 0.95rem;
+            color: #854d0e;
+            line-height: 1.5;
+        }
+
+        .exercise-cal {
+            font-size: 0.8rem;
+            color: #ca8a04;
+            margin-top: 4px;
+        }
+
+        .notes-section {
+            background: #faf5ff;
+            border-color: #c084fc;
+        }
+
+        .notes-section .section-title {
+            color: #9333ea;
+        }
+
+        .notes-text {
+            font-size: 0.95rem;
+            color: #6b21a8;
+            line-height: 1.6;
+        }
+
+        .images-section {
+            background: white;
+            border-radius: 16px;
+            padding: 24px;
+            box-shadow: 0 2px 12px rgba(14, 165, 233, 0.08);
+            border: 1px solid #e0f2fe;
+        }
+
+        .images-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 16px;
+        }
+
+        .image-item {
+            border-radius: 12px;
+            overflow: hidden;
+        }
+
+        .image-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .no-images {
+            color: #94a3b8;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .empty-text {
+            color: #94a3b8;
+            font-size: 0.95rem;
+        }
+
+        @media (max-width: 600px) {
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr));
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="../" class="back-link">← 返回列表</a>
+
+        <div class="header">
+            <div class="date">2026年2月9日</div>
+            <div class="time">测量时间：22:30</div>
+        </div>
+
+        <!-- 身体数据 -->
+        <div class="section">
+            <div class="section-title">📊 身体数据</div>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-label">体重</div>
+                    <div class="stat-value">90.0<span class="stat-unit"> kg</span></div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">BMI</div>
+                    <div class="stat-value">29.4</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">体脂率</div>
+                    <div class="stat-value">32.8<span class="stat-unit">%</span></div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">内脏脂肪</div>
+                    <div class="stat-value">12.0<span class="stat-unit">级</span></div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">肌肉量</div>
+                    <div class="stat-value">57.2<span class="stat-unit"> kg</span></div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">基础代谢</div>
+                    <div class="stat-value">1677<span class="stat-unit"> kcal</span></div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">蛋白质</div>
+                    <div class="stat-value">11.8<span class="stat-unit"> kg</span></div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">身体年龄</div>
+                    <div class="stat-value">41<span class="stat-unit"> 岁</span></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 饮食记录 -->
+        <div class="section food-section">
+            <div class="section-title">🍽️ 饮食记录</div>
+            <ul class="food-list">
+                <li class="food-item">
+                    <div class="food-meal">晚餐</div>
+                    <div class="food-desc">待补充</div>
+                </li>
+            </ul>
+        </div>
+
+        <!-- 运动记录 -->
+        <div class="section exercise-section">
+            <div class="section-title">🏃 运动记录</div>
+            <div class="empty-text">暂无运动记录</div>
+        </div>
+
+        <!-- 备注 -->
+        <div class="section notes-section">
+            <div class="section-title">📝 备注</div>
+            <div class="notes-text">
+                体脂秤初始数据。腹部脂肪堆积严重，内脏脂肪偏高。需要重点减少腹部脂肪。肌肉量充足，基础代谢正常。
+            </div>
+        </div>
+
+        <!-- 图片 -->
+        <div class="images-section">
+            <div class="section-title">📷 图片</div>
+            <div class="empty-text">暂无图片</div>
+        </div>
+    </div>
+</body>
+</html>
