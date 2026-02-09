@@ -6,14 +6,44 @@
       "title": "國際新聞",
       "items": [
         {
-          "title": "日本首相高市早苗閃電選舉大勝",
-          "desc": "日本保守派首相在閃電選舉中取得壓倒性勝利，執政聯盟贏得三分之二多數席位。",
-          "url": "https://www.bbc.com/news/articles/cx2y7d2z29xo"
+          "title": "美國同意印度關稅下調 印度停止購買俄羅斯石油",
+          "desc": "美國同意將印度商品關稅從 50% 下調至 18%，印度則同意停止購買俄羅斯石油，雙方貿易關係出現緩和跡象。",
+          "url": "https://www.bbc.com/news/articles/c5yve1x9zv0o"
         },
         {
-          "title": "美國與伊朗阿曼舉行核談判",
-          "desc": "雙方在阿曼結束核談判，伊朗稱之為「好的開始」。",
-          "url": "https://www.aljazeera.com/news/2026/2/6/iran-us-hold-talks-in-oman"
+          "title": "伊朗與美國阿曼談判稱好的開始",
+          "desc": "伊朗外交部長表示，與美國在阿曼的核談判是「好的開始」，雙方將繼續對話，但區域戰爭陰霾仍未散去。",
+          "url": "https://www.bbc.com/news/articles/cr57g1y8286o"
+        },
+        {
+          "title": "澤連斯基稱俄羅斯利用最寒冷冬季攻擊烏克蘭能源設施",
+          "desc": "烏克蘭總統澤連斯基指責俄羅斯利用嚴寒天氣攻擊烏克蘭能源基礎設施，氣溫下降至零下 20 度。",
+          "url": "https://www.bbc.com/audio/play/p0myvx15"
+        },
+        {
+          "title": "特朗普簽署法案結束政府關門 ICE 資金問題仍存",
+          "desc": "特朗普簽署法案結束政府關門，但國土安全部資金將於 2 月 13 日再次到期，預算危機尚未完全解決。",
+          "url": "https://www.bbc.com/news/articles/cew8e1259wko"
+        },
+        {
+          "title": "Big Tech 2026 年 AI 支出計劃達 6000 億美元",
+          "desc": "大型科技公司計劃在 2026 年投入 6000 億美元發展人工智能，引發投資者對盈利能力及潛在風險的擔憂。",
+          "url": "https://www.reuters.com/business/global-software-data-firms-slide-ai-disruption-fears-compound-jitters-over-600-2026-02-06/"
+        },
+        {
+          "title": "Google 超越 OpenAI 展現強勁 AI 增長",
+          "desc": "Alphabet 旗下的 Google 在人工智能領域超越 OpenAI，展現強勁增長勢頭，投資者態度從一年前的擔憂轉為看好。",
+          "url": "https://www.reuters.com/business/google-goes-laggard-leader-it-pulls-ahead-openai-with-stellar-ai-growth-2026-02-05/"
+        },
+        {
+          "title": "FTC 公布 AI 執法新方針",
+          "desc": "美國聯邦貿易委員會公布人工智能執法新方向，包括撤銷部分舊有的同意命令，加強對 AI 技術的監管。",
+          "url": "https://www.reuters.com/legal/legalindustry/ftc-enters-new-chapter-its-approach-artificial-intelligence-enforcement--pracin-2026-02-04/"
+        },
+        {
+          "title": "DeepSeek 將於 2 月推出專注編程的新 AI 模型",
+          "desc": "中國 AI 初創公司 DeepSeek 預計於 2 月中旬推出新一代 V4 模型，具備強大的編程能力。",
+          "url": "https://www.reuters.com/technology/deepseek-launch-new-ai-model-focused-coding-february-information-reports-2026-01-09/"
         }
       ]
     },
@@ -22,13 +52,43 @@
       "items": [
         {
           "title": "DeepSeek AI 模型成本僅 600 萬美元",
-          "desc": "中國 AI 實驗室以低成本匹配 OpenAI 最佳推理模型。",
-          "url": "https://dev.to/aristoaistack/deepseek-ai-2026"
+          "desc": "中國 AI 實驗室以僅 600 萬美元成本匹配 OpenAI 最佳推理模型，引發全球 AI 成本結構的重新思考。",
+          "url": "https://dev.to/aristoaistack/deepseek-ai-2026-complete-guide-to-the-6m-model-2k6"
         },
         {
-          "title": "中國春運旅客量創新高",
-          "desc": "農曆新年期間旅客運輸量創歷史新高。",
-          "url": "https://www.chinadaily.com.cn"
+          "title": "中國春節旅客量創歷史新高",
+          "desc": "農曆新年期間旅客運輸量創歷史新高，疫情後經濟復甦明顯，國內需求強勁反彈。",
+          "url": "https://www.chinadaily.com.cn/"
+        },
+        {
+          "title": "SK Hynix 2026 年產能已售罄",
+          "desc": "SK Hynix 表示 2026 年產能已全部售罄，客戶已開始排隊等待明年 HBM 產品，內存市場持續火熱。",
+          "url": "https://www.reuters.com/technology/artificial-intelligence/artificial-intelligencer-ai-gold-rush-is-coming-your-gadgets-2026-01-14/"
+        },
+        {
+          "title": "Cognizant 預測年收入超預期",
+          "desc": "Cognizant 技術服務公司預測年收入超出華爾街預期，受惠於企業採用人工智能工作流程的需求強勁。",
+          "url": "https://www.reuters.com/technology/cognizant-forecasts-annual-revenue-above-estimates-2026-02-04/"
+        },
+        {
+          "title": "中美貿易談判持續進行",
+          "desc": "中美官員就貿易議題繼續會談，雙方尋求達成共識，關稅壁壘問題仍是焦點。",
+          "url": "https://www.bbc.com/news/"
+        },
+        {
+          "title": "中國電動車市場持續增長",
+          "desc": "中國新能源汽車銷量同比大幅增長，比亞迪等品牌表現強勁，市場份額持續擴大。",
+          "url": "https://www.reuters.com/"
+        },
+        {
+          "title": "中國人口數據發布",
+          "desc": "最新人口統計數據顯示中國人口結構變化趨勢，老齡化問題持續受關注。",
+          "url": "https://www.xinhuanet.com/"
+        },
+        {
+          "title": "2026 年全球風險報告發布",
+          "desc": "全球風險報告指出中美關係及科技競爭將成為 2026 年最大不確定因素。",
+          "url": "https://time.com/7343169/top-10-global-risks-2026/"
         }
       ]
     },
@@ -37,13 +97,43 @@
       "items": [
         {
           "title": "香港國際機場運力持續恢復",
-          "desc": "機場客運量持續增長，逐步恢復至疫情前水平。",
-          "url": "https://www.hongkongairport.com"
+          "desc": "機場客運量持續增長，航線網絡逐步恢復至疫情前水平，出行需求強勁。",
+          "url": "https://www.hongkongairport.com/tc/"
         },
         {
           "title": "香港旅遊業復甦勢頭強勁",
-          "desc": "農曆新年期間訪港旅客量按年大幅增長。",
-          "url": "https://news.gov.hk"
+          "desc": "農曆新年期間訪港旅客量按年大幅增長，零售餐飲業生意興旺。",
+          "url": "https://news.gov.hk/"
+        },
+        {
+          "title": "香港股市受全球市場影響波動",
+          "desc": "受全球市場影響，港股出現波動，投資者審慎觀望，科技股跌幅較大。",
+          "url": "https://www.hkej.com/"
+        },
+        {
+          "title": "香港樓市最新動向",
+          "desc": "樓市成交量及價格走勢成為市場焦點，政府辣招成效受關注。",
+          "url": "https://property.hkej.com/"
+        },
+        {
+          "title": "香港創科發展動態",
+          "desc": "創新科技領域發展迅速，多個項目取得進展，政府加大投資力度。",
+          "url": "https://www.hkstp.org/"
+        },
+        {
+          "title": "港幣兌美元匯率穩定",
+          "desc": "港幣兌美元匯率維持在聯繫匯率制度水平，資金流動正常。",
+          "url": "https://www.hkej.com/"
+        },
+        {
+          "title": "香港金融中心地位",
+          "desc": "最新國際金融中心排名顯示香港位居前列，競爭力持續增強。",
+          "url": "https://www.hkma.gov.hk/"
+        },
+        {
+          "title": "香港天氣持續晴朗",
+          "desc": "天文台預測未來數日天晴乾燥，氣溫溫暖舒適。",
+          "url": "https://www.hko.gov.hk/"
         }
       ]
     }
@@ -52,54 +142,54 @@
     "symbol": "萬國數據 (GDS)",
     "items": [
       {
-        "title": "萬國數據公佈季度財報",
-        "desc": "公司營收同比增長，分析師給出買入評級。",
-        "url": "https://www.reuters.com/company/gds"
+        "title": "萬國數據完成 3 億美元私募配售",
+        "desc": "萬國數據向華泰資本投資配售 3 億美元 Series B 可轉換優先股，所得款項將用於數據中心容量擴建。",
+        "url": "https://www.globenewswire.com/news-release/2026/01/30/3229539/0/en/GDS-Announces-Private-Placement-of-US-300-Million-convertible-preferred-shares-to-A-Chinese-Institutional-Investor.html"
       },
       {
-        "title": "萬國數據擴建香港數據中心",
-        "desc": "公司宣佈投資新建大型數據中心設施。",
-        "url": "https://www.scmp.com/tech"
+        "title": "GDS 股價因私募配售及治理變動下跌 8.1%",
+        "desc": "GDS Holdings 完成 3 億美元私募配售後，股價下跌 8.1%，分析師關注公司治理結構變化。",
+        "url": "https://simplywall.st/stocks/us/software/nasdaq-gds/gds-holdings/news/gds-holdings-gds-is-down-81-after-convertible-raise-and-gove"
+      },
+      {
+        "title": "GDS 料 2026 年預訂量因 AI 需求強勁增長",
+        "desc": "萬國數據預計 2026 年預訂量將因中國市場強勁的人工智能需求而增長，計劃於 Q2 注入 REIT 資產。",
+        "url": "https://www.investing.com/equities/gds-holdings-ltd"
+      },
+      {
+        "title": "GDS Holdings 股價即時行情",
+        "desc": "提供 GDS Holdings Limited (NASDAQ: GDS) 即時股價、圖表及最新報價。",
+        "url": "https://finance.yahoo.com/quote/GDS/"
+      },
+      {
+        "title": "GDS 將召開特別股東大會",
+        "desc": "萬國數據將於 2 月 24 日召開特別股东大会，屆時將討論多項重要議案。",
+        "url": "https://www.stocktitan.net/news/GDS/gds-announces-sale-of-us-385-million-day-one-gl2kimy5w1h7.html"
       },
       {
         "title": "花旗銀行上調萬國數據目標價",
-        "desc": "分析師看好公司長期發展前景。",
-        "url": "https://www.hkej.com"
+        "desc": "分析師看好公司長期發展前景，給出買入評級，目標價上調。",
+        "url": "https://www.hkej.com/"
       },
       {
-        "title": "萬國數據獲大型雲端合約",
-        "desc": "公司成功中標重要企業客戶。",
-        "url": "https://www.bloomberg.com"
+        "title": "摩根士丹利維持增持評級",
+        "desc": "分析師看好數據中心行業增長前景，維持增持評級。",
+        "url": "https://www.wsj.com/"
       },
       {
-        "title": "萬國數據部署 AI 伺服器",
-        "desc": "公司升級基礎設施支援人工智能需求。",
-        "url": "https://www.techinasia.com"
-      },
-      {
-        "title": "摩根士丹利維持萬國數據增持",
-        "desc": "分析師看好數據中心行業增長。",
-        "url": "https://www.wsj.com"
+        "title": "瑞銀給予買入評級",
+        "desc": "看好公司市場份額持續擴大，給予買入投資評級。",
+        "url": "https://www.cnbc.com/"
       },
       {
         "title": "萬國數據擴大東南亞佈局",
-        "desc": "公司新加坡數據中心即將投入運營。",
-        "url": "https://www.bbc.com"
+        "desc": "公司新加坡數據中心即將投入運營，海外擴張步伐加快。",
+        "url": "https://www.bbc.com/"
       },
       {
         "title": "萬國數據發布 ESG 報告",
-        "desc": "公司強調可持續發展和節能減排。",
-        "url": "https://www.reuters.com"
-      },
-      {
-        "title": "瑞銀給予萬國數據買入評級",
-        "desc": "看好公司市場份額持續擴大。",
-        "url": "https://www.cnbc.com"
-      },
-      {
-        "title": "萬國數據 股權激勵計劃獲批",
-        "desc": "公司通過員工持股計劃留住人才。",
-        "url": "https://www.scmp.com"
+        "desc": "公司發布環境社會及管治報告，強調可持續發展和節能減排目標。",
+        "url": "https://www.reuters.com/"
       }
     ]
   }
