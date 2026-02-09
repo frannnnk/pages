@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>⚖️ Frank's Weight Tracker</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            min-height: 100vh;
+            color: #e0e0e0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            text-align: center;
+            color: #d4af37;
+            margin-bottom: 10px;
+            font-size: 2rem;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #8b8b8b;
+            margin-bottom: 30px;
+        }
+
+        .current-stats {
+            background: linear-gradient(145deg, #2d2d2d, #1a1a1a);
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+
+        .stats-title {
+            color: #d4af37;
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #4a4a4a;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+        }
+
+        .stat-card {
+            background: linear-gradient(145deg, #3d3d3d, #2a2a2a);
+            border-radius: 12px;
+            padding: 15px;
+            text-align: center;
+            border: 2px solid transparent;
+            transition: all 0.3s;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+
+        .stat-card.good {
+            border-color: #4ade80;
+        }
+
+        .stat-card.warning {
+            border-color: #fbbf24;
+        }
+
+        .stat-card.bad {
+            border-color: #f87171;
+        }
+
+        .stat-label {
+            font-size: 0.8rem;
+            color: #8b8b8b;
+            margin-bottom: 5px;
+        }
+
+        .stat-value {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #d4af37;
+        }
+
+        .stat-unit {
+            font-size: 0.85rem;
+            color: #8b8b8b;
+        }
+
+        .stat-change {
+            font-size: 0.75rem;
+            margin-top: 5px;
+        }
+
+        .change-down {
+            color: #4ade80;
+        }
+
+        .change-up {
+            color: #f87171;
+        }
+
+        .chart-section {
+            background: linear-gradient(145deg, #2d2d2d, #1a1a1a);
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+
+        .chart-title {
+            color: #d4af37;
+            font-size: 1.2rem;
+            margin-bottom: 15px;
+        }
+
+        .goal-section {
+            background: linear-gradient(145deg, #2d2d2d, #1a1a1a);
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+
+        .goal-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .goal-item {
+            background: linear-gradient(145deg, #3d3d3d, #2a2a2a);
+            border-radius: 12px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .goal-label {
+            color: #8b8b8b;
+            font-size: 0.9rem;
+            margin-bottom: 10px;
+        }
+
+        .goal-value {
+            color: #d4af37;
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+
+        .goal-progress {
+            margin-top: 10px;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 8px;
+            background: #1a1a1a;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #d4af37, #f0d78c);
+            transition: width 0.5s;
+        }
+
+        .progress-text {
+            font-size: 0.8rem;
+            color: #8b8b8b;
+            margin-top: 5px;
+        }
+
+        .history-section {
+            background: linear-gradient(145deg, #2d2d2d, #1a1a1a);
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+
+        .history-title {
+            color: #d4af37;
+            font-size: 1.2rem;
+            margin-bottom: 15px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #4a4a4a;
+        }
+
+        th {
+            color: #d4af37;
+            font-size: 0.85rem;
+        }
+
+        td {
+            font-size: 0.9rem;
+        }
+
+        tr:hover {
+            background: rgba(212,175,55,0.1);
+        }
+
+        .delete-btn {
+            background: #f87171;
+            border: none;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 0.8rem;
+        }
+
+        .insights {
+            background: rgba(212,175,55,0.1);
+            border: 1px solid #d4af37;
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        .insights-title {
+            color: #d4af37;
+            font-size: 1rem;
+            margin-bottom: 10px;
+        }
+
+        .insights p {
+            font-size: 0.9rem;
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+
+        .insights ul {
+            margin-left: 20px;
+        }
+
+        .insights li {
+            font-size: 0.9rem;
+            margin-bottom: 5px;
+        }
+
+        @media (max-width: 600px) {
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            table {
+                font-size: 0.8rem;
+            }
+
+            th, td {
+                padding: 8px 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>⚖️ Frank's Weight Tracker</h1>
+        <p class="subtitle">体重追踪 & 身体成分分析 | 数据更新：2026-02-09</p>
+
+        <!-- 当前数据 -->
+        <div class="current-stats">
+            <div class="stats-title">📊 当前数据 (2026-02-09)</div>
+            <div class="stats-grid">
+                <div class="stat-card bad">
+                    <div class="stat-label">体重</div>
+                    <div class="stat-value">90.0</div>
+                    <div class="stat-unit">kg</div>
+                </div>
+                <div class="stat-card bad">
+                    <div class="stat-label">BMI</div>
+                    <div class="stat-value">29.4</div>
+                    <div class="stat-unit"></div>
+                </div>
+                <div class="stat-card bad">
+                    <div class="stat-label">体脂率</div>
+                    <div class="stat-value">32.8</div>
+                    <div class="stat-unit">%</div>
+                </div>
+                <div class="stat-card warning">
+                    <div class="stat-label">内脏脂肪</div>
+                    <div class="stat-value">12.0</div>
+                    <div class="stat-unit">级</div>
+                </div>
+                <div class="stat-card good">
+                    <div class="stat-label">肌肉量</div>
+                    <div class="stat-value">57.2</div>
+                    <div class="stat-unit">kg</div>
+                </div>
+                <div class="stat-card good">
+                    <div class="stat-label">基础代谢</div>
+                    <div class="stat-value">1677</div>
+                    <div class="stat-unit">kcal</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">身体年龄</div>
+                    <div class="stat-value">41</div>
+                    <div class="stat-unit">岁</div>
+                </div>
+                <div class="stat-card good">
+                    <div class="stat-label">蛋白质</div>
+                    <div class="stat-value">11.8</div>
+                    <div class="stat-unit">kg</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 目标进度 -->
+        <div class="goal-section">
+            <div class="stats-title">🎯 目标进度</div>
+            <div class="goal-grid">
+                <div class="goal-item">
+                    <div class="goal-label">体重目标</div>
+                    <div class="goal-value">75 kg</div>
+                    <div class="goal-progress">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 0%"></div>
+                        </div>
+                        <div class="progress-text">0 / 15 kg</div>
+                    </div>
+                </div>
+                <div class="goal-item">
+                    <div class="goal-label">体脂率目标</div>
+                    <div class="goal-value">22%</div>
+                    <div class="goal-progress">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 0%"></div>
+                        </div>
+                        <div class="progress-text">32.8 / 22%</div>
+                    </div>
+                </div>
+                <div class="goal-item">
+                    <div class="goal-label">内脏脂肪目标</div>
+                    <div class="goal-value">< 10</div>
+                    <div class="goal-progress">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 0%"></div>
+                        </div>
+                        <div class="progress-text">12 / <10</div>
+                    </div>
+                </div>
+                <div class="goal-item">
+                    <div class="goal-label">BMI目标</div>
+                    <div class="goal-value">24.5</div>
+                    <div class="goal-progress">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 0%"></div>
+                        </div>
+                        <div class="progress-text">29.4 / 24.5</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 体重趋势图 -->
+        <div class="chart-section">
+            <div class="chart-title">📈 体重变化趋势</div>
+            <canvas id="weightChart" height="300"></canvas>
+        </div>
+
+        <!-- 记录历史 -->
+        <div class="history-section">
+            <div class="history-title">📋 测量记录</div>
+            <table id="historyTable">
+                <thead>
+                    <tr>
+                        <th>日期</th>
+                        <th>体重</th>
+                        <th>BMI</th>
+                        <th>体脂率</th>
+                        <th>内脏脂肪</th>
+                        <th>肌肉量</th>
+                        <th>基础代谢</th>
+                    </tr>
+                </thead>
+                <tbody id="historyBody">
+                    <tr>
+                        <td>2026-02-09</td>
+                        <td>90.0 kg</td>
+                        <td>29.4</td>
+                        <td>32.8%</td>
+                        <td>12.0</td>
+                        <td>57.2 kg</td>
+                        <td>1677 kcal</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- 分析建议 -->
+        <div class="insights">
+            <div class="insights-title">💡 分析与建议</div>
+            <p><strong>当前状况：</strong>腹部脂肪堆积严重（苹果型身材），内脏脂肪偏高，需要重点减少腹部脂肪。</p>
+            <p><strong>好消息：</strong>肌肉量充足，基础代谢正常，说明有良好的代谢基础。</p>
+            <p><strong>建议重点：</strong></p>
+            <ul>
+                <li>控制饮食热量（建议1800-2000kcal/天）</li>
+                <li>减少碳水化合物摄入</li>
+                <li>戒掉奶茶、含糖饮料</li>
+                <li>增加蛋白质摄入（维持肌肉量）</li>
+                <li>适量有氧运动（快走、游泳、骑车）</li>
+                <li>每周称重2-3次，同一时间</li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        // 数据记录
+        const records = [
+            {
+                date: '2026-02-09',
+                weight: 90.0,
+                bmi: 29.4,
+                bodyFat: 32.8,
+                visceralFat: 12.0,
+                muscleMass: 57.2,
+                bmr: 1677
+            }
+        ];
+
+        const goals = {
+            weight: 75,
+            bodyFat: 22,
+            visceralFat: 10,
+            bmi: 24.5
+        };
+
+        // 初始化图表
+        const weightChart = new Chart(document.getElementById('weightChart'), {
+            type: 'line',
+            data: {
+                labels: ['2026-02-09'],
+                datasets: [{
+                    label: '体重 (kg)',
+                    data: [90.0],
+                    borderColor: '#d4af37',
+                    backgroundColor: 'rgba(212,175,55,0.1)',
+                    fill: true,
+                    tension: 0.1
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    y: {
+                        beginAtZero: false,
+                        grid: { color: 'rgba(255,255,255,0.1)' },
+                        ticks: { color: '#8b8b8b' }
+                    },
+                    x: {
+                        grid: { color: 'rgba(255,255,255,0.1)' },
+                        ticks: { color: '#8b8b8b' }
+                    }
+                }
+            }
+        });
+
+        // 更新表格
+        function updateTable() {
+            const tbody = document.getElementById('historyBody');
+            tbody.innerHTML = records.map(r => `
+                <tr>
+                    <td>${r.date}</td>
+                    <td><strong>${r.weight} kg</strong></td>
+                    <td>${r.bmi}</td>
+                    <td>${r.bodyFat}%</td>
+                    <td>${r.visceralFat}</td>
+                    <td>${r.muscleMass} kg</td>
+                    <td>${r.bmr} kcal</td>
+                </tr>
+            `).join('');
+        }
+
+        // 更新进度条
+        function updateProgress() {
+            const latest = records[records.length - 1];
+            
+            // 体重进度
+            const weightProgress = Math.max(0, (90 - latest.weight) / 15 * 100);
+            document.querySelectorAll('.progress-fill')[0].style.width = weightProgress + '%';
+            
+            // 体脂率进度
+            const fatProgress = Math.max(0, (32.8 - latest.bodyFat) / (32.8 - 22) * 100);
+            document.querySelectorAll('.progress-fill')[1].style.width = fatProgress + '%';
+            
+            // 内脏脂肪进度
+            const visProgress = latest.visceralFat < 10 ? 100 : Math.max(0, (12 - latest.visceralFat) / (12 - 8) * 100);
+            document.querySelectorAll('.progress-fill')[2].style.width = visProgress + '%';
+            
+            // BMI进度
+            const bmiProgress = Math.max(0, (29.4 - latest.bmi) / (29.4 - 24.5) * 100);
+            document.querySelectorAll('.progress-fill')[3].style.width = bmiProgress + '%';
+        }
+
+        // 添加新记录（供管理员使用）
+        function addRecord(date, weight, bmi, bodyFat, visceralFat, muscleMass, bmr) {
+            records.push({ date, weight, bmi, bodyFat, visceralFat, muscleMass, bmr });
+            
+            // 更新图表
+            weightChart.data.labels.push(date);
+            weightChart.data.datasets[0].data.push(weight);
+            weightChart.update();
+            
+            updateTable();
+            updateProgress();
+        }
+
+        updateTable();
+        updateProgress();
+
+        console.log('⚖️ Weight Tracker loaded. 使用 addRecord() 添加新数据。');
+    </script>
+</body>
+</html>
