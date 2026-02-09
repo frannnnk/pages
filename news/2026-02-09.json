@@ -52,17 +52,17 @@
       "items": [
         {
           "title": "習近平承諾 2026 年推出更積極宏觀政策",
-          "desc": "中國國家主席習近平承諾在 2026 年推出更積極的宏觀經濟政策，政府已撥款補貼消費品以舊換新計劃。",
+          "desc": "中國國家主席習近平承諾在 2026 年推出更積極的宏觀經濟政策。",
           "url": "https://www.reuters.com/world/china/xi-proactive-policies-2026"
         },
         {
-          "title": "中國 2026 年經濟展望：華盛頓協議後信心增強",
+          "title": "中國 2026 年經濟展望",
           "desc": "中美貿易協議達成後中國信心增強，全球領導野心和技術實力持續提升。",
           "url": "https://apcoworldwide.com/blog/china-2026-beijing-perspective"
         },
         {
           "title": "中國省份設定 2026 年較低增長目標",
-          "desc": "中國多個省份設定較低的 2026 年 GDP 增長目標，北京可能將全國目標下調至 4.5-5%。",
+          "desc": "中國多個省份設定較低的 2026 年 GDP 增長目標，可能下調至 4.5-5%。",
           "url": "https://www.ft.com/china/provinces-gdp-targets-2026"
         },
         {
@@ -71,7 +71,7 @@
           "url": "https://www.reuters.com/technology/deepseek-v4-coding-february"
         },
         {
-          "title": "SK Hynix 2026 年產能已售罄 客戶排隊等待",
+          "title": "SK Hynix 2026 年產能已售罄",
           "desc": "SK Hynix 表示 2026 年產能已全部售罄，客戶已開始排隊等待 HBM 產品。",
           "url": "https://www.reuters.com/technology/sk-hynix-2026-capacity-sold-out"
         },
@@ -82,12 +82,12 @@
         },
         {
           "title": "中美貿易談判持續進行",
-          "desc": "中美官員就貿易議題繼續會談，關稅壁壘問題仍是談判焦點。",
+          "desc": "中美官員就貿易議題繼續會談，關稅問題仍是談判焦點。",
           "url": "https://www.bbc.com/news/china-us-trade-talks"
         },
         {
           "title": "中國五億美元新計劃聚焦科技自主",
-          "desc": "中國公布新五年計劃，聚焦先進製造業和高水平科技自立自強。",
+          "desc": "中國公布新五年計劃，聚焦先進製造業和科技自立自強。",
           "url": "https://www.ft.com/china/five-year-plan-tech-focus"
         }
       ]
@@ -102,7 +102,7 @@
         },
         {
           "title": "香港未來經濟峰會 2026 探討可持續增長",
-          "desc": "峰會圓滿舉行，與會者討論保險業創新、虛擬貨幣監管環境及全球政治局勢對融資的影響。",
+          "desc": "峰會圓滿舉行，與會者討論保險業創新、虛擬貨幣監管環境。",
           "url": "https://www.eurekalert.org/news-releases/1114171"
         },
         {
@@ -112,28 +112,13 @@
         },
         {
           "title": "香港旅遊業復甦勢頭強勁",
-          "desc": "農曆新年期間訪港旅客量按年大幅增長，零售餐飲業生意興旺。",
+          "desc": "農曆新年期間訪港旅客量按年大幅增長。",
           "url": "https://news.gov.hk/tourism-recovery"
         },
         {
-          "title": "香港股市受全球市場影響波動",
-          "desc": "受全球市場影響，港股出現波動，投資者審慎觀望。",
-          "url": "https://www.hkej.com/hk-stock-market-volatility"
-        },
-        {
-          "title": "香港樓市最新動向",
-          "desc": "樓市成交量及價格走勢成為市場焦點。",
-          "url": "https://property.hkej.com/hk-property-market"
-        },
-        {
-          "title": "香港創科發展動態",
-          "desc": "創新科技領域發展迅速，政府加大投資力度。",
-          "url": "https://www.hkstp.org/hk-innovation-tech"
-        },
-        {
-          "title": "港幣兌美元匯率穩定",
-          "desc": "港幣兌美元匯率維持在聯繫匯率制度水平。",
-          "url": "https://www.hkej.com/hkd-usd-exchange"
+          "title": "香港經濟展望 2026",
+          "desc": "政府推動經濟發展措施支持香港經濟，外部不確定性持續。",
+          "url": "https://www.hkeconomy.gov.hk/en/situation/development/index.htm"
         }
       ]
     }
@@ -143,7 +128,7 @@
     "items": [
       {
         "title": "萬國數據完成 3 億美元私募配售",
-        "desc": "向華泰資本投資配售 3 億美元 Series B 可轉換優先股，用於數據中心容量擴建。",
+        "desc": "向華泰資本投資配售 3 億美元 Series B 可轉換優先股。",
         "url": "https://www.globenewswire.com/news-release/2026/01/30/3229539/0/en/GDS-Announces-Private-Placement"
       },
       {
@@ -163,33 +148,13 @@
       },
       {
         "title": "GDS 將召開特別股東大會",
-        "desc": "將於 2 月 24 日召開特別股東大會，討論多項重要議案。",
+        "desc": "將於 2 月 24 日召開特別股東大會。",
         "url": "https://www.stocktitan.net/news/GDS/gds-announces-sale-of-us-385-million-day-one"
       },
       {
         "title": "萬國數據盤前大漲 13.8%",
         "desc": "海通國際報告指海外數據中心業務表現強勁。",
         "url": "https://www.futunn.com/hk/stock/GDS-US"
-      },
-      {
-        "title": "花旗銀行上調萬國數據目標價",
-        "desc": "分析師看好公司長期發展前景，給出買入評級。",
-        "url": "https://www.hkej.com/gds-target-price"
-      },
-      {
-        "title": "摩根士丹利維持增持評級",
-        "desc": "分析師看好數據中心行業增長前景。",
-        "url": "https://www.wsj.com/gds-morgan-stanley"
-      },
-      {
-        "title": "瑞銀給予買入評級",
-        "desc": "看好公司市場份額持續擴大。",
-        "url": "https://www.cnbc.com/gds-ubs"
-      },
-      {
-        "title": "萬國數據發布 ESG 報告",
-        "desc": "公司發布環境社會及管治報告，強調可持續發展目標。",
-        "url": "https://www.reuters.com/gds-esg-report"
       }
     ]
   }
