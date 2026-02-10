@@ -15,11 +15,16 @@
                 "meal": "午餐",
                 "desc": "燉牛肉（牛腱）配紅蘿蔔 + 白飯 + 藜麥 + 白菜 + 湯",
                 "calories": "約500-600kcal"
+            },
+            {
+                "meal": "健康餐",
+                "desc": "烤雞胸肉 + 糙米飯 + 蔬菜（西蘭花、彩椒、四季豆）",
+                "calories": "約400-500kcal"
             }
         ],
         "exercise": [],
         "notes": "早上起床测量，无大便，未吃早餐。午餐：牛肉燉菜配飯。",
-        "images": ["file_25---dd469f3a-f37a-4992-bbf8-56464109d78b.jpg", "file_26---fbff9e88-50eb-4c14-932b-316dd14999a5.jpg"]
+        "images": ["file_25---dd469f3a-f37a-4992-bbf8-56464109d78b.jpg", "file_26---fbff9e88-50eb-4c14-932b-316dd14999a5.jpg", "file_27---56feebf7-44d7-454d-8488-bc1903df1e28.jpg"]
     },
     {
         "date": "2026-02-09",
