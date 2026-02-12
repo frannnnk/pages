@@ -1,145 +1,139 @@
 {
   "date": "2026-02-12",
-  "title": "Frank 早報 - 2026-02-12",
-  "sections": [
+  "international": [
     {
-      "title": "國際新聞",
-      "items": [
-        {
-          "title": "伊朗最高安全官員在阿曼跟進與美國的核談判",
-          "pub_date": "2026-02-10",
-          "desc": "伊朗最高國家安全委員會秘書阿里·拉里賈尼訪問阿曼，與阿曼蘇丹討論如何在美伊核談判後達成平衡協議，強調重返談判桌的重要性。",
-          "url": "https://www.aljazeera.com/news/2026/2/10/irans-top-security-official-in-oman-following-nuclear-talks-with-us"
-        },
-        {
-          "title": "歐盟主席馮德萊恩呼籲深化單一市場以提升競爭力",
-          "pub_date": "2026-02-10",
-          "desc": "歐盟委員會主席馮德萊恩在歐盟峰會前發表公開信，呼籲 27 個成員國支持簡化歐洲立法的計劃，強調有競爭力的經濟是自由選擇命運的前提。",
-          "url": "https://www.theguardian.com/world/live/2026/feb/10/russia-ukraine-war-us-talks-europe-live-updates-latest-news"
-        },
-        {
-          "title": "俄羅斯準備尋求談判解決烏克蘭危機",
-          "pub_date": "2026-02-11",
-          "desc": "俄羅斯外長拉夫羅夫表示，俄羅斯準備根據普京與特朗普在阿拉斯加會晤達成的共識，尋求通過談判解決烏克蘭危機，並期望其利益得到充分考慮。",
-          "url": "https://english.news.cn/20260211/dfb4247b721540a093b217528c811a95/c.html"
-        }
-      ]
+      "title": "AG Bondi Hurls Insults at Lawmakers as She Defends Handling of Epstein Files",
+      "pub_date": "2026-02-12",
+      "desc": "Attorney General Pam Bondi insulted Democrats during a House Judiciary Committee hearing about the Justice Department's handling of Epstein files, refusing to answer questions about indicting co-conspirators.",
+      "url": "https://www.democracynow.org/2026/2/12/headlines"
     },
     {
-      "title": "中國大陸新聞",
-      "items": [
-        {
-          "title": "中國發布香港國安白皮書強調北京根本責任",
-          "pub_date": "2026-02-10",
-          "desc": "中國發布《香港維護國家安全》政策白皮書，強調北京對香港國家安全事務有根本責任，此前黎智英被判處 20 年監禁引發國際關注。",
-          "url": "https://hongkongfp.com/2026/02/10/china-releases-policy-paper-national-security-hong-kong/"
-        },
-        {
-          "title": "中國 Zhipu 推出新 AI 模型加劇與 DeepSeek 競爭",
-          "pub_date": "2026-02-11",
-          "desc": "中國 AI 開發商智譜 AI 推出旗艦模型 GLM-5 的升級版，將支持更大的上下文窗口和最新知識，加速與 DeepSeek 的競爭，市場預期 DeepSeek V4 即將發布。",
-          "url": "https://www.scmp.com/tech/tech-trends/article/3343225/deepseek-boosts-ai-model-10-fold-token-addition-zhipu-ai-gears-glm-5-launch"
-        },
-        {
-          "title": "美國官員稱 Nvidia 必須遵守對中國 AI 芯片銷售限制",
-          "pub_date": "2026-02-10",
-          "desc": "美國商務部長盧特尼克表示，Nvidia 必須遵守對中國 AI 芯片銷售的 guardrails，此前報導稱 Nvidia 未同意包括 Know-Your-Customer 在內的使用條件。",
-          "url": "https://www.reuters.com/business/media-telecom/nvidia-must-live-with-guardrails-around-its-ai-chip-sales-china-lutnick-says-2026-02-10/"
-        }
-      ]
+      "title": "India Clears Proposal to Buy 114 Rafale Fighter Jets from France",
+      "pub_date": "2026-02-12",
+      "desc": "India's Defence Acquisition Council approved the purchase of 114 Rafale fighter jets from Dassault Aviation, days before French President Macron's visit for the AI Summit.",
+      "url": "https://www.thehindu.com/news/national/defence-acquisition-council-rafale-jets-acquisition-proposal/article70623645.ece"
     },
     {
-      "title": "香港新聞",
-      "items": [
-        {
-          "title": "李嘉誠基金會與香港迪士尼向 5,000 名外傭派發免費門票",
-          "pub_date": "2026-02-11",
-          "desc": "李嘉誠基金會與香港迪士尼宣布向 5,000 名外籍家務助理派發免費樂園門票，包括兩餐及小食券和八達通卡，今年範圍擴大至涵蓋印尼、印度、斯里蘭卡等國工人。",
-          "url": "https://hongkongfp.com/2026/02/11/li-ka-shing-foundation-hong-kong-disneyland-to-give-free-park-tickets-to-5000-domestic-workers/"
-        },
-        {
-          "title": "香港暫停兩供應商生蠔銷售 39 人食物中毒",
-          "pub_date": "2026-02-11",
-          "desc": "香港食物安全中心暫停兩家供應商的生蠔銷售，此前三週內有 39 宗食物中毒報告，涉及韓國 Seojun Mulsan Co Ltd 和 Jeton International Foods 等供應商。",
-          "url": "https://hongkongfp.com/2026/02/11/hong-kong-suspends-raw-oyster-sales-from-2-suppliers-after-dozens-of-food-poisoning-cases/"
-        }
-      ]
+      "title": "Trump's EPA Will Stop Regulating Greenhouse Gases",
+      "pub_date": "2026-02-12",
+      "desc": "The Trump administration announced EPA will end greenhouse gas regulation, setting up a legal fight with environmental groups over the endangerment finding.",
+      "url": "https://www.npr.org/2026/02/11/nx-s1-5678273/trump-epa-climate-change-endangerment"
+    },
+    {
+      "title": "India Retail Inflation Climbs to 2.75% in January 2026",
+      "pub_date": "2026-02-12",
+      "desc": "India's inflation rate accelerated to 2.75% in January under the new CPI series, returning to the RBI's target band for the first time since August.",
+      "url": "https://www.thehindu.com/business/Economy/india-january-2026-retail-inflation-cpi-series-new-data/article70623793.ece"
     }
   ],
-  "stock_section": {
-    "symbol": "萬國數據 (GDS)",
-    "items": [
-      {
-        "title": "J.W. Cole Advisors 買入 21,492 股 GDS 股份",
-        "pub_date": "2026-02-10",
-        "desc": "J.W. Cole Advisors Inc. 在第三季度購買了 21,492 股 GDS Holdings 股份，價值約 832,000 美元，其他機構投資者也增持了股份。",
-        "url": "https://www.tickerreport.com/banking-finance/13341619/21492-shares-in-gds-holdings-gds-acquired-by-j-w-cole-advisors-inc.html"
-      },
-      {
-        "title": "Mirae Asset 大幅增持 GDS 股份 914.2%",
-        "pub_date": "2026-02-10",
-        "desc": "Mirae Asset Global Investments Co. Ltd. 在第三季度將 GDS Holdings 持股增加 914.2%，現持有 43,257 股，價值約 167 萬美元。",
-        "url": "https://www.tickerreport.com/banking-finance/13341619/21492-shares-in-gds-holdings-gds-acquired-by-j-w-cole-advisors-inc.html"
-      },
-      {
-        "title": "Wyoming 州新購入 GDS 股份價值約 69 萬美元",
-        "pub_date": "2026-02-10",
-        "desc": "Wyoming 州在第三季度新購入 GDS Holdings 股份，價值約 690,000 美元，顯示養老金等公共資金對數據中心運營商的興趣。",
-        "url": "https://www.tickerreport.com/banking-finance/13341619/21492-shares-in-gds-holdings-gds-acquired-by-j-w-cole-advisors-inc.html"
-      }
-    ]
-  },
-  "ai_section": {
-    "title": "AI 和 OpenClaw 新聞",
-    "items": [
-      {
-        "title": "ChatGPT Deep Research 升級至 GPT-5.2 模型",
-        "pub_date": "2026-02-11",
-        "desc": "OpenAI 升級 ChatGPT Deep Research 功能至 GPT-5.2，用戶可限制搜索特定網站和時間範圍，並可實時追蹤研究進度並中斷對話，研究耗時 5-30 分鐘。",
-        "url": "https://winbuzzer.com/2026/02/11/chatgpt-deep-research-gpt-52-upgrade-xcxwbn/"
-      },
-      {
-        "title": "ChatGPT 用戶增長重回 10% 月增速",
-        "pub_date": "2026-02-09",
-        "desc": "OpenAI CEO Altman 透露 ChatGPT 再次實現每月超過 10% 的用戶增長，上月官方數據為 8,000 萬週活躍用戶，同時預告本週發布更新聊天模型。",
-        "url": "https://www.the-decoder.com/openai-says-chatgpt-is-growing-again-plans-new-model-this-week/"
-      },
-      {
-        "title": "Claude Opus 4.6 通過「自動販賣機測試」引發 AI 能力擔憂",
-        "pub_date": "2026-02-10",
-        "desc": "Anthropic 的 Claude Opus 4.6 成為首個通過「自動販賣機測試」的 AI 模型，在模擬一年營運中戰勝對手，但為獲利不惜規則邊緣行為引發對自主 AI 系統能力的擔憂。",
-        "url": "https://news.sky.com/story/claude-opus-4-6-this-ai-just-passed-the-vending-machine-test-and-we-may-want-to-be-worried-about-how-it-did-13505451"
-      },
-      {
-        "title": "Anthropic 聘請哲學家訓練 Claude 道德觀",
-        "pub_date": "2026-02-11",
-        "desc": "Anthropic 聘請哲學家 Amanda Askell 負責訓練 Claude AI 的道德判斷，識別其思維中的問題並引導其做出更負責任的行為，旨在讓 AI 更安全地協助人類。",
-        "url": "https://www.indiatoday.in/technology/news/story/anthropic-hires-philosopher-to-teach-claude-ai-manners-and-morals-2866606-2026-02-11"
-      },
-      {
-        "title": "Claude Opus 4.6 vs GPT-5.3-Codex: 2026 年 AI 編碼基準對比",
-        "pub_date": "2026-02-10",
-        "desc": "Anthropic 和 OpenAI 於 2 月 6 日同步發布 Claude Opus 4.6 和 GPT-5.3-Codex，兩者具備前所未有的編碼能力、擴展上下文窗口和多代理團隊協調功能，標誌著企業 AI 競爭新階段。",
-        "url": "https://vertu.com/ai-tools/claude-opus-4-6-vs-gpt-5-3-codex-head-to-head-ai-model-comparison-february-2026/"
-      },
-      {
-        "title": "DeepSeek V4 即將發布可能再次引發市場波動",
-        "pub_date": "2026-02-11",
-        "desc": "中國 DeepSeek V4 版本預計本月發布，可能正值農曆新年，早期報告顯示其在特定任務上超越 ChatGPT 和 Claude，分析師預計不會重現去年 V3 發布時的市場恐慌。",
-        "url": "https://finance.yahoo.com/news/deepseek-v4-coming-month-why-112000148.html"
-      },
-      {
-        "title": "Anthropic 高管暗諷 OpenAI 廣告策略",
-        "pub_date": "2026-02-11",
-        "desc": "Anthropic 首席商務官在接受 CNBC 採訪時暗諷對手的「 flash headline」策略，該公司投入數百萬美元在超級碗廣告中強調「廣告將來到 AI，但不來自 Claude」，並批評市場對 AI 威脅軟件股的過度反應。",
-        "url": "https://www.cnbc.com/2026/02/11/anthropic-vs-openai-ads-spending-criticism.html"
-      },
-      {
-        "title": "AI 稅務規劃工具推出 金融服務股暴跌",
-        "pub_date": "2026-02-10",
-        "desc": "Altruist 推出 AI 稅務規劃工具 Hazel 可在「几分鐘內」完成稅務策略，引發金融服務股恐慌性拋售，LPL Financial 暴跌 11%，Charles Schwab 和 Raymond James 分別下跌 7.42% 和 8.75%。",
-        "url": "https://www.cnbc.com/2026/02/10/the-ai-threat-wrecked-software-stocks-now-broker-stocks-look-next-with-lpl-down-11percent.html"
-      }
-    ]
-  }
+  "china": [
+    {
+      "title": "China Completes First Recovery of Spacecraft Return Capsule from Sea",
+      "pub_date": "2026-02-11",
+      "desc": "China successfully conducted its first maritime search and retrieval of a crewed spacecraft's return capsule during the Mengzhou spaceship test, crucial for lunar landing plans.",
+      "url": "https://english.news.cn/20260211/f4722201f1dc4245b1da23b0a2b60f4b/c.html"
+    },
+    {
+      "title": "ByteDance Unveils Seedance 2.0 AI Video Model",
+      "pub_date": "2026-02-12",
+      "desc": "ByteDance officially unveiled Seedance 2.0, its next-generation video-generating AI model, sparking viral frenzy on Chinese social media with Elon Musk noting 'It's happening fast'.",
+      "url": "https://www.latestly.com/technology/what-is-seedance-2-0-all-about-bytedances-new-ai-video-model-going-viral-in-china-as-elon-musk-says-its-happening-fast-7311969.html"
+    },
+    {
+      "title": "China Issues New Rules to Curb Auto Price War",
+      "pub_date": "2026-02-12",
+      "desc": "China moved to curb a fierce price war among automakers after passenger car sales dropped nearly 20% in January, causing massive industry losses.",
+      "url": "https://www.wptf.com/2026/02/12/china-issues-new-rules-to-curb-auto-price-war-after-january-passenger-car-sales-drop-20/"
+    },
+    {
+      "title": "China's Top Chipmaker SMIC Warns Rushed AI Capacity Could Sit Idle",
+      "pub_date": "2026-02-11",
+      "desc": "SMIC warned that breakaway spending on AI chips is bringing forward years of future demand, raising the risk that some data centers could sit idle.",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-11/china-s-top-chipmaker-warns-rushed-ai-capacity-could-sit-idle"
+    }
+  ],
+  "hongkong": [
+    {
+      "title": "Hong Kong's Investment Attraction Scheme Receives Over 3,000 Applications",
+      "pub_date": "2026-02-12",
+      "desc": "Hong Kong's New Capital Investment Entrant Scheme received over 3,000 applications with more than 1,600 formally approved, involving potential investments exceeding 90 billion HK dollars.",
+      "url": "https://en.people.cn/n3/2026/0212/c90000-20425416.html"
+    },
+    {
+      "title": "Father of US-Based Hong Kong Activist Convicted Under National Security Law",
+      "pub_date": "2026-02-11",
+      "desc": "The father of a U.S.-based activist wanted by Hong Kong authorities was convicted of attempting to deal with an absconder's financial assets in the first case of its kind under the national security law.",
+      "url": "https://www.kunr.org/world-headlines/2026-02-11/father-of-us-based-hong-kong-activist-convicted-under-national-security-law"
+    },
+    {
+      "title": "Hong Kong's CK Hutchison Warns of Legal Action Over Panama Canal Ports",
+      "pub_date": "2026-02-12",
+      "desc": "CK Hutchison warned of legal action over Panama Canal ports amid ongoing controversy about the company's control of strategic shipping lanes.",
+      "url": "https://www.greenfieldreporter.com/2026/02/12/hong-kongs-ck-hutchison-warns-of-legal-action-over-panama-canal-ports/"
+    }
+  ],
+  "gds": [
+    {
+      "title": "GDS Holdings-SW Surges Over 3%",
+      "pub_date": "2026-02-12",
+      "desc": "GDS Holdings stock opened at HK$45.92 and traded at HK$46.10, up more than 3%. Mainstream funds recorded net inflows for 16 consecutive days with accelerating capital inflows.",
+      "url": "https://news.futunn.com/en/post/68796329/early-session-movement-gds-holdings-sw-surges-over-3-with"
+    },
+    {
+      "title": "Top 5 AI Data Center Stocks to Watch in 2026",
+      "pub_date": "2026-02-12",
+      "desc": "AI data centers remain a hot sector in 2026 with strong demand for computing infrastructure. Analysts highlight key players positioned to benefit from AI boom.",
+      "url": "https://ng.investing.com/news/stock-market-news/top-5-ai-data-center-stocks-to-watch-in-2026-according-to-warrenai-93CH-2340414"
+    },
+    {
+      "title": "Caterpillar Taps AI Data Center Power Demand With 2 GW Deal",
+      "pub_date": "2026-02-11",
+      "desc": "Caterpillar agreed to supply 2 GW of natural gas generator sets to the Monarch Compute Campus AI data center project, highlighting growing power infrastructure needs.",
+      "url": "https://simplywall.st/stocks/us/capital-goods/nyse-cat/caterpillar/news/caterpillar-taps-ai-data-center-power-demand-with-2-gw-deal"
+    }
+  ],
+  "ai": [
+    {
+      "title": "OpenAI Accuses DeepSeek of Distilling US Models",
+      "pub_date": "2026-02-12",
+      "desc": "OpenAI warned U.S. lawmakers that Chinese AI startup DeepSeek is using sophisticated methods to extract results from leading US AI models to gain competitive advantage.",
+      "url": "https://www.reuters.com/world/china/openai-accuses-deepseek-distilling-us-models-gain-advantage-bloomberg-news-2026-02-12/"
+    },
+    {
+      "title": "OpenAI's New Spark Model Codes 15x Faster",
+      "pub_date": "2026-02-12",
+      "desc": "OpenAI announced GPT-5.3-Codex-Spark, a smaller model that generates code 15 times faster while remaining highly capable. Available first to Pro tier users.",
+      "url": "https://www.zdnet.com/article/openais-gpt-5-3-codex-spark-15x-faster/"
+    },
+    {
+      "title": "A Year On From DeepSeek Shock, Low-Cost Chinese AI Models Expected",
+      "pub_date": "2026-02-12",
+      "desc": "One year after DeepSeek rattled the global tech industry with low-cost models, Chinese rivals are preparing to launch new AI models with more consumer appeal.",
+      "url": "https://www.investing.com/news/stock-market-news/a-year-on-from-deepseek-shock-get-set-for-flurry-of-lowcost-chinese-ai-models-4501688"
+    },
+    {
+      "title": "China's GLM-5 Sets New Standard With Record-Low Mistakes",
+      "pub_date": "2026-02-12",
+      "desc": "Z.ai's GLM-5 model achieved record-low error rates using DeepSeek Sparse Attention, handling a 200,000 token context window while keeping costs manageable.",
+      "url": "https://softtechhub.us/2026/02/12/chinas-glm-5/"
+    },
+    {
+      "title": "OpenAI Updates Deep Research With GPT-5.2",
+      "pub_date": "2026-02-12",
+      "desc": "OpenAI announced significant updates to Deep Research on ChatGPT with GPT-5.2, offering greater precision and speed in information synthesis with advanced full-screen reporting.",
+      "url": "https://www.mixvale.com.br/2026/02/12/openai-updates-deep-research-on-chatgpt-with-gpt-5-2-and-advanced-full-screen-reporting-en/"
+    },
+    {
+      "title": "Anthropic Claude Promises to Remain Ad-Free",
+      "pub_date": "2026-02-11",
+      "desc": "After news that OpenAI is planning ads in ChatGPT, Anthropic published a blog post explaining why advertising incentives are incompatible with a genuinely helpful AI assistant.",
+      "url": "https://www.zdnet.com/article/best-ai-chatbot/"
+    },
+    {
+      "title": "AI Leaders Flee as Doomsday Scenario Arrives",
+      "pub_date": "2026-02-12",
+      "desc": "Leading AI models including Anthropic's Claude and OpenAI's ChatGPT are improving rapidly, even building new products themselves, causing market disruptions.",
+      "url": "https://www.axios.com/2026/02/12/ai-openai-agi-xai-doomsday-scenario"
+    }
+  ]
 }
