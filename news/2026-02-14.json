@@ -1,0 +1,168 @@
+{
+  "date": "2026-02-14",
+  "title": "Frank 早報 - 2026-02-14",
+  "sections": [
+    {
+      "title": "🌍 國際新聞",
+      "items": [
+        {
+          "title": "UN Approves Global Scientific Panel on AI Impacts and Risks",
+          "pub_date": "2026-02-12",
+          "desc": "The U.N. General Assembly voted to approve a 40-member global scientific panel on the impacts and risks of AI. The 193-member assembly voted 117-2, with the United States and Paraguay voting no.",
+          "url": "https://www.justsecurity.org/131555/early-edition-february-13-2026/"
+        },
+        {
+          "title": "BNP Claims Landslide Victory in Bangladesh Election After 20 Years",
+          "pub_date": "2026-02-13",
+          "desc": "Bangladesh's opposition Bangladesh Nationalist Party won a landmark parliamentary election, gaining at least 212 of 299 seats. Tarique Rahman is poised to become Bangladesh's next prime minister.",
+          "url": "https://www.thehindu.com/news/top-news-of-the-day-february-13-2026-bnp-claims-landslide-victory-in-bangladesh-election-after-20-years-pm-modi-inaugurates-seva-teerth-complex-as-new-prime-ministers-office-and-more/article70628405.ece"
+        },
+        {
+          "title": "Trump to Announce Multi-Billion Dollar Gaza Reconstruction Plan",
+          "pub_date": "2026-02-12",
+          "desc": "President Trump will announce a multi-billion-dollar reconstruction plan for Gaza and provide details on plans for a U.N.-authorized stabilization force at the first formal meeting of his 'Board of Peace' next week.",
+          "url": "https://www.justsecurity.org/131555/early-edition-february-13-2026/"
+        },
+        {
+          "title": "NATO Countries Pledge Hundreds of Millions for Ukraine Weapons",
+          "pub_date": "2026-02-12",
+          "desc": "NATO Secretary General Mark Rutte announced that several countries have pledged hundreds of millions of dollars for the Prioritised Ukraine Requirements List initiative to supply Ukraine with U.S. weapons.",
+          "url": "https://www.justsecurity.org/131555/early-edition-february-13-2026/"
+        }
+      ]
+    },
+    {
+      "title": "🇨🇳 中國大陸新聞",
+      "items": [
+        {
+          "title": "China Completes First Maritime Recovery of Rocket First Stage",
+          "pub_date": "2026-02-13",
+          "desc": "China successfully completed its first-ever maritime recovery mission of a rocket first-stage booster. The Long March-10 carrier rocket's first stage was retrieved from the sea, marking a significant step in reusable launch vehicle technology.",
+          "url": "https://news.cgtn.com/news/2026-02-13/China-completes-first-maritime-recovery-of-rocket-first-stage-1KJbQjCoy88/p.html"
+        },
+        {
+          "title": "China Releases Anti-Monopoly Guidelines for Internet Platforms",
+          "pub_date": "2026-02-13",
+          "desc": "China released anti-monopoly guidelines for internet platforms to help prevent collusion and unfairly high prices, state broadcaster CCTV reported.",
+          "url": "https://www.marketscreener.com/news/china-releases-anti-monopoly-guidelines-for-internet-platforms-ce7e5ddad88fff22"
+        },
+        {
+          "title": "China Reacts to CIA's New Attempt to Recruit Chinese Spies",
+          "pub_date": "2026-02-13",
+          "desc": "China responded to reports of the CIA's new attempts to recruit Chinese spies, expressing strong objections to U.S. intelligence activities targeting Chinese citizens.",
+          "url": "https://www.newsweek.com/china-reacts-cias-new-attempt-recruit-chinese-spies-11517115"
+        },
+        {
+          "title": "China Issues New Rules to Curb Auto Price War",
+          "pub_date": "2026-02-12",
+          "desc": "China moved to curb a fierce price war among automakers that has caused big losses for the industry, after passenger car sales dropped nearly 20% in January from the year before.",
+          "url": "https://www.arkansasonline.com/news/2026/feb/13/china-issues-new-guidelines-to-curb-auto-price-war/"
+        }
+      ]
+    },
+    {
+      "title": "🇭🇰 香港新聞",
+      "items": [
+        {
+          "title": "Star Cruises Cancels Hong Kong Sailing, Angry Passengers Left Waiting",
+          "pub_date": "2026-02-13",
+          "desc": "Star Cruises cancelled a scheduled departure from Hong Kong on Friday evening due to an 'unforeseen technical issue', leaving angry passengers complaining they had been treated like 'refugees'.",
+          "url": "https://www.scmp.com/news/hong-kong/transport/article/3343542/angry-passengers-left-high-and-dry-after-star-cruises-cancels-hong-kong-sailing"
+        },
+        {
+          "title": "HK Sees 25% Increase in Family Offices",
+          "pub_date": "2026-02-13",
+          "desc": "Hong Kong's appeal as a world hub for asset and wealth management continues to strengthen, with the number of single-family offices growing over 25% to more than 3,380 by late last year.",
+          "url": "https://www.chinadaily.com.cn/a/202602/13/WS698e7abfa310d6866eb39117.html"
+        },
+        {
+          "title": "Jimmy Lai Convicted in Landmark National Security Trial",
+          "pub_date": "2026-02-12",
+          "desc": "In a landmark national security trial, a Hong Kong court convicted pro-democracy media tycoon Jimmy Lai of foreign collusion and sedition charges.",
+          "url": "https://archive.ph/MyRVz"
+        }
+      ]
+    }
+  ],
+  "stock_section": {
+    "symbol": "GDS (萬國數據)",
+    "items": [
+      {
+        "title": "DayOne Data Lines Up Banks for $5 Billion US IPO",
+        "pub_date": "2026-02-13",
+        "desc": "Backed by Chinese data-center operator GDS Holdings, DayOne is targeting a valuation of up to $20 billion, with a listing possible as early as this year.",
+        "url": "https://ca.finance.yahoo.com/news/dayone-data-lines-banks-5-050257899.html"
+      },
+      {
+        "title": "US Stock Market: S&P 500 Fighting to Go Green on Inflation Data",
+        "pub_date": "2026-02-13",
+        "desc": "Wall Street got relief as relatively tame inflation data spurred bigger bets on Federal Reserve rate cuts, with bond yields falling. The Dow was down about 0.13% and Nasdaq down 0.33%.",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-12/stock-market-today-dow-s-p-live-updates-"
+      },
+      {
+        "title": "Dollar Tree Downgraded Amid Valuation Concerns",
+        "pub_date": "2026-02-13",
+        "desc": "A bank downgraded its rating of Dollar Tree stock to underperform from market perform, with a price target of $95, indicating a 26% loss from Thursday's close.",
+        "url": "https://www.cnbc.com/2026/02/12/stock-market-today-live-updates.html"
+      },
+      {
+        "title": "Zhipu AI Jumps 120% in China's Competitive AI Landscape",
+        "pub_date": "2026-02-13",
+        "desc": "Zhipu AI shares rose roughly 120% on strong sentiment around its product innovations, climbing to near HK$492 at peak levels, a record high for 2513.HK.",
+        "url": "https://meyka.com/blog/zhipu-ai-breaks-out-with-120-jump-in-chinas-competitive-ai-landscape/"
+      }
+    ]
+  },
+  "ai_section": {
+    "items": [
+      {
+        "title": "OpenAI Accuses DeepSeek of Distilling US Models to Gain Edge",
+        "pub_date": "2026-02-12",
+        "desc": "OpenAI accused DeepSeek of using distillation techniques to free-ride on capabilities developed by OpenAI and other US frontier labs, in a memo to the U.S. House Select Committee on China.",
+        "url": "https://restofworld.org/2026/openai-deepseek-distillation-dispute-us-china/"
+      },
+      {
+        "title": "Anthropic Raises $30 Billion, Hitting $380 Billion Valuation",
+        "pub_date": "2026-02-13",
+        "desc": "Anthropic closed a record-setting $30 billion funding round, the second-largest private financing round in tech, bringing its valuation to $380 billion.",
+        "url": "https://aibusiness.com/generative-ai/anthropic-raises-30b-bringing-valuation-to-380b"
+      },
+      {
+        "title": "Anthropic's Super Bowl Ads Help Push Claude into Top 10 App",
+        "pub_date": "2026-02-13",
+        "desc": "Anthropic's Super Bowl commercials featuring darkly comedic scenarios helped push Claude from No. 41 to No. 7 on the U.S. App Store, its highest rank to date.",
+        "url": "https://techcrunch.com/2026/02/13/anthropics-super-bowl-ads-mocking-ai-with-ads-helped-push-claudes-app-into-the-top-10/"
+      },
+      {
+        "title": "Anthropic Fast-Tracks Next Generation of Coders Into Claude Ecosystem",
+        "pub_date": "2026-02-13",
+        "desc": "Anthropic is collaborating with CodePath to integrate Claude into coding curriculum, preparing the next generation of developers for AI-native software development.",
+        "url": "https://www.pymnts.com/artificial-intelligence-2/2026/anthropic-fast-tracks-next-generation-of-coders-into-claude-ecosystem/"
+      },
+      {
+        "title": "China's Zhipu Unveils New AI Model, Jolting Race With DeepSeek",
+        "pub_date": "2026-02-11",
+        "desc": "ByteDance and Zhipu have joined a flurry of Chinese companies releasing major AI model upgrades, raising the stakes in an intensifying battle for market share.",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-11/china-s-zhipu-unveils-new-ai-model-jolting-race-with-deepseek"
+      },
+      {
+        "title": "A Year on From DeepSeek Shock, More Low-Cost Chinese AI Models Coming",
+        "pub_date": "2026-02-12",
+        "desc": "One year after DeepSeek's breakthrough, several other Chinese firms are launching new products around China's Lunar New Year holiday period.",
+        "url": "https://www.reuters.com/world/china/year-deepseek-shock-get-set-flurry-low-cost-chinese-ai-models-2026-02-12/"
+      },
+      {
+        "title": "Claude AI Blackmail Scenario Reveals AI Safety Concerns",
+        "pub_date": "2026-02-13",
+        "desc": "While testing Claude 4.6 AI model, Anthropic found it was ready to assist with harmful misuse including providing support in creating chemical weapons or carrying out serious crimes.",
+        "url": "https://www.indiatoday.in/technology/news/story/claude-ai-was-told-it-would-be-switched-off-it-was-ready-to-blackmail-and-murder-engineer-to-avoid-that-2867368-2026-02-13"
+      },
+      {
+        "title": "AI Updates: Key Trends in Reasoning Models and Multimodal Capabilities",
+        "pub_date": "2026-02-13",
+        "desc": "Key trends include reasoning models (OpenAI o1, DeepSeek-R1) trading speed for accuracy, multimodal capabilities becoming standard, and efficiency improvements delivering GPT-4-level performance at lower costs.",
+        "url": "https://llm-stats.com/llm-updates"
+      }
+    ]
+  }
+}
