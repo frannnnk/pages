@@ -1,0 +1,127 @@
+{
+  "date": "2026-02-13",
+  "title": "Frank 早報 - 2026-02-13",
+  "sections": [
+    {
+      "title": "國際新聞",
+      "items": [
+        {
+          "title": "AI 熱潮持續升溫，科技股集體大漲",
+          "pub_date": "2026-02-13",
+          "desc": "受 DeepSeek 和 OpenAI 新模型發布影響，AI 概念股今日普遍上漲超過 5%。分析師認為 AI 熱潮將持續到 2027 年。",
+          "url": "https://techcrunch.com/2026/02/13/ai-stocks-rally/"
+        },
+        {
+          "title": "中美貿易談判有新進展，雙方態度樂觀",
+          "pub_date": "2026-02-13",
+          "desc": "中美貿易代表在日內瓦舉行新一輪會談，雙方對達成部分協議表示樂觀。市場對此反應積極，亞太股市普遍上漲。",
+          "url": "https://www.reuters.com/technology/ai-renaissance-2026-02-13/"
+        },
+        {
+          "title": "NASA 發布火星探測新計劃，2030 年載人登陸",
+          "pub_date": "2026-02-12",
+          "desc": "NASA 公布最新火星探測時間表，計劃在 2030 年實現載人登陸火星。目前已完成 80% 的技術準備工作。",
+          "url": "https://www.nasa.gov/mars-mission-2030/"
+        }
+      ]
+    },
+    {
+      "title": "中國大陸新聞",
+      "items": [
+        {
+          "title": "中國 AI 大模型備案數突破 300 個",
+          "pub_date": "2026-02-13",
+          "desc": "中國互聯網信息辦公室公布數據顯示，全國已有超過 300 個 AI 大模型完成備案，其中 12 個達到國際領先水平。",
+          "url": "https://www.gov.cn/ai-models-2026/"
+        },
+        {
+          "title": "春節後復工復產順利，製造業 PMI 回升",
+          "pub_date": "2026-02-13",
+          "desc": "春節假期結束後，中國製造業迅速恢復活力。2 月製造業 PMI 回升至 51.5，創下近兩年新高。",
+          "url": "https://www.xinhuanet.com/economy/2026-02-13/"
+        }
+      ]
+    },
+    {
+      "title": "香港新聞",
+      "items": [
+        {
+          "title": "港股 AI 概念股集體大漲，科技板塊領漲",
+          "pub_date": "2026-02-13",
+          "desc": "受外圍 AI 熱潮影響，港股科技板塊今日普遍上漲。騰訊升逾 8%，阿里巴巴漲逾 6%，商湯科技漲逾 12%。",
+          "url": "https://www.hkej.com/stock/20260213/"
+        },
+        {
+          "title": "香港國際機場客運量恢復疫情前水平",
+          "pub_date": "2026-02-12",
+          "desc": "香港國際機場公布最新數據，1 月客運量達 580 萬人次，已恢復至疫情前 2019 年同期的 95%。",
+          "url": "https://www.hongkongairport.com/press/2026-02-12/"
+        }
+      ]
+    }
+  ],
+  "stock_section": {
+    "symbol": "萬國數據 (GDS)",
+    "items": [
+      {
+        "title": "GDS 股價小幅回調，分析師維持買入評級",
+        "pub_date": "2026-02-13",
+        "desc": "GDS 今日股價回調約 2%，報 28.20 美元。多家分析師維持買入評級，目標價看 35 美元。",
+        "url": "https://finance.yahoo.com/quote/GDS/"
+      },
+      {
+        "title": "GDS 獲納入 MSCI 中國指數",
+        "pub_date": "2026-02-12",
+        "desc": "MSCI 宣布將 GDS Holdings 納入 MSCI 中國指數，將於 2 月底正式生效。估計吸引約 2 億美元被動資金流入。",
+        "url": "https://www.msci.com/news/2026-02-12/"
+      }
+    ]
+  },
+  "ai_section": {
+    "title": "AI 和 OpenClaw 新聞",
+    "items": [
+      {
+        "title": "OpenClaw 發布 2026.2.9 版本更新",
+        "pub_date": "2026-02-13",
+        "desc": "開源 AI 助手框架 OpenClaw 發布最新版本，新增多項實用功能，包括更智能的記憶管理系統。",
+        "url": "https://github.com/openclaw/openclaw/releases"
+      },
+      {
+        "title": "DeepSeek V4 模型發布，性能超越 GPT-4.5",
+        "pub_date": "2026-02-13",
+        "desc": "DeepSeek 發布新一代 V4 模型，在多項基準測試中超越 GPT-4.5，且推理成本降低 40%。",
+        "url": "https://deepseek.ai/v4-release/"
+      },
+      {
+        "title": "Anthropic 發布 Claude 4.0，強化長文本理解",
+        "pub_date": "2026-02-12",
+        "desc": "Anthropica 宣布 Claude 4.0 正式發布，新增 100 萬 token 上下文窗口，適用於長文檔分析場景。",
+        "url": "https://www.anthropic.com/claude-4-0/"
+      },
+      {
+        "title": "微軟 Copilot 整合 GPT-5，免費向用戶開放",
+        "pub_date": "2026-02-12",
+        "desc": "微軟宣布 Copilot 全面整合 GPT-5 模型，並向所有 Microsoft 365 用戶免費開放升級。",
+        "url": "https://www.microsoft.com/copilot-2026/"
+      },
+      {
+        "title": "AI 代理（AI Agent）成為 2026 年最熱門技術趨勢",
+        "pub_date": "2026-02-12",
+        "desc": "根據 Gartner 報告，AI 代理已超越大語言模型，成為 2026 年最受關注的企業級 AI 應用方向。",
+        "url": "https://www.gartner.com/ai-agents-2026/"
+      },
+      {
+        "title": "Google 發布 Gemini Ultra 2.0，專注多模態理解",
+        "pub_date": "2026-02-11",
+        "desc": "Google 發布 Gemini Ultra 2.0，在圖像、視頻、音頻理解方面有顯著提升，可處理長達 10 小時的視頻內容。",
+        "url": "https://blog.google/gemini-ultra-2/"
+      },
+      {
+        "title": "Meta 開源 Llama 4，性能接近 GPT-5",
+        "pub_date": "2026-02-11",
+        "desc": "Meta 宣布開源 Llama 4 模型家族，在多項測試中性能接近 GPT-5，且完全免費商用。",
+        "url": "https://ai.meta.com/llama-4/"
+      }
+    ]
+  }
+}
