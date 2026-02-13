@@ -1,45 +1,67 @@
 [
-    {
-        "date": "2026-02-10",
-        "time": "07:15",
-        "weight": 89.4,
-        "bmi": 29.2,
-        "body_fat": 32.7,
-        "visceral_fat": 12.0,
-        "muscle_mass": 56.9,
-        "bmr": 1670,
-        "protein": 11.9,
-        "body_age": 41,
-        "food": [
-            {
-                "meal": "午餐",
-                "desc": "燉牛肉（牛腱）配紅蘿蔔 + 白飯 + 藜麥 + 白菜 + 湯",
-                "calories": "約500-600kcal"
-            },
-            {
-                "meal": "健康餐",
-                "desc": "烤雞胸肉 + 糙米飯 + 蔬菜（西蘭花、彩椒、四季豆）",
-                "calories": "約400-500kcal"
-            }
-        ],
-        "exercise": [],
-        "notes": "早上起床测量，无大便，未吃早餐。午餐：牛肉燉菜配飯。",
-        "images": ["file_25---dd469f3a-f37a-4992-bbf8-56464109d78b.jpg", "file_26---fbff9e88-50eb-4c14-932b-316dd14999a5.jpg", "file_27---56feebf7-44d7-454d-8488-bc1903df1e28.jpg"]
-    },
-    {
-        "date": "2026-02-09",
-        "time": "22:30",
-        "weight": 90.0,
-        "bmi": 29.4,
-        "body_fat": 32.8,
-        "visceral_fat": 12.0,
-        "muscle_mass": 57.2,
-        "bmr": 1677,
-        "protein": 11.8,
-        "body_age": 41,
-        "food": [],
-        "exercise": [],
-        "notes": "体脂秤初始数据。腹部脂肪堆积严重，内脏脂肪偏高。需要重点减少腹部脂肪。肌肉量充足，基础代谢正常。",
-        "images": []
-    }
+  {
+    "date": "2026-02-10",
+    "time": "07:15",
+    "weight": 89.4,
+    "bmi": 29.2,
+    "body_fat": 32.7,
+    "visceral_fat": 12.0,
+    "muscle_mass": 56.9,
+    "bmr": 1670,
+    "protein": 11.9,
+    "body_age": 41,
+    "food": [
+      {
+        "meal": "午餐",
+        "desc": "燉牛肉（牛腱）配紅蘿蔔 + 白飯 + 藜麥 + 白菜 + 湯",
+        "calories": "約500-600kcal"
+      },
+      {
+        "meal": "健康餐",
+        "desc": "烤雞胸肉 + 糙米飯 + 蔬菜（西蘭花、彩椒、四季豆）",
+        "calories": "約400-500kcal"
+      }
+    ],
+    "exercise": [],
+    "notes": "早上起床测量，无大便，未吃早餐。午餐：牛肉燉菜配飯。",
+    "images": [
+      "file_25---dd469f3a-f37a-4992-bbf8-56464109d78b.jpg",
+      "file_26---fbff9e88-50eb-4c14-932b-316dd14999a5.jpg",
+      "file_27---56feebf7-44d7-454d-8488-bc1903df1e28.jpg"
+    ]
+  },
+  {
+    "date": "2026-02-09",
+    "time": "22:30",
+    "weight": 90.0,
+    "bmi": 29.4,
+    "body_fat": 32.8,
+    "visceral_fat": 12.0,
+    "muscle_mass": 57.2,
+    "bmr": 1677,
+    "protein": 11.8,
+    "body_age": 41,
+    "food": [],
+    "exercise": [],
+    "notes": "体脂秤初始数据。腹部脂肪堆积严重，内脏脂肪偏高。需要重点减少腹部脂肪。肌肉量充足，基础代谢正常。",
+    "images": []
+  },
+  {
+    "date": "2026-02-13",
+    "time": "08:45",
+    "weight": 88.7,
+    "bmi": 29.0,
+    "body_fat": 32.2,
+    "visceral_fat": 12.0,
+    "muscle_mass": 56.8,
+    "bmr": 1668,
+    "protein": 11.8,
+    "body_age": 41,
+    "food": [],
+    "exercise": [],
+    "notes": "繼續下降趨勢。體重下降 0.7kg，體脂下降 0.5%。內臟脂肪持平。建議：控制飲食，減少高油高熱量食物，逐步增加運動量。",
+    "images": [
+      "file_33---16ade87f-487d-4887-ac7b-91c77d091361.jpg"
+    ]
+  }
 ]
