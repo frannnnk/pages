@@ -1,145 +1,163 @@
 {
+  "title": "Frank 早報 - 2026-02-15",
   "date": "2026-02-15",
-  "international": [
+  "sections": [
     {
-      "title": "US military preparing for potentially weeks-long Iran operations",
-      "pub_date": "2026-02-13",
-      "desc": "The US military is preparing for potentially weeks-long operations against Iran, according to exclusive Reuters report. The preparations come amid escalating tensions in the Middle East region.",
-      "url": "https://www.reuters.com/world/middle-east/us-military-preparing-potentially-weeks-long-iran-operations-2026-02-13/"
+      "title": "國際新聞",
+      "items": [
+        {
+          "title": "US military preparing for potentially weeks-long Iran operations",
+          "pub_date": "2026-02-13",
+          "desc": "The US military is preparing for potentially weeks-long operations against Iran, according to exclusive Reuters report. The preparations come amid escalating tensions in the Middle East region.",
+          "url": "https://www.reuters.com/world/middle-east/us-military-preparing-potentially-weeks-long-iran-operations-2026-02-13/"
+        },
+        {
+          "title": "Trump described as global 'wrecking ball' by European security experts",
+          "pub_date": "2026-02-12",
+          "desc": "European security experts at the Munich Security Conference describe President Trump as a global 'wrecking ball' destroying the postwar international order in a new report.",
+          "url": "https://www.nytimes.com/2026/02/09/world/europe/trump-munich-conference-security-report.html"
+        },
+        {
+          "title": "Ukraine aid surges amid continued fighting against Russia",
+          "pub_date": "2026-02-14",
+          "desc": "UK and allies pledge billions in additional military aid to Ukraine as fighting continues against Russia. Latest headlines also cover Cuba's energy crisis and US-Iran tensions.",
+          "url": "https://www.acerbolivio.com/2026/02/14/ukraine-aid-surges-cuba-faces-energy-crisis-and-us-iran-tensions-escalate-in-february-2026-headlines-2-13-2026-82842-pm/"
+        },
+        {
+          "title": "Data center M&A outlook robust in 2026 despite power and AI risks",
+          "pub_date": "2026-02-14",
+          "desc": "Data center merger and acquisition activity is expected to remain strong in 2026, supported by continued investor demand and limited availability of high-quality assets.",
+          "url": "https://www.datacenterknowledge.com/investing/data-center-m-a-outlook-robust-in-2026-despite-power-ai-risks"
+        }
+      ]
     },
     {
-      "title": "Trump described as global 'wrecking ball' by European security experts",
-      "pub_date": "2026-02-12",
-      "desc": "European security experts at the Munich Security Conference describe President Trump as a global 'wrecking ball' destroying the postwar international order in a new report.",
-      "url": "https://www.nytimes.com/2026/02/09/world/europe/trump-munich-conference-security-report.html"
+      "title": "中國大陸新聞",
+      "items": [
+        {
+          "title": "China biotech licensing boom to hit record in 2026 as pipeline swells",
+          "pub_date": "2026-02-14",
+          "desc": "China's biotechnology licensing is expected to hit a record high in 2026 as the industry's pipeline continues to expand, according to Reuters.",
+          "url": "https://www.reuters.com/world/china/"
+        },
+        {
+          "title": "China summons Western envoys in Hong Kong over Jimmy Lai sentencing criticism",
+          "pub_date": "2026-02-13",
+          "desc": "China summons Western envoys in Hong Kong over criticism of Jimmy Lai's 20-year jail sentence, escalating diplomatic tensions.",
+          "url": "https://www.reuters.com/"
+        },
+        {
+          "title": "China opposes US accusation against Chancay Port: foreign ministry",
+          "pub_date": "2026-02-13",
+          "desc": "China firmly opposes and strongly deplores the US accusations against Chancay Port, a major infrastructure project in Peru, the foreign ministry said.",
+          "url": "http://en.people.cn/n3/2026/0213/c98389-20426078.html"
+        },
+        {
+          "title": "China cracks down on anti-marriage social media content during Lunar New Year",
+          "pub_date": "2026-02-13",
+          "desc": "China's top internet regulator launches crackdown during Lunar New Year holiday to curb social media content deemed problematic.",
+          "url": "https://hongkongfp.com/2026/02/13/china-cracks-down-on-anti-marriage-social-media-content-during-lunar-new-year-holiday/"
+        }
+      ]
     },
     {
-      "title": "Ukraine aid surges amid continued fighting against Russia",
-      "pub_date": "2026-02-14",
-      "desc": "UK and allies pledge billions in additional military aid to Ukraine as fighting continues against Russia. Latest headlines also cover Cuba's energy crisis and US-Iran tensions.",
-      "url": "https://www.acerbolivio.com/2026/02/14/ukraine-aid-surges-cuba-faces-energy-crisis-and-us-iran-tensions-escalate-in-february-2026-headlines-2-13-2026-82842-pm/"
+      "title": "香港新聞",
+      "items": [
+        {
+          "title": "Beijing vows 'measures' after CIA Chinese-language recruitment ad",
+          "pub_date": "2026-02-14",
+          "desc": "Beijing will take all necessary measures against foreign espionage activities after the CIA issued a recruitment video targeting Chinese military personnel.",
+          "url": "https://hongkongfp.com/2026/02/14/beijing-vows-measures-after-cia-chinese-language-recruitment-ad/"
+        },
+        {
+          "title": "Hong Kong journalists face 'precarious' future after Jimmy Lai jailed",
+          "pub_date": "2026-02-14",
+          "desc": "Hong Kong journalists face a precarious future following Jimmy Lai's 20-year prison sentence, cementing a climate of fear and self-censorship since the national security law.",
+          "url": "https://hongkongfp.com/2026/02/14/hong-kong-journalists-face-precarious-future-after-jimmy-lai-jailed/"
+        },
+        {
+          "title": "Hong Kong to see 11.38 million inbound and outbound trips during Lunar New Year",
+          "pub_date": "2026-02-13",
+          "desc": "Hong Kong is expected to see around 11.38 million trips during the Lunar New Year holiday period, according to the Immigration Department.",
+          "url": "https://hongkongfp.com/2026/02/13/hong-kong-to-see-11-38-million-inbound-and-outbound-trips-during-lunar-new-year-holiday-period/"
+        }
+      ]
     },
     {
-      "title": "Data center M&A outlook robust in 2026 despite power and AI risks",
-      "pub_date": "2026-02-14",
-      "desc": "Data center merger and acquisition activity is expected to remain strong in 2026, supported by continued investor demand and limited availability of high-quality assets.",
-      "url": "https://www.datacenterknowledge.com/investing/data-center-m-a-outlook-robust-in-2026-despite-power-ai-risks"
-    }
-  ],
-  "china": [
-    {
-      "title": "China biotech licensing boom to hit record in 2026 as pipeline swells",
-      "pub_date": "2026-02-14",
-      "desc": "China's biotechnology licensing is expected to hit a record high in 2026 as the industry's pipeline continues to expand, according to Reuters.",
-      "url": "https://www.reuters.com/world/china/"
+      "title": "港股關注 - GDS",
+      "items": [
+        {
+          "title": "DayOne Data Centers plans $5 billion IPO backed by GDS Holdings",
+          "pub_date": "2026-02-14",
+          "desc": "DayOne, backed by Chinese data center operator GDS Holdings, aims for a valuation as high as $20 billion and could potentially go public within the year.",
+          "url": "https://www.caproasia.com/2026/02/14/china-9-billion-data-centre-operator-gds-holdings-spinoff-singapore-based-dayone-united-states-ipo-to-raise-5-billion-20-billion-valuation-founded-in-2022-as-gds-international-renamed-as-dayone/"
+        },
+        {
+          "title": "Data center networking market to expand at 17.6% CAGR through 2030",
+          "pub_date": "2026-02-13",
+          "desc": "The global data center networking market is expected to grow from $45.8 billion in 2025 to $103 billion by the end of 2030.",
+          "url": "https://www.globenewswire.com/news-release/2026/02/13/3238149/0/en/Data-Center-Networking-Technologies-Global-Markets.html"
+        },
+        {
+          "title": "Meta AI data center expansion raises new accounting and regulatory questions",
+          "pub_date": "2026-02-14",
+          "desc": "Meta's AI data center expansion raises new accounting and regulatory questions as the company continues to invest heavily in infrastructure.",
+          "url": "https://simplywall.st/stocks/us/media/nasdaq-meta/meta-platforms/news/meta-ai-data-center-expansion-raises-new-accounting-and-regu"
+        }
+      ]
     },
     {
-      "title": "China summons Western envoys in Hong Kong over Jimmy Lai sentencing criticism",
-      "pub_date": "2026-02-13",
-      "desc": "China summons Western envoys in Hong Kong over criticism of Jimmy Lai's 20-year jail sentence, escalating diplomatic tensions.",
-      "url": "https://www.reuters.com/"
-    },
-    {
-      "title": "China opposes US accusation against Chancay Port: foreign ministry",
-      "pub_date": "2026-02-13",
-      "desc": "China firmly opposes and strongly deplores the US accusations against Chancay Port, a major infrastructure project in Peru, the foreign ministry said.",
-      "url": "http://en.people.cn/n3/2026/0213/c98389-20426078.html"
-    },
-    {
-      "title": "China cracks down on anti-marriage social media content during Lunar New Year",
-      "pub_date": "2026-02-13",
-      "desc": "China's top internet regulator launches crackdown during Lunar New Year holiday to curb social media content deemed problematic.",
-      "url": "https://hongkongfp.com/2026/02/13/china-cracks-down-on-anti-marriage-social-media-content-during-lunar-new-year-holiday/"
-    }
-  ],
-  "hong_kong": [
-    {
-      "title": "Beijing vows 'measures' after CIA Chinese-language recruitment ad",
-      "pub_date": "2026-02-14",
-      "desc": "Beijing will take all necessary measures against foreign espionage activities after the CIA issued a recruitment video targeting Chinese military personnel.",
-      "url": "https://hongkongfp.com/2026/02/14/beijing-vows-measures-after-cia-chinese-language-recruitment-ad/"
-    },
-    {
-      "title": "Hong Kong journalists face 'precarious' future after Jimmy Lai jailed",
-      "pub_date": "2026-02-14",
-      "desc": "Hong Kong journalists face a precarious future following Jimmy Lai's 20-year prison sentence, cementing a climate of fear and self-censorship since the national security law.",
-      "url": "https://hongkongfp.com/2026/02/14/hong-kong-journalists-face-precarious-future-after-jimmy-lai-jailed/"
-    },
-    {
-      "title": "Hong Kong to see 11.38 million inbound and outbound trips during Lunar New Year",
-      "pub_date": "2026-02-13",
-      "desc": "Hong Kong is expected to see around 11.38 million trips during the Lunar New Year holiday period, according to the Immigration Department.",
-      "url": "https://hongkongfp.com/2026/02/13/hong-kong-to-see-11-38-million-inbound-and-outbound-trips-during-lunar-new-year-holiday-period/"
-    }
-  ],
-  "gds": [
-    {
-      "title": "DayOne Data Centers plans $5 billion IPO backed by GDS Holdings",
-      "pub_date": "2026-02-14",
-      "desc": "DayOne, backed by Chinese data center operator GDS Holdings, aims for a valuation as high as $20 billion and could potentially go public within the year.",
-      "url": "https://www.caproasia.com/2026/02/14/china-9-billion-data-centre-operator-gds-holdings-spinoff-singapore-based-dayone-united-states-ipo-to-raise-5-billion-20-billion-valuation-founded-in-2022-as-gds-international-renamed-as-dayone/"
-    },
-    {
-      "title": "Data center networking market to expand at 17.6% CAGR through 2030",
-      "pub_date": "2026-02-13",
-      "desc": "The global data center networking market is expected to grow from $45.8 billion in 2025 to $103 billion by the end of 2030.",
-      "url": "https://www.globenewswire.com/news-release/2026/02/13/3238149/0/en/Data-Center-Networking-Technologies-Global-Markets.html"
-    },
-    {
-      "title": "Meta AI data center expansion raises new accounting and regulatory questions",
-      "pub_date": "2026-02-14",
-      "desc": "Meta's AI data center expansion raises new accounting and regulatory questions as the company continues to invest heavily in infrastructure.",
-      "url": "https://simplywall.st/stocks/us/media/nasdaq-meta/meta-platforms/news/meta-ai-data-center-expansion-raises-new-accounting-and-regu"
-    }
-  ],
-  "ai": [
-    {
-      "title": "OpenAI removes access to sycophancy-prone GPT-4o model",
-      "pub_date": "2026-02-13",
-      "desc": "OpenAI ceases access to five legacy ChatGPT models including GPT-4o, which was at the center of lawsuits concerning user self-harm and AI psychosis.",
-      "url": "https://techcrunch.com/2026/02/13/openai-removes-access-to-sycophancy-prone-gpt-4o-model/"
-    },
-    {
-      "title": "OpenAI retires GPT-4o, sparking backlash from devoted ChatGPT users",
-      "pub_date": "2026-02-13",
-      "desc": "OpenAI retires its popular GPT-4o model, sparking backlash from users who developed emotional attachments to the chatbot companion.",
-      "url": "https://www.businessinsider.com/openai-retires-gpt-4o-user-backlash-chatgpt-ai-2026-2"
-    },
-    {
-      "title": "OpenAI accuses China's DeepSeek of stealing AI technology",
-      "pub_date": "2026-02-13",
-      "desc": "OpenAI accuses DeepSeek of training AI by distilling US models and bypassing access restrictions through obfuscated third-party routers.",
-      "url": "https://www.latimes.com/business/story/2026-02-13/openai-accuses-chinas-deepseek-of-stealing-ai-technology"
-    },
-    {
-      "title": "DeepSeek expands context window tenfold amid China's AI race",
-      "pub_date": "2026-02-13",
-      "desc": "Chinese AI startup DeepSeek upgrades its flagship model with significantly expanded context window and more up-to-date knowledge.",
-      "url": "https://www.trendforce.com/news/2026/02/13/news-deepseek-expands-context-tenfold-as-zhipu-rolls-out-new-model-in-chinas-ai-race/"
-    },
-    {
-      "title": "OpenAI debuts Codex-Spark powered by Cerebras infrastructure",
-      "pub_date": "2026-02-13",
-      "desc": "OpenAI rolls out GPT-5.3-Codex-Spark, its first model built specifically for real-time coding inside Codex, optimized for ultra-low latency.",
-      "url": "https://www.testingcatalog.com/openai-debuts-codex-spark-powered-by-cerebras-infra/"
-    },
-    {
-      "title": "Chinese AI models festoon Spring Festival a year after DeepSeek shock",
-      "pub_date": "2026-02-14",
-      "desc": "Chinese AI firms release new models ahead of DeepSeek's next-generation V4 launch, marking one year since the initial DeepSeek shock.",
-      "url": "https://www.reuters.com/world/china/chinese-ai-models-festoon-spring-festival-year-after-deepseek-shock-2026-02-14/"
-    },
-    {
-      "title": "OpenAI launches ChatGPT Health with patient portal integration",
-      "pub_date": "2026-02-14",
-      "desc": "OpenAI launches ChatGPT Health, a dedicated space where users can link patient portals and ask questions grounded in their own medical data.",
-      "url": "https://www.medicaleconomics.com/view/openai-launches-chatgpt-health-directly-linking-patient-portals-to-the-ai-chatbot"
-    },
-    {
-      "title": "RIP 4o: OpenAI officially kills its popular ChatGPT model",
-      "pub_date": "2026-02-13",
-      "desc": "OpenAI officially deprecates GPT-4o on Valentine's Day eve, leaving users angry and grieving, with some comparing it to losing their companions.",
-      "url": "https://www.cnet.com/tech/services-and-software/bye-bye-chatgpt-4o-openai-retires-several-models-pushes-us-to-use-new-gpt-5-ones/"
+      "title": "AI 和 OpenClaw 新聞",
+      "items": [
+        {
+          "title": "OpenAI removes access to sycophancy-prone GPT-4o model",
+          "pub_date": "2026-02-13",
+          "desc": "OpenAI ceases access to five legacy ChatGPT models including GPT-4o, which was at the center of lawsuits concerning user self-harm and AI psychosis.",
+          "url": "https://techcrunch.com/2026/02/13/openai-removes-access-to-sycophancy-prone-gpt-4o-model/"
+        },
+        {
+          "title": "OpenAI retires GPT-4o, sparking backlash from devoted ChatGPT users",
+          "pub_date": "2026-02-13",
+          "desc": "OpenAI retires its popular GPT-4o model, sparking backlash from users who developed emotional attachments to the chatbot companion.",
+          "url": "https://www.businessinsider.com/openai-retires-gpt-4o-user-backlash-chatgpt-ai-2026-2"
+        },
+        {
+          "title": "OpenAI accuses China's DeepSeek of stealing AI technology",
+          "pub_date": "2026-02-13",
+          "desc": "OpenAI accuses DeepSeek of training AI by distilling US models and bypassing access restrictions through obfuscated third-party routers.",
+          "url": "https://www.latimes.com/business/story/2026-02-13/openai-accuses-chinas-deepseek-of-stealing-ai-technology"
+        },
+        {
+          "title": "DeepSeek expands context window tenfold amid China's AI race",
+          "pub_date": "2026-02-13",
+          "desc": "Chinese AI startup DeepSeek upgrades its flagship model with significantly expanded context window and more up-to-date knowledge.",
+          "url": "https://www.trendforce.com/news/2026/02/13/news-deepseek-expands-context-tenfold-as-zhipu-rolls-out-new-model-in-chinas-ai-race/"
+        },
+        {
+          "title": "OpenAI debuts Codex-Spark powered by Cerebras infrastructure",
+          "pub_date": "2026-02-13",
+          "desc": "OpenAI rolls out GPT-5.3-Codex-Spark, its first model built specifically for real-time coding inside Codex, optimized for ultra-low latency.",
+          "url": "https://www.testingcatalog.com/openai-debuts-codex-spark-powered-by-cerebras-infra/"
+        },
+        {
+          "title": "Chinese AI models festoon Spring Festival a year after DeepSeek shock",
+          "pub_date": "2026-02-14",
+          "desc": "Chinese AI firms release new models ahead of DeepSeek's next-generation V4 launch, marking one year since the initial DeepSeek shock.",
+          "url": "https://www.reuters.com/world/china/chinese-ai-models-festoon-spring-festival-year-after-deepseek-shock-2026-02-14/"
+        },
+        {
+          "title": "OpenAI launches ChatGPT Health with patient portal integration",
+          "pub_date": "2026-02-14",
+          "desc": "OpenAI launches ChatGPT Health, a dedicated space where users can link patient portals and ask questions grounded in their own medical data.",
+          "url": "https://www.medicaleconomics.com/view/openai-launches-chatgpt-health-directly-linking-patient-portals-to-the-ai-chatbot"
+        },
+        {
+          "title": "RIP 4o: OpenAI officially kills its popular ChatGPT model",
+          "pub_date": "2026-02-13",
+          "desc": "OpenAI officially deprecates GPT-4o on Valentine's Day eve, leaving users angry and grieving, with some comparing it to losing their companions.",
+          "url": "https://www.cnet.com/tech/services-and-software/bye-bye-chatgpt-4o-openai-retires-several-models-pushes-us-to-use-new-gpt-5-ones/"
+        }
+      ]
     }
   ]
 }
