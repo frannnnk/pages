@@ -1,0 +1,162 @@
+{
+  "title": "Frank 早報 - 2026-02-16",
+  "sections": [
+    {
+      "title": "🌍 國際新聞",
+      "items": [
+        {
+          "title": "February 14, 2026 — Rubio addresses allies at Munich Security Conference",
+          "pub_date": "2026-02-14",
+          "desc": "德國警方表示約25萬人在慕尼黑和平集會，呼籲結束伊朗現政權，並表達對流亡反對派領袖 Reza Pahlavi 的支持。German police say about 250,000 people gathered peacefully in Munich, calling for the end of Iran's current regime and expressing support for exiled opposition figure Reza Pahlavi.",
+          "url": "https://edition.cnn.com/us/live-news/trump-administration-rubio-munich-02-14-26"
+        },
+        {
+          "title": "Nvidia said Jensen Huang will not travel because of 'unforeseen circumstances'",
+          "pub_date": "2026-02-14",
+          "desc": "Nvidia 首席執行官黃仁勳因不可預見的情況取消了行程。Nvidia CEO Jensen Huang canceled his travel plans due to unforeseen circumstances.",
+          "url": "https://www.reuters.com/business/"
+        },
+        {
+          "title": "ECB makes euro backstop global to bolster currency's role",
+          "pub_date": "2026-02-14",
+          "desc": "歐洲央行宣布擴大歐元全球後盾機制，以加強其國際地位。The European Central Bank announced measures to expand the euro's global backstop mechanism.",
+          "url": "https://www.reuters.com/business/"
+        }
+      ]
+    },
+    {
+      "title": "🇨🇳 中國大陸新聞",
+      "items": [
+        {
+          "title": "中國駐大阪總領事館呼籲國民暫勿前往日本",
+          "pub_date": "2026-02-15",
+          "desc": "在大阪中國總領事館15日發出警告，因大阪市道頓堀發生殺傷事件，呼籲中國國民暫勿前往日本。正值春節長假期開始。",
+          "url": "https://news.yahoo.co.jp/articles/b03e9fcf66d0273e2affb6558ff5d74fe860acc2"
+        },
+        {
+          "title": "Chinese AI models festoon Spring Festival a year after DeepSeek shock",
+          "pub_date": "2026-02-14",
+          "desc": "隨著 DeepSeek 即將推出下一代 V4 模型，許多中國 AI 公司已發布或準備發布自己的模型。With DeepSeek set to launch its next-generation V4 model, many Chinese AI firms have released or are preparing to launch their own models.",
+          "url": "https://www.reuters.com/world/china/chinese-ai-models-festoon-spring-festival-year-after-deepseek-shock-2026-02-14/"
+        },
+        {
+          "title": "陸黃金投資者調查：近6成是新玩家、7成不買金飾",
+          "pub_date": "2026-02-15",
+          "desc": "中國大陸黃金投資者調查顯示，近六成是新玩家，七成不購買金飾，反映投資取向轉變。",
+          "url": "https://www.chinatimes.com/chinese/"
+        }
+      ]
+    },
+    {
+      "title": "🇭🇰 香港新聞",
+      "items": [
+        {
+          "title": "深水埗襲警案：尼泊爾籍男子襲擊巡邏警員被捕",
+          "pub_date": "2026-02-15",
+          "desc": "今日凌晨2時許，深水埗醫局街發生襲警案。一名35歲尼泊爾籍男子因形迹可疑被截查時拒絕合作並襲擊警員，最終被制服。據了解該男子因無交罰款被通緝。",
+          "url": "https://hk.on.cc/hk/news/index.html"
+        },
+        {
+          "title": "德國總理默茨會見王毅：中德應展現大國擔當",
+          "pub_date": "2026-02-15",
+          "desc": "德國總理默茨上周六在慕尼黑會見中共中央政治局委員兼外長王毅。王毅表示中德應展現大國擔當，期待德國成為中歐務實合作的推進器。",
+          "url": "https://hk.on.cc/hk/intnews/index.html"
+        }
+      ]
+    }
+  ],
+  "stock_section": {
+    "symbol": "萬國數據 GDS",
+    "items": [
+      {
+        "title": "Analyst Upgrade Followed GDS Holdings (GDS) Convertible Notes Offering",
+        "pub_date": "2026-02-15",
+        "desc": "萬國數據在摩根大通看漲評級推動下飆升 7.77%。華爾街分析師平均預計上漲空間為 11%。GDS Holdings surged 7.77% on JPMorgan's bullish rating.",
+        "url": "https://finance.yahoo.com/news/analyst-upgrade-followed-gds-holdings-135830642.html"
+      },
+      {
+        "title": "Data centre operator DayOne aims to raise $5 billion in US IPO",
+        "pub_date": "2026-02-13",
+        "desc": "萬國數據關聯公司、全球數據中心運營商 DayOne 計劃在美國 IPO 籌資高達 50 億美元。Global data centre operator DayOne, affiliated with GDS Holdings, aims to raise $5 billion in U.S. IPO.",
+        "url": "https://www.reuters.com/world/asia-pacific/dayone-data-lines-up-banks-5-billion-us-ipo-bloomberg-news-reports-2026-02-13/"
+      },
+      {
+        "title": "Does GDS's New Capital Raise And DayOne IPO Plan Change The Bull Case?",
+        "pub_date": "2026-02-15",
+        "desc": "萬國數據預測顯示公允價值為 48.30 美元，較現價有 5% 上漲空間。Forecasts yield a $48.30 fair value, a 5% upside.",
+        "url": "https://simplywall.st/stocks/us/software/nasdaq-gds/gds-holdings"
+      },
+      {
+        "title": "Vanguard lifted its stake in shares of GDS by 9.7%",
+        "pub_date": "2026-02-14",
+        "desc": "Vanguard 個人化指數管理公司在第三季度增持萬國數據股份 9.7%。Vanguard lifted its stake by 9.7% in Q3.",
+        "url": "https://www.tickerreport.com/banking-finance/13341619/21492-shares-in-gds-holdings-gds-acquired-by-j-w-cole-advisors-inc.html"
+      }
+    ]
+  },
+  "ai_section": {
+    "title": "AI 和 OpenClaw 新聞",
+    "items": [
+      {
+        "title": "OpenAI accuses China's DeepSeek of stealing AI technology",
+        "pub_date": "2026-02-13",
+        "desc": "OpenAI 指控 DeepSeek 使用不公平方法從美國 AI 模型提取結果來訓練其 R1 聊天機器人。OpenAI warned lawmakers that DeepSeek is using unfair methods including distillation techniques.",
+        "url": "https://www.latimes.com/business/story/2026-02-13/openai-accuses-chinas-deepseek-of-stealing-ai-technology"
+      },
+      {
+        "title": "China delivers another 'DeepSeek moment' — this time for Hollywood",
+        "pub_date": "2026-02-14",
+        "desc": "Seedance 2.0 視頻生成模型以電影級真實感令人驚嘆，引發與製片廠的版權衝突。Seedance 2.0 video generation model stuns with cinematic realism, sparking copyright clash.",
+        "url": "https://www.ynetnews.com/tech-and-digital/article/s1qq00rcv11l"
+      },
+      {
+        "title": "OpenAI and Anthropic spark coding revolution",
+        "pub_date": "2026-02-13",
+        "desc": "OpenAI 和 Anthropic 分別發布 GPT-5.3-Codex 和 Claude Opus 4.6，引發編程革命。GPT-5.3-Codex and Claude Opus 4.6 represent significant leaps in AI coding capabilities.",
+        "url": "https://fortune.com/2026/02/13/openais-codex-and-anthropics-claude-spark-coding-revolution-as-developers-say-theyve-abandoned-traditional-programming/"
+      },
+      {
+        "title": "OpenAI Retires GPT-4o Again, Stirring Backlash",
+        "pub_date": "2026-02-14",
+        "desc": "OpenAI 於 2 月 13 日正式停用 GPT-4o，令許多用戶感到驚訝。OpenAI officially retired GPT-4o on February 13, surprising many users.",
+        "url": "https://www.techtimes.com/articles/314642/20260214/openai-retires-gpt-4o-again-stirring-backlash-loyal-chatgpt-users.htm"
+      },
+      {
+        "title": "OpenAI rolls out new model built for speed, coding on Cerebras chips",
+        "pub_date": "2026-02-15",
+        "desc": "OpenAI 推出首款運行於 Cerebras 芯片的 AI 模型。OpenAI is releasing its first AI model that runs on Cerebras Systems chips, broadening beyond Nvidia.",
+        "url": "https://www.taipeitimes.com/News/biz/archives/2026/02/15/2003852339"
+      },
+      {
+        "title": "Security experts are uneasy about OpenClaw",
+        "pub_date": "2026-02-12",
+        "desc": "OpenClaw 賦予 AI Agent 真正的自主權，但同時帶來新的安全風險。OpenClaw gives AI agents real autonomy — and raises new security risks.",
+        "url": "https://fortune.com/2026/02/12/openclaw-ai-agents-security-risks-beware/"
+      },
+      {
+        "title": "OpenClaw Security: Over 30,000 exposed instances detected",
+        "pub_date": "2026-02-10",
+        "desc": "研究發現僅 1 月 27 日至 2 月 8 日期間就觀察到超過 30,000 個暴露的 OpenClaw 實例。Over 30,000 OpenClaw instances observed from Jan 27 to Feb 8.",
+        "url": "https://www.bitsight.com/blog/openclaw-ai-security-risks-exposed-instances"
+      },
+      {
+        "title": "OpenClaw Scanner detects autonomous AI agents",
+        "pub_date": "2026-02-12",
+        "desc": "一款新的免費開源工具可幫助檢測自主 AI Agent。A new free, open source tool is available to detect autonomous AI agents.",
+        "url": "https://www.helpnetsecurity.com/2026/02/12/openclaw-scanner-open-source-tool-detects-autonomous-ai-agents/"
+      },
+      {
+        "title": "US military used Anthropic's Claude in Venezuela raid",
+        "pub_date": "2026-02-14",
+        "desc": "美軍在抓捕委內瑞拉馬杜羅的行動中使用了 Claude。The US military used Claude in the operation to capture Venezuela's Nicolás Maduro.",
+        "url": "https://www.theguardian.com/technology/2026/feb/14/us-military-anthropic-ai-model-claude-venezuela-raid"
+      },
+      {
+        "title": "OpenAI launches ChatGPT Health",
+        "pub_date": "2026-02-14",
+        "desc": "OpenAI 推出 ChatGPT Health，用戶可連接患者門戶和 Apple Health。Users can link patient portals, Apple Health to ask questions grounded in their lab results.",
+        "url": "https://www.medicaleconomics.com/view/openai-launches-chatgpt-health-directly-linking-patient-portals-to-the-ai-chatbot"
+      }
+    ]
+  }
+}
