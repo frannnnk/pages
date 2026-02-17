@@ -6,85 +6,149 @@
       "title": "🌍 國際新聞",
       "items": [
         {
-          "title": "齋戒月今日開始",
-          "desc": "沙烏地阿拉伯確認觀測到新月，2026年齋戒月（Ramadan 1447）於2月18日正式開始，全球穆斯林開始為期一個月的齋戒。",
+          "title": "Ramadan Begins Today as Saudi Arabia Confirms Crescent Moon Sighting",
+          "title_zh": "齋戒月今日開始",
+          "desc": "Saudi Arabia confirmed the sighting of the crescent moon, marking the official start of Ramadan 1447 on February 18, 2026. Muslims worldwide begin the month-long fasting period.",
+          "desc_zh": "沙烏地阿拉伯確認觀測到新月，2026年齋戒月（Ramadan 1447）於2月18日正式開始，全球穆斯林開始為期一個月的齋戒。",
           "url": "https://www.aljazeera.com",
-          "source": "Al Jazeera / Economic Times"
+          "date": "2026-02-18",
+          "source": "Al Jazeera"
         },
         {
-          "title": "孟加拉新總理就職",
-          "desc": "Tarique Rahman 正式成為孟加拉國總理，標誌著該國政治新時代的開始。",
+          "title": "Tarique Rahman Sworn In as Bangladesh Prime Minister",
+          "title_zh": "孟加拉新總理就職",
+          "desc": "Tarique Rahman officially became the Prime Minister of Bangladesh, marking the beginning of a new political era for the country.",
+          "desc_zh": "Tarique Rahman 正式成為孟加拉國總理，標誌著該國政治新時代的開始。",
           "url": "https://indianexpress.com",
+          "date": "2026-02-18",
           "source": "Indian Express"
         },
         {
-          "title": "美國與伊朗間接會談前外交活動",
-          "desc": "阿曼外長與美國特使Steve Witkoff及川普女婿Jared Kushner在日內瓦會面，為即將舉行的美伊間接會談做準備。",
+          "title": "US-Iran Indirect Talks: Preliminary Diplomatic Activities in Geneva",
+          "title_zh": "美國與伊朗間接會談前外交活動",
+          "desc": "Oman's Foreign Minister met with US envoy Steve Witkoff and Jared Kushner in Geneva to prepare for upcoming US-Iran indirect negotiations.",
+          "desc_zh": "阿曼外長與美國特使Steve Witkoff及川普女婿Jared Kushner在日內瓦會面，為即將舉行的美伊間接會談做準備。",
           "url": "https://www.reuters.com",
+          "date": "2026-02-18",
           "source": "Reuters"
         },
         {
-          "title": "印度與法國建立「特殊全球戰略夥伴關係」",
-          "desc": "兩國宣布建立更緊密的戰略合作關係，共同應對全球動盪局勢。莫迪總理表示AI模型將在全球部署，服務數十億用戶。",
+          "title": "India and France Establish 'Special Global Strategic Partnership'",
+          "title_zh": "印度與法國建立「特殊全球戰略夥伴關係」",
+          "desc": "The two countries announced closer strategic cooperation to address global instability. PM Modi stated AI models will be deployed globally to serve billions of users.",
+          "desc_zh": "兩國宣布建立更緊密的戰略合作關係，共同應對全球動盪局勢。莫迪總理表示AI模型將在全球部署，服務數十億用戶。",
           "url": "https://www.timesnownews.com",
+          "date": "2026-02-18",
           "source": "Times Now"
         }
       ]
     },
     {
-      "title": "💻 科技新聞",
+      "title": "🇨🇳 中國大陸新聞",
       "items": [
         {
-          "title": "Google Pixel 10a 今日發布",
-          "desc": "Google 於2月18日正式發布 Pixel 10a 智慧手機，美國電信商已提前洩露完整規格。新機將提供多種顏色選擇並搭載升級相機系統。",
-          "url": "https://www.timesnownews.com",
-          "source": "Times Now / Business Standard"
-        },
-        {
-          "title": "全球記憶體晶片短缺危機",
-          "desc": "馬斯克（特斯拉）和庫克（蘋果）等多位科技領袖警告，AI熱潮導致DRAM記憶體嚴重短缺，可能重創企業利潤、打亂生產計劃並推高產品售價。美光科技形容此瓶頸「前所未見」。",
-          "url": "https://www.chinatimes.com",
-          "source": "中時新聞網"
-        },
-        {
-          "title": "字節跳動發布豆包2.0 AI模型",
-          "desc": "中國字節跳動（ByteDance）發布 Doubao 2.0 AI模型，針對「代理時代」（agent era）進行優化。",
+          "title": "ByteDance Releases Doubao 2.0 AI Model",
+          "title_zh": "字節跳動發布豆包2.0 AI模型",
+          "desc": "ByteDance has released Doubao 2.0 AI model, optimized for the 'agent era' with enhanced capabilities for autonomous task execution.",
+          "desc_zh": "中國字節跳動（ByteDance）發布 Doubao 2.0 AI模型，針對「代理時代」（agent era）進行優化。",
           "url": "https://www.reuters.com",
+          "date": "2026-02-18",
           "source": "Reuters"
         },
         {
-          "title": "AI電影學院培養好萊塢新血",
-          "desc": "專門培訓下一代好萊塢電影製作人的AI電影學校正興起，教導如何使用AI技術進行電影創作。",
+          "title": "China's Gold Investors: 60% Are New Players",
+          "title_zh": "中國黃金投資者調查顯示近六成是新玩家",
+          "desc": "A survey of Chinese mainland gold investors shows nearly 60% are new players, and 70% don't buy gold jewelry, reflecting a shift toward investment-oriented purchases.",
+          "desc_zh": "中國大陸黃金投資者調查顯示，近六成是新玩家，七成不購買金飾，反映投資取向轉變。",
           "url": "https://www.reuters.com",
+          "date": "2026-02-18",
           "source": "Reuters"
         }
       ]
     },
     {
-      "title": "💰 財經新聞",
+      "title": "🇭🇰 香港新聞",
       "items": [
         {
-          "title": "蘋果接受記憶體大廠漲價協議",
-          "desc": "受全球記憶體短缺影響，蘋果據傳已接受日本記憶體大廠鎧俠（Kioxia）的漲價協議，價格翻倍且採動態調整機制，這將直接影響iPhone生產成本與利潤。",
-          "url": "https://www.ettoday.net",
-          "source": "ETtoday財經雲 / 中時新聞網"
+          "title": "Asian Markets Closed for Lunar New Year Holiday",
+          "title_zh": "亞洲多國股市因農曆新年假期休市",
+          "desc": "Major Asian markets including China, Hong Kong, Singapore, Taiwan, and South Korea are closed for the Lunar New Year holiday, affecting global trading volumes.",
+          "desc_zh": "中國農曆新年假期導致中國、香港、新加坡、台灣、韓國等亞洲主要股市休市。",
+          "url": "https://www.livemint.com",
+          "date": "2026-02-18",
+          "source": "Livemint"
+        }
+      ]
+    },
+    {
+      "title": "📈 港股關注 - 萬國數據 GDS",
+      "items": [
+        {
+          "title": "Global Memory Chip Shortage Crisis Warned by Tech Leaders",
+          "title_zh": "全球記憶體晶片短缺危機",
+          "desc": "Musk (Tesla) and Cook (Apple) warn that AI boom causes severe DRAM shortage, potentially devastating corporate profits and disrupting production. Micron describes this bottleneck as 'unprecedented.'",
+          "desc_zh": "馬斯克（特斯拉）和庫克（蘋果）等多位科技領袖警告，AI熱潮導致DRAM記憶體嚴重短缺，可能重創企業利潤、打亂生產計劃。美光科技形容此瓶頸「前所未見」。",
+          "url": "https://www.chinatimes.com",
+          "date": "2026-02-18",
+          "source": "China Times"
         },
         {
-          "title": "農曆新年影響貴金屬市場",
-          "desc": "中國農曆新年假期（今日開始）導致中國、香港、新加坡、台灣、韓國等亞洲主要股市休市，黃金和白銀價格因流動性降低而持續下跌，地緣政治緊張局勢緩解也對貴金屬造成壓力。",
+          "title": "Apple Accepts Kioxia Memory Price Increase Agreement",
+          "title_zh": "蘋果接受記憶體大廠漲價協議",
+          "desc": "Apple reportedly accepted Japanese memory giant Kioxia's price increase agreement with doubled prices and dynamic adjustment mechanism, directly impacting iPhone production costs.",
+          "desc_zh": "受全球記憶體短缺影響，蘋果據傳已接受日本記憶體大廠鎧俠（Kioxia）的漲價協議，價格翻倍且採動態調整機制，這將直接影響iPhone生產成本與利潤。",
+          "url": "https://www.ettoday.net",
+          "date": "2026-02-18",
+          "source": "ETtoday"
+        },
+        {
+          "title": "Gold and Silver Prices Decline on Reduced Liquidity",
+          "title_zh": "農曆新年影響貴金屬市場",
+          "desc": "Gold and silver prices continue to decline due to reduced liquidity from Asian market closures. Easing geopolitical tensions also pressure precious metals.",
+          "desc_zh": "中國農曆新年假期導致亞洲主要股市休市，黃金和白銀價格因流動性降低而持續下跌，地緣政治緊張局勢緩解也對貴金屬造成壓力。",
           "url": "https://www.livemint.com",
+          "date": "2026-02-18",
           "source": "Livemint"
         },
         {
-          "title": "2026年全球市場展望",
-          "desc": "分析師預測全球流動性、財政支出和中國信貸脈衝正在回升，預示2026-27年股市、加密貨幣和房地產將同步上漲。",
+          "title": "2026 Global Market Outlook: Synchronized Rally Expected",
+          "title_zh": "2026年全球市場展望",
+          "desc": "Analysts predict global liquidity, fiscal spending, and China's credit impulse are recovering, signaling synchronized gains in stocks, crypto, and real estate in 2026-27.",
+          "desc_zh": "分析師預測全球流動性、財政支出和中國信貸脈衝正在回升，預示2026-27年股市、加密貨幣和房地產將同步上漲。",
           "url": "https://seekingalpha.com",
+          "date": "2026-02-18",
           "source": "Seeking Alpha"
+        }
+      ]
+    },
+    {
+      "title": "🤖 AI 和 OpenClaw 新聞",
+      "items": [
+        {
+          "title": "Google Pixel 10a Officially Launched Today",
+          "title_zh": "Google Pixel 10a 今日發布",
+          "desc": "Google officially released the Pixel 10a smartphone on February 18. US carriers had already leaked full specifications. The device offers multiple colors with upgraded camera systems.",
+          "desc_zh": "Google 於2月18日正式發布 Pixel 10a 智慧手機，美國電信商已提前洩露完整規格。新機將提供多種顏色選擇並搭載升級相機系統。",
+          "url": "https://www.timesnownews.com",
+          "date": "2026-02-18",
+          "source": "Times Now"
         },
         {
-          "title": "Saks Global申請破產保護",
-          "desc": "奢侈零售巨頭Saks Global申請破產重組，計劃利用其優質房地產組合作為與貸款人談判的籌碼。",
+          "title": "AI Film Academy Trains Next Generation of Hollywood Creatives",
+          "title_zh": "AI電影學院培養好萊塢新血",
+          "desc": "AI film academies specializing in training next-generation Hollywood filmmakers are emerging, teaching how to use AI technology for film production.",
+          "desc_zh": "專門培訓下一代好萊塢電影製作人的AI電影學校正興起，教導如何使用AI技術進行電影創作。",
           "url": "https://www.reuters.com",
+          "date": "2026-02-18",
+          "source": "Reuters"
+        },
+        {
+          "title": "Saks Global Files for Bankruptcy Protection",
+          "title_zh": "Saks Global申請破產保護",
+          "desc": "Luxury retail giant Saks Global filed for bankruptcy reorganization, planning to leverage its premium real estate portfolio as leverage in negotiations with lenders.",
+          "desc_zh": "奢侈零售巨頭Saks Global申請破產重組，計劃利用其優質房地產組合作為與貸款人談判的籌碼。",
+          "url": "https://www.reuters.com",
+          "date": "2026-02-18",
           "source": "Reuters"
         }
       ]
