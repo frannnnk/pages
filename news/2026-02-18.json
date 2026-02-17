@@ -12,7 +12,7 @@
           "desc_zh": "沙烏地阿拉伯確認觀測到新月，2026年齋戒月（Ramadan 1447）於2月18日正式開始，全球穆斯林開始為期一個月的齋戒。",
           "url": "https://www.aljazeera.com/news/2026/2/16/when-is-ramadan-2026-and-how-is-the-moon-sighted",
           "date": "2026-02-18",
-          "source": "Al Jazeera (已驗證)"
+          "source": "Al Jazeera"
         },
         {
           "title": "Tarique Rahman Sworn In as Bangladesh Prime Minister",
@@ -21,7 +21,7 @@
           "desc_zh": "Tarique Rahman 於2026年2月17日正式成為孟加拉國總理，標誌著該國政治新時代的開始。",
           "url": "https://www.thehindu.com/news/international/bnp-chief-tarique-rahman-takes-oath-as-bangladesh-pm/article70642822.ece",
           "date": "2026-02-18",
-          "source": "The Hindu (已驗證)"
+          "source": "The Hindu"
         },
         {
           "title": "Iran-US Talks: Agreement Reached on 'Guiding Principles' After Constructive Meeting",
@@ -30,7 +30,7 @@
           "desc_zh": "伊朗形容與美國的最新一輪間接會談比本月初的會談「更具建設性」。雙方就「一般指導原則」達成協議，可能促成進一步會議。",
           "url": "https://www.theguardian.com/world/2026/feb/17/iran-us-nuclear-talks-open-geneva",
           "date": "2026-02-18",
-          "source": "The Guardian (已驗證)"
+          "source": "The Guardian"
         },
         {
           "title": "India and France Establish 'Special Global Strategic Partnership'",
@@ -39,7 +39,7 @@
           "desc_zh": "印度和法國在馬克龍三天訪問期間將雙邊關係提升為「特殊全球戰略夥伴關係」。雙方宣布了涵蓋國防、關鍵礦產、高科技和可再生能源的21項成果。",
           "url": "https://www.newindianexpress.com/nation/2026/Feb/17/india-france-elevate-ties-to-special-global-strategic-partnership-2",
           "date": "2026-02-18",
-          "source": "The New Indian Express (已驗證)"
+          "source": "The New Indian Express"
         },
         {
           "title": "Saks Global Files for Bankruptcy Protection",
@@ -48,7 +48,7 @@
           "desc_zh": "Saks Global（薩克斯第五大道、Neiman Marcus和Bergdorf Goodman的母公司）在無法承受的債務壓垮其業務後申請第十一章破產保護。",
           "url": "https://www.cnbc.com/2026/01/14/saks-global-files-for-bankruptcy-protection.html",
           "date": "2026-02-18",
-          "source": "CNBC (已驗證)"
+          "source": "CNBC"
         }
       ]
     },
@@ -62,7 +62,7 @@
           "desc_zh": "中央經濟工作會議將「穩定房地產市場」置於優先位置，關鍵措施包括控增量、去库存、优供给。融創、碧桂園等出險房企正從債務重組中走出。",
           "url": "https://m.thepaper.cn/newsDetail_forward_32256743",
           "date": "2026-02-18",
-          "source": "The Paper (已驗證)"
+          "source": "The Paper"
         },
         {
           "title": "Local Government Work Reports Set 2026 GDP Growth Targets at 5% or Above",
@@ -72,12 +72,48 @@
           "url": "https://m.thepaper.cn/newsDetail_forward_32549347",
           "date": "2026-02-18",
           "source": "The Paper"
+        },
+        {
+          "title": "China's Public Fund Industry Reaches 37.71 Trillion Yuan by End of 2025",
+          "title_zh": "截至2025年末中國公募基金規模達37.71萬億元",
+          "desc": "China's publicly offered fund industry assets under management reached 37.71 trillion yuan by the end of 2025, showing steady growth in the asset management sector.",
+          "desc_zh": "截至2025年末，中國公募基金規模達37.71萬億元，顯示資產管理行業穩步增長。",
+          "url": "",
+          "date": "2026-02-18",
+          "source": "China Economic Net"
+        },
+        {
+          "title": "Beijing to Issue 80,000 Additional New Energy Vehicle Quotas in 2026",
+          "title_zh": "北京2026年增發8萬個新能源小客車指標",
+          "desc": "Beijing announced it will issue 80,000 additional new energy vehicle quotas in 2026 to promote green transportation and support the new energy vehicle industry.",
+          "desc_zh": "北京宣布2026年將增發8萬個新能源小客車指標，以促進綠色出行和支持新能源汽車產業。",
+          "url": "",
+          "date": "2026-02-18",
+          "source": "China Economic Net"
+        },
+        {
+          "title": "Shanghai and Shenzhen Exchanges Support Overseas Institutional Investors in Bond Repos",
+          "title_zh": "滬深交易所支持境外機構投資者開展債券回購",
+          "desc": "The Shanghai and Shenzhen Stock Exchanges, together with China Securities Depository and Clearing Corporation, issued notices supporting overseas institutional investors in conducting exchange bond repurchase business.",
+          "desc_zh": "滬深交易所與中國證券登記結算公司聯合發布通知，支持境外機構投資者開展交易所債券回購業務。",
+          "url": "",
+          "date": "2026-02-18",
+          "source": "Sina Finance"
         }
       ]
     },
     {
       "title": "🇭🇰 香港新聞",
       "items": [
+        {
+          "title": "Hong Kong Budget 2026-27: Multiple Measures for Stock Market, Property, and AI",
+          "title_zh": "香港2026-27財政預算案：股市、樓市、AI多方面措施",
+          "desc": "Financial Secretary Paul Chan announced the 2026-27 budget with measures including HKEX preparing 'Tech Enterprise Express Lane', optimizing Stock Connect, introducing stock block trading, and accelerating development of the Northern Metropolis.",
+          "desc_zh": "財政司司長陳茂波公布2026-27年度財政預算案，措施包括港交所籌備「科企專線」、優化互聯互通、引入股票大宗交易、加速北部都會區發展。",
+          "url": "",
+          "date": "2026-02-18",
+          "source": "Tencent News"
+        },
         {
           "title": "Hong Kong Stock Market Closed for Lunar New Year Holiday Until Feb 24",
           "title_zh": "港股農曆新年假期休市至2月24日",
@@ -86,6 +122,24 @@
           "url": "https://www.sse.com.cn/services/hkexsc/disclo/announ/c/c_20251222_10802519.shtml",
           "date": "2026-02-18",
           "source": "SSE"
+        },
+        {
+          "title": "Hong Kong Daily Stock Turnover Reaches Record HK$297.3 Billion",
+          "title_zh": "港股日均成交額創紀錄達2973億港元",
+          "desc": "Hong Kong's daily stock turnover increased from about HK$100 billion to a record HK$297.3 billion in February 2026. Stamp duty revenue is expected to exceed last year's figures significantly.",
+          "desc_zh": "港股日均成交額從約1000億港元增至2026年2月的創紀錄2973億港元。印花稅收入預計將大幅超过去年數字。",
+          "url": "",
+          "date": "2026-02-18",
+          "source": "Deloitte"
+        },
+        {
+          "title": "Supermarket Operating Hours During Lunar New Year Holiday",
+          "title_zh": "農曆新年假期超市營業時間",
+          "desc": "Major supermarkets including ParknShop, Wellcome, Mannings, Yata, and AEON have announced their operating hours during the Lunar New Year holiday period.",
+          "desc_zh": "百佳、惠康、萬寧、一田、AEON等主要超市已公布農曆新年假期期間的營業時間。",
+          "url": "",
+          "date": "2026-02-18",
+          "source": "HK01"
         }
       ]
     },
@@ -100,6 +154,33 @@
           "url": "https://www.investing.com/equities/gds-holdings-ltd",
           "date": "2026-02-18",
           "source": "Investing.com"
+        },
+        {
+          "title": "UBS Maintains GDS as Industry Top Pick, Bullish on New Orders and DayOne Valuation",
+          "title_zh": "瑞銀維持萬國數據為行業首選 看好新訂單及DayOne估值",
+          "desc": "UBS continues to list GDS Holdings as its industry top pick, optimistic about potential new orders and DayOne's Series C funding valuation. The company's data center assets remain in high demand.",
+          "desc_zh": "瑞銀續列萬國數據為行業首選，看好潛在新訂單及DayOne C輪融資估值。公司數據中心資產需求保持強勁。",
+          "url": "",
+          "date": "2026-02-18",
+          "source": "Sina Finance"
+        },
+        {
+          "title": "GDS Q3 Performance Shows Steady Growth, Entering AI-Driven Growth Cycle",
+          "title_zh": "萬國數據Q3業績穩健增長 邁入AI驅動增長新週期",
+          "desc": "GDS reported solid Q3 results with high-quality growth. The company's CFO disclosed REIT development plans, with the first post-IPO asset injection expected in Q2 2026, targeting enterprise value of 40-60 billion RMB.",
+          "desc_zh": "萬國數據報告穩健第三季度業績，實現高質量增長。公司首席財務官披露REIT發展計劃，IPO後首次資產注入預計2026年第二季度，目標企業價值400-600億元人民幣。",
+          "url": "",
+          "date": "2026-02-18",
+          "source": "Sina Finance"
+        },
+        {
+          "title": "GDS REIT Listing Marks New Phase in Data Center Asset Securitization",
+          "title_zh": "萬國數據REIT上市標誌數據中心資產證券化新階段",
+          "desc": "The Southern GDS Data Center Public REIT listed on Shanghai Stock Exchange in August 2025 as one of China's first data center REITs, marking a new phase in industry asset securitization.",
+          "desc_zh": "南方萬國數據中心公募REIT於2025年8月在上海證券交易所上市，作為中國首批數據中心REITs之一，標誌著行業資產證券化新階段。",
+          "url": "",
+          "date": "2026-02-18",
+          "source": "Sina Finance"
         }
       ]
     },
@@ -113,7 +194,16 @@
           "desc_zh": "《財富》雜誌報導，安全專家對OpenClaw風險表示擔憂。權限配置錯誤可能意外給予OpenClaw過多權限，讓攻擊者有機可乘。",
           "url": "https://fortune.com/2026/02/12/openclaw-ai-agents-security-risks-beware/",
           "date": "2026-02-18",
-          "source": "Fortune (已驗證)"
+          "source": "Fortune"
+        },
+        {
+          "title": "China Warns of Security Risks Linked to OpenClaw Open-Source AI Agent",
+          "title_zh": "中國警告OpenClaw開源AI代理安全風險",
+          "desc": "China's industry ministry warned that OpenClaw could pose significant security risks when improperly configured, exposing users to cyberattacks and data breaches.",
+          "desc_zh": "中國工信部警告，OpenClaw在配置不當時可能構成重大安全風險，使用戶面臨網絡攻擊和數據洩露。",
+          "url": "",
+          "date": "2026-02-18",
+          "source": "Reuters"
         },
         {
           "title": "Personal AI Agents like OpenClaw Are a Security Nightmare",
@@ -122,7 +212,25 @@
           "desc_zh": "思科報告指出，OpenClaw可以運行shell命令、讀寫文件和執行腳本。已有報告稱其洩露了明文API密鑰和憑證。分析的31,000個代理技能中26%至少包含一個漏洞。",
           "url": "https://blogs.cisco.com/ai/personal-ai-agents-like-openclaw-are-a-security-nightmare",
           "date": "2026-02-18",
-          "source": "Cisco Blogs (已驗證)"
+          "source": "Cisco Blogs"
+        },
+        {
+          "title": "Cisco Finds Third-Party OpenClaw Skills Performing Data Exfiltration",
+          "title_zh": "思科發現第三方OpenClaw技能執行數據竊取",
+          "desc": "Cisco's AI security research team tested a third-party OpenClaw skill and found it performed data exfiltration and prompt injection without user awareness. The skill repository lacked adequate vetting.",
+          "desc_zh": "思科AI安全研究團隊測試第三方OpenClaw技能，發現其在用戶不知情的情況下執行數據竊取和提示注入。技能庫缺乏充分審查。",
+          "url": "",
+          "date": "2026-02-18",
+          "source": "Cisco Blogs"
+        },
+        {
+          "title": "Google Pixel 10a Officially Launched Today",
+          "title_zh": "Google Pixel 10a 今日發布",
+          "desc": "Google officially released the Pixel 10a smartphone on February 18. US carriers had already leaked full specifications. The device offers multiple colors with upgraded camera systems.",
+          "desc_zh": "Google 於2月18日正式發布 Pixel 10a 智慧手機，美國電信商已提前洩露完整規格。新機將提供多種顏色選擇並搭載升級相機系統。",
+          "url": "",
+          "date": "2026-02-18",
+          "source": "Times Now"
         },
         {
           "title": "AI Memory Shortage Crisis: Cook Warns It Will Compress iPhone Margins",
@@ -131,7 +239,34 @@
           "desc_zh": "包括蒂姆·庫克和埃隆·馬斯克在內的科技領袖正在警告全球記憶體芯片短缺。庫克警告這將壓縮iPhone利潤率。美光稱這一瓶頸「前所未有」。",
           "url": "https://fortune.com/2026/02/15/ai-demand-memory-chip-shortage-crisis-dram-hbm-micron-skhynix-samsung/",
           "date": "2026-02-18",
-          "source": "Fortune (已驗證)"
+          "source": "Fortune"
+        },
+        {
+          "title": "Apple Accepts Kioxia Memory Price Increase Amid Global Shortage",
+          "title_zh": "蘋果接受鎧俠記憶體漲價 應對全球短缺",
+          "desc": "Apple reportedly accepted Japanese memory giant Kioxia's price increase agreement with doubled prices and dynamic adjustment mechanism, directly impacting iPhone production costs and profit margins.",
+          "desc_zh": "據報蘋果已接受日本記憶體巨頭鎧俠（Kioxia）的漲價協議，價格翻倍且採動態調整機制，這將直接影響iPhone生產成本和利潤率。",
+          "url": "",
+          "date": "2026-02-18",
+          "source": "ETtoday"
+        },
+        {
+          "title": "AI Film Academy Trains Next Generation of Hollywood Creatives",
+          "title_zh": "AI電影學院培養好萊塢新一代創作人",
+          "desc": "AI film academies specializing in training next-generation Hollywood filmmakers are emerging, teaching how to use AI technology for film production, sparking copyright discussions.",
+          "desc_zh": "專門培訓下一代好萊塢電影製作人的AI電影學校正興起，教導如何使用AI技術進行電影創作，引發版權討論。",
+          "url": "",
+          "date": "2026-02-18",
+          "source": "Reuters"
+        },
+        {
+          "title": "2026 Global Market Outlook: Synchronized Rally Expected Across Assets",
+          "title_zh": "2026年全球市場展望：各類資產同步上漲預期",
+          "desc": "Analysts predict global liquidity, fiscal spending, and China's credit impulse are recovering, signaling synchronized gains in stocks, cryptocurrency, and real estate in 2026-27.",
+          "desc_zh": "分析師預測全球流動性、財政支出和中國信貸脈衝正在回升，預示2026-27年股市、加密貨幣和房地產將同步上漲。",
+          "url": "",
+          "date": "2026-02-18",
+          "source": "Seeking Alpha"
         }
       ]
     }
