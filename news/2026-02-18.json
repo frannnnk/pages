@@ -1,0 +1,93 @@
+{
+  "title": "Frank 早報 - 2026-02-18",
+  "date": "2026-02-18",
+  "sections": [
+    {
+      "title": "🌍 國際新聞",
+      "items": [
+        {
+          "title": "齋戒月今日開始",
+          "desc": "沙烏地阿拉伯確認觀測到新月，2026年齋戒月（Ramadan 1447）於2月18日正式開始，全球穆斯林開始為期一個月的齋戒。",
+          "url": "https://www.aljazeera.com",
+          "source": "Al Jazeera / Economic Times"
+        },
+        {
+          "title": "孟加拉新總理就職",
+          "desc": "Tarique Rahman 正式成為孟加拉國總理，標誌著該國政治新時代的開始。",
+          "url": "https://indianexpress.com",
+          "source": "Indian Express"
+        },
+        {
+          "title": "美國與伊朗間接會談前外交活動",
+          "desc": "阿曼外長與美國特使Steve Witkoff及川普女婿Jared Kushner在日內瓦會面，為即將舉行的美伊間接會談做準備。",
+          "url": "https://www.reuters.com",
+          "source": "Reuters"
+        },
+        {
+          "title": "印度與法國建立「特殊全球戰略夥伴關係」",
+          "desc": "兩國宣布建立更緊密的戰略合作關係，共同應對全球動盪局勢。莫迪總理表示AI模型將在全球部署，服務數十億用戶。",
+          "url": "https://www.timesnownews.com",
+          "source": "Times Now"
+        }
+      ]
+    },
+    {
+      "title": "💻 科技新聞",
+      "items": [
+        {
+          "title": "Google Pixel 10a 今日發布",
+          "desc": "Google 於2月18日正式發布 Pixel 10a 智慧手機，美國電信商已提前洩露完整規格。新機將提供多種顏色選擇並搭載升級相機系統。",
+          "url": "https://www.timesnownews.com",
+          "source": "Times Now / Business Standard"
+        },
+        {
+          "title": "全球記憶體晶片短缺危機",
+          "desc": "馬斯克（特斯拉）和庫克（蘋果）等多位科技領袖警告，AI熱潮導致DRAM記憶體嚴重短缺，可能重創企業利潤、打亂生產計劃並推高產品售價。美光科技形容此瓶頸「前所未見」。",
+          "url": "https://www.chinatimes.com",
+          "source": "中時新聞網"
+        },
+        {
+          "title": "字節跳動發布豆包2.0 AI模型",
+          "desc": "中國字節跳動（ByteDance）發布 Doubao 2.0 AI模型，針對「代理時代」（agent era）進行優化。",
+          "url": "https://www.reuters.com",
+          "source": "Reuters"
+        },
+        {
+          "title": "AI電影學院培養好萊塢新血",
+          "desc": "專門培訓下一代好萊塢電影製作人的AI電影學校正興起，教導如何使用AI技術進行電影創作。",
+          "url": "https://www.reuters.com",
+          "source": "Reuters"
+        }
+      ]
+    },
+    {
+      "title": "💰 財經新聞",
+      "items": [
+        {
+          "title": "蘋果接受記憶體大廠漲價協議",
+          "desc": "受全球記憶體短缺影響，蘋果據傳已接受日本記憶體大廠鎧俠（Kioxia）的漲價協議，價格翻倍且採動態調整機制，這將直接影響iPhone生產成本與利潤。",
+          "url": "https://www.ettoday.net",
+          "source": "ETtoday財經雲 / 中時新聞網"
+        },
+        {
+          "title": "農曆新年影響貴金屬市場",
+          "desc": "中國農曆新年假期（今日開始）導致中國、香港、新加坡、台灣、韓國等亞洲主要股市休市，黃金和白銀價格因流動性降低而持續下跌，地緣政治緊張局勢緩解也對貴金屬造成壓力。",
+          "url": "https://www.livemint.com",
+          "source": "Livemint"
+        },
+        {
+          "title": "2026年全球市場展望",
+          "desc": "分析師預測全球流動性、財政支出和中國信貸脈衝正在回升，預示2026-27年股市、加密貨幣和房地產將同步上漲。",
+          "url": "https://seekingalpha.com",
+          "source": "Seeking Alpha"
+        },
+        {
+          "title": "Saks Global申請破產保護",
+          "desc": "奢侈零售巨頭Saks Global申請破產重組，計劃利用其優質房地產組合作為與貸款人談判的籌碼。",
+          "url": "https://www.reuters.com",
+          "source": "Reuters"
+        }
+      ]
+    }
+  ]
+}
