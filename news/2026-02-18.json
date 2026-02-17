@@ -40,6 +40,15 @@
           "url": "https://www.timesnownews.com",
           "date": "2026-02-18",
           "source": "Times Now"
+        },
+        {
+          "title": "Saks Global Files for Bankruptcy Protection",
+          "title_zh": "Saks Global申請破產保護",
+          "desc": "Luxury retail giant Saks Global filed for bankruptcy reorganization, planning to leverage its premium real estate portfolio as leverage in negotiations with lenders.",
+          "desc_zh": "奢侈零售巨頭Saks Global申請破產重組，計劃利用其優質房地產組合作為與貸款人談判的籌碼。",
+          "url": "https://www.reuters.com",
+          "date": "2026-02-18",
+          "source": "Reuters"
         }
       ]
     },
@@ -47,22 +56,40 @@
       "title": "🇨🇳 中國大陸新聞",
       "items": [
         {
-          "title": "ByteDance Releases Doubao 2.0 AI Model",
-          "title_zh": "字節跳動發布豆包2.0 AI模型",
-          "desc": "ByteDance has released Doubao 2.0 AI model, optimized for the 'agent era' with enhanced capabilities for autonomous task execution.",
-          "desc_zh": "中國字節跳動（ByteDance）發布 Doubao 2.0 AI模型，針對「代理時代」（agent era）進行優化。",
+          "title": "ByteDance Releases Doubao 2.0 AI Model to Compete with DeepSeek",
+          "title_zh": "字節跳動發布豆包2.0 AI模型應對DeepSeek競爭",
+          "desc": "ByteDance has released Doubao 2.0 AI model, optimized for the 'agent era'. Following DeepSeek's rise, ByteDance is accelerating AI development with its internal 'Seed Edge' AGI research team.",
+          "desc_zh": "字節跳動發布 Doubao 2.0 AI模型，針對「代理時代」進行優化。面對DeepSeek的崛起，字節正加速AI發展，組建內部「Seed Edge」AGI研究團隊。",
+          "url": "https://www.thepaper.cn",
+          "date": "2026-02-18",
+          "source": "The Paper"
+        },
+        {
+          "title": "DeepSeek Testing New Long-Context Model with 1M Token Support",
+          "title_zh": "DeepSeek測試新長文本模型 支持100萬上下文",
+          "desc": "DeepSeek is testing a new long-text model structure supporting 1M context length on its web/app platform. The API service remains V3.2 with 128K context. Industry expects a major announcement during Spring Festival.",
+          "desc_zh": "DeepSeek 網頁/APP正在測試新的長文本模型結構，支持100萬上下文。API服務仍為V3.2，僅支持12.8萬上下文。業界預計春節期間可能發布重大更新。",
+          "url": "https://www.thepaper.cn",
+          "date": "2026-02-18",
+          "source": "The Paper"
+        },
+        {
+          "title": "China's Gold Investors: 60% Are New Players, Shift to Investment Focus",
+          "title_zh": "中國黃金投資者調查：近六成新玩家 轉向投資取向",
+          "desc": "A survey shows nearly 60% of Chinese mainland gold investors are new players, and 70% don't buy gold jewelry, reflecting a significant shift toward investment-oriented purchases rather than traditional jewelry.",
+          "desc_zh": "調查顯示，近60%的中國大陸黃金投資者是新玩家，70%不購買金飾，反映從傳統首飾向投資型購買的重大轉變。",
           "url": "https://www.reuters.com",
           "date": "2026-02-18",
           "source": "Reuters"
         },
         {
-          "title": "China's Gold Investors: 60% Are New Players",
-          "title_zh": "中國黃金投資者調查顯示近六成是新玩家",
-          "desc": "A survey of Chinese mainland gold investors shows nearly 60% are new players, and 70% don't buy gold jewelry, reflecting a shift toward investment-oriented purchases.",
-          "desc_zh": "中國大陸黃金投資者調查顯示，近六成是新玩家，七成不購買金飾，反映投資取向轉變。",
-          "url": "https://www.reuters.com",
+          "title": "AI Battle in China: DeepSeek Reshuffles the Deck for Tech Giants",
+          "title_zh": "中國AI大戰：DeepSeek掀起巨頭生態卡位戰",
+          "desc": "DeepSeek's popularity has dropped Doubao and Kimi's combined daily active user share from over 80% to about 60%, with DeepSeek capturing nearly 15%. ByteDance is now heavily investing in AGI research while maintaining Doubao as default.",
+          "desc_zh": "DeepSeek的流行使豆包和Kimi的日活用戶佔比從超80%降至約60%，DeepSeek佔據近15%。字節跳動現正大力投資AGI研究，同時保持豆包為默認選擇。",
+          "url": "https://www.eeo.com.cn",
           "date": "2026-02-18",
-          "source": "Reuters"
+          "source": "Economic Observer"
         }
       ]
     },
@@ -70,10 +97,28 @@
       "title": "🇭🇰 香港新聞",
       "items": [
         {
-          "title": "Asian Markets Closed for Lunar New Year Holiday",
-          "title_zh": "亞洲多國股市因農曆新年假期休市",
-          "desc": "Major Asian markets including China, Hong Kong, Singapore, Taiwan, and South Korea are closed for the Lunar New Year holiday, affecting global trading volumes.",
-          "desc_zh": "中國農曆新年假期導致中國、香港、新加坡、台灣、韓國等亞洲主要股市休市。",
+          "title": "Hong Kong Stock Market Closed for Lunar New Year Holiday",
+          "title_zh": "港股農曆新年假期休市",
+          "desc": "The Hong Kong Stock Exchange is closed from February 15 (Sunday) to February 23 (Monday) for the Lunar New Year holiday. Trading will resume on February 24 (Tuesday). Shanghai-Hong Kong Stock Connect services are also suspended.",
+          "desc_zh": "香港聯交所2月15日（星期日）至2月23日（星期一）因農曆新年假期休市，2月24日（星期二）恢復交易。滬港通服務亦暫停。",
+          "url": "https://www.sse.com.cn",
+          "date": "2026-02-18",
+          "source": "SSE"
+        },
+        {
+          "title": "Asian Markets Closed: China, Taiwan, South Korea, Singapore Holidays",
+          "title_zh": "亞洲多國市場休市：中國台灣韓國新加坡假期",
+          "desc": "Major Asian markets including mainland China, Hong Kong, Taiwan, South Korea, and Singapore are closed for the Lunar New Year holiday, affecting global trading volumes and liquidity.",
+          "desc_zh": "包括中國大陸、香港、台灣、韓國和新加坡在內的主要亞洲市場因農曆新年假期休市，影響全球交易量和流動性。",
+          "url": "https://www.livemint.com",
+          "date": "2026-02-18",
+          "source": "Livemint"
+        },
+        {
+          "title": "Gold and Silver Prices Decline on Reduced Asian Market Liquidity",
+          "title_zh": "金銀價格因亞洲市場流動性降低而下跌",
+          "desc": "Gold and silver prices continue to decline due to reduced liquidity from Asian market closures during Lunar New Year. Easing geopolitical tensions also put pressure on precious metals.",
+          "desc_zh": "由於亞洲市場在農曆新年期間休市導致流動性降低，金銀價格持續下跌。地緣政治緊張局勢緩解也對貴金屬造成壓力。",
           "url": "https://www.livemint.com",
           "date": "2026-02-18",
           "source": "Livemint"
@@ -84,40 +129,40 @@
       "title": "📈 港股關注 - 萬國數據 GDS",
       "items": [
         {
-          "title": "Global Memory Chip Shortage Crisis Warned by Tech Leaders",
-          "title_zh": "全球記憶體晶片短缺危機",
-          "desc": "Musk (Tesla) and Cook (Apple) warn that AI boom causes severe DRAM shortage, potentially devastating corporate profits and disrupting production. Micron describes this bottleneck as 'unprecedented.'",
-          "desc_zh": "馬斯克（特斯拉）和庫克（蘋果）等多位科技領袖警告，AI熱潮導致DRAM記憶體嚴重短缺，可能重創企業利潤、打亂生產計劃。美光科技形容此瓶頸「前所未見」。",
-          "url": "https://www.chinatimes.com",
+          "title": "GDS Holdings Expects Higher 2026 Bookings Driven by Strong AI Demand in China",
+          "title_zh": "萬國數據預計2026年預訂增長 受中國AI需求推動",
+          "desc": "GDS Holdings expects higher bookings in 2026 driven by strong AI demand in China. The company plans its first REIT asset injection in Q2 2026 involving assets valued at 4-6 billion RMB.",
+          "desc_zh": "萬國數據預計2026年預訂量將增長，受中國強勁AI需求推動。公司計劃2026年第二季度進行首次REIT資產注入，涉及資產價值約40-60億元人民幣。",
+          "url": "https://www.investing.com",
           "date": "2026-02-18",
-          "source": "China Times"
+          "source": "Investing.com"
         },
         {
-          "title": "Apple Accepts Kioxia Memory Price Increase Agreement",
-          "title_zh": "蘋果接受記憶體大廠漲價協議",
-          "desc": "Apple reportedly accepted Japanese memory giant Kioxia's price increase agreement with doubled prices and dynamic adjustment mechanism, directly impacting iPhone production costs.",
-          "desc_zh": "受全球記憶體短缺影響，蘋果據傳已接受日本記憶體大廠鎧俠（Kioxia）的漲價協議，價格翻倍且採動態調整機制，這將直接影響iPhone生產成本與利潤。",
-          "url": "https://www.ettoday.net",
+          "title": "UBS Maintains GDS as Industry Top Pick, Bullish on New Orders and DayOne Valuation",
+          "title_zh": "瑞銀維持萬國數據為行業首選 看好新訂單及DayOne估值",
+          "desc": "UBS continues to list GDS Holdings as its industry top pick, optimistic about potential new orders and DayOne's Series C funding valuation. The company's data center assets remain in high demand.",
+          "desc_zh": "瑞銀續列萬國數據為行業首選，看好潛在新訂單及DayOne C輪融資估值。公司數據中心資產需求保持強勁。",
+          "url": "https://stock.finance.sina.com.cn",
           "date": "2026-02-18",
-          "source": "ETtoday"
+          "source": "Sina Finance"
         },
         {
-          "title": "Gold and Silver Prices Decline on Reduced Liquidity",
-          "title_zh": "農曆新年影響貴金屬市場",
-          "desc": "Gold and silver prices continue to decline due to reduced liquidity from Asian market closures. Easing geopolitical tensions also pressure precious metals.",
-          "desc_zh": "中國農曆新年假期導致亞洲主要股市休市，黃金和白銀價格因流動性降低而持續下跌，地緣政治緊張局勢緩解也對貴金屬造成壓力。",
-          "url": "https://www.livemint.com",
+          "title": "GDS Q3 Performance Shows Steady Growth, Entering AI-Driven Growth Cycle",
+          "title_zh": "萬國數據Q3業績穩健增長 邁入AI驅動增長新週期",
+          "desc": "GDS reported solid Q3 results with high-quality growth. The company's CFO disclosed REIT development plans, with the first post-IPO asset injection expected in Q2 2026, targeting enterprise value of 40-60 billion RMB.",
+          "desc_zh": "萬國數據報告穩健第三季度業績，實現高質量增長。公司首席財務官披露REIT發展計劃，IPO後首次資產注入預計2026年第二季度，目標企業價值400-600億元人民幣。",
+          "url": "https://finance.sina.com.cn",
           "date": "2026-02-18",
-          "source": "Livemint"
+          "source": "Sina Finance"
         },
         {
-          "title": "2026 Global Market Outlook: Synchronized Rally Expected",
-          "title_zh": "2026年全球市場展望",
-          "desc": "Analysts predict global liquidity, fiscal spending, and China's credit impulse are recovering, signaling synchronized gains in stocks, crypto, and real estate in 2026-27.",
-          "desc_zh": "分析師預測全球流動性、財政支出和中國信貸脈衝正在回升，預示2026-27年股市、加密貨幣和房地產將同步上漲。",
-          "url": "https://seekingalpha.com",
+          "title": "GDS REIT Listing Marks New Phase in Data Center Asset Securitization",
+          "title_zh": "萬國數據REIT上市標誌數據中心資產證券化新階段",
+          "desc": "The Southern GDS Data Center Public REIT listed on Shanghai Stock Exchange in August 2025 as one of China's first data center REITs, marking a new phase in industry asset securitization.",
+          "desc_zh": "南方萬國數據中心公募REIT於2025年8月在上海證券交易所上市，作為中國首批數據中心REITs之一，標誌著行業資產證券化新階段。",
+          "url": "https://finance.sina.com.cn",
           "date": "2026-02-18",
-          "source": "Seeking Alpha"
+          "source": "Sina Finance"
         }
       ]
     },
@@ -134,22 +179,40 @@
           "source": "Times Now"
         },
         {
+          "title": "Global DRAM Memory Shortage Crisis: Tech Leaders Issue Warnings",
+          "title_zh": "全球DRAM記憶體短缺危機：科技領袖發出警告",
+          "desc": "Musk (Tesla) and Cook (Apple) warn that AI boom causes severe DRAM shortage, potentially devastating corporate profits and disrupting production. Micron describes this bottleneck as 'unprecedented.'",
+          "desc_zh": "馬斯克（特斯拉）和庫克（蘋果）警告，AI熱潮導致DRAM記憶體嚴重短缺，可能重創企業利潤、打亂生產計劃。美光科技形容此瓶頸「前所未見」。",
+          "url": "https://www.chinatimes.com",
+          "date": "2026-02-18",
+          "source": "China Times"
+        },
+        {
+          "title": "Apple Accepts Kioxia Memory Price Increase Amid Global Shortage",
+          "title_zh": "蘋果接受鎧俠記憶體漲價 應對全球短缺",
+          "desc": "Apple reportedly accepted Japanese memory giant Kioxia's price increase agreement with doubled prices and dynamic adjustment mechanism, directly impacting iPhone production costs and profit margins.",
+          "desc_zh": "據報蘋果已接受日本記憶體巨頭鎧俠（Kioxia）的漲價協議，價格翻倍且採動態調整機制，這將直接影響iPhone生產成本和利潤率。",
+          "url": "https://www.ettoday.net",
+          "date": "2026-02-18",
+          "source": "ETtoday"
+        },
+        {
           "title": "AI Film Academy Trains Next Generation of Hollywood Creatives",
-          "title_zh": "AI電影學院培養好萊塢新血",
-          "desc": "AI film academies specializing in training next-generation Hollywood filmmakers are emerging, teaching how to use AI technology for film production.",
-          "desc_zh": "專門培訓下一代好萊塢電影製作人的AI電影學校正興起，教導如何使用AI技術進行電影創作。",
+          "title_zh": "AI電影學院培養好萊塢新一代創作人",
+          "desc": "AI film academies specializing in training next-generation Hollywood filmmakers are emerging, teaching how to use AI technology for film production, sparking copyright discussions.",
+          "desc_zh": "專門培訓下一代好萊塢電影製作人的AI電影學校正興起，教導如何使用AI技術進行電影創作，引發版權討論。",
           "url": "https://www.reuters.com",
           "date": "2026-02-18",
           "source": "Reuters"
         },
         {
-          "title": "Saks Global Files for Bankruptcy Protection",
-          "title_zh": "Saks Global申請破產保護",
-          "desc": "Luxury retail giant Saks Global filed for bankruptcy reorganization, planning to leverage its premium real estate portfolio as leverage in negotiations with lenders.",
-          "desc_zh": "奢侈零售巨頭Saks Global申請破產重組，計劃利用其優質房地產組合作為與貸款人談判的籌碼。",
-          "url": "https://www.reuters.com",
+          "title": "2026 Global Market Outlook: Synchronized Rally Expected Across Assets",
+          "title_zh": "2026年全球市場展望：各類資產同步上漲預期",
+          "desc": "Analysts predict global liquidity, fiscal spending, and China's credit impulse are recovering, signaling synchronized gains in stocks, cryptocurrency, and real estate in 2026-27.",
+          "desc_zh": "分析師預測全球流動性、財政支出和中國信貸脈衝正在回升，預示2026-27年股市、加密貨幣和房地產將同步上漲。",
+          "url": "https://seekingalpha.com",
           "date": "2026-02-18",
-          "source": "Reuters"
+          "source": "Seeking Alpha"
         }
       ]
     }
