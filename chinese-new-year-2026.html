@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🧧 2026 新春快樂 | Happy Chinese New Year</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Microsoft YaHei', 'PingFang SC', sans-serif;
+            background: linear-gradient(135deg, #8B0000 0%, #DC143C 50%, #8B0000 100%);
+            min-height: 100vh;
+            overflow-x: hidden;
+            position: relative;
+        }
+
+        /* 背景裝飾 */
+        .bg-pattern {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: 
+                radial-gradient(circle at 20% 50%, rgba(255,215,0,0.1) 0%, transparent 50%),
+                radial-gradient(circle at 80% 80%, rgba(255,215,0,0.1) 0%, transparent 50%),
+                radial-gradient(circle at 40% 20%, rgba(255,255,255,0.05) 0%, transparent 50%);
+            pointer-events: none;
+            z-index: 1;
+        }
+
+        /* 主容器 */
+        .container {
+            position: relative;
+            z-index: 10;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        /* 頂部裝飾 */
+        .header-decoration {
+            font-size: 60px;
+            margin-bottom: 20px;
+            animation: swing 3s ease-in-out infinite;
+        }
+
+        @keyframes swing {
+            0%, 100% { transform: rotate(-5deg); }
+            50% { transform: rotate(5deg); }
+        }
+
+        /* 年份標題 */
+        .year-title {
+            color: #FFD700;
+            font-size: 48px;
+            font-weight: bold;
+            text-shadow: 3px 3px 6px rgba(0,0,0,0.5);
+            margin-bottom: 10px;
+            letter-spacing: 10px;
+        }
+
+        .zodiac {
+            color: #FFA500;
+            font-size: 24px;
+            margin-bottom: 30px;
+            font-weight: bold;
+        }
+
+        /* 主祝福卡片 */
+        .blessing-card {
+            background: linear-gradient(145deg, #FFF8DC 0%, #FFE4B5 100%);
+            border-radius: 20px;
+            padding: 40px;
+            margin: 30px 0;
+            box-shadow: 
+                0 10px 30px rgba(0,0,0,0.3),
+                inset 0 2px 10px rgba(255,255,255,0.5);
+            border: 3px solid #FFD700;
+            position: relative;
+        }
+
+        .blessing-card::before,
+        .blessing-card::after {
+            content: '🏮';
+            position: absolute;
+            top: -25px;
+            font-size: 40px;
+            animation: swing 2s ease-in-out infinite;
+        }
+
+        .blessing-card::before { left: 20px; }
+        .blessing-card::after { right: 20px; animation-delay: 1s; }
+
+        .blessing-title {
+            color: #8B0000;
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 25px;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+        }
+
+        .blessing-content {
+            color: #333;
+            font-size: 20px;
+            line-height: 2;
+            margin-bottom: 20px;
+        }
+
+        .blessing-content p {
+            margin: 15px 0;
+        }
+
+        /* 裝飾分隔線 */
+        .divider {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 30px 0;
+            color: #FFD700;
+        }
+
+        .divider::before,
+        .divider::after {
+            content: '';
+            flex: 1;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, #FFD700, transparent);
+            margin: 0 20px;
+        }
+
+        /* 吉祥話列表 */
+        .wishes {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 30px;
+        }
+
+        .wish-item {
+            background: linear-gradient(135deg, #FFD700, #FFA500);
+            color: #8B0000;
+            padding: 15px;
+            border-radius: 10px;
+            font-weight: bold;
+            font-size: 18px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease;
+        }
+
+        .wish-item:hover {
+            transform: translateY(-5px);
+        }
+
+        /* 底部 */
+        .footer {
+            color: #FFD700;
+            margin-top: 40px;
+            font-size: 16px;
+            opacity: 0.9;
+        }
+
+        .footer a {
+            color: #FFA500;
+            text-decoration: none;
+        }
+
+        /* 煙花效果 */
+        .firework {
+            position: fixed;
+            font-size: 30px;
+            animation: explode 3s ease-out infinite;
+            pointer-events: none;
+            z-index: 5;
+        }
+
+        .firework:nth-child(1) { top: 10%; left: 10%; animation-delay: 0s; }
+        .firework:nth-child(2) { top: 20%; right: 15%; animation-delay: 0.5s; }
+        .firework:nth-child(3) { bottom: 20%; left: 20%; animation-delay: 1s; }
+        .firework:nth-child(4) { bottom: 15%; right: 10%; animation-delay: 1.5s; }
+        .firework:nth-child(5) { top: 50%; left: 5%; animation-delay: 2s; }
+
+        @keyframes explode {
+            0%, 100% { 
+                transform: scale(0); 
+                opacity: 0;
+            }
+            50% { 
+                transform: scale(1.2); 
+                opacity: 1;
+            }
+        }
+
+        /* 響應式 */
+        @media (max-width: 600px) {
+            .year-title { font-size: 32px; letter-spacing: 5px; }
+            .blessing-card { padding: 25px; }
+            .blessing-title { font-size: 28px; }
+            .blessing-content { font-size: 16px; }
+            .header-decoration { font-size: 40px; }
+            .wishes { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <div class="bg-pattern"></div>
+    
+    <!-- 煙花裝飾 -->
+    <div class="firework">✨</div>
+    <div class="firework">🎆</div>
+    <div class="firework">🎇</div>
+    <div class="firework">✨</div>
+    <div class="firework">🎆</div>
+
+    <div class="container">
+        <!-- 頂部裝飾 -->
+        <div class="header-decoration">🧧🐴🧧</div>
+        
+        <!-- 年份標題 -->
+        <h1 class="year-title">二〇二六</h1>
+        <p class="zodiac">丙午年 · 馬年大吉</p>
+
+        <!-- 主祝福卡片 -->
+        <div class="blessing-card">
+            <h2 class="blessing-title">🎊 新春快樂 🎊</h2>
+            
+            <div class="blessing-content">
+                <p>🌸 花開富貴，馬到成功</p>
+                <p>💰 財源滾滾，步步高升</p>
+                <p>🏠 闔家平安，幸福美滿</p>
+                <p>💪 身體健康，萬事如意</p>
+            </div>
+
+            <div class="divider">🏮 🏮 🏮</div>
+
+            <p style="color: #8B0000; font-size: 16px; margin-top: 20px;">
+                感謝過去一年的陪伴與支持<br>
+                新的一年，願我們繼續攜手前行<br>
+                祝願您和家人新年快樂，馬年大吉！
+            </p>
+        </div>
+
+        <!-- 吉祥話 -->
+        <div class="wishes">
+            <div class="wish-item">🐴 馬到成功</div>
+            <div class="wish-item">💰 財運亨通</div>
+            <div class="wish-item">🏃 一馬當先</div>
+            <div class="wish-item">🌟 龍馬精神</div>
+            <div class="wish-item">🎊 歲歲平安</div>
+            <div class="wish-item">🍊 大吉大利</div>
+        </div>
+
+        <!-- 底部 -->
+        <div class="footer">
+            <p>🏮 農歷正月初一 · 2026年2月17日 🏮</p>
+            <p style="margin-top: 10px;">
+                Made with ❤️ by <a href="https://frannnnk.github.io">Frank</a>
+            </p>
+        </div>
+    </div>
+
+    <script>
+        // 簡單的雪花效果
+        function createSnowflake() {
+            const snowflake = document.createElement('div');
+            snowflake.innerHTML = '❄️';
+            snowflake.style.position = 'fixed';
+            snowflake.style.left = Math.random() * 100 + '%';
+            snowflake.style.top = '-20px';
+            snowflake.style.fontSize = Math.random() * 20 + 10 + 'px';
+            snowflake.style.opacity = Math.random() * 0.5 + 0.3;
+            snowflake.style.pointerEvents = 'none';
+            snowflake.style.zIndex = '2';
+            snowflake.style.animation = `fall ${Math.random() * 3 + 2}s linear forwards`;
+            
+            document.body.appendChild(snowflake);
+            
+            setTimeout(() => {
+                snowflake.remove();
+            }, 5000);
+        }
+
+        // 添加雪花動畫
+        const style = document.createElement('style');
+        style.textContent = `
+            @keyframes fall {
+                to {
+                    transform: translateY(100vh) rotate(360deg);
+                    opacity: 0;
+                }
+            }
+        `;
+        document.head.appendChild(style);
+
+        // 每隔一段時間創建雪花
+        setInterval(createSnowflake, 300);
+
+        // 點擊效果
+        document.addEventListener('click', function(e) {
+            const burst = document.createElement('div');
+            burst.innerHTML = '✨';
+            burst.style.position = 'fixed';
+            burst.style.left = e.clientX + 'px';
+            burst.style.top = e.clientY + 'px';
+            burst.style.fontSize = '30px';
+            burst.style.pointerEvents = 'none';
+            burst.style.zIndex = '100';
+            burst.style.animation = 'explode 1s ease-out forwards';
+            document.body.appendChild(burst);
+            
+            setTimeout(() => burst.remove(), 1000);
+        });
+    </script>
+</body>
+</html>
