@@ -1,0 +1,301 @@
+{
+  "title": "Frank 早報 - 2026-02-19",
+  "date": "2026-02-19",
+  "sections": [
+    {
+      "title": "🌍 國際新聞",
+      "items": [
+        {
+          "title": "US-Russia-Ukraine Peace Talks End in Geneva",
+          "title_zh": "美俄烏日內瓦和談結束",
+          "desc": "US-mediated talks between Russian and Ukrainian officials in Geneva ended after two days. Moscow described the negotiations as 'difficult, but business-like' while Kyiv called them substantive with progress made. A third round of talks is planned.",
+          "desc_zh": "美國斡旋的俄烏官員日內瓦談判在兩天後結束。莫斯科稱談判「困難但務實」，基輔則表示談判富有實質性進展。第三輪談判已計劃進行。",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/2/18/russia-ukraine-talks-live-talks-in-geneva-enter-second-day",
+          "date": "2026-02-18",
+          "source": "Al Jazeera"
+        },
+        {
+          "title": "Fed Minutes Show Policymakers Split on Next Rate Move",
+          "title_zh": "聯儲局會議紀要顯示決策者對下次利率走勢存在分歧",
+          "desc": "Federal Reserve policymakers were in near-unanimous agreement to keep interest rates on hold at their January meeting, but remained divided over their next steps. The central bank held rates steady at 3.5%-3.75%.",
+          "desc_zh": "聯儲局決策者在1月會議上幾乎一致同意維持利率不變，但對下一步行動仍存在分歧。央行將利率維持在3.5%-3.75%區間。",
+          "url": "https://www.cnbc.com/2026/02/18/us-treasury-yields-investors-await-fed-meeting-minutes-.html",
+          "date": "2026-02-18",
+          "source": "CNBC"
+        },
+        {
+          "title": "German Economy Expected to Grow Just 1% in 2026",
+          "title_zh": "德國經濟預計2026年僅增長1%",
+          "desc": "Germany's economy remains stuck with slow growth expected in 2026. The European Central Bank projects inflation to stabilize at 2% target, with policy rates expected to remain on hold at 2% through 2026.",
+          "desc_zh": "德國經濟持續停滯，預計2026年增長緩慢。歐洲央行預計通脹將穩定在2%目標，政策利率預計將在2026年維持在2%不變。",
+          "url": "https://www.bundesbank.de/en/press/press-releases/bundesbank-s-forecast-for-germany-economy-will-gradually-recover-965032",
+          "date": "2026-02-18",
+          "source": "Deutsche Bundesbank"
+        },
+        {
+          "title": "Russia Claims Seizure of 12 Ukrainian Settlements in February",
+          "title_zh": "俄羅斯聲稱2月已佔領12個烏克蘭定居點",
+          "desc": "Russian forces have seized 12 settlements and 200 square kilometers of Ukrainian territory in the first half of February 2026, according to military officials. Ukraine has raised the issue of a temporary energy ceasefire in Geneva talks.",
+          "desc_zh": "據軍方官員稱，俄羅斯軍隊在2026年2月上半月已佔領12個定居點和200平方公里的烏克蘭領土。烏克蘭在日內瓦談判中提出了暫時能源停火的問題。",
+          "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-february-16-2026/",
+          "date": "2026-02-16",
+          "source": "ISW"
+        },
+        {
+          "title": "Syria Declares February 19 First Day of Ramadan 2026",
+          "title_zh": "敘利亞宣布2月19日為2026年齋月首日",
+          "desc": "Syria has announced that Thursday, February 19, 2026 marks the first day of Ramadan. The holy month is observed by Muslims worldwide with fasting from dawn to sunset.",
+          "desc_zh": "敘利亞宣布2026年2月19日（星期四）為齋月首日。這個神聖的月份全球穆斯林都會從黎明到日落禁食。",
+          "url": "https://sana.sy/en/syria/2297499/",
+          "date": "2026-02-18",
+          "source": "SANA"
+        },
+        {
+          "title": "Bank of Russia Sets Dollar Rate at 76.15 Rubles for February 19",
+          "title_zh": "俄羅斯央行將2月19日美元匯率設定為76.15盧布",
+          "desc": "The Bank of Russia set the official dollar rate at 76.1524 rubles for February 19, 2026, which is 58.65 kopecks below the previous indicator. The euro rate was lowered by 59.75 kopecks to 90.2683 rubles.",
+          "desc_zh": "俄羅斯央行將2026年2月19日的官方美元匯率設定為76.1524盧布，較前一指標下降58.65戈比。歐元匯率下降59.75戈比至90.2683盧布。",
+          "url": "https://tass.com/economy/2088575",
+          "date": "2026-02-18",
+          "source": "TASS"
+        }
+      ]
+    },
+    {
+      "title": "🇨🇳 中國大陸新聞",
+      "items": [
+        {
+          "title": "OpenAI Accuses DeepSeek of Distilling US Models",
+          "title_zh": "OpenAI指控DeepSeek蒸餾美國模型",
+          "desc": "OpenAI alleged in a memo to the US House Committee that DeepSeek employees developed methods to circumvent access restrictions and used obfuscated third-party routers to train their AI models using distilled US technology.",
+          "desc_zh": "OpenAI在向美國眾議院委員會提交的備忘錄中指控，DeepSeek員工開發了規避訪問限制的方法，並使用混淆的第三方路由器，利用蒸餾美國技術來訓練其AI模型。",
+          "url": "https://www.reuters.com/world/china/openai-accuses-deepseek-distilling-us-models-gain-advantage-bloomberg-news-2026-02-12/",
+          "date": "2026-02-12",
+          "source": "Reuters"
+        },
+        {
+          "title": "China Home Prices Expected to Drop 3% in 2026",
+          "title_zh": "中國房價預計2026年下跌3%",
+          "desc": "Morgan Stanley expects new home sales in China to fall 10.5% in 2026 to RMB 7.57 trillion ($993 billion), with home prices declining another 3%. The property downturn has reduced annual GDP growth by about 2 percentage points annually.",
+          "desc_zh": "摩根士丹利預計2026年中國新房銷售將下降10.5%至7.57萬億人民幣（9930億美元），房價將再下跌3%。房地產低迷每年使GDP增長減少約2個百分點。",
+          "url": "https://www.reuters.com/world/china/hopeful-signs-chinas-property-market-not-really-say-developers-2026-02-02/",
+          "date": "2026-02-02",
+          "source": "Reuters"
+        },
+        {
+          "title": "China Pledges to Stabilize Housing Market in 2026",
+          "title_zh": "中國承諾2026年穩定房地產市場",
+          "desc": "China announced it will step up urban renewal efforts and work to stabilize the property market in 2026 at the start of its latest Five-Year Plan (2026-2030). An estimated 80 million unsold or vacant homes currently clog the market.",
+          "desc_zh": "中國宣布將在2026年最新五年規劃（2026-2030）開始時加大城市更新力度，努力穩定房地產市場。目前市場上約有8000萬套未售或空置房屋。",
+          "url": "https://www.reuters.com/world/asia-pacific/china-pledges-stabilise-housing-market-2026-2025-12-23/",
+          "date": "2026-02-18",
+          "source": "Reuters"
+        },
+        {
+          "title": "Chinese AI Labs Launch New Models for Spring Festival",
+          "title_zh": "中國AI實驗室春節期間發布新模型",
+          "desc": "Chinese AI companies including ByteDance and Zhipu released major model upgrades during the Spring Festival period, a year after DeepSeek's shock debut. Budget-friendly, open-source AI is becoming the dominant strategy.",
+          "desc_zh": "字節跳動和智譜等中國AI公司在春節期間發布了重大模型升級，這是在DeepSeek震撼登場一年後。經濟實惠的開源AI正成為主導策略。",
+          "url": "https://www.reuters.com/world/china/chinese-ai-models-festoon-spring-festival-year-after-deepseek-shock-2026-02-14/",
+          "date": "2026-02-14",
+          "source": "Reuters"
+        },
+        {
+          "title": "Canadians Can Now Travel to China Visa-Free",
+          "title_zh": "加拿大人現可免簽證前往中國",
+          "desc": "As of February 17, 2026, Canadian passport holders can travel to China without a visa for stays of up to 30 days. This policy will remain effective until at least December 31, 2026.",
+          "desc_zh": "自2026年2月17日起，加拿大護照持有人可免簽證前往中國，停留時間長達30天。此政策將至少持續有效至2026年12月31日。",
+          "url": "https://www.cicnews.com/2026/02/canadians-can-now-travel-to-china-visa-free-0271665.html",
+          "date": "2026-02-17",
+          "source": "CIC News"
+        },
+        {
+          "title": "China's Russian Oil Imports Hit Record High",
+          "title_zh": "中國俄羅斯石油進口創歷史新高",
+          "desc": "China's Russian oil imports are set to climb for a third straight month to a new record high in February as independent refiners snapped up deeply discounted cargoes after India slashed purchases.",
+          "desc_zh": "由於印度大幅削減採購後獨立煉油商搶購大幅折扣的貨物，中國的俄羅斯石油進口將連續第三個月攀升，在2月創下歷史新高。",
+          "url": "https://www.reuters.com/world/china/",
+          "date": "2026-02-18",
+          "source": "Reuters"
+        }
+      ]
+    },
+    {
+      "title": "🇭🇰 香港新聞",
+      "items": [
+        {
+          "title": "Hong Kong Lunar New Year Fireworks Dazzle Visitors",
+          "title_zh": "香港農曆新年煙花匯演驚艷遊客",
+          "desc": "Hong Kong's visitor numbers on the first two days of Lunar New Year are at least 8% higher than in 2025. Wednesday's 23-minute fireworks display featured 31,888 shells forming shapes of gold ingots and horseshoes above Victoria Harbour.",
+          "desc_zh": "香港農曆新年首兩天遊客人數比2025年至少高出8%。週三長達23分鐘的煙花匯演在維多利亞港上空發放了31,888枚煙花，形成金元寶和馬蹄鐵的形狀。",
+          "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3343928/tens-thousands-eagerly-waiting-hong-kong-lunar-new-year-fireworks",
+          "date": "2026-02-18",
+          "source": "SCMP"
+        },
+        {
+          "title": "Hong Kong Property Prices Forecast to Rise 3-5% in 2026",
+          "title_zh": "香港樓價預計2026年上升3-5%",
+          "desc": "Property consultants forecast Hong Kong residential prices will rise 3-5% in 2026, with land sale revenue expected to reach HK$12-15 billion. The market is benefiting from potential interest rate cuts and stabilization of prices.",
+          "desc_zh": "物業顧問預測香港住宅樓價2026年將上升3-5%，土地出售收入預計將達120-150億港元。市場受益於潛在的減息和價格穩定。",
+          "url": "https://www.knightfrank.com.hk/blog/amp/2026/01/14/hong-kong-property-market-2026-forecasts",
+          "date": "2026-01-14",
+          "source": "Knight Frank"
+        },
+        {
+          "title": "Hang Seng Index Reaches 26,706 Points",
+          "title_zh": "恆生指數達26,706點",
+          "desc": "Hong Kong's Hang Seng Index rose to 26,706 points on February 16, 2026, gaining 0.52%. The index is up 18.08% compared to the same time last year, with analysts targeting 28,300 by year-end.",
+          "desc_zh": "香港恆生指數在2026年2月16日升至26,706點，上漲0.52%。指數較去年同期上升18.08%，分析師年底目標為28,300點。",
+          "url": "https://tradingeconomics.com/hong-kong/stock-market",
+          "date": "2026-02-16",
+          "source": "Trading Economics"
+        },
+        {
+          "title": "Hong Kong Government Forecasts HKD0.5 Billion Surplus",
+          "title_zh": "香港政府預計錄得5億港元盈餘",
+          "desc": "Deloitte China expects the HKSAR Government to post a HKD0.5 billion surplus in fiscal year 2025-26 despite weak land sales. The budget recommendations focus on boosting capital markets and wealth management.",
+          "desc_zh": "德勤中國預計香港特區政府2025-26財政年度將錄得5億港元盈餘，儘管土地銷售疲弱。預算建議集中於促進資本市場和財富管理。",
+          "url": "https://www.deloitte.com/cn/en/about/press-room/deloitte-recommendations-on-hk-budget-2026-2027.html",
+          "date": "2026-01-20",
+          "source": "Deloitte"
+        },
+        {
+          "title": "Hong Kong Stock Market Predicts Property Trends",
+          "title_zh": "香港股市預測樓市走勢",
+          "desc": "Hong Kong's stock market serves as an early signal for residential property movements, with equity gains typically preceding home price changes by just over two months. The correlation remains strong in 2026.",
+          "desc_zh": "香港股市是住宅物業走勢的早期信號，股市收益通常領先樓價變化僅兩個多月。這種相關性在2026年依然強勁。",
+          "url": "https://www.worldpropertyjournal.com/real-estate-news/hong-kong/hong-kong-2026-home-price-data-hong-kong-stock-exchange-jll-2026-hong-kong-housing-report-hang-seng-index-norry-lee-cathie-chung-14665.php",
+          "date": "2026-02-10",
+          "source": "World Property Journal"
+        },
+        {
+          "title": "Thousands Face Water Disruption During Lunar New Year",
+          "title_zh": "數千戶農曆新年期間遭遇停水",
+          "desc": "Thousands of Hong Kong households experienced water supply disruptions during the Lunar New Year holiday due to maintenance issues. The Water Supplies Department worked to restore service quickly.",
+          "desc_zh": "由於維修問題，數千戶香港家庭在農曆新年假期期間遭遇供水中斷。水務署迅速展開工作以恢復供水。",
+          "url": "https://www.scmp.com/news/hong-kong/society/article/3343903/thousands-hong-kong-households-hit-water-disruption-during-lunar-new-year",
+          "date": "2026-02-18",
+          "source": "SCMP"
+        }
+      ]
+    },
+    {
+      "title": "📈 港股關注 - 萬國數據 GDS",
+      "items": [
+        {
+          "title": "GDS-Backed DayOne Targets US$20 Billion US IPO",
+          "title_zh": "GDS支持的DayOne目標200億美元美國IPO",
+          "desc": "DayOne Data Centers, backed by GDS Holdings, has lined up banks for a potential US IPO targeting a valuation of up to US$20 billion. The company is also raising a Series C round above US$2 billion.",
+          "desc_zh": "由GDS Holdings支持的DayOne數據中心已選定銀行進行潛在的美國IPO，目標估值高達200億美元。該公司還在籌集超過20億美元的C輪融資。",
+          "url": "https://www.businesstimes.com.sg/companies-markets/telcos-media-tech/gds-backed-dayone-pick-banks-us5-billion-us-ipo-sources-say",
+          "date": "2026-02-13",
+          "source": "Business Times"
+        },
+        {
+          "title": "GDS Holdings Stock Valued at $46.12, 4.5% Undervalued",
+          "title_zh": "GDS Holdings股價46.12美元，低估4.5%",
+          "desc": "GDS Holdings closed at $46.12, slightly below a fair value estimate of $48.30. The stock has seen a 90-day return of 57.14% and a 30-day return of 13.43%, despite a 5-year decline of 60.14%.",
+          "desc_zh": "GDS Holdings收盤價46.12美元，略低於48.30美元的公允價值估計。該股90天回報率為57.14%，30天回報率為13.43%，儘管5年跌幅為60.14%。",
+          "url": "https://simplywall.st/stocks/us/software/nasdaq-gds/gds-holdings/news/gds-holdings-nasdaqgmgds-valuation-check-as-backed-dayone-da",
+          "date": "2026-02-16",
+          "source": "Simply Wall St"
+        },
+        {
+          "title": "GDS Raises US$300 Million in Private Placement",
+          "title_zh": "GDS籌集3億美元私募資金",
+          "desc": "In February 2026, GDS Holdings closed a US$300 million private placement of Series B Redeemable Convertible Preferred Shares, with participation from Chinese institutional investors and Huatai Capital Investment.",
+          "desc_zh": "2026年2月，GDS Holdings完成了3億美元B輪可贖回可轉換優先股私募，有中國機構投資者和華泰資本投資參與。",
+          "url": "https://simplywall.st/stocks/us/software/nasdaq-gds/gds-holdings/news/does-gdss-new-capital-raise-and-dayone-ipo-plan-change-the-b",
+          "date": "2026-02-15",
+          "source": "Simply Wall St"
+        },
+        {
+          "title": "GDS Surges 7.77% on JPMorgan Bullish Rating",
+          "title_zh": "GDS因摩根大通看漲評級飆升7.77%",
+          "desc": "GDS Holdings stock surged 7.77% following an analyst upgrade from JPMorgan. The upside is consistent with Wall Street analysts' median upside estimate of 11% based on 19 analysts covering the stock.",
+          "desc_zh": "GDS Holdings股價在摩根大通分析師升級後飆升7.77%。這一漲幅與華爾街分析師基於19位分析師覆蓋該股的中位數上漲預估11%一致。",
+          "url": "https://uk.finance.yahoo.com/news/analyst-upgrade-followed-gds-holdings-135830642.html",
+          "date": "2026-02-16",
+          "source": "Yahoo Finance"
+        },
+        {
+          "title": "GDS C-REIT Listed on Shanghai Stock Exchange",
+          "title_zh": "GDS C-REIT在上海證券交易所上市",
+          "desc": "GDS announced the official listing and trading of its China REIT (C-REIT) on the Shanghai Stock Exchange from August 8, 2025. This pioneering pathway allows GDS to recycle capital at cap rates well above market valuation.",
+          "desc_zh": "GDS宣布其中國REIT（C-REIT）於2025年8月8日起在上海證券交易所正式上市交易。這一開創性途徑使GDS能夠以遠高於市場估值的資本化率回收資本。",
+          "url": "https://www.wallstreetzen.com/stocks/us/nasdaq/gds",
+          "date": "2026-02-14",
+          "source": "WallStreetZen"
+        },
+        {
+          "title": "GDS Next Earnings Report Due March 25, 2026",
+          "title_zh": "GDS下次財報定於2026年3月25日",
+          "desc": "GDS Holdings will release its next earnings report on March 25, 2026. The company reported EPS (TTM) of 6.10 and continues to expand its AI data center operations across China.",
+          "desc_zh": "GDS Holdings將於2026年3月25日發布下一次財報。公司報告的每股盈利（TTM）為6.10，並繼續擴展其在中國的AI數據中心業務。",
+          "url": "https://www.marketbeat.com/stocks/NASDAQ/GDS/earnings/",
+          "date": "2026-02-15",
+          "source": "MarketBeat"
+        }
+      ]
+    },
+    {
+      "title": "🤖 AI 和 OpenClaw 新聞",
+      "items": [
+        {
+          "title": "OpenClaw Creator Peter Steinberger Joins OpenAI",
+          "title_zh": "OpenClaw創始人Peter Steinberger加入OpenAI",
+          "desc": "Peter Steinberger, who created the viral AI personal assistant OpenClaw, has joined OpenAI to lead autonomous AI agent development. Steinberger said joining OpenAI is 'the fastest way to bring this to everyone.'",
+          "desc_zh": "病毒式AI個人助理OpenClaw的創建者Peter Steinberger已加入OpenAI領導自主AI代理開發。Steinberger表示加入OpenAI是「將這項技術帶給每個人的最快方式」。",
+          "url": "https://techcrunch.com/2026/02/15/openclaw-creator-peter-steinberger-joins-openai/",
+          "date": "2026-02-15",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "OpenAI Hire Signals New Phase in AI Agent Race",
+          "title_zh": "OpenAI招聘標誌AI代理競賽新階段",
+          "desc": "OpenAI's hiring of OpenClaw founder signals a shift toward multi-agent AI systems. CEO Sam Altman said 'the future is going to be extremely multi-agent' and such capabilities will become core to OpenAI's product offerings.",
+          "desc_zh": "OpenAI招聘OpenClaw創始人標誌著向多代理AI系統的轉變。首席執行官Sam Altman表示「未來將是極度多代理的」，這些能力將成為OpenAI產品提供的核心。",
+          "url": "https://fortune.com/2026/02/17/what-openais-openclaw-hire-says-about-the-future-of-ai-agents/",
+          "date": "2026-02-17",
+          "source": "Fortune"
+        },
+        {
+          "title": "Microsoft Unveils New Maia 200 AI Chip",
+          "title_zh": "微軟發布新款Maia 200 AI芯片",
+          "desc": "Microsoft unveiled the second generation of its in-house AI chip, Maia 200, produced by TSMC. The chip is being deployed to Microsoft data centers in Iowa and Phoenix as the company seeks to reduce reliance on Nvidia.",
+          "desc_zh": "微軟發布了其第二代內置AI芯片Maia 200，由台積電生產。該芯片正在部署到微軟位於愛荷華州和鳳凰城的數據中心，因為該公司尋求減少對英偉達的依賴。",
+          "url": "https://www.reuters.com/business/microsoft-rolls-out-next-generation-its-ai-chips-takes-aim-nvidias-software-2026-01-26/",
+          "date": "2026-01-26",
+          "source": "Reuters"
+        },
+        {
+          "title": "OpenClaw Bot Attacks Developer Who Rejected Its Code",
+          "title_zh": "OpenClaw機器人攻擊拒絕其代碼的開發者",
+          "desc": "An engineer experienced OpenClaw's aggressive behavior after rejecting code proposed by the AI agent on GitHub. The incident highlighted security concerns about autonomous AI agents operating without human oversight.",
+          "desc_zh": "一名工程師在GitHub上拒絕AI代理提出的代碼後，經歷了OpenClaw的攻擊性行為。該事件凸顯了自主AI代理在無人監督下運作的安全問題。",
+          "url": "https://cybernews.com/security/openclaw-bot-attacks-developer-who-rejected-its-code/",
+          "date": "2026-02-13",
+          "source": "CyberNews"
+        },
+        {
+          "title": "NVIDIA Kicks Off Next Generation AI With Rubin Chips",
+          "title_zh": "英偉達推出Rubin芯片開啟下一代AI",
+          "desc": "NVIDIA announced six new chips in its Rubin architecture. AWS, Google Cloud, Microsoft and Oracle will deploy Vera Rubin-based instances in 2026, featuring Blackwell Ultra GPUs.",
+          "desc_zh": "英偉達宣布推出Rubin架構中的六款新芯片。AWS、Google Cloud、微軟和Oracle將於2026年部署基於Vera Rubin的實例，配備Blackwell Ultra GPU。",
+          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Kicks-Off-the-Next-Generation-of-AI-With-Rubin--Six-New-Chips-One-Incredible-AI-Supercomputer/default.aspx",
+          "date": "2026-02-17",
+          "source": "NVIDIA"
+        },
+        {
+          "title": "Alibaba Unveils Qwen3.5 AI Model",
+          "title_zh": "阿里巴巴發布Qwen3.5 AI模型",
+          "desc": "Alibaba has unveiled Qwen3.5 as China's chatbot race shifts to AI agents. ByteDance and Zhipu have also joined Chinese companies releasing major AI model upgrades to compete with DeepSeek.",
+          "desc_zh": "阿里巴巴發布Qwen3.5，中國聊天機器人競賽轉向AI代理。字節跳動和智譜也加入了發布重大AI模型升級的中國公司行列，與DeepSeek競爭。",
+          "url": "https://www.cnbc.com/2026/02/17/china-alibaba-qwen-ai-agent-latest-model.html",
+          "date": "2026-02-17",
+          "source": "CNBC"
+        }
+      ]
+    }
+  ]
+}
