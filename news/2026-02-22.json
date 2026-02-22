@@ -1,0 +1,232 @@
+{
+  "title": "Frank 早報 - 2026-02-22",
+  "date": "2026-02-22",
+  "last_update": "2026-02-22T12:00:01.394494",
+  "sections": [
+    {
+      "title": "🌍 國際新聞",
+      "items": [
+        {
+          "title": "Supreme Court strikes down Trump's tariffs in major rebuke",
+          "title_zh": "美國最高法院駁回特朗普關稅政策",
+          "desc": "美國最高法院以6比3裁定，特朗普總統在國際緊急經濟權力法下實施全面關稅超越了其權限，這對其核心經濟政策是重大打擊。...",
+          "url": "https://www.npr.org/2026/02/20/nx-s1-5672383/supreme-court-tariffs",
+          "source": "News",
+          "date": "2026-02-20"
+        },
+        {
+          "title": "Ukraine and Russia hold peace talks in Geneva",
+          "title_zh": "烏克蘭與俄羅斯在日內瓦舉行和平談判",
+          "desc": "美國斡旋的烏俄和平談判在日內瓦進入第二天，特朗普總統施壓基輔儘快達成協議。烏克蘭對結果表示不滿，而華盛頓稱取得了'有意義的進展'。...",
+          "url": "https://www.reuters.com/business/aerospace-defense/ukraine-russia-peace-talks-enter-second-day-geneva-with-pressure-kyiv-2026-02-18/",
+          "source": "News",
+          "date": "2026-02-18"
+        },
+        {
+          "title": "North Korea's Kim lauds economy at party congress",
+          "title_zh": "金正恩在黨代會上讚揚朝鮮經濟",
+          "desc": "朝鮮領導人金正恩在勞動黨代表大會上讚揚國家經濟改善和區域地位提升。分析師稱他可能在此重要政治會議上為其女兒確立潛在繼承人地位。...",
+          "url": "https://apnews.com/article/north-korea-party-congress-kim-jong-un-nuclear-13331f3c040c01f92cabc0cd14972765",
+          "source": "News",
+          "date": "2026-02-20"
+        },
+        {
+          "title": "World Food Programme warns Somalia aid could halt by April",
+          "title_zh": "世界糧食計劃署警告索馬里援助可能在4月停止",
+          "desc": "聯合國世界糧食計劃署警告，除非獲得新資金，否則索馬里的救生糧食和營養援助可能在4月停止，數百萬人將面臨飢餓加劇的風險。...",
+          "url": "https://www.reuters.com/world/",
+          "source": "News",
+          "date": "2026-02-20"
+        },
+        {
+          "title": "Trump launches Board of Peace despite bigger countries steering clear",
+          "title_zh": "特朗普成立和平委員會 大國卻紛紛迴避",
+          "desc": "特朗普總統成立和平委員會以顛覆傳統外交渠道，但大國紛紛避免參與。據世界銀行報告，重建成本估計達530億美元。...",
+          "url": "https://www.politico.com/news/2026/02/19/trump-gets-his-board-of-peace-even-as-bigger-countries-steer-clear-00789617",
+          "source": "News",
+          "date": "2026-02-19"
+        }
+      ]
+    },
+    {
+      "title": "🇨🇳 中國新聞",
+      "items": [
+        {
+          "title": "IMF calls for China to rebalance toward consumption",
+          "title_zh": "IMF呼籲中國經濟向消費轉型",
+          "desc": "國際貨幣基金組織發布年度中國報告，敦促當局將經濟轉向消費導向，因投資和出口導向的增長模式現正面臨挑戰。2026年增長預測為4.5%。...",
+          "url": "https://www.imf.org/en/news/articles/2026/02/18/cf-how-chinas-economy-can-pivot-to-consumption-led-growth",
+          "source": "News",
+          "date": "2026-02-19"
+        },
+        {
+          "title": "China sees opportunity to turn Trump tariffs to its advantage",
+          "title_zh": "中國看到將特朗普關稅轉為優勢的機會",
+          "desc": "中國看到重塑全球貿易的機會，以使其19萬億美元的經濟遠離美國壓力，利用不斷變化的貿易格局。...",
+          "url": "https://www.reuters.com/world/china/",
+          "source": "News",
+          "date": "2026-02-20"
+        },
+        {
+          "title": "No easy way out of China's slowdown",
+          "title_zh": "中國經濟放緩難有出路",
+          "desc": "中國經濟穩步增長，但結構性放緩正值其應對房地產泡沫後果和貿易緊張局勢加劇之際。這些挑戰可能成為中國經濟未來的重要因素。...",
+          "url": "https://eastasiaforum.org/2026/02/20/no-easy-way-out-of-chinas-slowdown/",
+          "source": "News",
+          "date": "2026-02-20"
+        },
+        {
+          "title": "IMF says China's economic model is hurting global economy",
+          "title_zh": "IMF稱中國經濟模式損害全球經濟",
+          "desc": "IMF執行董事會呼籲中國政策框架重大轉變，敦促採取綜合措施，結合宏觀經濟刺激與結構性改革，以解決產能過剩和通縮壓力。...",
+          "url": "https://www.latimes.com/business/story/2026-02-18/imf-says-chinas-economic-model-is-hurting-global-economy",
+          "source": "News",
+          "date": "2026-02-18"
+        },
+        {
+          "title": "ByteDance Seedance 2.0 AI video tool spooks Hollywood",
+          "title_zh": "字節跳動Seedance 2.0 AI視頻工具震驚好萊塢",
+          "desc": "字節跳動的新AI視頻生成工具Seedance 2.0走紅，創建的電影級視頻讓好萊塢工作室震驚。派拉蒙和迪士尼發出停止令，指控該公司侵犯知識產權。...",
+          "url": "https://www.cnn.com/2026/02/20/china/china-ai-seedance-intl-hnk-dst",
+          "source": "News",
+          "date": "2026-02-20"
+        }
+      ]
+    },
+    {
+      "title": "🇭🇰 香港新聞",
+      "items": [
+        {
+          "title": "Hong Kong property market forecast to rebound in 2026",
+          "title_zh": "香港樓市預計2026年反彈",
+          "desc": "摩根士丹利預計香港樓價2026年將增長超過10%，2025年上漲5%。土地銷售收入預計達120-150億港元，同比增長60%。...",
+          "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/hong-kong-real-estate-market-2026-praveen-choudhary",
+          "source": "News",
+          "date": "2026-02-20"
+        },
+        {
+          "title": "Mainland buyers reshape Hong Kong property market",
+          "title_zh": "內地買家重塑香港樓市格局",
+          "desc": "農曆新年後，香港樓市正迎來「小陽春」復甦。內地買家正成為關鍵推動力，其購買力顯著改變市場結構。...",
+          "url": "https://www.am730.com.hk/column/%E8%B2%A1%E7%B6%93/2001872/%E5%85%A7%E5%9C%B0%E5%AE%A2%E8%B3%BC%E8%B2%B7%E5%8A%9B%E9%87%8D%E5%A1%91%E9%A6%99%E6%B8%AF%E6%A8%93%E5%B8%82%E6%A0%BC%E5%B1%80",
+          "source": "News",
+          "date": "2026-02-19"
+        },
+        {
+          "title": "Hang Seng Index sees volatility amid global market shifts",
+          "title_zh": "恒生指數在全球市場變化中波動",
+          "desc": "隨著全球市場對不斷變化的貿易政策和經濟數據作出反應，香港恒生指數一直波動。科技股表現參差不齊。...",
+          "url": "https://finance.yahoo.com/quote/%5EHSI/",
+          "source": "News",
+          "date": "2026-02-20"
+        },
+        {
+          "title": "Hong Kong office market leads recovery after six-year correction",
+          "title_zh": "香港寫字樓市場在六年調整後帶領復甦",
+          "desc": "仲量聯行預計2026年大眾住宅資本價值將上漲約5%，而豪華住宅價值將保持大致平穩。新屋苑將享有更高的上升空間。...",
+          "url": "https://www.jll.com/en-hk/newsroom/2026-hong-kong-s-office-and-housing-markets-lead-recovery-after-a-six-year-correction",
+          "source": "News",
+          "date": "2025-12-10"
+        },
+        {
+          "title": "Hong Kong budget deficit expected at HK$67 billion for 2025-26",
+          "title_zh": "香港2025-26年度財政赤字預計為670億港元",
+          "desc": "香港財政司司長預測2025-26財政年度赤字為670億港元，財政儲備將下降至5803億港元。預算重點關注創新和科技發展。...",
+          "url": "https://www.budget.gov.hk/2025/eng/budget45.html",
+          "source": "News",
+          "date": "2025-02-26"
+        }
+      ]
+    },
+    {
+      "title": "📈 GDS相關",
+      "items": [
+        {
+          "title": "GDS Holdings - Leading Data Center Operator in China",
+          "title_zh": "萬國數據 - 中國領先數據中心運營商",
+          "desc": "萬國數據（納斯達克：GDS，港交所：9698）是中國領先的數據中心開發商和運營商。於2016年在納斯達克上市，2020年在香港交易所上市，萬國數據運營高性能數據中心，為雲服務提供商和大型企業服務。...",
+          "url": "https://www.mg21.com/gds.html",
+          "source": "News",
+          "date": "2026-02-21"
+        },
+        {
+          "title": "Data center market to reach $430.18 billion in 2026",
+          "title_zh": "數據中心市場2026年將達到4301.8億美元",
+          "desc": "全球數據中心市場預計2026年將達到4301.8億美元，由雲計算和AI工作負載需求上升推動。市場預計到2035年將達到1.1萬億美元。...",
+          "url": "https://www.globenewswire.com/news-release/2026/01/29/3228562/0/en/Data-Center-Market-Size-to-Reach-430-18-Bn-in-2026-Projected-1-1-Tn-by-2035-Trends-and-Regional-Analysis.html",
+          "source": "News",
+          "date": "2026-01-29"
+        },
+        {
+          "title": "Roughly 100 GW of new data center capacity expected by 2030",
+          "title_zh": "到2030年預計新增約100吉瓦數據中心容量",
+          "desc": "仲量聯行預計2026年至2030年間將有約100吉瓦新數據中心容量上線，相當於1.2萬億美元的房地產資產價值創造。這一增長由AI和雲計算需求推動。...",
+          "url": "https://www.jll.com/en-us/insights/market-outlook/data-center-outlook",
+          "source": "News",
+          "date": "2026-01-19"
+        },
+        {
+          "title": "GDS Wealth Management increases Microsoft holdings",
+          "title_zh": "GDS Wealth Management增持微軟股份",
+          "desc": "根據最新13F申報，GDS Wealth Management第三季度將其微軟持股增加了5.7%。該公司現持有58,512股，價值約3031萬美元。...",
+          "url": "https://www.defenseworld.net/2026/02/19/gds-wealth-management-acquires-3133-shares-of-microsoft-corporation-msft.html",
+          "source": "News",
+          "date": "2026-02-19"
+        },
+        {
+          "title": "Aberdeen Group reduces position in GDS Holdings",
+          "title_zh": "Aberdeen Group減持萬國數據股份",
+          "desc": "根據向SEC提交的最新13F申報，Aberdeen Group plc在第三季度將其萬國數據持股減少了15.9%。此舉反映了機構對數據中心板塊的重新調整。...",
+          "url": "https://www.themarketsdaily.com/2026/02/19/aberdeen-group-plc-reduces-position-in-gds-holdings-gds.html",
+          "source": "News",
+          "date": "2026-02-19"
+        }
+      ]
+    },
+    {
+      "title": "🤖 AI科技",
+      "items": [
+        {
+          "title": "Researchers Reveal Six New OpenClaw Vulnerabilities",
+          "title_zh": "研究人員發現六個新的OpenClaw漏洞",
+          "desc": "OpenClaw已修補六個新漏洞，包括SSRF、缺失認證和路徑遍歷錯誤。這些漏洞從中等到高嚴重性，部分已有公開利用代碼。...",
+          "url": "https://www.infosecurity-magazine.com/news/researchers-six-new-openclaw/",
+          "source": "News",
+          "date": "2026-02-18"
+        },
+        {
+          "title": "AI anxiety could fuel new workers' movement",
+          "title_zh": "AI焦慮可能催生新的工人運動",
+          "desc": "衛報的Reworked系列探討AI焦慮如何消除藍領和白領工人之間的階級分歧，可能催生自動化時代爭取尊嚴和權力的新工人運動。...",
+          "url": "https://www.theguardian.com/technology/ng-interactive/2026/feb/19/ai-work-future",
+          "source": "News",
+          "date": "2026-02-19"
+        },
+        {
+          "title": "Cline CLI supply chain attack installed OpenClaw on developer systems",
+          "title_zh": "Cline CLI供應鏈攻擊在開發者系統上安裝OpenClaw",
+          "desc": "對Cline CLI 2.3.0的供應鏈攻擊偷偷在開發者系統上安裝了OpenClaw。這一事件凸顯了企業環境中AI代理部署的安全擔憂日益增加。...",
+          "url": "https://thehackernews.com/2026/02/cline-cli-230-supply-chain-attack.html",
+          "source": "News",
+          "date": "2026-02-20"
+        },
+        {
+          "title": "Researchers find 40,000+ exposed OpenClaw instances",
+          "title_zh": "研究人員發現超過4萬個暴露的OpenClaw實例",
+          "desc": "安全研究人員發現超過4萬個配置錯誤的OpenClaw實例暴露在公共互聯網上，可能使威脅行為者獲得對敏感企業系統的完全訪問權限。...",
+          "url": "https://www.infosecurity-magazine.com/news/researchers-40000-exposed-openclaw/",
+          "source": "News",
+          "date": "2026-02-18"
+        },
+        {
+          "title": "AI spending forecast to reach $2.5 trillion in 2026",
+          "title_zh": "AI支出預計2026年將達到2.5萬億美元",
+          "desc": "據Gartner稱，受全球數據中心和服務大規模建設推動，AI支出預計2026年將飆升至2.5萬億美元。這代表著有史以來最大的技術投資之一。...",
+          "url": "https://www.aljazeera.com/news/2026/2/19/visualising-ai-spending-how-does-it-compare-with-historys-mega-projects",
+          "source": "News",
+          "date": "2026-02-19"
+        }
+      ]
+    }
+  ]
+}
