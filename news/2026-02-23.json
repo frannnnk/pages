@@ -1,0 +1,254 @@
+{
+  "title": "Frank 早報 - 2026-02-23",
+  "date": "2026-02-23",
+  "summary": [
+    "🌍 國際：Ukraine-Russia peace talks fail to achieve breakthrough in UAE negotiations",
+    "🇨🇳 中國：China launches 60.06 billion yuan national AI fund to boost technology sector",
+    "🇭🇰 香港：財政預算案2026即將公布，陳茂波預告經營帳目提早恢復盈餘",
+    "📈 GDS：GDS Holdings completes $300 million convertible preferred shares private placement",
+    "🤖 OpenClaw：CVE-2026-25253 vulnerability allows one-click system compromise of OpenClaw AI agents"
+  ],
+  "sections": [
+    {
+      "title": "🌍 國際新聞",
+      "items": [
+        {
+          "title": "Ukraine-Russia Peace Talks Fail to Achieve Breakthrough in UAE",
+          "title_zh": "烏克蘭-俄羅斯和談未能在阿聯酋取得突破",
+          "desc": "The latest talks between US, Ukrainian and Russian officials in the United Arab Emirates in late January/early February 2026 did not achieve a breakthrough. Ukrainian forces continue to hold defensive lines and push back Russian advances in southern Ukraine.",
+          "desc_zh": "1月底至2月初，美國、烏克蘭和俄羅斯官員在阿聯酋舉行的最新一輪和談未能取得突破。烏克蘭軍隊繼續堅守防線，並在烏克蘭南部擊退俄軍進攻。",
+          "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10411/",
+          "source": "UK Parliament",
+          "date": "2026-02-22"
+        },
+        {
+          "title": "Trump's Economy Decelerated to 1.4% Growth in Q4 2025",
+          "title_zh": "特朗普經濟放緩，2025年第四季度增長僅1.4%",
+          "desc": "The Commerce Department estimated that the US economy grew at an annual rate of just 1.4 percent during the fourth quarter as spending cooled amid a record-breaking government shutdown. Trump had predicted 5.4% growth.",
+          "desc_zh": "美國商務部估計，在政府創紀錄停擺期間消費支出放緩，第四季度經濟年化增長率僅為1.4%。特朗普此前曾預測增長5.4%。",
+          "url": "https://www.politico.com/news/2026/02/20/trumps-economy-decelerated-as-shutdown-consumer-spending-drag-on-growth-00790640",
+          "source": "Politico",
+          "date": "2026-02-20"
+        },
+        {
+          "title": "Kremlin Continues Cognitive Warfare to Portray Russian Victory as Inevitable",
+          "title_zh": "克里姆林宮持續認知戰，渲染俄羅斯勝利不可避免",
+          "desc": "According to ISW assessment, the Kremlin continues cognitive warfare efforts to attempt to convince the West to abandon Ukraine and portray Russian victory as inevitable. Ukrainian forces continue to hold defensive lines.",
+          "desc_zh": "據戰爭研究所評估，克里姆林宮持續進行認知戰，試圖說服西方放棄烏克蘭，並渲染俄羅斯勝利不可避免。烏克蘭軍隊繼續堅守防線。",
+          "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-february-20-2026/",
+          "source": "ISW",
+          "date": "2026-02-20"
+        },
+        {
+          "title": "Trump Pitches Economic Plan in Georgia as High Prices Frustrate Voters",
+          "title_zh": "特朗普在喬治亞州推銷經濟計劃，應對選民對高物價的不滿",
+          "desc": "President Donald Trump insisted on Thursday his policies were easing high prices, seeking to persuade voters frustrated by the cost of living that he and fellow Republicans have an effective economic plan.",
+          "desc_zh": "總統唐納德·特朗普周四堅稱他的政策正在緩解高物價，試圖說服對生活成本感到沮喪的選民，讓他們相信他和共和黨同僚有一個有效的經濟計劃。",
+          "url": "https://www.reuters.com/world/us/trump-make-new-economic-pitch-georgia-prices-stay-high-2026-02-19/",
+          "source": "Reuters",
+          "date": "2026-02-19"
+        },
+        {
+          "title": "US-Iran Diplomatic Timeline Uncertain Amid Military Buildup",
+          "title_zh": "美國軍事集結之際，美伊外交時間表不明朗",
+          "desc": "The White House declined to commit to any firm timeline for diplomacy with Iran, as the US continues its military buildup in the Middle East. Tensions remain high despite ongoing talks.",
+          "desc_zh": "白宮拒絕承諾與伊朗外交的確切時間表，因為美國繼續在中東進行軍事集結。儘管正在進行談判，但緊張局勢仍然很高。",
+          "url": "https://www.cnn.com/politics/live-news/trump-administration-news-02-18-26",
+          "source": "CNN",
+          "date": "2026-02-18"
+        }
+      ]
+    },
+    {
+      "title": "🇨🇳 中國大陸新聞",
+      "items": [
+        {
+          "title": "China Launches 60.06 Billion Yuan National AI Fund",
+          "title_zh": "中國啟動600.6億元國家人工智能基金",
+          "desc": "Beijing quietly launched a 60.06 billion yuan ($8.69 billion) national AI fund last year, and has an initiative called 'AI+' which will see the tech integrated across its economy, industries, and society.",
+          "desc_zh": "北京去年悄悄啟動了600.6億元（86.9億美元）的國家人工智能基金，並推出了'AI+'計劃，將該技術融入其經濟、產業和社會的各個領域。",
+          "url": "https://www.cnbc.com/2026/02/16/chinas-tech-shock-ai-monopoly-us.html",
+          "source": "CNBC",
+          "date": "2026-02-16"
+        },
+        {
+          "title": "China's Private Sector Achieves Breakthroughs in AI, Robotics and Aerospace",
+          "title_zh": "中國民營企業在人工智能、機器人和航空航天領域取得突破",
+          "desc": "Over the past year, China's private sector has achieved significant breakthroughs in emerging fields such as AI, robotics, and aerospace. With its prominent position in the country's economy, it plays a pivotal role in technological advancement.",
+          "desc_zh": "過去一年，中國民營企業在人工智能、機器人和航空航天等新興領域取得了重大突破。憑藉其在國家經濟中的突出地位，它在技術進步中發揮著關鍵作用。",
+          "url": "https://news.cgtn.com/news/2026-02-18/Private-economy-as-a-key-driver-of-China-s-economic-priorities-1KPYvmGWgwM/p.html",
+          "source": "CGTN",
+          "date": "2026-02-18"
+        },
+        {
+          "title": "China's New Five-Year Plan Focuses on Industrial Upgrading with AI",
+          "title_zh": "中國新五年規劃聚焦人工智能產業升級",
+          "desc": "We expect 'industrial upgrading' – efforts to deploy AI and other emerging technologies across industry – to be the Plan's top priority as focus moves from developing China's sci-tech base to translating technological advances into economic growth.",
+          "desc_zh": "我們預計'產業升級'——將人工智能和其他新興技術部署到各個產業的努力——將成為該計劃的首要任務，重點從發展中國科技基礎轉向將技術進步轉化為經濟增長。",
+          "url": "https://institute.global/insights/geopolitics-and-security/what-to-expect-from-chinas-new-five-year-plan",
+          "source": "Asia Society",
+          "date": "2026-02-18"
+        },
+        {
+          "title": "Beijing Integrates AI and Robotics into Economic Strategy Core",
+          "title_zh": "北京將人工智能和機器人技術納入經濟戰略核心",
+          "desc": "Over the past year, Beijing has integrated artificial intelligence and robotics technology into the core of its economic strategy, investing heavily in advanced chip manufacturing, automation and generative AI to surpass the US in technology.",
+          "desc_zh": "過去一年，北京將人工智能和機器人技術納入經濟戰略核心，在先進芯片製造、自動化和生成式人工智能領域投入巨資，力圖在科技領域超越美國。",
+          "url": "https://www.bbc.com/zhongwen/articles/cwy964g856go/simp",
+          "source": "BBC 中文",
+          "date": "2026-02-20"
+        },
+        {
+          "title": "China's Tech Shock Threatens US AI Monopoly, Just Getting Started",
+          "title_zh": "中國科技衝擊威脅美國人工智能壟斷，才剛剛開始",
+          "desc": "China's technological advances in AI and chip manufacturing are threatening US dominance. The DeepSeek revelation showed there are other ways of training language models more economically.",
+          "desc_zh": "中國在人工智能和芯片製造方面的技術進步正在威脅美國的主導地位。DeepSeek的啟示表明，有更經濟的方式來訓練語言模型。",
+          "url": "https://www.cnbc.com/2026/02/16/chinas-tech-shock-ai-monopoly-us.html",
+          "source": "CNBC",
+          "date": "2026-02-16"
+        }
+      ]
+    },
+    {
+      "title": "🇭🇰 香港新聞",
+      "items": [
+        {
+          "title": "Hong Kong Budget 2026-27 to Announce Sweeteners for Citizens",
+          "title_zh": "香港2026-27年度財政預算案將公布惠民措施",
+          "desc": "The Hong Kong budget 2026-27 will be announced on February 25. Financial Secretary Paul Chan Mo-po disclosed that the city is set to achieve an early operating account surplus after three consecutive years of deficit, thanks to booming stock market stamp duty revenue.",
+          "desc_zh": "香港2026-27年度財政預算案將於2月25日公布。財政司司長陳茂波透露，受惠於蓬勃的股市印花稅收入，在連續三年赤字後，本港將提前實現經營帳目盈餘。",
+          "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3344177/hong-kong-budget-2026-27-sweeteners-grass-roots-or-middle-class",
+          "source": "SCMP",
+          "date": "2026-02-21"
+        },
+        {
+          "title": "Budget 2026 Cover Color Revealed, Chan Mo-po Explains Philosophy",
+          "title_zh": "財政預算案2026封面顏色曝光，陳茂波親解理念",
+          "desc": "The cover color of the Budget 2026 has been revealed. Financial Secretary Paul Chan explained that the color symbolizes Hong Kong's economy gaining endogenous momentum, representing continued strengthening of internal growth drivers.",
+          "desc_zh": "財政預算案2026的封面顏色已經曝光。財政司司長陳茂波解釋，該顏色象徵香港經濟內生動力不斷增強，代表內部增長動力持續強化。",
+          "url": "https://www.stheadline.com/zh-hans/politics/3546430/%E8%B4%A2%E6%94%BF%E9%A2%84%E7%AE%97%E6%A1%882026%E5%B0%81%E9%9D%A2%E9%A2%9C%E8%89%B2%E6%9B%9D%E5%85%89-%E9%99%88%E8%8C%82%E6%B3%A2%E4%BA%B2%E8%A7%A3%E7%90%86%E5%BF%B5%E5%AF%93%E6%84%8F%E6%9C%AC%E6%B8%AF%E7%BB%8F%E6%B6%8E%E5%86%85%E7%94%9F%E5%8A%A8%E5%8A%9B%E4%B8%8D%E6%96%AD%E5%A2%9E%E5%BC%BA",
+          "source": "星島頭條",
+          "date": "2026-02-22"
+        },
+        {
+          "title": "Hong Kong Budget Review: Relief Measures Expected to Increase",
+          "title_zh": "香港預算案前瞻：紓困措施力度料增加",
+          "desc": "With the government's operating account returning to surplus ahead of schedule, political circles expect 'sweeteners' to increase this year to share economic fruits with citizens, though likely in a more measured approach given long-term fiscal prudence.",
+          "desc_zh": "隨著政府經營帳目提前恢復盈餘，政界預期今年'派糖'力度將增加，與市民分享經濟成果，但鑑於長期財政審慎，可能會採取更克制的做法。",
+          "url": "https://www.stheadline.com/politics/3545338/%E8%B2%A1%E6%94%BF%E9%A0%90%E7%AE%97%E6%A1%88%E5%89%8D%E9%B7%BA%E5%BA%AB%E6%88%BF%E6%AD%A2%E8%A1%80%E6%B4%BE%E7%B3%96%E5%8A%9B%E5%BA%A6%E6%96%99%E5%A2%9E-%E6%94%BF%E7%95%8C%E4%BB%8A%E5%B9%B4%E5%8F%AF%E5%B0%91%E7%94%9C%E5%88%86%E4%BA%AB%E6%88%90%E6%9E%9C-%E6%83%9F%E6%B6%88%E8%B2%BB%E5%88%B8%E5%90%B9%E6%B7%A1%E9%A2%A8",
+          "source": "星島頭條",
+          "date": "2026-02-20"
+        },
+        {
+          "title": "Hong Kong Stock Market: Hang Seng Index Down 1.1%, Tech Index Drops 2.91%",
+          "title_zh": "香港股市：恒生指數下跌1.1%，科技指數跌2.91%",
+          "desc": "As of February 20 close, the Hang Seng Index closed at 26,413.35 points, down 1.1%; the Hang Seng Tech Index closed at 5,211.5 points, down 2.91%. The market saw volatility with robot concept stocks surging.",
+          "desc_zh": "截至2月20日收盤，恒生指數報收26,413.35點，下跌1.1%；恒生科技指數報收5,211.5點，下跌2.91%。市場波動較大，機器人概念股大漲。",
+          "url": "https://finance.sina.com.cn/jjxw/2026-02-22/doc-inhnsckr8226693.shtml",
+          "source": "新浪財經",
+          "date": "2026-02-22"
+        },
+        {
+          "title": "30+ Recommendations for Budget 2026: Subsidies, Tax Relief Proposed",
+          "title_zh": "財政預算案2026建議30多項：補貼、稅務減免提案",
+          "desc": "Various accounting firms, chambers of commerce and legislators have submitted proposals for the Budget 2026, covering sweeteners, tax relief, consumption vouchers, AI subsidies and more. A new railway connecting Northwest New Territories to Lantau is also proposed.",
+          "desc_zh": "各會計師事務所、商會和立法會議員已就2026年預算案提交建議，涵蓋紓困措施、稅務減免、消費券、人工智能補貼等。還提議興建一條連接新界西北至大嶼山的新鐵路。",
+          "url": "https://www.hk01.com/%E9%96%8B%E7%BD%90/60315470/%E8%B2%A1%E6%94%BF%E9%A0%90%E7%AE%97%E6%A1%882026%E6%87%B6%E4%BA%BA%E5%8C%85-%E6%B4%BE%E7%B3%96-%E6%B4%BE%E9%8C%A2%E6%B6%88%E8%B2%BB%E5%88%B8-ai%E8%A3%9C%E8%B2%BC-30-%E5%A4%A7%E5%BB%BA%E8%AD%B0%E4%B8%80%E8%A6%BD",
+          "source": "香港01",
+          "date": "2026-02-20"
+        }
+      ]
+    },
+    {
+      "title": "📈 港股關注 - 萬國數據 GDS",
+      "items": [
+        {
+          "title": "GDS Holdings Completes $300 Million Convertible Preferred Shares Placement",
+          "title_zh": "萬國數據完成3億美元可轉換優先股配售",
+          "desc": "GDS Holdings announced it has filed a Form 6-K with the SEC regarding transaction documents for a $300 million private placement of convertible preferred shares. The conversion price is approximately $54.43 per ADS.",
+          "desc_zh": "萬國數據宣布已向美國證交會提交6-K表格，涉及3億美元可轉換優先股私募配售的交易文件。轉換價約為每股美國存托股54.43美元。",
+          "url": "https://uk.finance.yahoo.com/news/analyst-upgrade-followed-gds-holdings-135830642.html",
+          "source": "Yahoo Finance",
+          "date": "2026-02-12"
+        },
+        {
+          "title": "JP Morgan Raises GDS Price Target from $40 to $55",
+          "title_zh": "摩根大通將萬國數據目標價從40美元上調至55美元",
+          "desc": "According to a report released on February 5, J.P. Morgan analyst Gokul Hariharan raised the firm's price target on GDS Holdings from $40 to $55 while maintaining an investment rating following the convertible notes offering.",
+          "desc_zh": "根據2月5日發布的報告，摩根大通分析師Gokul Hariharan在可轉換票據發行後，將萬國數據的目標價從40美元上調至55美元，同時維持投資評級。",
+          "url": "https://uk.finance.yahoo.com/news/analyst-upgrade-followed-gds-holdings-135830642.html",
+          "source": "Yahoo Finance",
+          "date": "2026-02-05"
+        },
+        {
+          "title": "GDS Holdings Valued at $46.12, Fair Value Estimate $48.30",
+          "title_zh": "萬國數據股價46.12美元，公允價值估計48.30美元",
+          "desc": "GDS Holdings closed at $46.12, slightly below a widely followed fair value estimate of $48.30, which is built on detailed long-term growth and profitability assumptions. DayOne Data Centers backed by GDS is targeting a US$20b IPO.",
+          "desc_zh": "萬國數據收盤價46.12美元，略低於廣泛關注的48.30美元公允價值估計，該估計基於詳細的長期增長和盈利能力假設。萬國數據支持的DayOne數據中心正尋求200億美元IPO。",
+          "url": "https://simplywall.st/stocks/us/software/nasdaq-gds/gds-holdings/news/gds-holdings-nasdaqgmgds-valuation-check-as-backed-dayone-da",
+          "source": "Simply Wall St",
+          "date": "2026-02-16"
+        },
+        {
+          "title": "GDS to Hold Extraordinary General Meeting on February 24, 2026",
+          "title_zh": "萬國數據將於2026年2月24日舉行股東特別大會",
+          "desc": "GDS will hold an Extraordinary General Meeting and Additional Shareholders Meetings on February 24, 2026. A meeting of Class A Shareholders will be held at 4:30 p.m. China Standard Time, followed by a Preferred Shareholders Meeting.",
+          "desc_zh": "萬國數據將於2026年2月24日舉行股東特別大會及額外股東大會。A類股東大會將於中國標準時間下午4:30舉行，隨後舉行優先股股東大會。",
+          "url": "https://taiwannews.com.tw/news/6289948",
+          "source": "Taiwan News",
+          "date": "2026-01-26"
+        }
+      ]
+    },
+    {
+      "title": "🤖 AI 和 OpenClaw 新聞",
+      "items": [
+        {
+          "title": "Critical OpenClaw Vulnerability CVE-2026-25253 Allows One-Click System Compromise",
+          "title_zh": "嚴重OpenClaw漏洞CVE-2026-25253允許一鍵系統入侵",
+          "desc": "On February 3, 2026, security researchers disclosed CVE-2026-25253, a vulnerability that allows one malicious link and one click to achieve complete system takeover of OpenClaw AI agents.",
+          "desc_zh": "2026年2月3日，安全研究人員披露了CVE-2026-25253漏洞，該漏洞允許通過一個惡意鏈接和一鍵點擊即可完全控制OpenClaw人工智能代理。",
+          "url": "https://medium.com/@SudoXploit7/one-click-full-compromise-the-openclaw-vulnerability-that-broke-ai-agent-security-bf7cf406af9f",
+          "source": "Medium",
+          "date": "2026-02-21"
+        },
+        {
+          "title": "Researchers Find 40,000+ Exposed OpenClaw Instances",
+          "title_zh": "研究人員發現超過4萬個暴露的OpenClaw實例",
+          "desc": "SecurityScorecard found over 40,000 exposed OpenClaw AI agent instances that could enable threat actors to gain full access to potentially sensitive systems. The exposed agents present RCE risks.",
+          "desc_zh": "SecurityScorecard發現超過4萬個暴露的OpenClaw AI代理實例，可能使威脅行為者獲得對潛在敏感系統的完全訪問權限。這些暴露的代理存在遠程代碼執行風險。",
+          "url": "https://www.infosecurity-magazine.com/news/researchers-40000-exposed-openclaw/",
+          "source": "Infosecurity Magazine",
+          "date": "2026-02-20"
+        },
+        {
+          "title": "Anthropic Raises $30 Billion at $380 Billion Valuation",
+          "title_zh": "Anthropic以3800億美元估值融資300億美元",
+          "desc": "Anthropic closed a $30 billion funding round at a $380 billion post-money valuation, more than double what it was worth in September. This continues the breakneck pace of AI model releases with Claude Sonnet 4.6.",
+          "desc_zh": "Anthropic以380億美元投後估值完成了300億美元融資輪，是9月份估值的兩倍多。這延續了AI模型發布的驚人速度，推出了Claude Sonnet 4.6。",
+          "url": "https://www.cnbc.com/2026/02/17/anthropic-ai-claude-sonnet-4-6-default-free-pro.html",
+          "source": "CNBC",
+          "date": "2026-02-17"
+        },
+        {
+          "title": "OpenAI and Anthropic CEOs Avoid Handshake at India AI Summit",
+          "title_zh": "OpenAI和Anthropic首席執行官在印度人工智能峰會上避免握手",
+          "desc": "OpenAI's Sam Altman and Anthropic's Dario Amodei had an awkward moment at a major AI summit in India, with the two CEOs of competing AI giants opting not to link hands. The summit included 100+ countries and $1.1B in Indian AI funding.",
+          "desc_zh": "OpenAI的Sam Altman和Anthropic的Dario Amodei在印度舉行的一場重要人工智能峰會上出現尷尬時刻，這兩位競爭對手AI巨頭的首席執行官選擇不握手。該峰會有100多個國家參加，印度承諾110億美元人工智能資金。",
+          "url": "https://www.cnbc.com/2026/02/19/openai-sam-altman-anthropic-dario-amodei-india-ai-summit.html",
+          "source": "CNBC",
+          "date": "2026-02-19"
+        },
+        {
+          "title": "Tensions Between Pentagon and Anthropic Reach Boiling Point",
+          "title_zh": "五角大樓與Anthropic之間的緊張關係達到沸點",
+          "desc": "Over the last week, tensions between the Pentagon and AI giant Anthropic have reached a boiling point. The dispute relates to AI technology use in defense and potential military applications.",
+          "desc_zh": "過去一周，五角大樓與人工智能巨頭Anthropic之間的緊張關係達到了沸點。爭議涉及人工智能技術在國防和潛在軍事應用中的使用。",
+          "url": "https://www.nbcnews.com/tech/security/anthropic-ai-defense-war-venezuela-maduro-rcna259603",
+          "source": "NBC News",
+          "date": "2026-02-20"
+        }
+      ]
+    }
+  ]
+}
