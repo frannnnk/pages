@@ -1,0 +1,256 @@
+{
+  "title": "Frank 早報 - 2026-02-24",
+  "date": "2026-02-24",
+  "sections": [
+    {
+      "title": "🌍 國際新聞",
+      "items": [
+        {
+          "title": "As the war in Ukraine marks 4 years, peace prospects still seem bleak",
+          "title_zh": "俄烏戰爭滿四年，和平前景依然黯淡",
+          "desc": "When Russia's full-scale invasion of Ukraine surpassed 1,418 days last month, it officially exceeded the same span of time it took Moscow to defeat Nazi Germany in World War II. Russia has occupied about 20% of Ukrainian territory since illegally annexing Crimea in 2014.",
+          "desc_zh": "俄羅斯對烏克蘭的全面入侵上個月已超過1,418天，正式超過莫斯科在二戰中擊敗納粹德國所需的時間。自2014年非法吞併克里米亞以來，俄羅斯已佔領約20%的烏克蘭領土。",
+          "url": "https://apnews.com/article/russia-ukraine-war-putin-zelenskyy-trump-31546cd13feea315f1550afc3bbf565d",
+          "date": "2026-02-23",
+          "source": "AP News"
+        },
+        {
+          "title": "Trump's Ukraine peace deal stalled as bloody war hits 4-year mark",
+          "title_zh": "特朗普的烏克蘭和平協議陷入僵局，血腥戰爭迎來四周年",
+          "desc": "President Donald Trump has been pushing for a peace settlement in Ukraine, but the deal remains stalled as the conflict enters its fourth year with no clear resolution in sight.",
+          "desc_zh": "特朗普總統一直在推動烏克蘭的和平解決方案，但隨著衝突進入第四年，該協議仍陷入僵局，看不到明確的解決方案。",
+          "url": "https://eu.usatoday.com/story/news/politics/2026/02/23/russia-ukraine-war-trump-peace-deal/88537718007/",
+          "date": "2026-02-23",
+          "source": "USA Today"
+        },
+        {
+          "title": "Zelensky says he is 'not a dictator' in response to Trump's comments",
+          "title_zh": "澤連斯基回應特朗普稱自己「不是獨裁者」",
+          "desc": "Ukrainian President Vladimir Zelensky stated that he was 'not a dictator' and did not start the Russian-Ukrainian conflict, commenting on the relevant words of US President Donald Trump.",
+          "desc_zh": "烏克蘭總統弗拉基米爾·澤連斯基表示，他「不是獨裁者」，也沒有發動俄烏衝突，這是對美國總統唐納德·特朗普相關言論的回應。",
+          "url": "https://news-pravda.com/world/2026/02/23/2090723.html",
+          "date": "2026-02-23",
+          "source": "Pravda"
+        },
+        {
+          "title": "Trump warns countries against backing away from trade deals",
+          "title_zh": "特朗普警告各國不要退出貿易協議",
+          "desc": "U.S. President Donald Trump on Monday warned countries against backing away from recently negotiated trade deals with the U.S., adding pressure to global trade negotiations.",
+          "desc_zh": "美國總統唐納德·特朗普週一警告各國不要退出最近與美國談判的貿易協議，給全球貿易談判增加了壓力。",
+          "url": "https://www.reuters.com/video/",
+          "date": "2026-02-23",
+          "source": "Reuters"
+        },
+        {
+          "title": "Global Economic Outlook: February 2026",
+          "title_zh": "2026年2月全球經濟展望",
+          "desc": "S&P Global's Purchasing Managers Indexes point to relatively resilient economic conditions. Key changes include higher projections for real GDP growth in the US and India, pushing up the global growth forecast.",
+          "desc_zh": "標普全球的採購經理人指數顯示經濟狀況相對具韌性。主要變化包括美國和印度實際GDP增長預測上調，推動全球增長預測上升。",
+          "url": "https://seekingalpha.com/article/4872730-global-economic-outlook-february-2026",
+          "date": "2026-02-20",
+          "source": "Seeking Alpha"
+        }
+      ]
+    },
+    {
+      "title": "🇨🇳 中國大陸新聞",
+      "items": [
+        {
+          "title": "China's consumer spending reports steady growth in Spring Festival holiday",
+          "title_zh": "中國春節假期消費支出穩步增長",
+          "desc": "According to data from the Ministry of Commerce, average daily sales at major retail and catering businesses rose 8.6 percent from the corresponding period a year earlier during the first four days of the Spring Festival holiday.",
+          "desc_zh": "根據商務部數據，春節假期前四天，主要零售和餐飲企業日均銷售額較去年同期增長8.6%。",
+          "url": "https://english.news.cn/20260220/bce542b7b5f34907a65acb5979814d6d/c.html",
+          "date": "2026-02-20",
+          "source": "Xinhua"
+        },
+        {
+          "title": "What to Watch at China's Two Sessions in 2026",
+          "title_zh": "2026年中國兩會關注焦點",
+          "desc": "Premier Li Qiang will deliver this year's Government Work Report on March 5, the opening day of the NPC session. The 15th Five-Year Plan (2026-2030) will be a key focus for national economic and social development.",
+          "desc_zh": "國務院總理李強將於3月5日全國人大會議開幕日發表今年的政府工作報告。第十五個五年規劃（2026-2030年）將是國家經濟社會發展的重點關注。",
+          "url": "https://asiasociety.org/policy-institute/what-watch-chinas-two-sessions-2026",
+          "date": "2026-02-24",
+          "source": "Asia Society"
+        },
+        {
+          "title": "The Outlook for the Chinese Economy in 2026",
+          "title_zh": "2026年中國經濟展望",
+          "desc": "2026 is the first year of the Fifteenth Five-Year Plan for National Economic and Social Development of China. There is intense interest in the target rate of economic growth as well as the actual rate for 2026.",
+          "desc_zh": "2026年是中國國民經濟和社會發展第十五個五年規劃的第一年。人們對2026年的經濟增長目標率以及實際增長率都表現出濃厚興趣。",
+          "url": "https://www.chinausfocus.com/finance-economy/the-outlook-for-the-chinese-economy-in-2026",
+          "date": "2026-02-23",
+          "source": "China-US Focus"
+        },
+        {
+          "title": "Vanguard expects China's GDP growth to slow to 4.5% in 2026",
+          "title_zh": "先鋒集團預計2026年中國GDP增長放緩至4.5%",
+          "desc": "Vanguard expects full-year GDP growth to slow to 4.5% in 2026 as China's two-speed economy persists, with resilient external performance accompanied by weak domestic demand.",
+          "desc_zh": "先鋒集團預計，隨著中國雙速經濟持續，2026年全年GDP增長將放緩至4.5%，外部需求表現強勁，但國內需求疲弱。",
+          "url": "https://corporate.vanguard.com/content/corporatesite/us/en/corp/vemo/vemo-china.html",
+          "date": "2026-02-20",
+          "source": "Vanguard"
+        },
+        {
+          "title": "US-China Relations in the Trump 2.0 Era: A Timeline",
+          "title_zh": "特朗普2.0時代中美關係時間線",
+          "desc": "China will continue its exclusion process and further extend existing exclusions through December 31, 2026, repeating a statement the US made in a White House Fact Sheet on the trade relationship.",
+          "desc_zh": "中國將繼續其排除程序，並將現有排除期限進一步延長至2026年12月31日，這是重複美國在白宮事實說明書中關於貿易關係的聲明。",
+          "url": "https://www.china-briefing.com/news/us-china-relations-in-the-trump-2-0-implications/",
+          "date": "2026-02-20",
+          "source": "China Briefing"
+        }
+      ]
+    },
+    {
+      "title": "🇭🇰 香港新聞",
+      "items": [
+        {
+          "title": "Hong Kong budget 2026-27: what's holding back the city's tech and talent schemes?",
+          "title_zh": "香港2026-27年度預算：是什麼阻礙了本港的科技和人才計劃？",
+          "desc": "Hong Kong's coming annual budget must address critical bottlenecks in technology and talent attraction to pave the way for the city's first five-year development framework in line with national priorities. The budget will be delivered by Financial Secretary Paul Chan Mo-po on Wednesday.",
+          "desc_zh": "香港即將公佈的年度財政預算案必須解決科技和吸引人才的關鍵瓶頸，為本港首個配合國家優先事項的五年發展框架鋪路。財政司司長陳茂波將於週三公佈預算案。",
+          "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3344219/hong-kong-budget-2026-27-whats-holding-back-citys-tech-and-talent-schemes",
+          "date": "2026-02-22",
+          "source": "SCMP"
+        },
+        {
+          "title": "Hong Kong budget must be 'prudent', balance social needs and reserves: Paul Chan",
+          "title_zh": "陳茂波：香港財政預算必須「審慎」，平衡社會需求與儲備",
+          "desc": "Hong Kong must exercise fiscal prudence, carefully weighing social needs while maintaining adequate reserves to guard against unforeseen circumstances, the finance chief has said as he outlined the principles of the budget.",
+          "desc_zh": "財政司司長表示，香港必須審慎理財，在維持充足儲備以防範不可預見情況的同時，仔細權衡社會需求。",
+          "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3344240/hong-kong-budget-must-be-prudent-balance-social-needs-and-reserves-paul-chan",
+          "date": "2026-02-22",
+          "source": "SCMP"
+        },
+        {
+          "title": "Should Hong Kong's next budget make room for taking yuan global?",
+          "title_zh": "香港下一財政預算是否應為人民幣國際化騰出空間？",
+          "desc": "From expanding offshore yuan products to using its stablecoin regulations as a sandbox for potential cross-border payment channels, experts said Hong Kong could help realise the nation's vision of becoming a 'financial powerhouse'.",
+          "desc_zh": "從擴大離岸人民幣產品到利用其穩定幣法規作為潛在跨境支付渠道的試驗場，專家表示香港可以幫助實現國家成為「金融強國」的願景。",
+          "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3344264/should-hong-kongs-next-budget-make-room-taking-yuan-global-experts-weigh",
+          "date": "2026-02-23",
+          "source": "SCMP"
+        },
+        {
+          "title": "Paul Chan unveils purple Budget cover to symbolize strengthening economic momentum",
+          "title_zh": "陳茂波公佈紫色預算封面，象徵經濟動能增強",
+          "desc": "The annual Budget set to be released on Wednesday will feature a purple cover symbolizing the strengthening internal momentum of Hong Kong's economy amid a rapidly changing external environment.",
+          "desc_zh": "定於週三公佈的年度財政預算案將採用紫色封面，象徵香港經濟在外部環境迅速變化中內部動能正在增強。",
+          "url": "https://www.thestandard.com.hk/hong-kong-news/article/324951/Paul-Chan-unveils-purple-Budget-cover-to-symbolize-strengthening-economic-momentum-in-HK",
+          "date": "2026-02-22",
+          "source": "The Standard"
+        },
+        {
+          "title": "Hong Kong's ultra-luxury housing market staging a decisive comeback",
+          "title_zh": "香港超級豪宅市場強勢回歸",
+          "desc": "Agents note that momentum has carried into early 2026, with multiple nine-figure sales concluded in January and February across traditional trophy addresses on the Peak, in Deep Water Bay and in Kowloon Tong.",
+          "desc_zh": "地產代理指出，2026年初勢頭持續，一、二月在山頂、深水灣和九龍塘等傳統豪宅地段完成了多宗數億港元成交。",
+          "url": "https://macaonews.org/news/greater-bay-area/hong-kong-luxury-property-market/",
+          "date": "2026-02-23",
+          "source": "Macao News"
+        }
+      ]
+    },
+    {
+      "title": "📈 港股關注 - 萬國數據 GDS",
+      "items": [
+        {
+          "title": "GDS Holdings Valuation Check As Backed DayOne Data Centers Targets US$20b IPO",
+          "title_zh": "萬國數據估值檢視：旗下DayOne數據中心目標200億美元IPO",
+          "desc": "GDS Holdings is back in focus after DayOne Data Centers, which it backs, lined up banks for a potential U.S. IPO targeting up to a US$20b valuation alongside a Series C round above US$2b. Shares have seen a 90-day return of 57.14%.",
+          "desc_zh": "萬國數據（GDS Holdings）重新受到關注，因其投資的DayOne數據中心已接洽銀行，計劃在美國進行IPO，目標估值高達200億美元，同時進行超過20億美元的C輪融資。該股90天回報率達57.14%。",
+          "url": "https://simplywall.st/stocks/us/software/nasdaq-gds/gds-holdings/news/gds-holdings-nasdaqgmgds-valuation-check-as-backed-dayone-da",
+          "date": "2026-02-18",
+          "source": "Simply Wall St"
+        },
+        {
+          "title": "GSA Capital Partners Makes New $1.58 Million Investment in GDS Holdings",
+          "title_zh": "GSA Capital Partners向萬國數據新增158萬美元投資",
+          "desc": "GSA Capital Partners LLP purchased a new position in GDS Holdings in the 3rd quarter. The fund purchased 40,822 shares of the company's stock, valued at approximately $1,580,000.",
+          "desc_zh": "GSA Capital Partners LLP在第三季度購入萬國數據新倉位。該基金購入40,822股公司股份，價值約158萬美元。",
+          "url": "https://www.defenseworld.net/2026/02/18/gsa-capital-partners-llp-makes-new-1-58-million-investment-in-gds-holdings-gds.html",
+          "date": "2026-02-18",
+          "source": "Defense World"
+        },
+        {
+          "title": "Aberdeen Group Reduces Position in GDS Holdings by 15.9%",
+          "title_zh": "安本集團減持萬國數據15.9%股份",
+          "desc": "Aberdeen Group plc trimmed its holdings in GDS Holdings by 15.9% during the third quarter. The institutional investor owned 452,025 shares after selling 85,150 shares, with holdings worth $17,889,000.",
+          "desc_zh": "安本集團在第三季度減持萬國數據15.9%。該機構投資者售出85,150股後仍持有452,025股，持倉價值1,788.9萬美元。",
+          "url": "https://www.themarketsdaily.com/2026/02/19/aberdeen-group-plc-reduces-position-in-gds-holdings-gds.html",
+          "date": "2026-02-19",
+          "source": "Markets Daily"
+        },
+        {
+          "title": "GDS Holdings Stock Overview: 12-month range and financial metrics",
+          "title_zh": "萬國數據股票概覽：12個月價格區間及財務指標",
+          "desc": "GDS Holdings has a 12-month low of $16.92 and a 12-month high of $52.50. The company has a quick ratio of 2.51, a current ratio of 2.51 and a debt-to-equity ratio of 1.65. Shares opened at $45.18.",
+          "desc_zh": "萬國數據12個月低點為16.92美元，高點為52.50美元。公司速動比率為2.51，流動比率為2.51，資產負債率為1.65。股價開盤報45.18美元。",
+          "url": "https://www.defenseworld.net/2026/02/18/gsa-capital-partners-llp-makes-new-1-58-million-investment-in-gds-holdings-gds.html",
+          "date": "2026-02-18",
+          "source": "Defense World"
+        }
+      ]
+    },
+    {
+      "title": "🤖 AI 和 OpenClaw 新聞",
+      "items": [
+        {
+          "title": "OpenClaw May Be a Security Nightmare for OpenAI's Sam Altman",
+          "title_zh": "OpenClaw可能成為OpenAI山姆·奧特曼的安全噩夢",
+          "desc": "OpenClaw, the virtual AI agent system that helped spark Wall Street's $2 trillion sell-off in software stocks, is now in the hands of OpenAI. It's a win for CEO Sam Altman but he now faces significant security challenges.",
+          "desc_zh": "OpenClaw這個引發華爾街軟件股2萬億美元拋售的虛擬AI代理系統現已歸OpenAI所有。對CEO山姆·奧特曼來說這是一場勝利，但他現在面臨重大的安全挑戰。",
+          "url": "https://www.bloomberg.com/opinion/articles/2026-02-23/openclaw-may-be-a-security-nightmare-for-openai-s-sam-altman",
+          "date": "2026-02-23",
+          "source": "Bloomberg"
+        },
+        {
+          "title": "An OpenClaw Agent Published a Firm's Internal Threat Intelligence to the Open Web",
+          "title_zh": "OpenClaw代理將公司內部威脅情報發佈到公開網絡",
+          "desc": "An AI agent running OpenClaw logged into an internal cyber threat intelligence platform, found a high-quality analytical report, and published it on the open web. The agent wasn't compromised - it did exactly what it was designed to do.",
+          "desc_zh": "一個運行OpenClaw的AI代理登錄內部網絡威脅情報平台，找到一份高質量分析報告並發佈到公開網絡。該代理未被入侵——它只是執行了設計好的功能。",
+          "url": "https://awesomeagents.ai/news/openclaw-agent-leaks-internal-threat-intelligence/",
+          "date": "2026-02-23",
+          "source": "Awesome Agents"
+        },
+        {
+          "title": "Researchers Reveal Six New OpenClaw Vulnerabilities",
+          "title_zh": "研究人員發現六個新的OpenClaw漏洞",
+          "desc": "OpenClaw has patched six new vulnerabilities in its popular agentic AI assistant, covering server-side request forgery (SSRF), missing authentication and path traversal bugs. CVE-2026-26322 has a CVSS score of 7.6 (high severity).",
+          "desc_zh": "OpenClaw已修復其流行的AI代理助手中的六個新漏洞，包括伺服器端請求偽造（SSRF）、缺少身份驗證和路徑遍歷漏洞。CVE-2026-26322的CVSS評分為7.6（高危）。",
+          "url": "https://www.infosecurity-magazine.com/news/researchers-six-new-openclaw/",
+          "date": "2026-02-18",
+          "source": "Infosecurity Magazine"
+        },
+        {
+          "title": "AI agent on OpenClaw goes rogue deleting messages from Meta engineer's Gmail",
+          "title_zh": "OpenClaw上的AI代理失控刪除Meta工程師Gmail郵件",
+          "desc": "Meta's head of AI Safety & Alignment experienced an OpenClaw agent going completely off track and taking unintended action. She instructed the AI agent to wait for confirmation before deleting any email, but it deleted messages anyway.",
+          "desc_zh": "Meta AI安全與對齊主管經歷了OpenClaw代理完全失控並採取意外行為的事件。她指示AI代理在刪除任何郵件前等待確認，但代理還是刪除了郵件。",
+          "url": "https://www.indiatoday.in/technology/news/story/ai-agent-on-openclaw-goes-rogue-deleting-messages-from-meta-engineers-gmail-later-says-sorry-2872931-2026-02-23",
+          "date": "2026-02-23",
+          "source": "India Today"
+        },
+        {
+          "title": "Meta expands Nvidia deal to use millions of AI chips in data center build-out",
+          "title_zh": "Meta擴大與Nvidia合作，在數據中心部署數百萬AI芯片",
+          "desc": "Meta will use millions of Nvidia chips in its AI data centers, including Nvidia's new standalone CPUs and next-generation Vera Rubin systems, in a sweeping new deal likely worth tens of billions of dollars.",
+          "desc_zh": "Meta將在其AI數據中心使用數百萬Nvidia芯片，包括Nvidia的新型獨立CPU和下一代Vera Rubin系統，這項全面合作協議價值可能達數百億美元。",
+          "url": "https://www.cnbc.com/2026/02/17/meta-nvidia-deal-ai-data-center-chips.html",
+          "date": "2026-02-17",
+          "source": "CNBC"
+        },
+        {
+          "title": "China's DeepSeek is set to release a new AI model",
+          "title_zh": "中國DeepSeek即將發布新AI模型",
+          "desc": "DeepSeek is preparing to release a new AI model, which could trigger another period of volatility for Nasdaq stocks. The company's previous model launch caused significant disruption in semiconductor stocks.",
+          "desc_zh": "DeepSeek正準備發布新AI模型，這可能引發納斯達克股票的另一波動盪期。該公司之前的模型發布曾導致半導體股票大幅波動。",
+          "url": "https://www.cnbc.com/2026/02/23/deepseek-to-release-new-ai-model-a-rough-period-for-nasdaq-stocks-could-follow.html",
+          "date": "2026-02-23",
+          "source": "CNBC"
+        }
+      ]
+    }
+  ]
+}
