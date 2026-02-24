@@ -1,0 +1,256 @@
+{
+  "title": "Frank 早報 - 2026-02-25",
+  "date": "2026-02-25",
+  "sections": [
+    {
+      "title": "🌍 國際新聞",
+      "items": [
+        {
+          "title": "Trump to Deliver 2026 State of the Union Address",
+          "title_zh": "特朗普將發表2026年國情咨文演講",
+          "desc": "President Donald Trump will deliver his first State of the Union address during his second term on Tuesday, Feb. 24, 2026, where he will speak to a joint session of Congress as the U.S. approaches its 250th anniversary.",
+          "desc_zh": "美國總統唐納德·特朗普將於2026年2月24日（週二）發表其第二任期首份國情咨文，屆時他將向國會聯席會議發表演講，而美國即將迎來建國250週年。",
+          "url": "https://www.foxnews.com/live-news/state-of-the-union-2026-president-donald-trump",
+          "date": "2026-02-24",
+          "source": "Fox News"
+        },
+        {
+          "title": "Trump Raises Global Tariffs to 15% After Supreme Court Ruling",
+          "title_zh": "特朗普在最高法院裁決後將全球關稅提高至15%",
+          "desc": "President Trump announced an increase from 10% to 15% using different authority after the Supreme Court struck down his previous tariffs on Friday. The 10% duty took effect on Tuesday.",
+          "desc_zh": "在最高法院週五駁回其之前的關稅後，特朗普總統宣布使用不同權限將關稅從10%提高到15%。10%的關稅已於週二生效。",
+          "url": "https://www.theguardian.com/us-news/2026/feb/21/trump-tariffs-15-percent",
+          "date": "2026-02-21",
+          "source": "The Guardian"
+        },
+        {
+          "title": "U.S. Stock Markets Rebound After Monday Sell-Off",
+          "title_zh": "美股在週一拋售後反彈",
+          "desc": "The tech-heavy Nasdaq, blue-chip Dow Jones Industrial Average, and benchmark S&P 500 closed up 1.1%, 0.8%, and 0.8% respectively on Tuesday, recovering from Monday's sharp decline.",
+          "desc_zh": "週二，以科技股為主的納斯達克、藍籌股道瓊斯工業平均指數和基準標準普爾500指數分別收漲1.1%、0.8%和0.8%，從週一的急劇下跌中恢復。",
+          "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-02242026-11912762",
+          "date": "2026-02-24",
+          "source": "Investopedia"
+        },
+        {
+          "title": "Ukraine-Russia Peace Talks Continue in Geneva",
+          "title_zh": "烏克蘭-俄羅斯和平談判在日內瓦繼續進行",
+          "desc": "U.S.-mediated peace talks between Russia and Ukraine in Geneva have been difficult but business-like, with a new round of talks expected to be held soon, according to Russia's chief negotiator.",
+          "desc_zh": "據俄羅斯首席談判代表表示，美國斡旋的俄烏日內瓦和平談判困難但務實，預計很快將舉行新一輪談判。",
+          "url": "https://www.reuters.com/world/europe/russia-says-ukraine-peace-talks-geneva-were-difficult-business-like-2026-02-18/",
+          "date": "2026-02-18",
+          "source": "Reuters"
+        },
+        {
+          "title": "Global Economic Growth Forecast Raised to 2.9% for 2026",
+          "title_zh": "2026年全球經濟增長預測上調至2.9%",
+          "desc": "S&P Global raised projections for real GDP growth in the US and India, pushing up the global growth forecast to 2.9% for 2026, reflecting stronger US carry-over and Indian policy support.",
+          "desc_zh": "標普全球上調了美國和印度實際GDP增長預測，將2026年全球增長預測推升至2.9%，反映出美國經濟的持續強勁和印度的政策支持。",
+          "url": "https://seekingalpha.com/article/4872730-global-economic-outlook-february-2026",
+          "date": "2026-02-20",
+          "source": "Seeking Alpha"
+        }
+      ]
+    },
+    {
+      "title": "🇨🇳 中國大陸新聞",
+      "items": [
+        {
+          "title": "DeepSeek's New AI Model Trained on Nvidia's Blackwell Chip Despite US Ban",
+          "title_zh": "儘管美國禁令，DeepSeek新AI模型使用Nvidia Blackwell芯片訓練",
+          "desc": "Chinese AI startup DeepSeek's latest AI model, set to be released soon, was trained on Nvidia's most advanced AI chip, the Blackwell, according to a senior Trump administration official.",
+          "desc_zh": "據特朗普政府高級官員表示，中國AI初創公司DeepSeek即將發布的最新AI模型是使用Nvidia最先進的AI芯片Blackwell訓練的。",
+          "url": "https://www.reuters.com/world/china/chinas-deepseek-trained-ai-model-nvidias-best-chip-despite-us-ban-official-says-2026-02-24/",
+          "date": "2026-02-24",
+          "source": "Reuters"
+        },
+        {
+          "title": "DeepSeek to Release New AI Model, Potentially Impacting Nasdaq",
+          "title_zh": "DeepSeek將發布新AI模型，可能影響納斯達克",
+          "desc": "The release of a new artificial intelligence model from China's DeepSeek could mean a rough period will follow for Nasdaq stocks, according to market analysts.",
+          "desc_zh": "據市場分析師表示，中國DeepSeek發布新的AI模型可能意味著納斯達克股票將迎來一段艱難時期。",
+          "url": "https://www.cnbc.com/2026/02/23/deepseek-to-release-new-ai-model-a-rough-period-for-nasdaq-stocks-could-follow.html",
+          "date": "2026-02-23",
+          "source": "CNBC"
+        },
+        {
+          "title": "Peking University Team Achieves Major Breakthrough in Chip Technology",
+          "title_zh": "北京大學團隊在芯片技術領域取得重大突破",
+          "desc": "A team from Peking University has created the smallest and lowest-power ferroelectric transistor to date, potentially providing core device support for AI chip computing power and energy efficiency improvements.",
+          "desc_zh": "北京大學團隊創造了迄今尺寸最小、功耗最低的铁电晶体管，有望為AI芯片算力和能效提升提供核心器件支撐。",
+          "url": "https://sputniknews.cn/20260224/1069892339.html",
+          "date": "2026-02-24",
+          "source": "Sputnik"
+        },
+        {
+          "title": "China's 2026 Economic Policy Focuses on Service Consumption Growth",
+          "title_zh": "中國2026年經濟政策聚焦服務消費增長",
+          "desc": "China's Ministry of Commerce announced plans to accelerate the cultivation of new growth points in service consumption, with policies covering tourism, elderly care, and digital consumption.",
+          "desc_zh": "中國商務部宣布加快培育服務消費新增長點的計劃，政策涵蓋旅遊、養老和數字消費等領域。",
+          "url": "https://www.mofcom.gov.cn/xwfb/index.html",
+          "date": "2026-02-11",
+          "source": "MOFCOM"
+        },
+        {
+          "title": "China Has Over 700 Filed Generative AI Large Models",
+          "title_zh": "中國已有超過700個生成式AI大模型完成備案",
+          "desc": "China has achieved significant advances in its AI sector, with more than 700 generative AI large model products having completed official filing procedures, according to the Cyberspace Administration of China.",
+          "desc_zh": "據國家互聯網信息辦公室表示，中國AI領域取得重大進展，已有超過700個生成式AI大模型產品完成官方備案程序。",
+          "url": "https://www.crescendo.ai/news/latest-ai-news-and-updates",
+          "date": "2026-02-20",
+          "source": "Crescendo AI"
+        }
+      ]
+    },
+    {
+      "title": "🇭🇰 香港新聞",
+      "items": [
+        {
+          "title": "Hong Kong Budget 2026-27 to Be Announced Today",
+          "title_zh": "香港2026-27年度財政預算案今日發表",
+          "desc": "Financial Secretary Paul Chan Mo-po will announce the 2026-27 Budget on February 25, with public attention on tax relief, consumption vouchers, civil service salary adjustments, and SME support measures.",
+          "desc_zh": "財政司司長陳茂波將於2月25日發表2026-27年度財政預算案，公眾關注稅務寬減、消費券、公務員加薪及中小企支援措施。",
+          "url": "https://www.budget.gov.hk/2026/chi/index.html",
+          "date": "2026-02-25",
+          "source": "HK Government"
+        },
+        {
+          "title": "Hong Kong Property Market Expected to Build on Gains in Year of the Horse",
+          "title_zh": "香港樓市預計在馬年延續漲勢",
+          "desc": "Hong Kong's residential property market made gradual gains in the Year of the Snake, with momentum set to continue in the Year of the Horse. Major banks project home prices to rise 5-10%.",
+          "desc_zh": "香港住宅物業市場在蛇年穩步增長，預計馬年將延續勢頭。主要銀行預計樓價將上漲5-10%。",
+          "url": "https://www.scmp.com/business/article/3344141/hong-kongs-property-market-build-gains-year-horse-agents-say",
+          "date": "2026-02-20",
+          "source": "SCMP"
+        },
+        {
+          "title": "Hang Seng Index Rises 2.29% to 27,017 Points",
+          "title_zh": "恆生指數漲2.29%至27,017點",
+          "desc": "Hong Kong's Hang Seng Index rose 2.29%, gaining 604 points to close at 27,017. The Hang Seng Tech Index surged 3.32%, with morning trading volume reaching HK$106.5 billion.",
+          "desc_zh": "香港恆生指數漲2.29%，漲604點收報27,017點。恆生科技指數漲3.32%，早市成交額達1,065億港元。",
+          "url": "https://cn.investing.com/indices/hang-sen-40",
+          "date": "2026-02-24",
+          "source": "Investing.com"
+        },
+        {
+          "title": "Hong Kong's Ultra-Luxury Housing Market Stages Decisive Comeback",
+          "title_zh": "香港超豪宅市場強勢回歸",
+          "desc": "Multiple nine-figure sales have been concluded in January and February 2026 across traditional trophy addresses on the Peak, in Deep Water Bay and in Kowloon Tong.",
+          "desc_zh": "2026年1月和2月，山頂、深水灣和九龍塘等傳統豪宅地段已完成多宗過億港元成交。",
+          "url": "https://macaonews.org/news/greater-bay-area/hong-kong-luxury-property-market/",
+          "date": "2026-02-22",
+          "source": "Macao News"
+        },
+        {
+          "title": "Hong Kong Property Transactions Reach 87,506 in Early 2026",
+          "title_zh": "2026年初香港物業成交達87,506宗",
+          "desc": "As of February 12, property transactions in Hong Kong totaled 87,506 valued at about HK$678 billion, spanning new and lived-in homes, offices, shops, and industrial units.",
+          "desc_zh": "截至2月12日，香港物業成交達87,506宗，成交額約6,780億港元，涵蓋新房、二手房、寫字樓、商鋪和工業單位。",
+          "url": "https://www.scmp.com/business/article/3344141/hong-kongs-property-market-build-gains-year-horse-agents-say",
+          "date": "2026-02-20",
+          "source": "SCMP"
+        }
+      ]
+    },
+    {
+      "title": "📈 港股關注 - GDS 萬國數據",
+      "items": [
+        {
+          "title": "GDS Announces Adjournment of Shareholders Meetings to March 10",
+          "title_zh": "萬國數據宣布股東大會延期至3月10日",
+          "desc": "GDS Holdings announced that its Extraordinary General Meeting and additional shareholders meetings, originally held on February 24, have been adjourned and will be reconvened on March 10, 2026.",
+          "desc_zh": "萬國數據宣布，原定於2月24日舉行的股東特別大會及額外股東大會已延期，將於2026年3月10日重新召開。",
+          "url": "https://www.globenewswire.com/news-release/2026/02/24/3243405/0/en/GDS-Announces-Adjournments-of-Extraordinary-General-Meeting-and-Additional-Shareholders-Meetings-to-be-Reconvened-on-March-10-2026.html",
+          "date": "2026-02-24",
+          "source": "GlobeNewswire"
+        },
+        {
+          "title": "GDS Expects Higher 2026 Bookings Driven by Strong AI Demand",
+          "title_zh": "萬國數據預計2026年預訂量因AI需求強勁而增長",
+          "desc": "GDS Holdings expects higher bookings in 2026 driven by strong AI demand in China, with plans for its first REIT asset injection in Q2 2026 involving assets valued at 4-6 billion RMB.",
+          "desc_zh": "萬國數據預計，受中國強勁AI需求推動，2026年預訂量將增加，計劃於2026年第二季度進行首次REIT資產注入，涉及資產價值40-60億元人民幣。",
+          "url": "https://www.investing.com/equities/gds-holdings-ltd",
+          "date": "2026-02-20",
+          "source": "Investing.com"
+        },
+        {
+          "title": "UBS Maintains GDS as Industry Top Pick",
+          "title_zh": "瑞銀維持萬國數據為行業首選",
+          "desc": "UBS continues to list GDS Holdings as its industry top pick, optimistic about potential new orders and DayOne Data Centers' C-round financing valuation.",
+          "desc_zh": "瑞銀繼續將萬國數據列為行業首選，看好潛在新訂單及DayOne數據中心C輪融資估值。",
+          "url": "http://stock.finance.sina.com.cn/usstock/quotes/GDS.html",
+          "date": "2026-02-20",
+          "source": "Sina Finance"
+        },
+        {
+          "title": "GDS Market Cap Reaches ₹809.51 Billion",
+          "title_zh": "萬國數據市值達8,095.1億盧比",
+          "desc": "As of February 2026, GDS Holdings has a market cap of ₹809.51 billion, making it the world's 2,216th most valuable company according to market data.",
+          "desc_zh": "截至2026年2月，萬國數據市值達8,095.1億盧比，成為全球市值第2,216位的公司。",
+          "url": "https://companiesmarketcap.com/inr/gds-holdings/marketcap/",
+          "date": "2026-02-24",
+          "source": "Companies Market Cap"
+        }
+      ]
+    },
+    {
+      "title": "🤖 AI 和 OpenClaw 新聞",
+      "items": [
+        {
+          "title": "OpenAI Acquires OpenClaw Creator Peter Steinberger",
+          "title_zh": "OpenAI收購OpenClaw創始人Peter Steinberger",
+          "desc": "Peter Steinberger, who created the AI personal assistant now known as OpenClaw, has joined OpenAI, signaling the beginning of a new era for autonomous AI agents.",
+          "desc_zh": "OpenClaw創始人Peter Steinberger已加入OpenAI，標誌著自主AI代理新時代的開始。",
+          "url": "https://techcrunch.com/2026/02/15/openclaw-creator-peter-steinberger-joins-openai/",
+          "date": "2026-02-15",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "OpenClaw Releases Version 2026.2.23 with Security Updates",
+          "title_zh": "OpenClaw發布2026.2.23版本，含安全更新",
+          "desc": "OpenClaw, with over 215,000 GitHub stars, has released version 2026.2.23, emphasizing robust security hardening alongside advanced AI integrations.",
+          "desc_zh": "擁有超過215,000個GitHub星標的OpenClaw發布了2026.2.23版本，強調強大的安全強化以及先進的AI集成功能。",
+          "url": "https://cybersecuritynews.com/openclaw-2026-2-23-released/",
+          "date": "2026-02-23",
+          "source": "Cyber Security News"
+        },
+        {
+          "title": "OpenClaw AI Chatbots Run Amok on Social Media Platform",
+          "title_zh": "OpenClaw AI聊天機器人在社交媒體平台上失控",
+          "desc": "Artificial-intelligence agents have their own social-media platform and are publishing AI-generated research papers on their own preprint server, raising concerns about AI autonomy.",
+          "desc_zh": "人工智能代理擁有自己的社交媒體平台，並在自己的預印本服務器上發布AI生成的研究論文，引發了對AI自主性的擔憂。",
+          "url": "https://www.nature.com/articles/d41586-026-00370-w",
+          "date": "2026-02-06",
+          "source": "Nature"
+        },
+        {
+          "title": "Meta Expands Nvidia Deal for Millions of AI Chips",
+          "title_zh": "Meta擴大與Nvidia的AI芯片交易",
+          "desc": "Meta Platforms has expanded its deal with Nvidia to use millions of AI chips in its data center build-out, including standalone CPUs, with the deal worth over $100 billion.",
+          "desc_zh": "Meta Platforms已擴大與Nvidia的交易，將在數據中心建設中使用數百萬個AI芯片，包括獨立CPU，交易價值超過1,000億美元。",
+          "url": "https://www.cnbc.com/2026/02/17/meta-nvidia-deal-ai-data-center-chips.html",
+          "date": "2026-02-17",
+          "source": "CNBC"
+        },
+        {
+          "title": "AMD Stock Surges on Massive AI Chips Deal With Meta",
+          "title_zh": "AMD股價因與Meta的巨額AI芯片交易而大漲",
+          "desc": "AMD shares soared nearly 9% after the semiconductor giant inked a deal with Meta to provide 6 gigawatts of AMD Instinct GPUs, worth more than $100 billion.",
+          "desc_zh": "AMD股價飆升近9%，此前這家半導體巨頭與Meta簽署協議，提供6吉瓦的AMD Instinct GPU，價值超過1,000億美元。",
+          "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-02242026-11912762",
+          "date": "2026-02-24",
+          "source": "Investopedia"
+        },
+        {
+          "title": "AI Will Move From Hype to Pragmatism in 2026",
+          "title_zh": "2026年AI將從炒作走向實用主義",
+          "desc": "Signs that 2026 will be a big year for world models are multiplying. LeCun left Meta to start his own world model lab and is reportedly seeking a $5 billion valuation.",
+          "desc_zh": "2026年將成為世界模型元年的跡象正在增加。LeCun離開Meta創辦自己的世界模型實驗室，據報尋求50億美元估值。",
+          "url": "https://techcrunch.com/2026/01/02/in-2026-ai-will-move-from-hype-to-pragmatism/",
+          "date": "2026-01-02",
+          "source": "TechCrunch"
+        }
+      ]
+    }
+  ]
+}
