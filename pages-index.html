@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Frank Pages Index | GitHub Pages 內容匯總</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            color: white;
+        }
+        
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+        
+        header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+        
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        
+        .card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+        }
+        
+        .card-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+        
+        .card-icon {
+            font-size: 1.8em;
+        }
+        
+        .card-title {
+            font-size: 1.3em;
+            font-weight: 600;
+            color: #333;
+        }
+        
+        .card-description {
+            color: #666;
+            margin-bottom: 15px;
+        }
+        
+        .link-list {
+            list-style: none;
+        }
+        
+        .link-list li {
+            margin-bottom: 10px;
+        }
+        
+        .link-list a {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 12px 15px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            text-decoration: none;
+            color: #667eea;
+            transition: background 0.2s;
+            border-left: 3px solid transparent;
+        }
+        
+        .link-list a:hover {
+            background: #e8eaff;
+            border-left-color: #667eea;
+        }
+        
+        .link-icon {
+            font-size: 1.2em;
+        }
+        
+        .link-text {
+            flex: 1;
+        }
+        
+        .link-arrow {
+            color: #999;
+            font-size: 0.9em;
+        }
+        
+        .badge {
+            display: inline-block;
+            padding: 3px 8px;
+            background: #e8eaff;
+            color: #667eea;
+            font-size: 0.75em;
+            border-radius: 12px;
+            margin-left: 8px;
+        }
+        
+        .badge.news {
+            background: #fff3e0;
+            color: #f57c00;
+        }
+        
+        .update-note {
+            background: #fffde7;
+            border-left: 4px solid #fbc02d;
+            padding: 15px 20px;
+            margin-top: 30px;
+            border-radius: 0 8px 8px 0;
+            color: #666;
+        }
+        
+        .update-note strong {
+            color: #333;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: white;
+            opacity: 0.8;
+        }
+        
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.8em;
+            }
+            
+            .card {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📚 Frank Pages Index</h1>
+            <p>GitHub Pages 內容匯總與導航</p>
+        </header>
+        
+        <!-- 每日新聞 -->
+        <div class="card">
+            <div class="card-header">
+                <span class="card-icon">📰</span>
+                <span class="card-title">每日新聞早報</span>
+                <span class="badge news">每日更新</span>
+            </div>
+            <p class="card-description">
+                Frank 的每日科技新聞匯總，包含國際、中國、香港、GDS 股票和 AI 相關新聞。
+            </p>
+            <ul class="link-list">
+                <li>
+                    <a href="./news/">
+                        <span class="link-icon">📋</span>
+                        <span class="link-text">新聞列表頁面</span>
+                        <span class="link-arrow">→</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+        <!-- API 文檔 -->
+        <div class="card">
+            <div class="card-header">
+                <span class="card-icon">📖</span>
+                <span class="card-title">API 文檔</span>
+                <span class="badge">技術</span>
+            </div>
+            <p class="card-description">
+                News API 和博客訪問統計服務的完整接口文檔。
+            </p>
+            <ul class="link-list">
+                <li>
+                    <a href="./api-docs/">
+                        <span class="link-icon">🔌</span>
+                        <span class="link-text">API 文檔中心</span>
+                        <span class="link-arrow">→</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+        <!-- 體重追蹤 -->
+        <div class="card">
+            <div class="card-header">
+                <span class="card-icon">⚖️</span>
+                <span class="card-title">體重追蹤器</span>
+                <span class="badge">健康</span>
+            </div>
+            <p class="card-description">
+                記錄和可視化體重變化趨勢。
+            </p>
+            <ul class="link-list">
+                <li>
+                    <a href="./weight-tracker/">
+                        <span class="link-icon">📊</span>
+                        <span class="link-text">體重追蹤主頁</span>
+                        <span class="link-arrow">→</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+        <!-- 趣味演示 -->
+        <div class="card">
+            <div class="card-header">
+                <span class="card-icon">🎮</span>
+                <span class="card-title">趣味演示</span>
+                <span class="badge">娛樂</span>
+            </div>
+            <p class="card-description">
+                各種有趣的互動演示和小遊戲。
+            </p>
+            <ul class="link-list">
+                <li>
+                    <a href="./demos/walking-cat.html">
+                        <span class="link-icon">🐱</span>
+                        <span class="link-text">行走的貓咪動畫</span>
+                        <span class="link-arrow">→</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./demos/svg-animation.html">
+                        <span class="link-icon">✨</span>
+                        <span class="link-text">SVG 動畫演示</span>
+                        <span class="link-arrow">→</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./dice-game/">
+                        <span class="link-icon">🎲</span>
+                        <span class="link-text">骰子遊戲</span>
+                        <span class="link-arrow">→</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+        <!-- 特別頁面 -->
+        <div class="card">
+            <div class="card-header">
+                <span class="card-icon">🎊</span>
+                <span class="card-title">特別頁面</span>
+                <span class="badge">節日</span>
+            </div>
+            <p class="card-description">
+                特殊節日或場合的賀卡頁面。
+            </p>
+            <ul class="link-list">
+                <li>
+                    <a href="./chinese-new-year-2026.html">
+                        <span class="link-icon">🧧</span>
+                        <span class="link-text">2026 新春賀卡</span>
+                        <span class="link-arrow">→</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+        <!-- 主頁 -->
+        <div class="card">
+            <div class="card-header">
+                <span class="card-icon">🏠</span>
+                <span class="card-title">主要頁面</span>
+            </div>
+            <ul class="link-list">
+                <li>
+                    <a href="./">
+                        <span class="link-icon">📰</span>
+                        <span class="link-text">Frank 早報主頁</span>
+                        <span class="link-arrow">→</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="update-note">
+            <strong>📝 更新說明：</strong><br>
+            此頁面記錄所有發佈在 GitHub Pages 上的內容。<br>
+            最後更新：2026-02-25 | 新增內容時請記得更新此索引頁面。
+        </div>
+        
+        <footer>
+            <p>Made with ❤️ by Frank & A-Dai</p>
+        </footer>
+    </div>
+</body>
+</html>
