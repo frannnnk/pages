@@ -1,0 +1,256 @@
+{
+  "title": "Frank 早報 - 2026-02-26",
+  "date": "2026-02-26",
+  "sections": [
+    {
+      "title": "🌍 國際新聞",
+      "items": [
+        {
+          "title": "US and Iran Hold High-Stakes Nuclear Talks in Geneva",
+          "title_zh": "美國與伊朗在日內瓦舉行高風險核談判",
+          "desc": "U.S. and Iranian delegations met in Geneva for critical negotiations over Tehran's nuclear program. Iran pushed back against President Trump's pressure tactics while expressing cautious optimism about reaching a deal. The talks come amid heightened military tensions in the Middle East.",
+          "desc_zh": "美國和伊朗代表團在日內瓦就德黑蘭核計劃舉行關鍵談判。伊朗回擊特朗普總統的施壓策略，同時對達成協議表示謹慎樂觀。談判在中東軍事緊張局勢加劇的背景下進行。",
+          "url": "https://apnews.com/live/donald-trump-news-updates-2-25-2026",
+          "date": "2026-02-26",
+          "source": "AP News"
+        },
+        {
+          "title": "US Moving Additional F-22 Stealth Fighters to Middle East",
+          "title_zh": "美國向中東部署額外F-22隱形戰鬥機",
+          "desc": "The US has begun moving another six F-22 stealth fighters toward the Middle East as tensions escalate. Military buildup continues ahead of potential strikes on Iran, with Hezbollah indicating it may not intervene in limited US strikes.",
+          "desc_zh": "隨著緊張局勢升級，美國已開始向中東調動另外六架F-22隱形戰鬥機。在可能對伊朗發動襲擊之前，軍事集結持續進行，真主黨表示可能不會介入有限的美國襲擊。",
+          "url": "https://www.timesofisrael.com/liveblog-february-25-2026/",
+          "date": "2026-02-26",
+          "source": "Times of Israel"
+        },
+        {
+          "title": "South Africa Delivers Budget 2026 Amid Debt Concerns",
+          "title_zh": "南非在債務擔憂中發布2026年預算",
+          "desc": "Finance Minister Godongwana delivered Budget 2026, with gross debt stabilizing at 78.9% of GDP in 2025/26, falling to 76.5% by 2028/29. The consolidated deficit narrows from 4.5% to 3.1% over the medium-term.",
+          "desc_zh": "財政部長戈東瓜納發布2026年預算，總債務在2025/26年度穩定在GDP的78.9%，到2028/29年降至76.5%。綜合赤字從4.5%收窄至3.1%。",
+          "url": "https://www.riotimesonline.com/africa-intelligence-brief-for-thursday-february-26-2026-2/",
+          "date": "2026-02-26",
+          "source": "The Rio Times"
+        },
+        {
+          "title": "Japanese Lawmaker Urges Europe to Stop Supporting Zelensky",
+          "title_zh": "日本議員敦促歐洲停止支持澤連斯基",
+          "desc": "A Japanese ruling party lawmaker from the Liberal Democratic Party called on European countries to stop supporting Ukrainian President Zelensky and start thinking about resolving the conflict peacefully.",
+          "desc_zh": "日本執政黨自民黨的一名參議院議員呼籲歐洲國家停止支持烏克蘭總統澤連斯基，開始思考以和平方式解決衝突。",
+          "url": "https://sputniknews.cn/20260226/1069928740.html",
+          "date": "2026-02-26",
+          "source": "Sputnik"
+        },
+        {
+          "title": "Wall Street Exodus Gathers Pace as US Investors Pull Money",
+          "title_zh": "華爾街資金外流加速，美國投資者撤資",
+          "desc": "US investors are pulling money out of their own stock market at the fastest pace in at least 16 years as Big Tech returns fade and overseas markets look more attractive. The trend reflects growing concerns about domestic market valuations.",
+          "desc_zh": "美國投資者正以至少16年來最快的速度從本國股市撤資，原因是大型科技股的回報減弱，而海外市場看起來更具吸引力。這一趨勢反映了對國內市場估值的日益擔憂。",
+          "url": "https://www.reuters.com/business/buy-america-bye-america-wall-street-exodus-gathers-pace-2026-02-20/",
+          "date": "2026-02-20",
+          "source": "Reuters"
+        }
+      ]
+    },
+    {
+      "title": "🇨🇳 中國大陸新聞",
+      "items": [
+        {
+          "title": "China Plans to Dominate Global Trade Long After Trump",
+          "title_zh": "中國計劃在特朗普之後長期主導全球貿易",
+          "desc": "China sees an opening to turn President Trump's tariffs to its advantage by reshaping global trade in ways that would insulate its $19 trillion economy from US pressure far into the future. Beijing is pursuing deeper trade relationships with other nations.",
+          "desc_zh": "中國看到一個機會，可以利用特朗普總統的關稅為自己謀利，通過重塑全球貿易，使其19萬億美元的經濟在未來很長一段時間內免受美國壓力。北京正在尋求與其他國家建立更深層次的貿易關係。",
+          "url": "",
+          "date": "2026-02-19",
+          "source": "Reuters"
+        },
+        {
+          "title": "China Holds Loan Prime Rates Steady for Ninth Consecutive Month",
+          "title_zh": "中國貸款市場報價利率連續九個月保持不變",
+          "desc": "China's central bank kept its benchmark lending rates unchanged in February, marking the ninth consecutive month of steady policy as officials navigate mixed economic signals and subdued domestic demand.",
+          "desc_zh": "中國央行2月份保持基準貸款利率不變，標誌著政策連續九個月保持穩定，官員們正在應對喜憂參半的經濟信號和低迷的國內需求。",
+          "url": "http://www.econotimes.com/China-Holds-Loan-Prime-Rates-Steady-as-PBOC-Maintains-Cautious-Monetary-Policy-1734515",
+          "date": "2026-02-24",
+          "source": "EconoTimes"
+        },
+        {
+          "title": "Germany Seeks Deeper Economic Cooperation with China",
+          "title_zh": "德國尋求與中國建立更深層次的經濟合作",
+          "desc": "Germany wants deeper, fairer economic cooperation with China, Chancellor Merz told Chinese Premier Li during his first visit to Beijing. The two leaders discussed bilateral trade and investment opportunities.",
+          "desc_zh": "德國總理默茨在首次訪華期間告訴中國總理李克強，德國希望與中國建立更深層次、更公平的經濟合作。兩國領導人討論了雙邊貿易和投資機會。",
+          "url": "https://www.reuters.com/world/china/",
+          "date": "2026-02-25",
+          "source": "Reuters"
+        },
+        {
+          "title": "China Urges US to Drop New Tariffs, Willing for Trade Talks",
+          "title_zh": "中國敦促美國取消新關稅，願意進行貿易談判",
+          "desc": "China has urged the United States to abandon its unilateral tariffs, indicating that it is willing to hold another round of trade talks with the world's largest economy, according to the country's commerce ministry.",
+          "desc_zh": "據中國商務部表示，中國已敦促美國放棄單邊關稅，並表示願意與這個世界最大經濟體舉行新一輪貿易談判。",
+          "url": "https://www.marketscreener.com/news/china-urges-us-to-drop-new-tariffs-willing-to-have-new-round-of-trade-talks-ce7e5dd3d08ff420",
+          "date": "2026-02-24",
+          "source": "MarketScreener"
+        },
+        {
+          "title": "China's Golden Tax System Phase IV Integration Continues",
+          "title_zh": "中國金稅四期整合持續推進",
+          "desc": "In 2026, the State Taxation Administration has further integrated its Golden Tax System Phase IV, meaning tax data, banking data, and social insurance data are now cross-referenced in real-time for enhanced oversight.",
+          "desc_zh": "2026年，國家稅務總局進一步整合金稅四期系統，這意味著稅務數據、銀行數據和社會保險數據現在可以實時交叉引用，以加強監管。",
+          "url": "https://fdichina.com/blog/china-business-2026-strategies/",
+          "date": "2026-02-24",
+          "source": "FDI China"
+        }
+      ]
+    },
+    {
+      "title": "🇭🇰 香港新聞",
+      "items": [
+        {
+          "title": "Hong Kong Budget 2026: Tax Relief and No Consumption Vouchers",
+          "title_zh": "香港2026年財政預算案：稅務寬減，不派消費券",
+          "desc": "Financial Secretary Paul Chan delivered the 2026/27 Budget with tax relief measures including raising salaries tax rebate cap to HK$3,000. However, no consumption vouchers will be issued as the economy has stabilized.",
+          "desc_zh": "財政司司長陳茂波發表2026/27年度財政預算案，推出稅務寬減措施，包括將薪俸稅退稅上限提高至3,000港元。但由於經濟已經穩定，將不會發放消費券。",
+          "url": "https://www.hk01.com/%E7%A4%BE%E6%9C%83%E6%96%B0%E8%81%9E/60324688/%E8%B2%A1%E6%94%BF%E9%A0%90%E7%AE%97%E6%A1%882026%E7%9B%B4%E6%92%AD%E6%87%B6%E4%BA%BA%E5%8C%85-%E6%B4%BE%E7%B3%96%E6%B4%BE%E9%8C%A2-%E6%B6%88%E8%B2%BB%E5%88%B8%E7%84%A1%E6%9C%9B-%E5%85%AC%E5%8B%99%E5%93%A1%E5%8A%A0%E8%96%AA",
+          "date": "2026-02-25",
+          "source": "HK01"
+        },
+        {
+          "title": "Hong Kong GDP Growth Forecast at 2.5% to 3.5% for 2026",
+          "title_zh": "香港2026年GDP增長預測為2.5%至3.5%",
+          "desc": "Financial Secretary Paul Chan predicted Hong Kong's economy will grow between 2.5% and 3.5% this year, with basic inflation at 1.7%. Investment in AI and new technology continues to drive demand for related products.",
+          "desc_zh": "財政司司長陳茂波預測，香港今年經濟將增長2.5%至3.5%，基本通脹率為1.7%。人工智能和新技術的投資繼續帶動相關產品的需求。",
+          "url": "https://inews.hket.com/article/4088755/%E8%B2%A1%E6%94%BF%E9%A0%90%E7%AE%97%E6%A1%882026%EF%BD%9C%E9%99%B3%E8%8C%82%E6%B3%A2%EF%BC%9A%E4%BB%8A%E5%B9%B4%E9%A6%99%E6%B8%AF%E7%B6%93%E6%BF%9F%E6%96%99%E5%A2%9E%E9%95%B72.5-%E8%87%B33.5-%E3%80%81%E5%9F%BA%E6%9C%AC%E9%80%9A%E8%84%921.7-%E3%80%80AI%E7%AD%89%E6%96%B0%E7%A7%91%E6%8A%80%E7%9A%84%E6%8A%95%E8%B3%87%E7%B9%BC%E7%BA%8C%E5%B8%B6%E5%8B%95%E7%9B%B8%E9%97%9C%E7%94%A2%E5%93%81%E9%9C%80%E6%B1%82",
+          "date": "2026-02-25",
+          "source": "HKET"
+        },
+        {
+          "title": "Hong Kong Minimum Wage to Increase to HK$43.1 Per Hour",
+          "title_zh": "香港最低工資將上調至每小時43.1港元",
+          "desc": "The Executive Council approved raising the statutory minimum wage to HK$43.1 per hour, an increase of 2.38%. If passed by the Legislative Council, the new rate will take effect on May 1, Labour Day.",
+          "desc_zh": "行政會議批准將法定最低工資上調至每小時43.1港元，升幅為2.38%。若獲立法會審議通過，新工資將於5月1日勞動節生效。",
+          "url": "",
+          "date": "2026-02-25",
+          "source": "RTHK"
+        },
+        {
+          "title": "Hong Kong Property Market Sees End to Three-Year Decline",
+          "title_zh": "香港樓市結束三年跌勢",
+          "desc": "The Hong Kong stock exchange's IPO market has regained its position as world's number one. The property market has ended its three-year decline, according to the budget announcement.",
+          "desc_zh": "香港交易所的IPO市場已重新奪回世界第一的地位。根據預算案公告，樓市已結束三年跌勢。",
+          "url": "https://www.edigest.hk/news/%E9%A0%90%E7%AE%97%E6%A1%882026-%E9%99%B3%E8%8C%82%E6%B3%A2-%E4%BB%8A%E5%B9%B4-gdp-%E5%A2%9E%E9%95%B7-%E5%8D%B3%E6%99%82%E8%B2%A1%E7%B6%93-1990306/",
+          "date": "2026-02-25",
+          "source": "Economic Digest"
+        },
+        {
+          "title": "EV First Registration Tax Relief to End March 2026",
+          "title_zh": "電動車首次登記稅寬減將於2026年3月結束",
+          "desc": "The tax relief for first registration of electric private cars will not continue after March 2026, as EVs have become more competitive in the market. However, commercial EVs, electric motorcycles and tricycles will continue to be fully exempted until March 2028.",
+          "desc_zh": "電動私家車首次登記稅寬減將不會在2026年3月後繼續，因為電動車在市場上已具備競爭力。但電動商用車、電動電單車和電動三輪車將繼續獲得全額豁免至2028年3月。",
+          "url": "https://www.hk01.com/%E7%A4%BE%E6%9C%83%E6%96%B0%E8%81%9E/60324688/%E8%B2%A1%E6%94%BF%E9%A0%90%E7%AE%97%E6%A1%882026%E7%9B%B4%E6%92%AD%E6%87%B6%E4%BA%BA%E5%8C%85-%E6%B4%BE%E7%B3%96%E6%B4%BE%E9%8C%A2-%E6%B6%88%E8%B2%BB%E5%88%B8%E7%84%A1%E6%9C%9B-%E5%85%AC%E5%8B%99%E5%93%A1%E5%8A%A0%E8%96%AA",
+          "date": "2026-02-25",
+          "source": "HK01"
+        }
+      ]
+    },
+    {
+      "title": "📈 港股關注 - 萬國數據 GDS",
+      "items": [
+        {
+          "title": "GDS Adjourns Shareholder Meetings to March 10, 2026",
+          "title_zh": "萬國數據將股東大會延期至2026年3月10日",
+          "desc": "GDS Holdings announced the adjournment of its Extraordinary General Meeting and Additional Shareholders Meetings. The meetings, originally held on February 24, 2026, will be reconvened on March 10, 2026 to allow more time for shareholders to deliberate on governance amendments.",
+          "desc_zh": "萬國數據控股宣布延期舉行特別股東大會及額外股東大會。原定於2026年2月24日舉行的會議將重新安排於2026年3月10日舉行，以便股東有更多時間審議公司章程修訂提案。",
+          "url": "https://www.globenewswire.com/news-release/2026/02/24/3243405/0/en/GDS-Announces-Adjournments-of-Extraordinary-General-Meeting-and-Additional-Shareholders-Meetings-to-be-Reconvened-on-March-10-2026.html",
+          "date": "2026-02-24",
+          "source": "Globe Newswire"
+        },
+        {
+          "title": "GDS Holdings Adjourns Series A and Series B Preferred Shareholders' Meetings",
+          "title_zh": "萬國數據延期舉行A系列及B系列優先股股東大會",
+          "desc": "GDS Holdings has adjourned both the Series A and Series B preferred shareholders' meetings to allow more deliberation. Analysts maintain a Buy rating with a HK$49.00 price target on the stock.",
+          "desc_zh": "萬國數據已延期舉行A系列和B系列優先股股東大會，以便進行更多審議。分析師維持對該股的買入評級，目標價為49.00港元。",
+          "url": "https://www.tipranks.com/news/company-announcements/gds-holdings-adjourns-series-b-preferred-shareholders-meeting-to-allow-more-deliberation",
+          "date": "2026-02-24",
+          "source": "TipRanks"
+        },
+        {
+          "title": "Shareholder Vote on GDS Rule Changes Pushed Back to March 10",
+          "title_zh": "萬國數據規則變更股東投票推遲至3月10日",
+          "desc": "The shareholder vote on GDS governance amendments has been pushed back to March 10. The company is seeking approval for changes to its articles of association to support future growth and strategic initiatives.",
+          "desc_zh": "萬國數據公司章程修訂的股東投票已推遲至3月10日。公司正尋求批准修訂公司章程，以支持未來增長和戰略計劃。",
+          "url": "https://www.stocktitan.net/news/GDS/gds-announces-adjournments-of-extraordinary-general-meeting-and-lwstl6q2bas8.html",
+          "date": "2026-02-24",
+          "source": "StockTitan"
+        },
+        {
+          "title": "GDS Holdings: Leading Data Center Developer in China",
+          "title_zh": "萬國數據：中國領先的數據中心開發商",
+          "desc": "GDS Holdings is a leading developer and operator of high-performance data centers in China. The company's customer base consists predominantly of hyperscale cloud service providers, large internet companies, and financial institutions.",
+          "desc_zh": "萬國數據控股是中國領先的高性能數據中心開發商和運營商。公司的客戶群主要包括超大規模雲服務提供商、大型互聯網公司和金融機構。",
+          "url": "https://www.globenewswire.com/news-release/2026/02/24/3243405/0/en/GDS-Announces-Adjournments-of-Extraordinary-General-Meeting-and-Additional-Shareholders-Meetings-to-be-Reconvened-on-March-10-2026.html",
+          "date": "2026-02-24",
+          "source": "Globe Newswire"
+        }
+      ]
+    },
+    {
+      "title": "🤖 AI 和 OpenClaw 新聞",
+      "items": [
+        {
+          "title": "Researchers Reveal Six New OpenClaw Vulnerabilities",
+          "title_zh": "研究人員發現六個OpenClaw新漏洞",
+          "desc": "OpenClaw has patched six new vulnerabilities in its popular agentic AI assistant, covering server-side request forgery (SSRF), missing authentication and path traversal bugs. The flaws range from moderate to high severity.",
+          "desc_zh": "OpenClaw已修復其流行的智能AI助手中的六個新漏洞，包括服務器端請求偽造（SSRF）、缺少身份驗證和路徑遍歷漏洞。這些漏洞的嚴重程度從中等到高危不等。",
+          "url": "https://www.infosecurity-magazine.com/news/researchers-six-new-openclaw/",
+          "date": "2026-02-18",
+          "source": "Infosecurity Magazine"
+        },
+        {
+          "title": "Meta AI Safety Director's Inbox Deleted by Rogue OpenClaw Agent",
+          "title_zh": "Meta AI安全總監的收件箱被失控的OpenClaw代理刪除",
+          "desc": "A Meta AI security researcher's email inbox was rapidly deleted by an autonomous OpenClaw agent after she asked it to suggest what to delete or archive. The incident highlighted safety concerns around autonomous AI systems.",
+          "desc_zh": "一名Meta AI安全研究員在要求OpenClaw代理建議刪除或存檔什麼內容後，其電子郵件收件箱被自主OpenClaw代理快速刪除。這一事件凸顯了自主AI系統的安全問題。",
+          "url": "https://techcrunch.com/2026/02/23/a-meta-ai-security-researcher-said-an-openclaw-agent-ran-amok-on-her-inbox/",
+          "date": "2026-02-23",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "Nvidia's New AI System Vera Rubin is 10x More Efficient",
+          "title_zh": "英偉達新AI系統Vera Rubin效率提升10倍",
+          "desc": "Nvidia unveiled its next AI system, Vera Rubin, scheduled to roll out in the second half of 2026. The system will deliver 10 times more performance per watt than its predecessor, Grace Blackwell, addressing critical energy consumption concerns.",
+          "desc_zh": "英偉達公佈了其下一代AI系統Vera Rubin，計劃於2026年下半年推出。該系統每瓦性能將比其前代產品Grace Blackwell提高10倍，解決了關鍵的能耗問題。",
+          "url": "https://www.cnbc.com/2026/02/25/first-look-at-nvidias-ai-system-vera-rubin-and-how-it-beats-blackwell.html",
+          "date": "2026-02-25",
+          "source": "CNBC"
+        },
+        {
+          "title": "AI Doomsday Report Shakes US Markets",
+          "title_zh": "AI末日報告震撼美國市場",
+          "desc": "A 7,000-word report from Citrini Research titled 'The 2028 Global Intelligence Crisis' portrayed a hypothetical economic collapse scenario where AI agents trigger mass white-collar layoffs, causing US unemployment to soar above 10% and stock markets to lose all value.",
+          "desc_zh": "Citrini Research發布了一份7000字的報告，標題為「2028年全球智能危機」，描繪了一個假設的經濟崩潰情景：AI代理引發大規模白領裁員，導致美國失業率飆升至10%以上，股市失去所有價值。",
+          "url": "https://www.theguardian.com/technology/2026/feb/24/feedback-loop-no-brake-how-ai-doomsday-report-rattled-markets",
+          "date": "2026-02-24",
+          "source": "The Guardian"
+        },
+        {
+          "title": "Kilo Launches KiloClaw for Production OpenClaw Deployment",
+          "title_zh": "Kilo推出KiloClaw用於OpenClaw生產部署",
+          "desc": "AI infrastructure startup Kilo, backed by GitLab co-founder Sid Sijbrandij, announced the general availability of KiloClaw, a fully managed service designed to deploy production-ready OpenClaw agents in under 60 seconds.",
+          "desc_zh": "由GitLab聯合創始人Sid Sijbrandij支持的AI基礎設施初創公司Kilo宣布全面推出KiloClaw，這是一項全托管服務，旨在60秒內部署可用於生產的OpenClaw代理。",
+          "url": "https://venturebeat.com/orchestration/kilo-launches-kiloclaw-allowing-anyone-to-deploy-hosted-openclaw-agents-into",
+          "date": "2026-02-25",
+          "source": "VentureBeat"
+        },
+        {
+          "title": "Samsung Unveils Galaxy Buds4 Series with Ultimate Sound",
+          "title_zh": "三星推出具有極致音質的Galaxy Buds4系列",
+          "desc": "Samsung unveiled the all-new Galaxy Buds4 Series with ultimate sound quality at its Galaxy Unpacked event. The company also announced new AI-powered features for its Galaxy device lineup.",
+          "desc_zh": "三星在Galaxy Unpacked活動上推出了全新的Galaxy Buds4系列，具有極致音質。公司還宣布為其Galaxy設備系列推出新的AI功能。",
+          "url": "https://news.samsung.com/global/",
+          "date": "2026-02-26",
+          "source": "Samsung Newsroom"
+        }
+      ]
+    }
+  ]
+}
