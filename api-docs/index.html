@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frank API 文檔 | News & Blog Stats API</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+        
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+        
+        .endpoint {
+            background: white;
+            border-radius: 10px;
+            padding: 25px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .endpoint-header {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 15px;
+            flex-wrap: wrap;
+        }
+        
+        .method {
+            padding: 5px 12px;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 0.85em;
+            text-transform: uppercase;
+        }
+        
+        .method.get {
+            background: #61affe;
+            color: white;
+        }
+        
+        .method.post {
+            background: #49cc90;
+            color: white;
+        }
+        
+        .path {
+            font-family: 'Courier New', monospace;
+            font-size: 1.1em;
+            color: #333;
+            font-weight: 600;
+        }
+        
+        .auth {
+            padding: 3px 10px;
+            border-radius: 12px;
+            font-size: 0.8em;
+            font-weight: 500;
+        }
+        
+        .auth.public {
+            background: #e3f2fd;
+            color: #1976d2;
+        }
+        
+        .auth.private {
+            background: #ffebee;
+            color: #c62828;
+        }
+        
+        .description {
+            color: #666;
+            margin-bottom: 15px;
+        }
+        
+        .section-title {
+            font-size: 0.9em;
+            font-weight: 600;
+            color: #333;
+            margin: 15px 0 10px 0;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .params-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 15px;
+        }
+        
+        .params-table th,
+        .params-table td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .params-table th {
+            background: #f8f9fa;
+            font-weight: 600;
+            color: #555;
+        }
+        
+        .params-table code {
+            background: #f4f4f4;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-size: 0.9em;
+        }
+        
+        .required {
+            color: #e53935;
+            font-weight: 600;
+        }
+        
+        .optional {
+            color: #757575;
+        }
+        
+        pre {
+            background: #263238;
+            color: #aed581;
+            padding: 15px;
+            border-radius: 8px;
+            overflow-x: auto;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+            line-height: 1.5;
+        }
+        
+        pre.json {
+            color: #ffcc80;
+        }
+        
+        .base-url {
+            background: #fff3e0;
+            border-left: 4px solid #ff9800;
+            padding: 15px 20px;
+            margin-bottom: 30px;
+            border-radius: 0 8px 8px 0;
+        }
+        
+        .base-url code {
+            font-size: 1.1em;
+            color: #e65100;
+            font-weight: 600;
+        }
+        
+        .nav {
+            background: white;
+            padding: 15px 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .nav h3 {
+            margin-bottom: 10px;
+            color: #333;
+        }
+        
+        .nav ul {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        
+        .nav a {
+            color: #667eea;
+            text-decoration: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            transition: background 0.2s;
+        }
+        
+        .nav a:hover {
+            background: #f0f0f0;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: #666;
+            margin-top: 40px;
+        }
+        
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 1.8em;
+            }
+            
+            .endpoint-header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🚀 Frank API 文檔</h1>
+            <p>新聞 API 與博客訪問統計服務</p>
+        </header>
+        
+        <div class="base-url">
+            <strong>Base URL:</strong> <code>https://code.frank.hk/news-api</code>
+        </div>
+        
+        <nav class="nav">
+            <h3>📚 快速導航</h3>
+            <ul>
+                <li><a href="#news">新聞 API</a></li>
+                <li><a href="#categories">分類 API</a></li>
+                <li><a href="#visit">訪問統計 API</a></li>
+                <li><a href="#ranking">排行榜 API</a></li>
+                <li><a href="#health">健康檢查</a></li>
+            </ul>
+        </nav>
+
+        <!-- 新聞 API -->
+        <section id="news">
+            <div class="endpoint">
+                <div class="endpoint-header">
+                    <span class="method get">GET</span>
+                    <span class="path">/news</span>
+                    <span class="auth private">需要 Token</span>
+                </div>
+                <p class="description">
+                    獲取每日新聞數據。支持按分類篩選，數據每日自動更新。
+                </p>
+                
+                <div class="section-title">Query 參數</div>
+                <table class="params-table">
+                    <thead>
+                        <tr>
+                            <th>參數</th>
+                            <th>類型</th>
+                            <th>必填</th>
+                            <th>說明</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><code>token</code></td>
+                            <td>string</td>
+                            <td><span class="required">是</span></td>
+                            <td>API 認證 Token</td>
+                        </tr>
+                        <tr>
+                            <td><code>category</code></td>
+                            <td>string</td>
+                            <td><span class="optional">否</span></td>
+                            <td>新聞分類：world, china, hongkong, gds, ai</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <div class="section-title">請求示例</div>
+                <pre>curl "https://code.frank.hk/news-api/news?token=frank2026&category=gds"</pre>
+                
+                <div class="section-title">響應示例</div>
+                <pre class="json">{
+  "status": "success",
+  "category": "gds",
+  "last_update": "2026-02-25T06:00:01.993521",
+  "count": 4,
+  "data": [
+    {
+      "id": "gds_2026-02-25_001",
+      "category": "gds",
+      "title": "GDS Holdings Announces Q4 2025 Results",
+      "title_zh": "萬國數據公布 2025 年第四季度業績",
+      "summary": "萬國數據今日公布第四季度財報...",
+      "source": "News",
+      "url": "https://example.com/news/123",
+      "published_at": "2026-02-25",
+      "fetched_at": "2026-02-25T06:00:01.993855"
+    }
+  ]
+}</pre>
+            </div>
+        </section>
+
+        <!-- 分類 API -->
+        <section id="categories">
+            <div class="endpoint">
+                <div class="endpoint-header">
+                    <span class="method get">GET</span>
+                    <span class="path">/categories</span>
+                    <span class="auth private">需要 Token</span>
+                </div>
+                <p class="description">
+                    獲取所有可用的新聞分類列表。
+                </p>
+                
+                <div class="section-title">Query 參數</div>
+                <table class="params-table">
+                    <thead>
+                        <tr>
+                            <th>參數</th>
+                            <th>類型</th>
+                            <th>必填</th>
+                            <th>說明</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><code>token</code></td>
+                            <td>string</td>
+                            <td><span class="required">是</span></td>
+                            <td>API 認證 Token</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <div class="section-title">請求示例</div>
+                <pre>curl "https://code.frank.hk/news-api/categories?token=frank2026"</pre>
+                
+                <div class="section-title">響應示例</div>
+                <pre class="json">{
+  "categories": ["world", "hongkong", "china", "gds", "ai"],
+  "descriptions": {
+    "world": "國際新聞",
+    "hongkong": "香港新聞",
+    "china": "中國大陸新聞",
+    "gds": "萬國數據 (GDS) 股票相關新聞",
+    "ai": "AI 和 OpenClaw 相關新聞"
+  }
+}</pre>
+            </div>
+        </section>
+
+        <!-- 訪問統計 API -->
+        <section id="visit">
+            <div class="endpoint">
+                <div class="endpoint-header">
+                    <span class="method get">GET</span>
+                    <span class="path">/visit</span>
+                    <span class="auth public">公開</span>
+                </div>
+                <p class="description">
+                    記錄頁面訪問並返回該文章的總訪問量。同個 IP 在 10 分鐘內重複訪問不會重複計數。
+                </p>
+                
+                <div class="section-title">Query 參數</div>
+                <table class="params-table">
+                    <thead>
+                        <tr>
+                            <th>參數</th>
+                            <th>類型</th>
+                            <th>必填</th>
+                            <th>說明</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><code>slug</code></td>
+                            <td>string</td>
+                            <td><span class="required">是</span></td>
+                            <td>文章 slug（URL 最後一節）</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <div class="section-title">請求示例</div>
+                <pre>curl "https://code.frank.hk/news-api/visit?slug=jump-desktop-remote-mac-mini"</pre>
+                
+                <div class="section-title">響應示例</div>
+                <pre class="json">{
+  "slug": "jump-desktop-remote-mac-mini",
+  "views": 4,
+  "is_new_visit": false,
+  "timestamp": "2026-02-25T14:12:30.235502"
+}</pre>
+                
+                <div class="section-title">說明</div>
+                <p class="description">
+                    <code>is_new_visit</code> 表示此次請求是否被計為新訪問。
+                    同個 IP 在 10 分鐘內訪問同一篇文章，<code>is_new_visit</code> 會返回 <code>false</code>。
+                </p>
+            </div>
+        </section>
+
+        <!-- 排行榜 API -->
+        <section id="ranking">
+            <div class="endpoint">
+                <div class="endpoint-header">
+                    <span class="method get">GET</span>
+                    <span class="path">/stats/ranking</span>
+                    <span class="auth public">公開</span>
+                </div>
+                <p class="description">
+                    獲取所有文章的訪問量排行榜，按訪問量從高到低排序。
+                </p>
+                
+                <div class="section-title">Query 參數</div>
+                <table class="params-table">
+                    <thead>
+                        <tr>
+                            <th>參數</th>
+                            <th>類型</th>
+                            <th>必填</th>
+                            <th>說明</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><code>limit</code></td>
+                            <td>integer</td>
+                            <td><span class="optional">否</span></td>
+                            <td>返回前 N 條記錄。不傳則返回全部。</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <div class="section-title">請求示例</div>
+                <pre># 獲取全部排行榜
+curl "https://code.frank.hk/news-api/stats/ranking"
+
+# 只顯示前 5 名
+curl "https://code.frank.hk/news-api/stats/ranking?limit=5"</pre>
+                
+                <div class="section-title">響應示例</div>
+                <pre class="json">{
+  "status": "success",
+  "total_slugs": 11,
+  "total_views": 25,
+  "returned": 5,
+  "ranking": [
+    {"rank": 1, "slug": "nft-erc1155", "views": 8},
+    {"rank": 2, "slug": "openclaw-telegram-streaming-setup-guide", "views": 4},
+    {"rank": 3, "slug": "jump-desktop-remote-mac-mini", "views": 4},
+    {"rank": 4, "slug": "openclaw-device-token-mismatch-fix", "views": 2},
+    {"rank": 5, "slug": "openclaw-day6-mystery", "views": 1}
+  ],
+  "timestamp": "2026-02-25T14:32:58.909317"
+}</pre>
+            </div>
+        </section>
+
+        <!-- 全部統計 API -->
+        <section id="stats">
+            <div class="endpoint">
+                <div class="endpoint-header">
+                    <span class="method get">GET</span>
+                    <span class="path">/stats</span>
+                    <span class="auth public">公開</span>
+                </div>
+                <p class="description">
+                    獲取所有文章的原始訪問統計數據（未排序）。
+                </p>
+                
+                <div class="section-title">請求示例</div>
+                <pre>curl "https://code.frank.hk/news-api/stats"</pre>
+                
+                <div class="section-title">響應示例</div>
+                <pre class="json">{
+  "status": "success",
+  "visits": {
+    "nft-erc1155": 8,
+    "openclaw-telegram-streaming-setup-guide": 4,
+    "jump-desktop-remote-mac-mini": 4
+  },
+  "total_slugs": 11,
+  "total_views": 25,
+  "timestamp": "2026-02-25T14:32:58.909317"
+}</pre>
+            </div>
+        </section>
+
+        <!-- 單篇文章統計 -->
+        <section id="slug-stats">
+            <div class="endpoint">
+                <div class="endpoint-header">
+                    <span class="method get">GET</span>
+                    <span class="path">/stats/:slug</span>
+                    <span class="auth public">公開</span>
+                </div>
+                <p class="description">
+                    獲取指定文章的訪問量。
+                </p>
+                
+                <div class="section-title">Path 參數</div>
+                <table class="params-table">
+                    <thead>
+                        <tr>
+                            <th>參數</th>
+                            <th>類型</th>
+                            <th>必填</th>
+                            <th>說明</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><code>slug</code></td>
+                            <td>string</td>
+                            <td><span class="required">是</span></td>
+                            <td>文章 slug</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <div class="section-title">請求示例</div>
+                <pre>curl "https://code.frank.hk/news-api/stats/nft-erc1155"</pre>
+                
+                <div class="section-title">響應示例</div>
+                <pre class="json">{
+  "status": "success",
+  "slug": "nft-erc1155",
+  "views": 8,
+  "timestamp": "2026-02-25T14:32:58.909317"
+}</pre>
+            </div>
+        </section>
+
+        <!-- 健康檢查 -->
+        <section id="health">
+            <div class="endpoint">
+                <div class="endpoint-header">
+                    <span class="method get">GET</span>
+                    <span class="path">/health</span>
+                    <span class="auth public">公開</span>
+                </div>
+                <p class="description">
+                    服務健康檢查，返回服務狀態和新聞數據加載情況。
+                </p>
+                
+                <div class="section-title">請求示例</div>
+                <pre>curl "https://code.frank.hk/news-api/health"</pre>
+                
+                <div class="section-title">響應示例</div>
+                <pre class="json">{
+  "status": "healthy",
+  "timestamp": "2026-02-25T14:32:58.909317",
+  "daily_news_date": "2026-02-25",
+  "daily_news_loaded": true,
+  "news_count": 25,
+  "visit_stats": {
+    "slugs_tracked": 11,
+    "total_views": 25
+  }
+}</pre>
+            </div>
+        </section>
+
+        <footer>
+            <p>Made with ❤️ by Frank & A-Dai | 最後更新：2026-02-25</p>
+        </footer>
+    </div>
+</body>
+</html>
