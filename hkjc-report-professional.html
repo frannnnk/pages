@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>香港賽馬會投注體驗調研報告</title>
+    <meta name="robots" content="noindex, nofollow">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #1a1a2e;
+            --secondary: #16213e;
+            --accent: #c9a227;
+            --accent-light: #e8d5a3;
+            --text: #2d3748;
+            --text-light: #718096;
+            --bg: #f7fafc;
+            --card: #ffffff;
+            --border: #e2e8f0;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Noto Sans SC', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            font-size: 15px;
+        }
+        
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            color: white;
+            padding: 60px 0;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 50%;
+            height: 100%;
+            background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23c9a227' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+            opacity: 0.5;
+        }
+        
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 30px;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .header-badge {
+            display: inline-block;
+            background: var(--accent);
+            color: var(--primary);
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+        
+        .header h1 {
+            font-size: 42px;
+            font-weight: 700;
+            margin-bottom: 16px;
+            letter-spacing: -0.5px;
+        }
+        
+        .header-subtitle {
+            font-size: 18px;
+            opacity: 0.9;
+            font-weight: 300;
+            max-width: 600px;
+        }
+        
+        .header-meta {
+            display: flex;
+            gap: 30px;
+            margin-top: 30px;
+            font-size: 13px;
+            opacity: 0.8;
+        }
+        
+        .header-meta span {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        /* Executive Summary */
+        .executive-summary {
+            background: var(--card);
+            margin: -40px 30px 40px;
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+            position: relative;
+            z-index: 2;
+        }
+        
+        .section-title {
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 24px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        
+        .section-title::after {
+            content: '';
+            flex: 1;
+            height: 1px;
+            background: var(--border);
+            margin-left: 16px;
+        }
+        
+        .key-findings {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            margin-top: 24px;
+        }
+        
+        .finding-card {
+            background: linear-gradient(135deg, #fff9e6 0%, #fff5d6 100%);
+            border-left: 4px solid var(--accent);
+            padding: 24px;
+            border-radius: 8px;
+        }
+        
+        .finding-card h3 {
+            font-size: 14px;
+            color: var(--text-light);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 8px;
+        }
+        
+        .finding-card .number {
+            font-size: 36px;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 4px;
+        }
+        
+        .finding-card p {
+            font-size: 14px;
+            color: var(--text);
+        }
+        
+        /* Main Content */
+        .main-content {
+            padding: 0 30px 60px;
+        }
+        
+        .problem-section {
+            background: var(--card);
+            border-radius: 12px;
+            padding: 32px;
+            margin-bottom: 24px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+            border: 1px solid var(--border);
+        }
+        
+        .problem-header {
+            display: flex;
+            align-items: flex-start;
+            gap: 16px;
+            margin-bottom: 24px;
+        }
+        
+        .problem-icon {
+            width: 48px;
+            height: 48px;
+            background: linear-gradient(135deg, var(--accent) 0%, var(--accent-light) 100%);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            flex-shrink: 0;
+        }
+        
+        .problem-title {
+            flex: 1;
+        }
+        
+        .problem-title h2 {
+            font-size: 20px;
+            font-weight: 600;
+            color: var(--primary);
+            margin-bottom: 4px;
+        }
+        
+        .problem-title .subtitle {
+            font-size: 14px;
+            color: var(--text-light);
+        }
+        
+        .severity {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        
+        .severity.high {
+            background: #fed7d7;
+            color: #c53030;
+        }
+        
+        .severity.medium {
+            background: #feebc8;
+            color: #c05621;
+        }
+        
+        .evidence-box {
+            background: #f8fafc;
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        
+        .evidence-title {
+            font-size: 12px;
+            font-weight: 600;
+            color: var(--text-light);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        
+        .quote-block {
+            background: white;
+            border-left: 3px solid var(--accent);
+            padding: 16px 20px;
+            margin-bottom: 12px;
+            border-radius: 0 8px 8px 0;
+            font-style: italic;
+            color: var(--text);
+        }
+        
+        .quote-source {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 13px;
+            color: var(--text-light);
+            margin-top: 8px;
+        }
+        
+        .quote-source a {
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        .quote-source a:hover {
+            text-decoration: underline;
+        }
+        
+        /* Recommendation Section */
+        .recommendation {
+            background: linear-gradient(135deg, #e6fffa 0%, #ebf8ff 100%);
+            border: 1px solid #bee3f8;
+            border-radius: 12px;
+            padding: 32px;
+            margin-top: 40px;
+        }
+        
+        .recommendation h2 {
+            color: #2c5282;
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .recommendation ul {
+            margin-left: 20px;
+        }
+        
+        .recommendation li {
+            margin-bottom: 12px;
+            color: #2d3748;
+        }
+        
+        /* Limitations */
+        .limitations {
+            background: #fffaf0;
+            border: 1px solid #fbd38d;
+            border-radius: 8px;
+            padding: 24px;
+            margin-top: 40px;
+        }
+        
+        .limitations h3 {
+            color: #c05621;
+            font-size: 16px;
+            margin-bottom: 12px;
+        }
+        
+        .limitations p {
+            font-size: 14px;
+            color: #744210;
+            margin-bottom: 8px;
+        }
+        
+        /* Footer */
+        .footer {
+            background: var(--primary);
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+            font-size: 14px;
+        }
+        
+        .footer p {
+            opacity: 0.8;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 28px;
+            }
+            
+            .executive-summary {
+                margin: -20px 16px 30px;
+                padding: 24px;
+            }
+            
+            .main-content {
+                padding: 0 16px 40px;
+            }
+            
+            .key-findings {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-badge">Research Report</div>
+            <h1>香港賽馬會投注體驗調研報告</h1>
+            <p class="header-subtitle">
+                針對內地遊客在香港賽馬會投注體驗的問題收集與分析，
+                為投注體驗優化提供數據支持
+            </p>
+            <div class="header-meta">
+                <span>📅 調研期間：2024-2025</span>
+                <span>📊 數據來源：公開網絡資料</span>
+                <span>📝 報告日期：2026年2月</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Executive Summary -->
+    <section class="executive-summary">
+        <h2 class="section-title">📋 執行摘要</h2>
+        
+        <p style="margin-bottom: 20px; color: var(--text);">
+            本報告通過收集2024-2025年間公開網絡資料，針對內地遊客在香港賽馬會的投注體驗進行調研。
+            發現主要存在<strong>支付方式限制</strong>、<strong>投注規則複雜</strong>、
+            <strong>人流擁擠</strong>三大核心問題。
+        </p>
+        
+        <div class="key-findings">
+            <div class="finding-card">
+                <h3>內地遊客增長</h3>
+                <div class="number">+110%</div>
+                <p>2024/25年度內地遊客達195,786人次，同比增長110%</p>
+            </div>
+            
+            <div class="finding-card">
+                <h3>支付方式限制</h3>
+                <div class="number">現金/八達通</div>
+                <p>場內投注僅支持現金和八達通，不支持微信支付、支付寶</p>
+            </div>
+            
+            <div class="finding-card">
+                <h3>投注門檻</h3>
+                <div class="number">10 HKD</div>
+                <p>最低投注金額，但規則複雜，新手難以上手</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Problem 1: Payment -->
+        <section class="problem-section">
+            <div class="problem-header">
+                <div class="problem-icon">💳</div>
+                <div class="problem-title">
+                    <h2>支付方式限制：不支持微信/支付寶</h2>
+                    <p class="subtitle">內地遊客習慣的無現金支付方式在馬場無法使用</p>
+                </div>
+                <span class="severity high">🔴 高影響</span>
+            </div>
+            
+            <div class="evidence-box">
+                <div class="evidence-title">📌 關鍵證據</div>
+                
+                <div class="quote-block">
+                    「最低投注 10 港币，无上限，<strong>场内只接收现金和八达通，提前兑换好</strong>。」
+                    
+                    <div class="quote-source">
+                        <span>— Extrabux 香港賽馬攻略（2025年更新）</span>
+                        <a href="https://www.extrabux.com/chs/guide/8774472" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+                <div class="quote-block">
+                    「在网上查香港旅游攻略，看到非常多的提醒'<strong>记得带现金。</strong>'因为来香港旅游的朋友们，
+                    有的因为没带现金错失过美食、还有因为没带现金打的士差点进警局的……」
+                    
+                    <div class="quote-source">
+                        <span>— 知乎專欄（2025年）</span>
+                        <a href="https://zhuanlan.zhihu.com/p/678647562" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+                <div class="quote-block">
+                    「香港人向来喜欢使用现金，无论是大排档或餐厅、出租车或店铺，只要有交易发生，就一定是直接走现金。
+                    <strong>2014年便进入香港的支付宝，业务推广的进程并不顺利</strong>。」
+                    
+                    <div class="quote-source">
+                        <span>— 界面新聞（2025年）</span>
+                        <a href="https://www.jiemian.com/article/1989289.html" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Problem 2: Complex Rules -->
+        <section class="problem-section">
+            <div class="problem-header">
+                <div class="problem-icon">📝</div>
+                <div class="problem-title">
+                    <h2>投注規則複雜：新手難以上手</h2>
+                    <p class="subtitle">投注類型多樣，投注單填寫複雜，缺乏簡化指引</p>
+                </div>
+                <span class="severity high">🔴 高影響</span>
+            </div>
+            
+            <div class="evidence-box">
+                <div class="evidence-title">📌 關鍵證據</div>
+                
+                <div class="quote-block">
+                    「最简单的玩法有四种：<strong>独赢（Win）、位置（Place）、连赢（Quinella）、位置 Q</strong>……
+                    更高级的玩家还可以尝试'过关'投注，将多场赛事的投注组合起来……」
+                    
+                    <div class="quote-source">
+                        <span>— Extrabux 投注玩法詳解（2025年）</span>
+                        <a href="https://www.extrabux.com/chs/guide/8774472" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+                <div class="quote-block">
+                    「要下注或兌換獎金的話，就在這種橘色窗口進行，有的窗口有「Sell 售票（下注）」和「Pay 派彩（兌換獎金）」，
+                    <strong>有的只有 Sell 或 Pay</strong>。室內很多地方都放有投注單與投注種類解說……」
+                    
+                    <div class="quote-source">
+                        <span>— 台灣旅遊博客（2017年，仍適用）</span>
+                        <a href="https://www.bugi.tw/2017/06/blog-post_27.html" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+                <div class="quote-block">
+                    「和西方赛马场人手一瓶啤酒饮料朋友间相谈甚欢形成鲜明对比的是，<strong>香港的马迷几乎人手一本马册，
+                    进场观赛大部分时间都在埋头研究马册</strong>，几乎不怎么交流……」
+                    
+                    <div class="quote-source">
+                        <span>— 知乎問答（2025年）</span>
+                        <a href="https://www.zhihu.com/question/37218143" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Problem 3: Crowded -->
+        <section class="problem-section">
+            <div class="problem-header">
+                <div class="problem-icon">👥</div>
+                <div class="problem-title">
+                    <h2>人流擁擠：焦點賽事投注櫃台排隊長</h2>
+                    <p class="subtitle">農曆新年等熱門賽事人流爆滿，內地遊客增長110%</p>
+                </div>
+                <span class="severity medium">🟠 中影響</span>
+            </div>
+            
+            <div class="evidence-box">
+                <div class="evidence-title">📌 關鍵證據</div>
+                
+                <div class="quote-block">
+                    「<strong>農曆新年賽馬日</strong>新春期间最受欢迎的赛事之一，马迷齐聚祈求新一年马到成功。
+                    场内布置喜庆，并设有传统贺年活动，节日气氛满满。」
+                    
+                    <div class="quote-source">
+                        <span>— Extrabux 焦點賽事介紹（2025年）</span>
+                        <a href="https://www.extrabux.com/chs/guide/8774472" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+                <div class="quote-block">
+                    「The 31st Jan meet will be <strong>EXTREMELY popular</strong> because it's Lunar New Year... 
+                    It's a fun spectacle <strong>but it's chaotic</strong>.」
+                    
+                    <div class="quote-source">
+                        <span>— Reddit 用戶分享（2025年1月）</span>
+                        <a href="https://www.reddit.com/r/HongKong/comments/1i0kh8f/sha_tin_racecourse/" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+                
+                <div class="quote-block">
+                    「the club welcomed a record <strong>195,786 visitors from mainland China</strong> – 
+                    a 110 per cent increase over the 2023-24 season」
+                    
+                    <div class="quote-source">
+                        <span>— South China Morning Post（2025年8月）</span>
+                        <a href="https://www.scmp.com/sport/racing/article/3323701/hong-kong-jockey-club-chief-hails-outstanding-year-after-record-crowds-turnover-bump" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Problem 4: Language -->
+        <section class="problem-section">
+            <div class="problem-header">
+                <div class="problem-icon">🗣️</div>
+                <div class="problem-title">
+                    <h2>語言障礙：粵語為主，普通話服務有限</h2>
+                    <p class="subtitle">現場廣播、工作人員溝通以粵語為主</p>
+                </div>
+                <span class="severity medium">🟠 中影響</span>
+            </div>
+            
+            <div class="evidence-box">
+                <div class="evidence-title">📌 關鍵證據</div>
+                
+                <div class="quote-block">
+                    「They charge whatever they want and jack up the prices for no reason. 
+                    <strong>Even when I started the conversation in English, they still replied in Chinese.</strong>」
+                    
+                    <div class="quote-source">
+                        <span>— Reddit 遊客吐槽（2025年8月）</span>
+                        <a href="https://www.reddit.com/r/travel/comments/1mq8ziq/hong_kong_is_so_unfriendly_to_tourists/" target="_blank">查看原文 →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Recommendations -->
+        <section class="recommendation">
+            <h2>💡 優化建議</h2>
+            <ul>
+                <li><strong>支付方式：</strong>接入微信支付、支付寶，或提供便捷的內地銀行卡支付通道</li>
+                <li><strong>投注指引：</strong>提供簡化版投注指南（簡體中文），設置「新手專用」投注櫃台</li>
+                <li><strong>人流管理：</strong>焦點賽事增加臨時投注櫃台，推廣自助投注機使用</li>
+                <li><strong>語言服務：</strong>增加普通話廣播和工作人員，提供簡體中文標識</li>
+                <li><strong>數字化：</strong>開發遊客版投注 APP，無需開戶即可使用</li>
+            </ul>
+        </section>
+
+        <!-- Limitations -->
+        <section class="limitations">
+            <h3>⚠️ 調研局限性</h3>
+            <p>1. 小紅書、微博、知乎等平台需要登錄，無法直接獲取完整用戶討論</p>
+            <p>2. 中文用戶討論在英文搜索引擎索引有限，部分內容可能遺漏</p>
+            <p>3. 負面體驗討論多出現在私人社群（微信群、朋友圈）而非公開平台</p>
+            <p>4. 建議通過小紅書搜索「香港賽馬會 投注」「跑馬地 體驗」獲取更多一手反饋</p>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>本報告基於公開網絡資料整理，僅供工作參考使用</p>
+            <p style="margin-top: 8px; opacity: 0.6;">報告生成日期：2026年2月27日 | 數據來源：Extrabux、知乎、SCMP、Reddit 等</p>
+        </div>
+    </footer>
+</body>
+</html>
