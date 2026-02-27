@@ -1,0 +1,1243 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>香港賽馬會馬場投注體驗調研報告</title>
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;600;700&family=Noto+Serif+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            /* OKLCH Color System - Deep Blue-Green */
+            --hero-dark: #0f1419;
+            --hero-mid: #1a2332;
+            --hero-light: #243447;
+            --accent-warm: #d4a574;
+            --accent-warm-light: #e8c9a8;
+            
+            /* Pain Category Colors */
+            --pain-payment: #dc2626;
+            --pain-payment-bg: #fef2f2;
+            --pain-payment-border: #fecaca;
+            --pain-crowding: #d97706;
+            --pain-crowding-bg: #fffbeb;
+            --pain-crowding-border: #fde68a;
+            --pain-rules: #2563eb;
+            --pain-rules-bg: #eff6ff;
+            --pain-rules-border: #dbeafe;
+            --pain-general: #6b7280;
+            --pain-general-bg: #f9fafb;
+            --pain-general-border: #e5e7eb;
+            
+            /* Neutral Colors */
+            --bg-warm: #faf9f7;
+            --bg-card: #ffffff;
+            --text-primary: #1f2937;
+            --text-secondary: #4b5563;
+            --text-tertiary: #9ca3af;
+            --border-light: #e5e7eb;
+            --border-lighter: #f3f4f6;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Noto Sans SC', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--bg-warm);
+            color: var(--text-primary);
+            line-height: 1.7;
+            font-size: 15px;
+            overflow-x: hidden;
+        }
+        
+        /* Animation Keyframes */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(24px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-6px); }
+        }
+        
+        .animate-fade-in-up {
+            animation: fadeInUp 0.6s ease-out forwards;
+            opacity: 0;
+        }
+        
+        .animate-fade-in {
+            animation: fadeIn 0.5s ease-out forwards;
+            opacity: 0;
+        }
+        
+        .delay-100 { animation-delay: 0.1s; }
+        .delay-200 { animation-delay: 0.2s; }
+        .delay-300 { animation-delay: 0.3s; }
+        .delay-400 { animation-delay: 0.4s; }
+        .delay-500 { animation-delay: 0.5s; }
+        
+        /* Hero Section */
+        .hero {
+            position: relative;
+            background: linear-gradient(175deg, var(--hero-dark) 0%, var(--hero-mid) 50%, var(--hero-light) 100%);
+            padding: 80px 24px 100px;
+            overflow: hidden;
+        }
+        
+        .hero::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.04'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+            opacity: 1;
+        }
+        
+        .hero-content {
+            position: relative;
+            max-width: 720px;
+            margin: 0 auto;
+            z-index: 1;
+        }
+        
+        .hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 6px 14px;
+            background: rgba(212, 165, 116, 0.15);
+            border: 1px solid rgba(212, 165, 116, 0.3);
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 500;
+            color: var(--accent-warm);
+            margin-bottom: 24px;
+            letter-spacing: 0.5px;
+        }
+        
+        .hero h1 {
+            font-family: 'Noto Serif SC', serif;
+            font-size: clamp(2rem, 5vw, 3rem);
+            font-weight: 700;
+            line-height: 1.3;
+            color: #f9fafb;
+            margin-bottom: 20px;
+        }
+        
+        .hero h1 span {
+            color: var(--accent-warm);
+        }
+        
+        .hero-subtitle {
+            font-size: 1.05rem;
+            color: rgba(255, 255, 255, 0.75);
+            max-width: 560px;
+            line-height: 1.8;
+            margin-bottom: 32px;
+        }
+        
+        .hero-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            font-size: 13px;
+            color: rgba(255, 255, 255, 0.5);
+        }
+        
+        .hero-meta-item {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        
+        .scroll-indicator {
+            position: absolute;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: rgba(255, 255, 255, 0.4);
+            animation: float 2s ease-in-out infinite;
+        }
+        
+        /* Main Container */
+        .container {
+            max-width: 760px;
+            margin: 0 auto;
+            padding: 64px 24px;
+        }
+        
+        /* Section Styles */
+        section {
+            margin-bottom: 64px;
+        }
+        
+        section h2 {
+            font-family: 'Noto Serif SC', serif;
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: 24px;
+        }
+        
+        section h3 {
+            font-family: 'Noto Serif SC', serif;
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 16px;
+        }
+        
+        /* Summary Cards */
+        .summary-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 16px;
+            margin: 28px 0;
+        }
+        
+        .summary-card {
+            display: flex;
+            gap: 14px;
+            padding: 20px;
+            background: var(--bg-card);
+            border: 1px solid var(--border-light);
+            border-radius: 8px;
+            transition: all 0.2s ease;
+        }
+        
+        .summary-card:hover {
+            border-color: var(--accent-warm);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        }
+        
+        .summary-num {
+            font-family: 'Noto Serif SC', serif;
+            font-size: 14px;
+            font-weight: 700;
+            color: var(--accent-warm);
+            margin-top: 2px;
+        }
+        
+        .summary-content h4 {
+            font-size: 15px;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 4px;
+        }
+        
+        .summary-content p {
+            font-size: 13px;
+            color: var(--text-tertiary);
+            line-height: 1.5;
+        }
+        
+        /* Stats Section */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 16px;
+            margin: 32px 0;
+        }
+        
+        @media (max-width: 640px) {
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        
+        .stat-card {
+            text-align: center;
+            padding: 24px 16px;
+            background: var(--bg-card);
+            border: 1px solid var(--border-light);
+            border-radius: 10px;
+            transition: all 0.2s ease;
+        }
+        
+        .stat-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+        }
+        
+        .stat-number {
+            font-family: 'Noto Serif SC', serif;
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--hero-mid);
+            line-height: 1;
+            margin-bottom: 8px;
+        }
+        
+        .stat-label {
+            font-size: 13px;
+            color: var(--text-secondary);
+            font-weight: 500;
+        }
+        
+        /* Finding Cards */
+        .finding-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-light);
+            border-radius: 10px;
+            overflow: hidden;
+            margin-bottom: 20px;
+            transition: all 0.3s ease;
+            opacity: 0;
+            animation: fadeInUp 0.5s ease-out forwards;
+        }
+        
+        .finding-card:hover {
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+            transform: translateY(-2px);
+        }
+        
+        .finding-card.payment { border-left: 4px solid var(--pain-payment); }
+        .finding-card.crowding { border-left: 4px solid var(--pain-crowding); }
+        .finding-card.rules { border-left: 4px solid var(--pain-rules); }
+        .finding-card.general { border-left: 4px solid var(--pain-general); }
+        
+        .finding-header {
+            padding: 20px 24px 16px;
+        }
+        
+        .finding-meta {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px;
+            margin-bottom: 12px;
+        }
+        
+        .finding-meta-left {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .finding-id {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 12px;
+            color: var(--text-tertiary);
+            font-weight: 500;
+        }
+        
+        .finding-platform {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 14px;
+            color: var(--text-secondary);
+            font-weight: 500;
+        }
+        
+        .finding-date {
+            font-size: 12px;
+            color: var(--text-tertiary);
+        }
+        
+        .finding-title {
+            font-family: 'Noto Serif SC', serif;
+            font-size: 1.15rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            line-height: 1.5;
+            margin-bottom: 12px;
+        }
+        
+        .finding-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+        
+        .tag {
+            display: inline-flex;
+            align-items: center;
+            padding: 4px 10px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: 500;
+        }
+        
+        .tag.payment {
+            background: var(--pain-payment-bg);
+            color: var(--pain-payment);
+            border: 1px solid var(--pain-payment-border);
+        }
+        
+        .tag.crowding {
+            background: var(--pain-crowding-bg);
+            color: var(--pain-crowding);
+            border: 1px solid var(--pain-crowding-border);
+        }
+        
+        .tag.rules {
+            background: var(--pain-rules-bg);
+            color: var(--pain-rules);
+            border: 1px solid var(--pain-rules-border);
+        }
+        
+        .tag.general {
+            background: var(--pain-general-bg);
+            color: var(--pain-general);
+            border: 1px solid var(--pain-general-border);
+        }
+        
+        /* Quotes */
+        .finding-quotes {
+            padding: 0 24px 16px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        
+        .quote-block {
+            position: relative;
+            padding: 14px 16px 14px 20px;
+            background: #f8f7f5;
+            border-left: 3px solid var(--border-light);
+            border-radius: 0 6px 6px 0;
+        }
+        
+        .quote-block::before {
+            content: '"';
+            position: absolute;
+            top: 8px;
+            left: -8px;
+            width: 20px;
+            height: 20px;
+            background: #f8f7f5;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Noto Serif SC', serif;
+            font-size: 24px;
+            color: var(--text-tertiary);
+            line-height: 1;
+        }
+        
+        .quote-text {
+            font-size: 14px;
+            color: var(--text-secondary);
+            line-height: 1.8;
+            font-style: italic;
+        }
+        
+        .quote-text strong {
+            color: var(--text-primary);
+            font-weight: 600;
+        }
+        
+        /* Summary */
+        .finding-summary {
+            padding: 0 24px 16px;
+            font-size: 14px;
+            color: var(--text-secondary);
+            line-height: 1.8;
+        }
+        
+        /* Footer */
+        .finding-footer {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 14px 24px;
+            background: #f8f7f5;
+            border-top: 1px solid var(--border-lighter);
+        }
+        
+        .source-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 13px;
+            color: var(--hero-light);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+        
+        .source-link:hover {
+            color: var(--accent-warm);
+        }
+        
+        .source-domain {
+            color: var(--text-tertiary);
+            font-weight: 400;
+            margin-left: 4px;
+        }
+        
+        /* Methodology Table */
+        .methodology-table {
+            width: 100%;
+            border-collapse: collapse;
+            background: var(--bg-card);
+            border: 1px solid var(--border-light);
+            border-radius: 8px;
+            overflow: hidden;
+            margin: 24px 0;
+        }
+        
+        .methodology-table th,
+        .methodology-table td {
+            padding: 14px 18px;
+            text-align: left;
+            font-size: 14px;
+        }
+        
+        .methodology-table th {
+            background: #f8f7f5;
+            font-weight: 600;
+            color: var(--text-primary);
+            border-bottom: 1px solid var(--border-light);
+        }
+        
+        .methodology-table td {
+            color: var(--text-secondary);
+            border-bottom: 1px solid var(--border-lighter);
+        }
+        
+        .methodology-table tr:last-child td {
+            border-bottom: none;
+        }
+        
+        /* Footer */
+        .footer {
+            background: #f0eeeb;
+            border-top: 1px solid var(--border-light);
+            padding: 40px 24px;
+            text-align: center;
+        }
+        
+        .footer p {
+            font-size: 13px;
+            color: var(--text-tertiary);
+            line-height: 1.8;
+        }
+        
+        /* Divider */
+        .divider {
+            border: none;
+            border-top: 1px solid var(--border-light);
+            margin: 48px 0;
+        }
+        
+        /* Icons */
+        .icon {
+            width: 16px;
+            height: 16px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        
+        /* Responsive */
+        @media (max-width: 640px) {
+            .hero {
+                padding: 60px 20px 80px;
+            }
+            
+            .container {
+                padding: 40px 20px;
+            }
+            
+            .finding-header,
+            .finding-quotes,
+            .finding-summary {
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+            
+            .finding-footer {
+                padding: 12px 20px;
+                flex-direction: column;
+                gap: 8px;
+                align-items: flex-start;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <div class="hero-badge animate-fade-in">
+                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                    <polyline points="14 2 14 8 20 8"></polyline>
+                </svg>
+                Research Report
+            </div>
+            
+            <h1 class="animate-fade-in-up delay-100">
+                香港賽馬會馬場<br>
+                <span>投注體驗</span>調研報告
+            </h1>
+            
+            <p class="hero-subtitle animate-fade-in-up delay-200">
+                基於各大中文討論區的用戶真實反饋，聚焦內地遊客在香港馬場的投注體驗痛點，
+                涵蓋支付方式、規則理解、人潮管理及整體體驗等方面。
+            </p>
+            
+            <div class="hero-meta animate-fade-in delay-300">
+                <span class="hero-meta-item">
+                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                        <line x1="16" y1="2" x2="16" y2="6"></line>
+                        <line x1="8" y1="2" x2="8" y2="6"></line>
+                        <line x1="3" y1="10" x2="21" y2="10"></line>
+                    </svg>
+                    2026年2月27日整理
+                </span>
+                <span class="hero-meta-item">
+                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                    </svg>
+                    10 條討論區發現
+                </span>
+                <span class="hero-meta-item">
+                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <line x1="2" y1="12" x2="22" y2="12"></line>
+                        <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                    </svg>
+                    7 個來源平台
+                </span>
+                <span class="hero-meta-item">
+                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="m21 21-4.35-4.35"></path>
+                    </svg>
+                    近兩年為主
+                </span>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 5v14M19 12l-7 7-7-7"></path>
+            </svg>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+        <!-- Executive Summary -->
+        <section class="animate-fade-in-up">
+            <h2>報告摘要</h2>
+            <p style="color: var(--text-secondary); line-height: 1.8; margin-bottom: 16px;">
+                本報告匯集了來自<strong>知乎、小紅書、香港討論區、Threads、Facebook、明報、am730、點新聞</strong>等多個中文討論區及新聞平台的用戶真實反饋，
+                聚焦內地遊客在香港賽馬會馬場的投注體驗痛點。
+            </p>
+            
+            <p style="color: var(--text-secondary); line-height: 1.8; margin-bottom: 20px;">
+                調研發現，內地遊客的投注體驗障礙主要集中在以下幾個方面：
+            </p>
+            
+            <div class="summary-grid">
+                <div class="summary-card">
+                    <span class="summary-num">01</span>
+                    <div class="summary-content">
+                        <h4>支付方式不便</h4>
+                        <p>不支持支付寶/微信支付，需現金或香港銀行賬戶</p>
+                    </div>
+                </div>
+                <div class="summary-card">
+                    <span class="summary-num">02</span>
+                    <div class="summary-content">
+                        <h4>投注規則複雜</h4>
+                        <p>新手不懂規則，缺乏簡易引導，投注單填寫困難</p>
+                    </div>
+                </div>
+                <div class="summary-card">
+                    <span class="summary-num">03</span>
+                    <div class="summary-content">
+                        <h4>場內人潮擁擠</h4>
+                        <p>新年等重大賽日排長龍，擠不進投注大堂</p>
+                    </div>
+                </div>
+            </div>
+            
+            <p style="color: var(--text-secondary); line-height: 1.8;">
+                值得注意的是，多位遊客表示對賽馬「完全不了解」，有人甚至將六合彩與賽馬混為一談。
+                在支付方面，馬會至今仍不支持內地最普及的支付寶和微信支付用於投注，遊客需要攜帶現金或開設香港銀行賬戶，門檻較高。
+            </p>
+        </section>
+
+        <hr class="divider">
+
+        <!-- Stats Section -->
+        <section class="animate-fade-in-up">
+            <h2>問題分佈統計</h2>
+            
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number" style="color: var(--pain-payment);">4</div>
+                    <div class="stat-label">支付方式不便</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" style="color: var(--pain-rules);">4</div>
+                    <div class="stat-label">規則不清晰</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" style="color: var(--pain-crowding);">2</div>
+                    <div class="stat-label">人潮擁擠</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" style="color: var(--pain-general);">4</div>
+                    <div class="stat-label">整體體驗不佳</div>
+                </div>
+            </div>
+        </section>
+
+        <hr class="divider">
+
+        <!-- Findings Section -->
+        <section>
+            <div style="margin-bottom: 32px;">
+                <h2>討論區原文摘錄</h2>
+                <p style="font-size: 14px; color: var(--text-tertiary); line-height: 1.7;">
+                    以下為從各討論區及新聞平台搜集到的原始內容，每條均附有原文連結供查閱。
+                    引用文字以斜體標示，分析摘要以正體呈現。
+                </p>
+            </div>
+
+            <!-- F-001 -->
+            <article class="finding-card payment" style="animation-delay: 0.05s;">
+                <div class="finding-header">
+                    <div class="finding-meta">
+                        <div class="finding-meta-left">
+                            <span class="finding-id">F-001</span>
+                            <span style="color: var(--border-light);">|</span>
+                            <span class="finding-platform"><span>📰</span> 明報</span>
+                        </div>
+                        <span class="finding-date">2026年2月19日</span>
+                    </div>
+                    <h3 class="finding-title">深圳遊客因現金不足無法投注</h3>
+                    <div class="finding-tags">
+                        <span class="tag payment">支付方式不便</span>
+                    </div>
+                </div>
+                
+                <div class="finding-quotes">
+                    <div class="quote-block">
+                        <p class="quote-text">
+                            來自深圳的遊客鍾小姐和妹妹一起來觀看賽馬。鍾小姐表示，在小紅書上見到香港旅發局的介紹而知道有賀歲賽馬，
+                            <strong>惟今天因信號不好而無法打開個手機程式、現金亦不足，故此沒有投注</strong>。
+                        </p>
+                    </div>
+                    <div class="quote-block">
+                        <p class="quote-text">她稱今天氣氛「非常之好」，下次會再來並做好準備投注，希望至少投注100元以上。</p>
+                    </div>
+                </div>
+                
+                <div class="finding-summary">
+                    明報報導2026年賀歲賽馬日，來自深圳的鍾小姐因現金不足，最終未能投注。這反映了內地遊客在馬場面臨缺乏便利的電子支付方式的痛點。
+                </div>
+                
+                <div class="finding-footer">
+                    <a href="https://news.mingpao.com/ins/%E6%B8%AF%E8%81%9E/article/20260219/s00001/1771494248043/" target="_blank" class="source-link">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                            <polyline points="15 3 21 3 21 9"></polyline>
+                            <line x1="10" y1="14" x2="21" y2="3"></line>
+                        </svg>
+                        查看原文
+                        <span class="source-domain">— news.mingpao.com</span>
+                    </a>
+                </div>
+            </article>
+
+            <!-- F-002 -->
+            <article class="finding-card crowding" style="animation-delay: 0.1s;">
+                <div class="finding-header">
+                    <div class="finding-meta">
+                        <div class="finding-meta-left">
+                            <span class="finding-id">F-002</span>
+                            <span style="color: var(--border-light);">|</span>
+                            <span class="finding-platform"><span>💬</span> 知乎</span>
+                        </div>
+                        <span class="finding-date">持續更新</span>
+                    </div>
+                    <h3 class="finding-title">投注窗口排長龍，工作人員語速快新手跟不上</h3>
+                    <div class="finding-tags">
+                        <span class="tag crowding">人潮擁擠</span>
+                        <span class="tag rules">規則不清晰</span>
+                    </div>
+                </div>
+                
+                <div class="finding-quotes">
+                    <div class="quote-block">
+                        <p class="quote-text">
+                            <strong>交錢的窗口至少有20幾處，每一個都在比賽開始前的十分鐘裡排成了長龍</strong>。
+                            工作人員的語速和手速飛快，他們只有三個人，卻要照顧成百上千的顧客。
+                        </p>
+                    </div>
+                    <div class="quote-block">
+                        <p class="quote-text">「單贏？幾號？多少錢？祝你好運！」</p>
+                    </div>
+                    <div class="quote-block">
+                        <p class="quote-text">
+                            要想在欄杆邊倚著就近看一場賽馬，<strong>絕不比在早高峰的北京地鐵裡佔一個座兒來得容易</strong>。
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="finding-summary">
+                    知乎用戶「時間之葬」詳細描述了馬場投注的混亂場景：20多個投注窗口全部排成長龍，工作人員語速極快，對新手而言幾乎無法跟上節奏。
+                    場內擁擠程度堪比北京早高峰地鐵，對首次到訪的內地遊客極不友好。
+                </div>
+                
+                <div class="finding-footer">
+                    <a href="https://www.zhihu.com/question/37218143" target="_blank" class="source-link">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                            <polyline points="15 3 21 3 21 9"></polyline>
+                            <line x1="10" y1="14" x2="21" y2="3"></line>
+                        </svg>
+                        查看原文
+                        <span class="source-domain">— www.zhihu.com</span>
+                    </a>
+                </div>
+            </article>
+
+            <!-- F-003 -->
+            <article class="finding-card rules" style="animation-delay: 0.15s;">
+                <div class="finding-header">
+                    <div class="finding-meta">
+                        <div class="finding-meta-left">
+                            <span class="finding-id">F-003</span>
+                            <span style="color: var(--border-light);">|</span>
+                            <span class="finding-platform"><span>💬</span> 知乎專欄</span>
+                        </div>
+                        <span class="finding-date">2021年12月</span>
+                    </div>
+                    <h3 class="finding-title">投注規則複雜，需注意四個部分</h3>
+                    <div class="finding-tags">
+                        <span class="tag rules">規則不清晰</span>
+                        <span class="tag general">整體體驗不佳</span>
+                    </div>
+                </div>
+                
+                <div class="finding-quotes">
+                    <div class="quote-block">
+                        <p class="quote-text">
+                            <strong>下注要注意四個部分，下注的場次、馬匹、金額和下注方式</strong>。
+                        </p>
+                    </div>
+                    <div class="quote-block">
+                        <p class="quote-text">在跑馬地遇到的常常都是阿叔阿伯，不禁感嘆難道賽馬在年輕人裡已經過氣了？</p>
+                    </div>
+                </div>
+                
+                <div class="finding-summary">
+                    知乎專欄「香不香港」的文章指出，投注需要同時注意場次、馬匹、金額和下注方式四個部分，對新手來說規則相當複雜。
+                    作者還觀察到馬場以中老年人為主，年輕人和遊客明顯不熟悉這套體系。
+                </div>
+                
+                <div class="finding-footer">
+                    <a href="https://zhuanlan.zhihu.com/p/443502373" target="_blank" class="source-link">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                            <polyline points="15 3 21 3 21 9"></polyline>
+                            <line x1="10" y1="14" x2="21" y2="3"></line>
+                        </svg>
+                        查看原文
+                        <span class="source-domain">— zhuanlan.zhihu.com</span>
+                    </a>
+                </div>
+            </article>
+
+            <!-- F-004 -->
+            <article class="finding-card payment" style="animation-delay: 0.2s;">
+                <div class="finding-header">
+                    <div class="finding-meta">
+                        <div class="finding-meta-left">
+                            <span class="finding-id">F-004</span>
+                            <span style="color: var(--border-light);">|</span>
+                            <span class="finding-platform"><span>📰</span> 點新聞</span>
+                        </div>
+                        <span class="finding-date">2025年9月9日</span>
+                    </div>
+                    <h3 class="finding-title">遊客開戶需香港地址，不支持支付寶/微信支付</h3>
+                    <div class="finding-tags">
+                        <span class="tag payment">支付方式不便</span>
+                    </div>
+                </div>
+                
+                <div class="finding-quotes">
+                    <div class="quote-block">
+                        <p class="quote-text">遊客需憑護照到馬場/OCB辦理臨時投注賬戶（<strong>需香港地址</strong>）。</p>
+                    </div>
+                    <div class="quote-block">
+                        <p class="quote-text">
+                            支付方式：銀行轉賬、電子錢包（如八達通O! ePay）、信用卡。
+                            <strong>不支持支付寶/微信支付</strong>。
+                        </p>
+                    </div>
+                    <div class="quote-block">
+                        <p class="quote-text">記得先開馬會戶口或帶現金現場買票。</p>
+                    </div>
+                </div>
+                
+                <div class="finding-summary">
+                    點新聞的投注攻略文章明確指出，遊客開設馬會投注賬戶需要提供香港地址，且投注不支持內地最常用的支付寶和微信支付。
+                    遊客只能選擇銀行轉賬、八達通或信用卡，或者攜帶現金到場投注。這對習慣了移動支付的內地遊客來說是一大障礙。
+                </div>
+                
+                <div class="finding-footer">
+                    <a href="https://www.dotdotnews.com/a/202509/09/AP68bfde18e4b08d290535c814.html" target="_blank" class="source-link">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                            <polyline points="15 3 21 3 21 9"></polyline>
+                            <line x1="10" y1="14" x2="21" y2="3"></line>
+                        </svg>
+                        查看原文
+                        <span class="source-domain">— www.dotdotnews.com</span>
+                    </a>
+                </div>
+            </article>
+
+            <!-- F-005 -->
+            <article class="finding-card payment" style="animation-delay: 0.25s;">
+                <div class="finding-header">
+                    <div class="finding-meta">
+                        <div class="finding-meta-left">
+                            <span class="finding-id">F-005</span>
+                            <span style="color: var(--border-light);">|</span>
+                            <span class="finding-platform"><span>🗣️</span> 香港討論區</span>
+                        </div>
+                        <span class="finding-date">2020年10月</span>
+                    </div>
+                    <h3 class="finding-title">網民批評馬會不支持大陸電子支付</h3>
+                    <div class="finding-tags">
+                        <span class="tag payment">支付方式不便</span>
+                    </div>
+                </div>
+                
+                <div class="finding-quotes">
+                    <div class="quote-block">
+                        <p class="quote-text">希望馬會盡快讓支付寶及wechat pay 融入馬會手機app 過數及提款。</p>
+                    </div>
+                    <div class="quote-block">
+                        <p class="quote-text"><strong>要入投注戶口，大陸銀行卡都唔得，仲要去銀行開戶</strong>。</p>
+                    </div>
+                </div>
+                
+                <div class="finding-summary">
+                    香港討論區帖文討論馬會數碼化轉型，多位網民指出馬會投注系統不支持支付寶和微信支付，
+                    甚至連大陸銀行卡都無法為投注賬戶入金，必須另外到銀行開設香港賬戶，對內地遊客極為不便。
+                </div>
+                
+                <div class="finding-footer">
+                    <a href="https://www.discuss.com.hk/viewthread.php?tid=29502567" target="_blank" class="source-link">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                            <polyline points="15 3 21 3 21 9"></polyline>
+                            <line x1="10" y1="14" x2="21" y2="3"></line>
+                        </svg>
+                        查看原文
+                        <span class="source-domain">— www.discuss.com.hk</span>
+                    </a>
+                </div>
+            </article>
+
+            <!-- F-006 -->
+            <article class="finding-card general" style="animation-delay: 0.3s;">
+                <div class="finding-header">
+                    <div class="finding-meta">
+                        <div class="finding-meta-left">
+                            <span class="finding-id">F-006</span>
+                            <span style="color: var(--border-light);">|</span>
+                            <span class="finding-platform"><span>🗣️</span> 香港討論區</span>
+                        </div>
+                        <span class="finding-date">2024年</span>
+                    </div>
+                    <h3 class="finding-title">投注站99%都是叔伯，環境對年輕人/遊客不友善</h3>
+                    <div class="finding-tags">
+                        <span class="tag general">整體體驗不佳</span>
+                    </div>
+                </div>
+                
+                <div class="finding-quotes">
+                    <div class="quote-block">
+                        <p class="quote-text"><strong>係投注站見99%都係叔伯，佢地一生就係供養馬會</strong>。</p>
+                    </div>
+                </div>
+                
+                <div class="finding-summary">
+                    香港討論區帖文觀察到投注站的客群幾乎清一色是中老年人（「叔伯」），
+                    反映出投注站的環境和服務模式對年輕人及遊客缺乏吸引力，整體氛圍不夠友善。
+                </div>
+                
+                <div class="finding-footer">
+                    <a href="https://www.discuss.com.hk/viewthread.php?tid=30985160" target="_blank" class="source-link">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                            <polyline points="15 3 21 3 21 9"></polyline>
+                            <line x1="10" y1="14" x2="21" y2="3"></line>
+                        </svg>
+                        查看原文
+                        <span class="source-domain">— www.discuss.com.hk</span>
+                    </a>
+                </div>
+            </article>
+
+            <!-- F-007 -->
+            <article class="finding-card general" style="animation-delay: 0.35s;">
+                <div class="finding-header">
+                    <div class="finding-meta">
+                        <div class="finding-meta-left">
+                            <span class="finding-id">F-007</span>
+                            <span style="color: var(--border-light);">|</span>
+                            <span class="finding-platform"><span>🧵</span> Threads</span>
+                        </div>
+                        <span class="finding-date">2025年5月14日</span>
+                    </div>
+                    <h3 class="finding-title">遊客經過投注站被推銷，以為是詐騙</h3>
+                    <div class="finding-tags">
+                        <span class="tag general">整體體驗不佳</span>
+                        <span class="tag rules">規則不清晰</span>
+                    </div>
+                </div>
+                
+                <div class="finding-quotes">
+                    <div class="quote-block">
+                        <p class="quote-text">
+                            <strong>我首次到香港玩剛好碰上跑馬日，經過投注站門口被推銷「今天跑馬來投注啊」，還以為是詐騙</strong>。
+                        </p>
+                    </div>
+                    <div class="quote-block">
+                        <p class="quote-text">雖然可以線上投注，但線下投注站仍很多人。</p>
+                    </div>
+                </div>
+                
+                <div class="finding-summary">
+                    Threads 用戶分享首次到香港遊玩時經過投注站的經歷，被門口推銷嚇到以為是詐騙。
+                    這反映了遊客對馬會投注站的認知不足，以及投注站的推銷方式可能讓不熟悉的遊客產生負面印象。
+                </div>
+                
+                <div class="finding-footer">
+                    <a href="https://www.threads.com/@chiou_shiuan/post/DJoeDT7yFpE/" target="_blank" class="source-link">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                            <polyline points="15 3 21 3 21 9"></polyline>
+                            <line x1="10" y1="14" x2="21" y2="3"></line>
+                        </svg>
+                        查看原文
+                        <span class="source-domain">— www.threads.com</span>
+                    </a>
+                </div>
+            </article>
+
+            <!-- F-008 -->
+            <article class="finding-card payment" style="animation-delay: 0.4s;">
+                <div class="finding-header">
+                    <div class="finding-meta">
+                        <div class="finding-meta-left">
+                            <span class="finding-id">F-008</span>
+                            <span style="color: var(--border-light);">|</span>
+                            <span class="finding-platform"><span>📘</span> Facebook</span>
+                        </div>
+                        <span class="finding-date">2020年9月</span>
+                    </div>
+                    <h3 class="finding-title">批評馬會號稱數碼化卻不支持微信支付寶</h3>
+                    <div class="finding-tags">
+                        <span class="tag payment">支付方式不便</span>
+                    </div>
+                </div>
+                
+                <div class="finding-quotes">
+                    <div class="quote-block">
+                        <p class="quote-text"><strong>微信支付寶都入唔到錢，仲話數碼化⋯⋯真係死都唔撚化</strong>。</p>
+                    </div>
+                </div>
+                
+                <div class="finding-summary">
+                    有線新聞 Facebook 專頁的評論區中，網民直接批評馬會的數碼化只是口號，
+                    實際上連微信支付和支付寶都無法用於投注賬戶入金，質疑馬會的數碼化轉型誠意。
+                </div>
+                
+                <div class="finding-footer">
+                    <a href="https://www.facebook.com/icable.news/posts/1548463838679012/" target="_blank" class="source-link">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                            <polyline points="15 3 21 3 21 9"></polyline>
+                            <line x1="10" y1="14" x2="21" y2="3"></line>
+                        </svg>
+                        查看原文
+                        <span class="source-domain">— www.facebook.com</span>
+                    </a>
+                </div>
+            </article>
+
+            <!-- F-009 -->
+            <article class="finding-card rules" style="animation-delay: 0.45s;">
+                <div class="finding-header">
+                    <div class="finding-meta">
+                        <div class="finding-meta-left">
+                            <span class="finding-id">F-009</span>
+                            <span style="color: var(--border-light);">|</span>
+                            <span class="finding-platform"><span>📰</span> am730</span>
+                        </div>
+                        <span class="finding-date">2025年6月27日</span>
+                    </div>
+                    <h3 class="finding-title">內地遊客對賽馬毫無認識，以為六合彩和賽馬一樣</h3>
+                    <div class="finding-tags">
+                        <span class="tag rules">規則不清晰</span>
+                    </div>
+                </div>
+                
+                <div class="finding-quotes">
+                    <div class="quote-block">
+                        <p class="quote-text"><strong>馮小姐最初對賽馬毫無認識，甚至以為六合彩和賽馬是一樣</strong>。</p>
+                    </div>
+                    <div class="quote-block">
+                        <p class="quote-text">張先生計劃「進修」賽馬知識。</p>
+                    </div>
+                </div>
+                
+                <div class="finding-summary">
+                    am730 報導了內地遊客訪港觀賞賽馬的體驗。馮小姐坦言最初對賽馬完全不了解，甚至把六合彩和賽馬混為一談。
+                    張先生雖然對馬場設施印象良好，但也表示需要「進修」賽馬知識，反映了內地遊客普遍缺乏對賽馬規則的基本認知。
+                </div>
+                
+                <div class="finding-footer">
+                    <a href="https://www.am730.com.hk/article/573812" target="_blank" class="source-link">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                            <polyline points="15 3 21 3 21 9"></polyline>
+                            <line x1="10" y1="14" x2="21" y2="3"></line>
+                        </svg>
+                        查看原文
+                        <span class="source-domain">— www.am730.com.hk</span>
+                    </a>
+                </div>
+            </article>
+
+            <!-- F-010 -->
+            <article class="finding-card general" style="animation-delay: 0.5s;">
+                <div class="finding-header">
+                    <div class="finding-meta">
+                        <div class="finding-meta-left">
+                            <span class="finding-id">F-010</span>
+                            <span style="color: var(--border-light);">|</span>
+                            <span class="finding-platform"><span>💬</span> 知乎專欄</span>
+                        </div>
+                        <span class="finding-date">2025年10月</span>
+                    </div>
+                    <h3 class="finding-title">賽馬投注耗時長，相比賭場不夠便利</h3>
+                    <div class="finding-tags">
+                        <span class="tag general">整體體驗不佳</span>
+                    </div>
+                </div>
+                
+                <div class="finding-quotes">
+                    <div class="quote-block">
+                        <p class="quote-text">
+                            <strong>只是相對於賭場內30秒一局的快速，在賽馬投注需要耗時30分鐘，我們後來就不太去了</strong>。
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="finding-summary">
+                    知乎專欄文章將賽馬投注與澳門賭場進行對比，指出賽馬投注每局需要等待約30分鐘，遠不如賭場30秒一局的節奏，
+                    導致部分遊客失去耐心而放棄。這反映了賽馬投注的時間成本對追求即時體驗的遊客來說是一個劣勢。
+                </div>
+                
+                <div class="finding-footer">
+                    <a href="https://zhuanlan.zhihu.com/p/1957764335196705389" target="_blank" class="source-link">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                            <polyline points="15 3 21 3 21 9"></polyline>
+                            <line x1="10" y1="14" x2="21" y2="3"></line>
+                        </svg>
+                        查看原文
+                        <span class="source-domain">— zhuanlan.zhihu.com</span>
+                    </a>
+                </div>
+            </article>
+        </section>
+
+        <hr class="divider">
+
+        <!-- Methodology Section -->
+        <section class="animate-fade-in-up">
+            <h2>調研方法</h2>
+            
+            <p style="color: var(--text-secondary); line-height: 1.8; margin-bottom: 20px;">
+                本次調研於 2026 年 2 月進行，主要通過以下方式搜集資料：
+            </p>
+
+            <table class="methodology-table">
+                <thead>
+                    <tr>
+                        <th>搜尋平台</th>
+                        <th>搜尋關鍵詞</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="font-weight: 500;">知乎</td>
+                        <td>香港賽馬 投注 體驗、在香港看賽馬是什麼體驗</td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: 500;">香港討論區</td>
+                        <td>馬會 支付寶 微信、內地遊客 賽馬會</td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: 500;">小紅書</td>
+                        <td>香港賽馬會 投注 吐槽、香港馬場 支付寶</td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: 500;">微博</td>
+                        <td>香港賽馬會 投注 吐槽</td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: 500;">Facebook</td>
+                        <td>馬會 數碼化、內地遊客 賽馬</td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: 500;">Threads</td>
+                        <td>香港 投注站 賽馬</td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: 500;">新聞平台</td>
+                        <td>內地遊客 賽馬 投注 體驗</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p style="color: var(--text-secondary); line-height: 1.8; margin-top: 20px;">
+                篩選標準：以近兩年（2024–2026）的討論為主，部分具有代表性的較早期討論亦予以收錄。
+                排除馬會官方發布的文章，僅收錄用戶自發的討論和新聞報導中的遊客訪問。
+            </p>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>
+            本報告僅供內部參考，資料來源均為公開可訪問的網絡討論區及新聞平台。<br>
+            整理日期：2026年2月27日
+        </p>
+    </footer>
+</body>
+</html>
