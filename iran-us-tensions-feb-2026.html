@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="description" content="2026 年 2 月美伊局勢最新報導 - 美國與伊朗核談判、軍事部署與戰爭風險分析">
+    <title>美伊局勢追蹤 - 2026 年 2 月最新報導</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans SC", sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            min-height: 100vh;
+        }
+        .container { max-width: 1000px; margin: 0 auto; padding: 20px; }
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            color: white;
+            border-bottom: 2px solid #e94560;
+            margin-bottom: 30px;
+        }
+        header h1 { font-size: 2.5em; margin-bottom: 10px; text-shadow: 2px 2px 4px rgba(0,0,0,0.3); }
+        header .subtitle { font-size: 1.1em; opacity: 0.9; }
+        header .update-time { margin-top: 15px; font-size: 0.9em; color: #e94560; font-weight: bold; }
+        .alert-box {
+            background: linear-gradient(135deg, #ff416c 0%, #ff4b2b 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(255, 65, 108, 0.4);
+        }
+        .alert-box h2 { font-size: 1.3em; margin-bottom: 10px; }
+        .news-grid { display: grid; gap: 20px; }
+        .news-card {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease;
+        }
+        .news-card:hover { transform: translateY(-5px); }
+        .news-card h2 {
+            color: #1a1a2e;
+            font-size: 1.4em;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #e94560;
+        }
+        .news-card .date { color: #e94560; font-size: 0.85em; font-weight: bold; margin-bottom: 15px; }
+        .news-card .source { color: #666; font-size: 0.8em; margin-bottom: 15px; }
+        .news-card p { margin-bottom: 12px; text-align: justify; }
+        .news-card ul { margin-left: 20px; margin-bottom: 15px; }
+        .news-card li { margin-bottom: 8px; }
+        .highlight { background: #fff3cd; padding: 2px 6px; border-radius: 3px; font-weight: bold; }
+        .quote {
+            border-left: 4px solid #e94560;
+            padding-left: 15px;
+            margin: 15px 0;
+            color: #555;
+            font-style: italic;
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 0 5px 5px 0;
+        }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .stat-card {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .stat-card .number { font-size: 2em; font-weight: bold; color: #e94560; }
+        .stat-card .label { font-size: 0.9em; margin-top: 5px; opacity: 0.9; }
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: rgba(255,255,255,0.7);
+            margin-top: 40px;
+            border-top: 1px solid rgba(255,255,255,0.1);
+        }
+        .tag {
+            display: inline-block;
+            padding: 3px 10px;
+            background: #e94560;
+            color: white;
+            border-radius: 15px;
+            font-size: 0.75em;
+            margin-right: 5px;
+            margin-bottom: 5px;
+        }
+        .tag.blue { background: #0f3460; }
+        .tag.green { background: #2ecc71; }
+        .tag.orange { background: #f39c12; }
+        .timeline { position: relative; padding-left: 30px; }
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 10px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: #e94560;
+        }
+        .timeline-item {
+            position: relative;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px dashed #ddd;
+        }
+        .timeline-item:last-child { border-bottom: none; }
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -24px;
+            top: 5px;
+            width: 12px;
+            height: 12px;
+            background: #e94560;
+            border-radius: 50%;
+        }
+        .timeline-item .date { font-weight: bold; color: #e94560; margin-bottom: 5px; }
+        .link-list { list-style: none; margin: 0; }
+        .link-list li {
+            margin-bottom: 10px;
+            padding: 12px;
+            background: #f8f9fa;
+            border-radius: 5px;
+            border-left: 3px solid #e94560;
+            transition: background 0.2s;
+        }
+        .link-list li:hover { background: #e9ecef; }
+        .link-list a { color: #0f3460; text-decoration: none; font-weight: 500; }
+        .link-list a:hover { text-decoration: underline; color: #e94560; }
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            padding: 10px 20px;
+            background: #e94560;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        .back-link:hover { background: #c0354c; }
+        @media (max-width: 768px) {
+            header h1 { font-size: 1.8em; }
+            .news-card { padding: 15px; }
+            .stats-grid { grid-template-columns: repeat(2, 1fr); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="https://frannnnk.github.io/pages/" class="back-link">← 返回首頁</a>
+        
+        <header>
+            <h1>🇺🇸 美伊局勢追蹤 🇮🇷</h1>
+            <p class="subtitle">2026 年 2 月最新報導與深度分析</p>
+            <p class="update-time">⏰ 最後更新：2026 年 2 月 28 日 18:00</p>
+        </header>
+
+        <div class="alert-box">
+            <h2>⚠️ 局勢警示</h2>
+            <p>美伊戰爭風險正在「迫近」。美國在中東集結雙航母戰鬥群及近 300 架戰機，伊朗威脅將對任何侵略予以「毀滅性」回擊。</p>
+        </div>
+
+        <div class="news-grid">
+            <!-- 最新談判進展 -->
+            <div class="news-card">
+                <h2>📰 最新談判進展</h2>
+                <div class="date">2026 年 2 月 26 日</div>
+                <div class="source">來源：新華網、央視新聞</div>
+                <p><span class="tag">核談判</span> <span class="tag blue">日內瓦</span></p>
+                <p>美國與伊朗在瑞士日內瓦舉行<strong>第三輪高級別間接談判</strong>，這是迄今為止<span class="highlight">最嚴肅、持續時間最長</span>的核談判之一。談判在阿曼駐日內瓦外交代表機構分上午和下午兩階段舉行，現場安保措施嚴密。</p>
+                
+                <div class="quote">
+                    「此輪談判取得『良好進展』，雙方達成深入理解，但在某些領域仍存在分歧。伊美在一些關鍵議題上更接近達成共識。」<br>
+                    <strong>—— 伊朗外交部長阿拉格齊</strong>
+                </div>
+
+                <p><strong>談判焦點：</strong></p>
+                <ul>
+                    <li>伊朗鈾濃縮能力限制</li>
+                    <li>現有濃縮鈾處理方案</li>
+                    <li>對伊制裁解除條件</li>
+                </ul>
+
+                <p><strong>主要分歧：</strong></p>
+                <ul>
+                    <li>美方要求拆除<strong>福爾道、納坦茲和伊斯法罕</strong>三大核設施</li>
+                    <li>美方要求將所有濃縮鈾運往美國</li>
+                    <li><strong>伊方堅決拒絕</strong>：「鈾濃縮活動將根據需要繼續進行，不會從伊朗運出任何核材料」</li>
+                    <li>伊朗堅持保留和平利用核技術的權利以及生產核燃料的能力</li>
+                </ul>
+
+                <p><strong>後續安排：</strong> 雙方同意<strong>3 月 2 日在奧地利維也納</strong>繼續進行技術層面討論。</p>
+            </div>
+
+            <!-- 美國軍事部署 -->
+            <div class="news-card">
+                <h2>🚢 美國重兵集結中東</h2>
+                <div class="date">2026 年 2 月下旬</div>
+                <div class="source">來源：新華網、路透社、美聯社、聯合新聞網</div>
+                <p><span class="tag orange">軍事部署</span> <span class="tag">雙航母</span></p>
+                <p>美方近期持續對伊朗施加軍事壓力，向中東大幅增兵。這是<span class="highlight">2003 年伊拉克戰爭以來美軍在中東的最大規模軍事部署</span>，軍力配置與 1998 年美英對伊拉克實施的「沙漠之狐」空襲行動相當。</p>
+
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="number">2</div>
+                        <div class="label">航空母艦</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="number">~300</div>
+                        <div class="label">架戰機</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="number">11</div>
+                        <div class="label">架 F-22 隱形戰機</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="number">13</div>
+                        <div class="label">艘軍艦</div>
+                    </div>
+                </div>
+
+                <p style="margin-top: 20px;"><strong>主要部署：</strong></p>
+                <ul>
+                    <li><strong>「福特」號航母 (CVN-78)</strong>：2 月 27 日抵達以色列水域，預計停靠海法港。與「林肯」號形成雙航母合圍，由 5600 多人運作，搭載數十架軍機。</li>
+                    <li><strong>「林肯」號航母</strong>：部署於波斯灣，封鎖海峽</li>
+                    <li><strong>F-22 隱形戰機</strong>：11 架進駐以色列南部基地，擔任「踹門」角色</li>
+                    <li><strong>B-52 轟炸機</strong>：與 F-35 等近 300 架戰機完成攻擊鏈部署</li>
+                    <li><strong>驅逐艦群</strong>：9 艘具彈道飛彈防禦能力的驅逐艦</li>
+                </ul>
+
+                <div class="quote">
+                    「福特」號被視為美國對伊軍事部署的「最後一塊拼圖」，部署到位後將與「林肯」號在中東地區形成「雙航母」南北夾擊格局。
+                </div>
+
+                <p><strong>戰力評估：</strong> 英國《金融時報》援引以色列情報官員稱，美軍部署僅能維持<strong>4 至 5 天高強度空襲</strong>，或約一周低強度打擊。</p>
+            </div>
+
+            <!-- 伊朗強硬回應 -->
+            <div class="news-card">
+                <h2>⚔️ 伊朗強硬威脅回擊</h2>
+                <div class="date">2026 年 2 月 27 日</div>
+                <div class="source">來源：新華網、伊朗邁赫爾通訊社、新浪軍事</div>
+                <p><span class="tag">軍事威脅</span> <span class="tag green">反擊</span></p>
+
+                <p>面對美國軍事壓力，伊朗方面態度強硬，多次發出強烈警告。</p>
+
+                <div class="quote">
+                    「美國的任何挑釁行為都將遭到伊朗武裝部隊<strong>『果斷且毀滅性』</strong>的回擊。」<br>
+                    <strong>—— 伊朗武裝部隊總參謀部發言人謝卡爾希</strong>
+                </div>
+
+                <p><strong>伊朗軍事準備：</strong></p>
+                <ul>
+                    <li>啟用地下導彈庫</li>
+                    <li>約<span class="highlight">2000 枚彈道導彈</span>覆蓋以色列全境及 19 個中東美軍基地</li>
+                    <li>同步演練<strong>霍爾木茲海峽封鎖戰術</strong></li>
+                    <li>革命衞隊宣稱「任何打擊都將觸發全面戰爭」</li>
+                </ul>
+
+                <p><strong>伊朗「紅線」：</strong></p>
+                <ul>
+                    <li>和平利用核能的權利<strong>不可剝奪</strong></li>
+                    <li>導彈能力<strong>不容談判</strong></li>
+                    <li>拒絕向國外轉移任何核材料</li>
+                </ul>
+
+                <p>地區專家認為，對於伊朗來說，在相關問題上妥協將動搖國家安全根基，這比「遭受美國打擊更加危險」。</p>
+            </div>
+
+            <!-- 美國內部分歧 -->
+            <div class="news-card">
+                <h2>🏛️ 美國內部警告聲音</h2>
+                <div class="date">2026 年 2 月 25-26 日</div>
+                <div class="source">來源：新華網、華盛頓郵報、衛報</div>
+                <p>儘管特朗普政府持續對伊朗施壓，但美國軍方高層對軍事行動風險發出警告。</p>
+
+                <p><strong>美軍參謀長聯席會議主席凱恩的擔憂：</strong></p>
+                <ul>
+                    <li>美國<span class="highlight">彈藥庫存不足</span></li>
+                    <li>部分中東地區盟友<strong>不支持</strong>對伊動武</li>
+                    <li>針對伊朗的軍事行動可能使美國卷入<strong>長期衝突</strong></li>
+                </ul>
+
+                <p><strong>特朗普態度：</strong></p>
+                <ul>
+                    <li>媒體報導稱特朗普「傾向於在未來數日對伊朗實施初步打擊」以進行施壓</li>
+                    <li>有意對伊朗先進行「有限打擊」，然後視情升級軍事行動規模</li>
+                    <li>已聽取軍方有關對伊朗軍事選項的報告</li>
+                </ul>
+
+                <div class="quote">
+                    美國防情報局 2025 年公開評估稱，伊朗有能力使用其太空運載工具「在 2035 年前開發出具有軍事可行性的洲際彈道導彈，前提是德黑蘭決定追求這一能力」。
+                </div>
+            </div>
+
+            <!-- 時間線 -->
+            <div class="news-card">
+                <h2>📅 近期事件時間線</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="date">2025 年 6 月</div>
+                        <p>以色列與伊朗爆發武裝衝突，伊朗核設施成為目標，部分設施遭美國打擊。隨後爆發「十二日戰爭」。</p>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="date">2025 年 9 月</div>
+                        <p>聯合國重新對伊朗實施更嚴厲制裁，凍結伊朗海外資產，禁止軍火貿易並對彈道導彈項目施加制裁。</p>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="date">2025 年末 -2026 年初</div>
+                        <p>伊朗經濟不確定性加劇，國內爆發抗議活動，政府鎮壓導致數千名示威者死亡。</p>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="date">2026 年 1 月下旬</div>
+                        <p>美國開始向中東大規模增兵，派遣航母、戰機等軍事力量。</p>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="date">2026 年 2 月 26 日</div>
+                        <p>美伊在瑞士日內瓦舉行第三輪間接談判，取得「良好進展」但未達成協議，商定 3 月 2 日維也納續談。</p>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="date">2026 年 2 月 27 日</div>
+                        <p>美軍「福特」號航母抵達以色列水域，與「林肯」號形成雙航母部署。伊朗發出「毀滅性回擊」警告。多國開始撤離駐以色列人員。</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 戰爭風險分析 -->
+            <div class="news-card">
+                <h2>⚠️ 戰爭風險分析</h2>
+                <p><span class="tag orange">高風險</span> <span class="tag">不確定性</span></p>
+
+                <p><strong>當前局勢特點：</strong></p>
+                <ul>
+                    <li>談判與軍事威懾同步進行，形成「邊打邊談」態勢</li>
+                    <li>美國在中東集結龐大軍力，戰爭風險「迫近」</li>
+                    <li>伊朗態度強硬，拒絕在核心利益上讓步</li>
+                    <li>雙方存在<strong>認知錯位</strong>：伊朗認為可以通過威脅美軍來威懾特朗普，而特朗普可能只想進行有限衝突</li>
+                </ul>
+
+                <p><strong>潛在後果：</strong></p>
+                <ul>
+                    <li>伊朗可能封鎖<strong>霍爾木茲海峽</strong>，影響全球石油供應</li>
+                    <li>伊朗約 2000 枚彈道導彈可覆蓋以色列全境及中東美軍基地</li>
+                    <li>可能引發整個中東地區<strong>廣泛、不可預測</strong>的衝突</li>
+                    <li>以色列、沙烏地阿拉伯等國可能被卷入</li>
+                </ul>
+
+                <div class="quote">
+                    諷刺的是，雙方實際上都不想要更大規模的戰爭，但目前的對峙態勢可能導致意外升級。<br>
+                    <strong>—— 專家分析</strong>
+                </div>
+            </div>
+
+            <!-- 參考鏈接 -->
+            <div class="news-card">
+                <h2>🔗 參考新聞來源</h2>
+                <ul class="link-list">
+                    <li><a href="https://www.news.cn/world/20260227/bab8b8eb25a443639928ffb38948bd1c/c.html" target="_blank">📰 新華網：國際觀察丨美伊日內瓦談判取得哪些「良好進展」</a></li>
+                    <li><a href="https://www.news.cn/world/20260227/8b7a0dfdd53744afadc42119a833c1cf/c.html" target="_blank">📰 新華網：多國撤人、航母抵以 美伊戰爭風險急劇升高</a></li>
+                    <li><a href="https://www.news.cn/world/20260225/3ad2675fef9a4a99b45ce3a472003d1e/c.html" target="_blank">📰 新華網：國際觀察丨美國重兵集結中東，背後是怎樣的盤算</a></li>
+                    <li><a href="http://www.news.cn/milpro/20260225/40234671a4bd4ad5b89fdc8aa7cc2e2d/c.html" target="_blank">📰 新華網：彈藥庫存不足，缺少盟友支持，美軍參聯會主席稱對伊朗動武風險大</a></li>
+                    <li><a href="https://mil.news.sina.com.cn/zonghe/2026-02-27/doc-inhphcxk0743210.shtml" target="_blank">📰 新浪軍事：伊朗軍方稱將對美國侵略行為予以「毀滅性」回應</a></li>
+                    <li><a href="https://udn.com/news/story/6809/9338208" target="_blank">📰 聯合新聞網：戰雲密布…美軍雙航艦 南北夾擊伊朗</a></li>
+                    <li><a href="https://www.theguardian.com/us-news/2026/feb/27/trump-iran-war-evidence" target="_blank">📰 The Guardian: Trump advisers scramble to justify possible US military intervention in Iran</a></li>
+                    <li><a href="https://www.cnbc.com/2026/02/27/us-iran-nuclear-talks-oil-middle-east.html" target="_blank">📰 CNBC: U.S. and Iran wrap up 'most intense' nuclear talks with no deal</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/2026_Iran%E2%80%93United_States_crisis" target="_blank">📖 Wikipedia: 2026 Iran–United States crisis</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <footer>
+            <p>本頁面僅整理公開新聞報導，方便讀者了解局勢 | 數據來源：新華網、路透社、美聯社、衛報、聯合新聞網等</p>
+            <p>⚠️ 最後更新：2026 年 2 月 28 日 18:00 | 局勢仍在發展中，請持續關注最新動態</p>
+        </footer>
+    </div>
+</body>
+</html>
