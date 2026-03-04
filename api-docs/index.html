@@ -235,7 +235,7 @@
     <div class="container">
         <header>
             <h1>🚀 Frank API 文檔</h1>
-            <p>新聞 API 與博客訪問統計服務</p>
+            <p>新聞 API、博客訪問統計與評論系統服務</p>
         </header>
         
         <div class="base-url">
@@ -249,6 +249,7 @@
                 <li><a href="#categories">分類 API</a></li>
                 <li><a href="#visit">訪問統計 API</a></li>
                 <li><a href="#ranking">排行榜 API</a></li>
+                <li><a href="#comments-get">評論 API</a></li>
                 <li><a href="#health">健康檢查</a></li>
             </ul>
         </nav>
@@ -575,6 +576,247 @@ curl "https://code.frank.hk/news-api/stats/ranking?limit=5"</pre>
             </div>
         </section>
 
+        <!-- 評論系統 API -->
+        <h2 style="margin: 40px 0 20px; padding-bottom: 10px; border-bottom: 2px solid #f0f0f0; color: #333;">💬 評論系統 API</h2>
+        
+        <!-- 獲取評論 -->
+        <section id="comments-get">
+            <div class="endpoint">
+                <div class="endpoint-header">
+                    <span class="method get">GET</span>
+                    <span class="path">/comments/:slug</span>
+                    <span class="auth public">公開</span>
+                </div>
+                <p class="description">
+                    獲取指定文章的已審核評論列表（包含一級評論和二級回復）。
+                </p>
+                
+                <div class="section-title">Path 參數</div>
+                <table class="params-table">
+                    <thead>
+                        <tr>
+                            <th>參數</th>
+                            <th>類型</th>
+                            <th>必填</th>
+                            <th>說明</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><code>slug</code></td>
+                            <td>string</td>
+                            <td><span class="required">是</span></td>
+                            <td>文章 slug</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <div class="section-title">響應示例</div>
+                <pre class="json">{
+  "slug": "ai-ethics-2024",
+  "total": 2,
+  "comments": [
+    {
+      "id": "uuid-xxx",
+      "name": "訪客A",
+      "content": "寫得真好！",
+      "created_at": "2026-03-04T10:00:00+08:00",
+      "replies": [
+        {
+          "id": "uuid-yyy",
+          "parent_id": "uuid-xxx",
+          "name": "訪客B",
+          "content": "同意！",
+          "created_at": "2026-03-04T10:05:00+08:00",
+          "reply_to": "訪客A"
+        }
+      ]
+    }
+  ]
+}</pre>
+                
+                <div style="margin-top: 15px;">
+                    <a href="https://code.frank.hk/news-api/comments/ai-ethics-2024" target="_blank" style="display:inline-block;padding:10px 20px;background:linear-gradient(135deg, #ff6b6b 0%, #ee5a6f 100%);color:white;text-decoration:none;border-radius:6px;font-weight:600;transition:opacity 0.2s;" onmouseover="this.style.opacity='0.8'" onmouseout="this.style.opacity='1'">🚀 立即測試</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 寫入評論 -->
+        <section id="comments-post">
+            <div class="endpoint">
+                <div class="endpoint-header">
+                    <span class="method post">POST</span>
+                    <span class="path">/comments/:slug</span>
+                    <span class="auth public">公開</span>
+                </div>
+                <p class="description">
+                    添加一級評論。新評論默認待審核，需批准後才會顯示。
+                </p>
+                
+                <div class="section-title">Path 參數</div>
+                <table class="params-table">
+                    <thead>
+                        <tr>
+                            <th>參數</th>
+                            <th>類型</th>
+                            <th>必填</th>
+                            <th>說明</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><code>slug</code></td>
+                            <td>string</td>
+                            <td><span class="required">是</span></td>
+                            <td>文章 slug</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <div class="section-title">請求體 (Body)</div>
+                <table class="params-table">
+                    <thead>
+                        <tr>
+                            <th>參數</th>
+                            <th>類型</th>
+                            <th>必填</th>
+                            <th>說明</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><code>name</code></td>
+                            <td>string</td>
+                            <td><span class="required">否</span></td>
+                            <td>用戶名（最多20字符，默認「匿名」）</td>
+                        </tr>
+                        <tr>
+                            <td><code>content</code></td>
+                            <td>string</td>
+                            <td><span class="required">是</span></td>
+                            <td>評論內容（最多200字符）</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <div class="section-title">請求示例</div>
+                <pre>curl -X POST "https://code.frank.hk/news-api/comments/ai-ethics-2024" \
+  -H "Content-Type: application/json" \
+  -d '{"name": "訪客A", "content": "寫得真好！"}'</pre>
+                
+                <div class="section-title">響應示例 (201)</div>
+                <pre class="json">{
+  "id": "uuid-xxx",
+  "name": "訪客A",
+  "content": "寫得真好！",
+  "created_at": "2026-03-04T10:00:00+08:00",
+  "message": "評論已提交，等待審核",
+  "remaining_requests": 4
+}</pre>
+
+                <div class="section-title">限制說明</div>
+                <ul style="margin: 10px 0; padding-left: 20px; color: #666;">
+                    <li>每 IP 每 60 秒最多 5 次請求</li>
+                    <li>超過限制返回 HTTP 429</li>
+                    <li>內容會自動過濾 HTML/JS 防止 XSS</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- 寫入回復 -->
+        <section id="comments-reply">
+            <div class="endpoint">
+                <div class="endpoint-header">
+                    <span class="method post">POST</span>
+                    <span class="path">/comments/:slug/reply</span>
+                    <span class="auth public">公開</span>
+                </div>
+                <p class="description">
+                    添加回復（二級評論）。回復給指定的一級評論。
+                </p>
+                
+                <div class="section-title">Path 參數</div>
+                <table class="params-table">
+                    <thead>
+                        <tr>
+                            <th>參數</th>
+                            <th>類型</th>
+                            <th>必填</th>
+                            <th>說明</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><code>slug</code></td>
+                            <td>string</td>
+                            <td><span class="required">是</span></td>
+                            <td>文章 slug</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <div class="section-title">請求體 (Body)</div>
+                <table class="params-table">
+                    <thead>
+                        <tr>
+                            <th>參數</th>
+                            <th>類型</th>
+                            <th>必填</th>
+                            <th>說明</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><code>parent_id</code></td>
+                            <td>string</td>
+                            <td><span class="required">是</span></td>
+                            <td>要回復的一級評論 ID</td>
+                        </tr>
+                        <tr>
+                            <td><code>name</code></td>
+                            <td>string</td>
+                            <td><span class="required">否</span></td>
+                            <td>用戶名（最多20字符）</td>
+                        </tr>
+                        <tr>
+                            <td><code>content</code></td>
+                            <td>string</td>
+                            <td><span class="required">是</span></td>
+                            <td>回復內容（最多200字符）</td>
+                        </tr>
+                        <tr>
+                            <td><code>reply_to</code></td>
+                            <td>string</td>
+                            <td><span class="required">否</span></td>
+                            <td>被回復者名稱（默認使用父評論作者）</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <div class="section-title">請求示例</div>
+                <pre>curl -X POST "https://code.frank.hk/news-api/comments/ai-ethics-2024/reply" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "parent_id": "uuid-xxx",
+    "name": "訪客B",
+    "content": "完全同意！",
+    "reply_to": "訪客A"
+  }'</pre>
+                
+                <div class="section-title">響應示例 (201)</div>
+                <pre class="json">{
+  "id": "uuid-yyy",
+  "parent_id": "uuid-xxx",
+  "name": "訪客B",
+  "content": "完全同意！",
+  "created_at": "2026-03-04T10:05:00+08:00",
+  "reply_to": "訪客A",
+  "message": "回復已提交，等待審核",
+  "remaining_requests": 3
+}</pre>
+            </div>
+        </section>
+
         <!-- 健康檢查 -->
         <section id="health">
             <div class="endpoint">
@@ -610,7 +852,7 @@ curl "https://code.frank.hk/news-api/stats/ranking?limit=5"</pre>
         </section>
 
         <footer>
-            <p>Made with ❤️ by Frank & A-Dai | 最後更新：2026-02-25</p>
+            <p>Made with ❤️ by Frank & 阿呆 | 最後更新：2026-03-04</p>
         </footer>
     </div>
 </body>
