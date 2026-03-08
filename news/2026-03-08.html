@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frank 早報 - 2026-03-08</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;600;700&family=Noto+Serif+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { 
+            font-family: 'Noto Sans SC', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; 
+            background: #f5f5f5; 
+            color: #333; 
+            line-height: 1.6; 
+        }
+        .container { max-width: 800px; margin: 0 auto; padding: 20px; }
+        header { background: #fff; padding: 20px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        h1 { 
+            font-family: 'Noto Serif SC', serif;
+            font-size: 1.5rem; 
+            color: #1a1a1a; 
+            font-weight: 600;
+        }
+        .date { color: #666; font-size: 0.9rem; margin-top: 5px; }
+        .section { background: #fff; padding: 20px; margin-bottom: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .section h2 { 
+            font-family: 'Noto Serif SC', serif;
+            font-size: 1.1rem; 
+            color: #444; 
+            border-bottom: 2px solid #eee; 
+            padding-bottom: 10px; 
+            margin-bottom: 15px; 
+            font-weight: 600;
+        }
+        .section h3 {
+            font-family: 'Noto Serif SC', serif;
+            font-weight: 600;
+        }
+        .news-item { padding: 12px 0; border-bottom: 1px solid #eee; }
+        .news-item:last-child { border-bottom: none; }
+        .news-item a { color: #0066cc; text-decoration: none; }
+        .news-item a:hover { text-decoration: underline; }
+        .news-title { 
+            font-family: 'Noto Serif SC', serif;
+            font-weight: 500; 
+            margin-bottom: 5px; 
+        }
+        .news-meta { color: #999; font-size: 0.8rem; margin-bottom: 5px; }
+        .news-desc { color: #666; font-size: 0.9rem; }
+        .news-translate { color: #888; font-size: 0.85rem; margin-top: 6px; padding-top: 6px; border-top: 1px dashed #ddd; font-style: italic; }
+        .back-link { display: inline-block; margin-bottom: 20px; color: #666; text-decoration: none; }
+        .back-link:hover { color: #0066cc; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="/pages/" class="back-link">← 返回列表</a>
+        <header>
+            <h1>Frank 早報</h1>
+            <div class="date">2026-03-08</div>
+            
+            
+        <div class="weather" style="margin-top: 10px; padding: 12px; background: #f0f9ff; border-radius: 6px; font-size: 0.9rem;">
+            <div style="display: flex; align-items: center; margin-bottom: 8px;">
+                <span style="font-size: 1.5rem; margin-right: 8px;">🌦️</span>
+                <div>
+                    <div style="font-weight: 600; color: #0066cc;">21°C</div>
+                    <div style="color: #666;">Partly Cloudy</div>
+                </div>
+            </div>
+            <div style="color: #888; font-size: 0.85rem; margin-top: 5px;">
+                💧 濕度: 75% | 📅 展望: 
+            </div>
+        </div>
+
+            
+            <div class="summary" style="margin-top: 15px; padding: 15px; background: #f0f7ff; border-left: 4px solid #1890ff; border-radius: 4px;">
+                <h3 style="font-size: 1rem; color: #0050b3; margin-bottom: 10px;">📌 今日重點</h3>
+                <div class="summary-content" style="font-size: 0.9rem; color: #333; line-height: 1.8;">
+                    
+                </div>
+            </div>
+        </header>
+
+        
+
+        
+
+        <!-- 評論區 -->
+        <div class="section" style="margin-top: 30px;">
+            <h2>💬 留言討論</h2>
+            <div class="commentbox"></div>
+        </div>
+
+        <script src="https://unpkg.com/commentbox.io/dist/commentBox.min.js"></script>
+        <script>commentBox('5739229095133184-proj')</script>
+
+        <script>
+        // 翻譯功能
+        document.addEventListener('DOMContentLoaded', function() {
+            const items = document.querySelectorAll('.news-item');
+            items.forEach(item => {
+                const title = item.querySelector('.news-title a');
+                const desc = item.querySelector('.news-desc');
+                if (title && desc) {
+                    const titleZh = item.getAttribute('data-title-zh');
+                    const descZh = item.getAttribute('data-desc-zh');
+                    if (titleZh || descZh) {
+                        const translateDiv = document.createElement('div');
+                        translateDiv.className = 'news-translate';
+                        if (descZh) translateDiv.textContent = descZh;
+                        item.appendChild(translateDiv);
+                    }
+                }
+            });
+        });
+        </script>
+    </div>
+</body>
+</html>

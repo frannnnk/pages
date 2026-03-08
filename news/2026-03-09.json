@@ -1,0 +1,262 @@
+{
+  "title": "Frank 早報 - 2026-03-09",
+  "date": "2026-03-09",
+  "weather": {
+    "temperature": "18-22°C",
+    "condition": "大致多雲，早晚有一兩陣微雨",
+    "humidity": "65%-90%",
+    "outlook": "明日大致多雲。隨後一兩日漸轉天晴乾燥。接近週末風勢頗大。"
+  },
+  "sections": [
+    {
+      "title": "🌍 國際新聞",
+      "items": [
+        {
+          "title": "Iran names Khamenei's son Mojtaba as new supreme leader",
+          "title_zh": "伊朗任命哈梅內伊之子莫傑塔巴為新最高領袖",
+          "desc": "Iran on Monday named Mojtaba Khamenei to succeed his father Ali Khamenei as Supreme Leader, signaling that hardliners remain firmly in charge in Tehran a week into its conflict with the United States.",
+          "desc_zh": "伊朗周一任命莫傑塔巴·哈梅內伊接替其父阿里·哈梅內伊擔任最高領袖，表明在與美國衝突爆發一周後，強硬派仍牢牢掌控德黑蘭政權。",
+          "url": "https://www.reuters.com/world/europe/trump-rejects-settling-iran-war-raises-prospect-killing-all-its-potential-2026-03-08/",
+          "date": "2026-03-09",
+          "source": "Reuters"
+        },
+        {
+          "title": "US-Israel war with Iran sends shockwaves through global business",
+          "title_zh": "美以與伊朗戰爭引發全球商業震盪",
+          "desc": "The ongoing conflict between US-Israel and Iran has disrupted global supply chains, with airlines canceling flights and oil markets experiencing volatility as traders assess the potential for prolonged disruption.",
+          "desc_zh": "美以與伊朗的持續衝突擾亂了全球供應鏈，航空公司取消航班，油市波動，交易員評估潛在的長期影響。",
+          "url": "https://www.reuters.com/world/europe/us-israel-war-with-iran-sends-shockwaves-through-global-business-2026-03-06/",
+          "date": "2026-03-06",
+          "source": "Reuters"
+        },
+        {
+          "title": "Oil derivatives signal traders see Middle East shock as short-lived",
+          "title_zh": "石油衍生品顯示交易員認為中東衝擊將是短暫的",
+          "desc": "Market analysis suggests traders are pricing in a relatively brief disruption to oil supplies from the Middle East, with derivatives indicating expectations of quick stabilization.",
+          "desc_zh": "市場分析顯示，交易員預計中東石油供應中斷將相對短暫，衍生品表明預期將快速穩定。",
+          "url": "https://www.reuters.com/markets/",
+          "date": "2026-03-07",
+          "source": "Reuters"
+        },
+        {
+          "title": "Airlines cancel flights as Middle East conflict escalates",
+          "title_zh": "中東衝突升級航空公司取消航班",
+          "desc": "British Airways and other major carriers have canceled flights to Tel Aviv through March 9 and reduced schedules to other Middle Eastern destinations including Dubai, Doha, and Bahrain.",
+          "desc_zh": "英國航空等主要航空公司取消飞往特拉维夫的航班至 3 月 9 日，並減少飞往迪拜、多哈和巴林等中東目的地的航班。",
+          "url": "https://www.reuters.com/business/aerospace-defense/airlines-cancel-flights-after-us-israel-strikes-iran-2026-02-28/",
+          "date": "2026-02-28",
+          "source": "Reuters"
+        },
+        {
+          "title": "China warns of global chip shortages as Nexperia dispute escalates",
+          "title_zh": "中國警告全球芯片短缺隨 Nexperia 爭議升級",
+          "desc": "Beijing has issued warnings about potential global semiconductor shortages as trade disputes continue to affect the chip supply chain, impacting automotive and electronics industries worldwide.",
+          "desc_zh": "隨著貿易爭端繼續影響芯片供應鏈，北京發出潛在全球半導體短缺警告，影響全球汽車和電子行業。",
+          "url": "https://www.reuters.com/technology/",
+          "date": "2026-03-08",
+          "source": "Reuters"
+        }
+      ]
+    },
+    {
+      "title": "🇨🇳 中國大陸新聞",
+      "items": [
+        {
+          "title": "中國「兩會」五大焦點：經濟增速、「十五五」開局、科技自主、高層人事安排及國防預算",
+          "title_zh": "中國「兩會」五大焦點：經濟增速、「十五五」開局、科技自主、高層人事安排及國防預算",
+          "desc": "2026 年全國兩會在北京拉開帷幕，今年會議不僅涉及年度政治議程，更將啟動中國新的五年規劃。總理李強將公布經濟增長目標及財政政策安排。",
+          "desc_zh": "2026 年全國兩會在北京拉開帷幕，今年會議不僅涉及年度政治議程，更將啟動中國新的五年規劃。總理李強將公布經濟增長目標及財政政策安排。",
+          "url": "https://www.bbc.com/zhongwen/articles/cqj9gnynk5lo/trad",
+          "date": "2026-03-03",
+          "source": "BBC News 中文"
+        },
+        {
+          "title": "China Lowers GDP Target as Property Slump and Weak Demand Weigh on Economy",
+          "title_zh": "中國下調 GDP 目標 房地產低迷和需求疲軟拖累經濟",
+          "desc": "To stay on track toward long-term goals, the government set 2026's growth target at 4.5–5 percent, slightly below recent targets. The adjustment reflects broader policy considerations amid property sector challenges.",
+          "desc_zh": "為保持長期目標軌道，政府將 2026 年增長目標設為 4.5-5%，略低於近期目標。這一調整反映了在房地產行業挑戰下的更廣泛政策考量。",
+          "url": "https://www.visiontimes.com/2026/03/06/china-lowers-gdp-target-as-property-slump-and-weak-demand-weigh-on-economy.html",
+          "date": "2026-03-06",
+          "source": "Vision Times"
+        },
+        {
+          "title": "China Vows to Tackle Property Crunch With City-Specific Policies",
+          "title_zh": "中國承諾以因城施策應對房地產危機",
+          "desc": "Chinese officials pledged to stabilize the real estate sector at a crucial political meeting, but stopped short of announcing major policies some economists think are needed to turn around a yearslong slump.",
+          "desc_zh": "中國官員在關鍵政治會議上承諾穩定房地產行業，但未宣布一些經濟學家認為扭轉多年低迷所需的主要政策。",
+          "url": "https://www.bloomberg.com/news/articles/2026-03-05/china-vows-to-tackle-property-crunch-with-city-specific-policies",
+          "date": "2026-03-05",
+          "source": "Bloomberg"
+        },
+        {
+          "title": "中國兩會政府工作報告看點：GDP 目標下調傳遞諸多信號",
+          "title_zh": "中國兩會政府工作報告看點：GDP 目標下調傳遞諸多信號",
+          "desc": "在 2025 年首次把 CPI 目標調降至 2% 左右之後，2026 年繼續沿用這一目標，並在報告中罕見地將「由負轉正」寫入年度政策任務。",
+          "desc_zh": "在 2025 年首次把 CPI 目標調降至 2% 左右之後，2026 年繼續沿用這一目標，並在報告中罕見地將「由負轉正」寫入年度政策任務。",
+          "url": "https://www.bbc.com/zhongwen/articles/ce8wwj819e5o/trad",
+          "date": "2026-03-05",
+          "source": "BBC News 中文"
+        },
+        {
+          "title": "中共軍費增幅和 GDP 目標均下調 釋何信號",
+          "title_zh": "中共軍費增幅和 GDP 目標均下調 釋何信號",
+          "desc": "2026 年國防支出預算增長 7%，增速降至 2022 年以來最低。李強宣布今年經濟增長目標為 4.5 至 5%，較此前的「5% 左右」增速目標下調。",
+          "desc_zh": "2026 年國防支出預算增長 7%，增速降至 2022 年以來最低。李強宣布今年經濟增長目標為 4.5 至 5%，較此前的「5% 左右」增速目標下調。",
+          "url": "https://www.epochtimes.com/b5/26/3/5/n14711733.htm",
+          "date": "2026-03-05",
+          "source": "大紀元"
+        }
+      ]
+    },
+    {
+      "title": "🇭🇰 香港新聞",
+      "items": [
+        {
+          "title": "財政預算案 2026 懶人包｜增免稅額/短期實習/AI 後生仔著數一覽",
+          "title_zh": "財政預算案 2026 懶人包｜增免稅額/短期實習/AI 後生仔著數一覽",
+          "desc": "財政司司長陳茂波宣讀新一份財政預算案，以「創科驅動、金融賦能；多元發展、關愛惠民」為主題。薪俸稅及利得稅退稅上限提高至 3000 元，子女免稅額提升。",
+          "desc_zh": "財政司司長陳茂波宣讀新一份財政預算案，以「創科驅動、金融賦能；多元發展、關愛惠民」為主題。薪俸稅及利得稅退稅上限提高至 3000 元，子女免稅額提升。",
+          "url": "https://www.hk01.com/%E9%96%8B%E7%BD%90/60324829/%E8%B2%A1%E6%94%BF%E9%A0%90%E7%AE%97%E6%A1%882026%E6%87%B6%E4%BA%BA%E5%8C%85-%E5%A2%9E%E5%85%8D%E7%A8%85%E9%A1%8D-%E7%9F%AD%E6%9C%9F%E5%AF%A6%E7%BF%92-ai-%E5%BE%8C%E7%94%9F%E4%BB%94%E8%91%97%E6%95%B8%E4%B8%80%E8%A6%BD",
+          "date": "2026-02-25",
+          "source": "香港 01"
+        },
+        {
+          "title": "2026 年財政預算案直播｜剖析最新政策及重點",
+          "title_zh": "2026 年財政預算案直播｜剖析最新政策及重點",
+          "desc": "新一份財政預算案提出，薪俸稅及利得稅退稅上限由去年的 1500 元，提高至 3000 元，寬減首兩季差餉，每戶上限 500 元。綜援、長者生活津貼等社會保障金有「雙糧」。",
+          "desc_zh": "新一份財政預算案提出，薪俸稅及利得稅退稅上限由去年的 1500 元，提高至 3000 元，寬減首兩季差餉，每戶上限 500 元。綜援、長者生活津貼等社會保障金有「雙糧」。",
+          "url": "https://app2.rthk.hk/special/budget/index.php",
+          "date": "2026-02-25",
+          "source": "香港電台"
+        },
+        {
+          "title": "Hong Kong's property sector rebounding with Hang Seng Properties Index rising 20%",
+          "title_zh": "香港房地產板塊反彈 恒生地產指數上升 20%",
+          "desc": "Hong Kong's property sector is showing signs of recovery, with the Hang Seng Properties Index rising more than 20 percent this year amid improved market sentiment.",
+          "desc_zh": "香港房地產板塊顯示復甦跡象，恒生地產指數今年上升超過 20%，市場情緒改善。",
+          "url": "https://www.scmp.com/business",
+          "date": "2026-03-06",
+          "source": "South China Morning Post"
+        },
+        {
+          "title": "The Hang Seng rose 72 points to end at 25,321 on Thursday",
+          "title_zh": "恆生指數周四收報 25321 點 上升 72 點",
+          "desc": "The Hang Seng rose 72 points, or 0.3%, to end at 25,321 on Thursday, halting a three-day decline as financials and property stocks led gains.",
+          "desc_zh": "恆生指數周四收報 25,321 點，上升 72 點或 0.3%，終止三連跌，金融和地產股領漲。",
+          "url": "https://tradingeconomics.com/hong-kong/stock-market",
+          "date": "2026-03-06",
+          "source": "Trading Economics"
+        },
+        {
+          "title": "【財政預算案 2026】免稅額 + 稅務優惠等最新資訊",
+          "title_zh": "【財政預算案 2026】免稅額 + 稅務優惠等最新資訊",
+          "desc": "預算案提出香港未來 5 年總體公營房屋建屋量約 196,000 個單位，「簡約公屋」年共落成約 9,500 個單位。「簡樸房」規管制度 3 月起實施。",
+          "desc_zh": "預算案提出香港未來 5 年總體公營房屋建屋量約 196,000 個單位，「簡約公屋」年共落成約 9,500 個單位。「簡樸房」規管制度 3 月起實施。",
+          "url": "https://www.mreferral.com/blog/budget2026/",
+          "date": "2026-02-25",
+          "source": "MReferral"
+        }
+      ]
+    },
+    {
+      "title": "📈 港股關注 - 萬國數據 GDS",
+      "items": [
+        {
+          "title": "GDS to Report Fourth Quarter and Full Year 2025 Financial Results on March 17, 2026",
+          "title_zh": "萬國數據將於 2026 年 3 月 17 日公布 2025 年第四季度及全年業績",
+          "desc": "GDS Holdings Limited announced it will release its fourth quarter and full year 2025 unaudited financial results on March 17, 2026. Management will host an earnings conference call at 8:00 AM US Eastern Time.",
+          "desc_zh": "萬國數據控股有限公司宣布將於 2026 年 3 月 17 日公布 2025 年第四季度及全年未經審核財務業績。管理層將於美國東部時間上午 8 時舉行業績電話會議。",
+          "url": "https://www.globenewswire.com/news-release/2026/03/03/3248118/0/en/GDS-to-Report-Fourth-Quarter-and-Full-Year-2025-Financial-Results-Before-the-Open-of-the-U-S-Market-on-March-17-2026.html",
+          "date": "2026-03-03",
+          "source": "GlobeNewswire"
+        },
+        {
+          "title": "GDS Announces Adjournments of Extraordinary General Meeting to March 10, 2026",
+          "title_zh": "萬國數據宣布股東特別大會延期至 2026 年 3 月 10 日",
+          "desc": "GDS Holdings announced the adjournment of its Extraordinary General Meeting and Additional Shareholders Meetings to be reconvened on March 10, 2026. The record date and initiatives remain unchanged.",
+          "desc_zh": "萬國數據宣布股東特別大會及額外股東會議延期至 2026 年 3 月 10 日重新召開。記錄日期和議案保持不變。",
+          "url": "https://investors.gds-services.com/news-releases/",
+          "date": "2026-03-07",
+          "source": "GDS Investors"
+        },
+        {
+          "title": "GDS Holdings Stock Surges as Nomura Hikes Price Target",
+          "title_zh": "野村上調目標價 萬國數據股價上漲",
+          "desc": "GDS Holdings stock showed positive momentum following Nomura's price target increase. The company continues to benefit from strong AI infrastructure demand in China.",
+          "desc_zh": "野村上調目標價後，萬國數據股價顯示上升動能。公司繼續受益於中國強勁的 AI 基礎設施需求。",
+          "url": "https://stockstotrade.com/news/gds-holdings-limited-gds-news-2026_03_06/",
+          "date": "2026-03-06",
+          "source": "StocksToTrade"
+        },
+        {
+          "title": "GDS to sell data centers to new REIT in $400m deal",
+          "title_zh": "萬國數據以 4 億美元向新 REIT 出售數據中心",
+          "desc": "GDS is selling a 100 percent equity interest in certain data center project companies to a private REIT. The deal is set to close within the next three months, enhancing financing flexibility.",
+          "desc_zh": "萬國數據正將若干數據中心項目公司的 100% 股權出售給私人 REIT。交易預計在未來三個月內完成，增強融資靈活性。",
+          "url": "https://www.datacenterdynamics.com/en/news/gds-to-sell-data-centers-to-new-reit-in-400m-deal/",
+          "date": "2026-02-09",
+          "source": "Data Center Dynamics"
+        },
+        {
+          "title": "GDS Holdings' data centre REIT to begin trading in Shanghai",
+          "title_zh": "萬國數據數據中心 REIT 將於上海開始交易",
+          "desc": "GDS Holdings' C-REIT platform provides enhanced financing flexibility. The company will maintain a 20 percent ownership in the C-REIT while raising capital for expansion.",
+          "desc_zh": "萬國數據的 C-REIT 平台提供更強的融資靈活性。公司將保持 C-REIT 20% 的所有權，同時籌集擴張資金。",
+          "url": "https://thetechcapital.com/gds-holdings-data-centre-reit-to-begin-trading-in-shanghai/",
+          "date": "2026-02-25",
+          "source": "The Tech Capital"
+        }
+      ]
+    },
+    {
+      "title": "🤖 AI 和 OpenClaw 新聞",
+      "items": [
+        {
+          "title": "Critical OpenClaw Vulnerability Exposes AI Agent Risks",
+          "title_zh": "關鍵 OpenClaw 漏洞暴露 AI 代理風險",
+          "desc": "Security researchers identified vulnerabilities like CVE-2026-25253, which gave attackers a way to steal authentication tokens, as well as command injection bugs and prompt injection attacks in OpenClaw.",
+          "desc_zh": "安全研究人員識別出 OpenClaw 中的漏洞，包括 CVE-2026-25253，該漏洞使攻擊者能夠竊取認證令牌，以及命令注入漏洞和提示注入攻擊。",
+          "url": "",
+          "date": "2026-03-02",
+          "source": "Dark Reading"
+        },
+        {
+          "title": "OpenClaw: The AI Agent Security Crisis Unfolding Right Now",
+          "title_zh": "OpenClaw：AI 代理安全危機正在爆發",
+          "desc": "Moltbook, a social network built exclusively for OpenClaw agents, was found to have an unsecured database exposing 35,000 email addresses and 1.5 million agent API tokens.",
+          "desc_zh": "專為 OpenClaw 代理構建的社交網絡 Moltbook 被發現存在未加密數據庫，洩露 35,000 個電子郵件地址和 150 萬個代理 API 令牌。",
+          "url": "https://www.reco.ai/blog/openclaw-the-ai-agent-security-crisis-unfolding-right-now",
+          "date": "2026-03-05",
+          "source": "Reco.ai"
+        },
+        {
+          "title": "OpenClaw Patch Prevents Malicious Websites From Hijacking AI Agents",
+          "title_zh": "OpenClaw 補丁防止惡意網站劫持 AI 代理",
+          "desc": "OpenClaw released security updates addressing a vulnerability chain that allowed websites to take control of a developer's agent with no plugins, extensions or user interaction required.",
+          "desc_zh": "OpenClaw 發布安全更新，修復了一個漏洞鏈，該漏洞允許網站在無需插件、擴展或用戶交互的情況下控制開發者的代理。",
+          "url": "https://www.pymnts.com/cybersecurity/2026/openclaw-patch-prevents-malicious-websites-from-hijacking-ai-agents/",
+          "date": "2026-03-02",
+          "source": "PYMNTS"
+        },
+        {
+          "title": "NVIDIA Kicks Off the Next Generation of AI With Rubin",
+          "title_zh": "NVIDIA 以 Rubin 開啟下一代 AI",
+          "desc": "NVIDIA announced the Rubin platform with six new chips including Vera CPU, Rubin GPU, NVLink 6 Switch, ConnectX-9 SuperNIC, BlueField-4 DPU and Spectrum-6 Ethernet Switch.",
+          "desc_zh": "NVIDIA 宣布 Rubin 平台，包括六款新芯片：Vera CPU、Rubin GPU、NVLink 6 Switch、ConnectX-9 SuperNIC、BlueField-4 DPU 和 Spectrum-6 以太網交換機。",
+          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Kicks-Off-the-Next-Generation-of-AI-With-Rubin--Six-New-Chips-One-Incredible-AI-Supercomputer/default.aspx",
+          "date": "2026-03-08",
+          "source": "NVIDIA"
+        },
+        {
+          "title": "NVIDIA GTC 2026 Conference March 16-19 in San Jose",
+          "title_zh": "NVIDIA GTC 2026 大會 3 月 16-19 日在聖何塞舉行",
+          "desc": "NVIDIA GTC 2026, the premier global AI conference, will showcase breakthroughs in physical AI, agentic AI, inference, and AI factories from March 16-19 in San Jose and online.",
+          "desc_zh": "NVIDIA GTC 2026 是全球頂級 AI 大會，將於 3 月 16-19 日在聖何塞及線上展示物理 AI、代理 AI、推理和 AI 工廠的突破。",
+          "url": "https://www.nvidia.com/gtc/",
+          "date": "2026-03-09",
+          "source": "NVIDIA"
+        }
+      ]
+    }
+  ]
+}
