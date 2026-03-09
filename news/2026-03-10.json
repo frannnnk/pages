@@ -1,0 +1,238 @@
+{
+  "title": "Frank 早報 - 2026-03-10",
+  "date": "2026-03-10",
+  "weather": {
+    "location": "香港",
+    "temperature": "17°C",
+    "humidity": "79%",
+    "condition": "大致多雲",
+    "forecast": "大致多雲。初時有一兩陣微雨，早上清涼。下午最高氣溫約19度。吹和緩東北風，初時風勢清勁。未來一兩日漸轉天晴乾燥。",
+    "high": "19°C",
+    "low": "16°C"
+  },
+  "sections": [
+    {
+      "title": "🌍 國際新聞",
+      "items": [
+        {
+          "title": "Anthropic Sues Pentagon Over National Security Blacklisting",
+          "title_zh": "Anthropic 起訴五角大樓國安黑名單",
+          "desc": "Anthropic filed a lawsuit to block the Pentagon from placing it on a national security blacklist, escalating the AI lab's battle with the U.S. military over usage restrictions on its technology.",
+          "desc_zh": "Anthropic 提起訴訟，阻止五角大樓將其列入國家安全黑名單，這加劇了這家 AI 實驗室與美國軍方就其技術使用限制的爭端。",
+          "url": "https://www.reuters.com/world/anthropic-sues-block-pentagon-blacklisting-over-ai-use-restrictions-2026-03-09/",
+          "date": "2026-03-09",
+          "source": "Reuters"
+        },
+        {
+          "title": "Samsung to Double AI Mobile Devices to 800 Million Units in 2026",
+          "title_zh": "三星 2026 年將 AI 設備翻倍至 8 億台",
+          "desc": "Samsung plans to boost Gemini-backed AI features from 400 million to 800 million mobile devices this year, including smartphones, tablets, TVs and home appliances.",
+          "desc_zh": "三星計劃今年將搭載 Gemini AI 功能的設備從 4 億台增至 8 億台，包括智能手機、平板電腦、電視和家用電器。",
+          "url": "https://www.reuters.com/world/china/samsung-double-mobile-devices-powered-by-googles-gemini-800-mln-units-this-year-2026-01-05/",
+          "date": "2026-03-10",
+          "source": "Reuters"
+        },
+        {
+          "title": "Iran Hits Amazon Data Centers in First Strike on US Hyperscaler",
+          "title_zh": "伊朗襲擊亞馬遜數據中心 首次打擊美國超大規模服務商",
+          "desc": "Iran conducted the first known military strike on a US hyperscaler's data centers, rattling regional ambitions to build multibillion-dollar cloud facilities in the Gulf.",
+          "desc_zh": "伊朗對美國超大規模服務商的數據中心發動首次已知軍事打擊，動搖了在海灣地區建設數十億美元雲設施的地區雄心。",
+          "url": "https://www.ft.com/technology",
+          "date": "2026-03-05",
+          "source": "Financial Times"
+        },
+        {
+          "title": "Samsung Expands Glasses-Free 3D Gaming Monitor Support",
+          "title_zh": "三星擴展裸眼 3D 遊戲顯示器支持",
+          "desc": "Samsung announced plans to expand support for glasses-free 3D gameplay on the Odyssey 3D gaming monitor, with over 60 titles already supported.",
+          "desc_zh": "三星宣布計劃擴展 Odyssey 3D 遊戲顯示器的裸眼 3D 遊戲支持，目前已支持超過 60 款遊戲。",
+          "url": "https://www.theverge.com/tech",
+          "date": "2026-03-09",
+          "source": "The Verge"
+        }
+      ]
+    },
+    {
+      "title": "🇨🇳 中國大陸新聞",
+      "items": [
+        {
+          "title": "China's Two Sessions 2026 Unveils Economic Roadmap",
+          "title_zh": "2026 年中國兩會公布經濟路線圖",
+          "desc": "China's Two Sessions unveiled a comprehensive roadmap for economic growth with a GDP target range of 4.5%–5%, signaling a shift toward high-quality growth amid global uncertainties.",
+          "desc_zh": "2026 年中國兩會公布了經濟增長綜合路線圖，GDP 目標範圍為 4.5%-5%，在全球不確定性下釋放向高質量增長轉變的信號。",
+          "url": "https://www.china-briefing.com/news/two-sessions-2026-gdp-target-key-takeaways/",
+          "date": "2026-03-06",
+          "source": "China Briefing"
+        },
+        {
+          "title": "China Vows to Accelerate Technological Self-Reliance",
+          "title_zh": "中國誓言加速科技自立自強",
+          "desc": "China's new five-year policy blueprint laid out ambitions to aggressively adopt AI throughout the economy and dominate emerging technologies like quantum computing and humanoid robots.",
+          "desc_zh": "中國新的五年政策藍圖闡明了積極在整個經濟領域採用 AI 並主導量子計算和人形機器人等新興技術的雄心。",
+          "url": "https://www.reuters.com/world/asia-pacific/china-vows-accelerate-technological-self-reliance-ai-push-2026-03-05/",
+          "date": "2026-03-05",
+          "source": "Reuters"
+        },
+        {
+          "title": "China to Boost Incomes and Property Income for Residents",
+          "title_zh": "中國將提高居民收入和財產性收入",
+          "desc": "China will formulate plans to boost incomes, rolling out measures to increase earnings for low-income groups, increase residents' property income, and improve social security systems.",
+          "desc_zh": "中國將制定提高收入的計劃，推出增加低收入群體收入、提高居民財產性收入和改善社會保障體系的措施。",
+          "url": "https://www.prnewswire.com/news-releases/china-sets-priorities-for-2026-and-beyond-at-the-two-sessions-302707820.html",
+          "date": "2026-03-09",
+          "source": "PR Newswire"
+        },
+        {
+          "title": "China 15th Five-Year Plan Sets Tech Priorities",
+          "title_zh": "中國第十五個五年規劃確定科技優先事項",
+          "desc": "The 15th Five-Year Plan serves as a blueprint guiding China's economic, social, and technological priorities over the next five years, with focus on high-tech industries.",
+          "desc_zh": "第十五個五年規劃作為指導中國未來五年經濟、社會和科技優先事項的藍圖，重點關注高科技產業。",
+          "url": "http://www.china.org.cn/2026-03/06/content_118366126.shtml",
+          "date": "2026-03-06",
+          "source": "China.org.cn"
+        },
+        {
+          "title": "China Tech Hubs Promote OpenClaw AI Agent",
+          "title_zh": "中國科技中心推廣 OpenClaw AI 助手",
+          "desc": "Districts in Shenzhen and Wuxi announced measures to build an industry around OpenClaw, an AI agent being adopted rapidly even as regulators warn of security risks.",
+          "desc_zh": "深圳和無錫的區域宣布圍繞 OpenClaw 建立產業的措施，儘管監管機構警告存在安全風險，該 AI 助手仍在迅速普及。",
+          "url": "https://www.reuters.com/world/asia-pacific/chinas-shenzhen-backs-openclaw-ai-with-subsidies-despite-beijings-security-2026-03-09/",
+          "date": "2026-03-09",
+          "source": "Reuters"
+        }
+      ]
+    },
+    {
+      "title": "🇭🇰 香港新聞",
+      "items": [
+        {
+          "title": "Northern Metropolis Legislation to be Tabled by End of March",
+          "title_zh": "北部都會區立法將於三月底前提交",
+          "desc": "The Secretary for Development says dedicated legislation for the Northern Metropolis development would be tabled at the Legislative Council by the end of March.",
+          "desc_zh": "發展局局長表示，北部都會區發展的專屬立法將於三月底前提交立法會審議。",
+          "url": "https://news.rthk.hk/rthk/en/news-programmes/this-episode.htm?cmsid=77&episode_id=1083104&livetime=20260302000000",
+          "date": "2026-03-02",
+          "source": "RTHK"
+        },
+        {
+          "title": "HKU School of Chinese to Host Museum Culture Week",
+          "title_zh": "港大中文學院舉辦博物館文化週",
+          "desc": "HKU School of Chinese will host the inaugural Museum Culture Week on March 10, 2026, with AI simultaneous interpretation in Cantonese and Putonghua.",
+          "desc_zh": "香港大學中文學院將於 2026 年 3 月 10 日舉辦首屆博物館文化週，提供粵語和普通話 AI 同聲傳譯。",
+          "url": "https://www.hku.hk/press/news_detail_28977.html",
+          "date": "2026-03-10",
+          "source": "HKU"
+        },
+        {
+          "title": "Hong Kong to Introduce Large-Scale International Exhibitions",
+          "title_zh": "香港將引入大型國際展覽",
+          "desc": "The Secretary for Commerce hopes to introduce large-scale international exhibitions never staged in Hong Kong before, promoting the city as an international exhibition hub.",
+          "desc_zh": "商務及經濟發展局局長希望引入以往從未在香港舉辦過的大型國際展覽，推動香港成為國際展覽中心。",
+          "url": "https://news.rthk.hk/rthk/en/news-programmes/this-episode.htm?cmsid=77&episode_id=1083104&livetime=20260302000000",
+          "date": "2026-03-02",
+          "source": "RTHK"
+        },
+        {
+          "title": "Hong Kong Property Market Shows Signs of Activity",
+          "title_zh": "香港樓市顯示活躍跡象",
+          "desc": "Construction activity continues in Kai Tak area as residential buildings remain under development, with ongoing infrastructure projects supporting the local economy.",
+          "desc_zh": "隨著住宅樓宇持續開發，啟德地區的建築活動繼續進行，持續的基礎設施項目支持本地經濟。",
+          "url": "https://www.scmp.com/news/hong-kong",
+          "date": "2026-03-09",
+          "source": "SCMP"
+        }
+      ]
+    },
+    {
+      "title": "📈 港股關注 - 萬國數據 GDS",
+      "items": [
+        {
+          "title": "Nasdaq Golden Dragon Index Rises, GDS Up Over 6%",
+          "title_zh": "納斯達克中國金龍指數上漲 GDS 漲超 6%",
+          "desc": "Nasdaq China Golden Dragon Index opened sharply higher, rising 1.8%. GDS Holdings gained over 6%, alongside Baidu and Alibaba.",
+          "desc_zh": "納斯達克中國金龍指數開盤迅速拉升，漲 1.8%。萬國數據漲超 6%，百度、阿里巴巴同步上漲。",
+          "url": "http://stock.finance.sina.com.cn/usstock/quotes/GDS.html",
+          "date": "2026-03-10",
+          "source": "Sina Finance"
+        },
+        {
+          "title": "JMP Securities Maintains Buy Rating on GDS with $35 Target",
+          "title_zh": "JMP Securities 維持 GDS 買入評級 目標價 35 美元",
+          "desc": "Analyst Greg P. Miller at JMP Securities maintains a Buy rating on GDS Holdings with a $35 price target. The analyst has a 57.1% success rate over the past year.",
+          "desc_zh": "JMP Securities 分析師 Greg P. Miller 維持萬國數據買入評級，目標價 35 美元。該分析師過去一年勝率為 57.1%。",
+          "url": "https://www.moomoo.com/hans/stock/GDS-US/news/news",
+          "date": "2026-02-04",
+          "source": "Moomoo"
+        },
+        {
+          "title": "GDS-SW Main Funds Inflow 25.35 Million Yuan",
+          "title_zh": "萬國數據-SW 主力資金流入 2,535 萬元",
+          "desc": "On February 4, GDS-SW saw main funds inflow of 25.35 million yuan, marking 7 consecutive days of accumulation by institutional investors.",
+          "desc_zh": "2 月 4 日，萬國數據-SW 主力資金流入 2,535 萬元，連續 7 日獲機構加倉。",
+          "url": "https://www.moomoo.com/hans/stock/GDS-US/news/news",
+          "date": "2026-02-04",
+          "source": "Moomoo"
+        },
+        {
+          "title": "Futu Releases Weekly Insights on Alibaba Qwen3-Max and Anthropic",
+          "title_zh": "富途發布周觀點：阿里 Qwen3-Max 與 Anthropic 融資",
+          "desc": "Weekly tech insights cover Alibaba's Qwen3-Max release and Anthropic's $13 billion funding completion, with analysis on overseas tech and media sectors.",
+          "desc_zh": "周觀點涵蓋阿里 Qwen3-Max 發布和 Anthropic 完成 130 億美元融資，分析海外科技傳媒行業。",
+          "url": "https://www.futunn.com/stock/GDS-US",
+          "date": "2026-03-08",
+          "source": "Futu"
+        }
+      ]
+    },
+    {
+      "title": "🤖 AI 和 OpenClaw 新聞",
+      "items": [
+        {
+          "title": "OpenClaw Security Crisis: 2026's First Major AI Agent Incident",
+          "title_zh": "OpenClaw 安全危機：2026 年首個重大 AI 助手事件",
+          "desc": "OpenClaw patched security vulnerabilities within 24 hours in v2026.2.25, including fixes for ClawJacked, hardened session management, and HTTP security headers.",
+          "desc_zh": "OpenClaw 在 v2026.2.25 版本 24 小時內修補安全漏洞，包括 ClawJacked 修復、強化會話管理和 HTTP 安全標頭。",
+          "url": "https://pbxscience.com/openclaw-2026s-first-major-ai-agent-security-crisis-explained/",
+          "date": "2026-03-09",
+          "source": "PBX Science"
+        },
+        {
+          "title": "2026 AI Shift: From Chatting to Working",
+          "title_zh": "2026 AI 轉變：從聊天到工作",
+          "desc": "At MWC 2026, industry experts discussed the rapid shift from conversational AI to working AI agents, with Chinese open-source models leading globally.",
+          "desc_zh": "在 2026 年世界移動通信大會上，行業專家討論了從對話式 AI 向工作型 AI 助手的快速轉變，中國開源模型全球領先。",
+          "url": "https://www.digitalphablet.com/ai/mwc-buzz-openclaw-dominates-2026-ai-shift-from-chatting-to-working-chinese-open-source-models-lead-globally/",
+          "date": "2026-03-05",
+          "source": "Digital Phablet"
+        },
+        {
+          "title": "OpenClaw Reaches 247,000 GitHub Stars",
+          "title_zh": "OpenClaw GitHub Star 數達 24.7 萬",
+          "desc": "The OpenClaw open-source project has reached 247,000 stars and 47,700 forks on GitHub as of March 2, 2026, coinciding with increased interest in AI agents.",
+          "desc_zh": "截至 2026 年 3 月 2 日，OpenClaw 開源項目在 GitHub 上已達到 24.7 萬 star 和 4.77 萬 fork，AI 助手關注度隨之上升。",
+          "url": "https://en.wikipedia.org/wiki/OpenClaw",
+          "date": "2026-03-02",
+          "source": "Wikipedia"
+        },
+        {
+          "title": "Why OpenClaw AI Assistant is Called a 'Privacy Nightmare'",
+          "title_zh": "為何 OpenClaw AI 助手被稱為「隱私噩夢」",
+          "desc": "Security experts warn about OpenClaw's extensive access to personal data and device systems, despite its native device operation and integration with ChatGPT and Claude.",
+          "desc_zh": "安全專家警告 OpenClaw 對個人數據和設備系統的廣泛訪問，儘管它可在設備本地運行並與 ChatGPT 和 Claude 集成。",
+          "url": "https://news.northeastern.edu/2026/02/10/open-claw-ai-assistant/",
+          "date": "2026-02-10",
+          "source": "Northeastern University"
+        },
+        {
+          "title": "Samsung Pushes Gemini AI to 800 Million Galaxy Devices",
+          "title_zh": "三星將 Gemini AI 推向 8 億台 Galaxy 設備",
+          "desc": "Samsung is doubling down on AI integration, planning to equip 800 million Galaxy devices with Google's Gemini AI by end of 2026.",
+          "desc_zh": "三星正在加倍投入 AI 集成，計劃到 2026 年底為 8 億台 Galaxy 設備配備 Google 的 Gemini AI。",
+          "url": "https://www.cnet.com/tech/services-and-software/samsung-supercharges-800-million-devices-with-ai-2026/",
+          "date": "2026-03-10",
+          "source": "CNET"
+        }
+      ]
+    }
+  ]
+}
