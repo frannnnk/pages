@@ -422,8 +422,27 @@
                 padding: 20px;
             }
             
+            /* 修复手机版导航遮挡问题 */
+            .nav-toc {
+                position: relative;
+                top: 0;
+                margin-bottom: 20px;
+                padding: 15px;
+            }
+            
+            .nav-toc h2 {
+                font-size: 1.1em;
+                margin-bottom: 10px;
+            }
+            
             .nav-toc ul {
-                grid-template-columns: 1fr;
+                grid-template-columns: 1fr 1fr;
+                gap: 5px;
+            }
+            
+            .nav-toc a {
+                padding: 6px 8px;
+                font-size: 0.85em;
             }
             
             .bot-flow {
