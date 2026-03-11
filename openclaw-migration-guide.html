@@ -1,0 +1,1124 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>OpenClaw 遷移指南 | Linux → macOS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;600;700&family=Noto+Serif+SC:wght@400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-dark.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Noto Sans SC', -apple-system, BlinkMacSystemFont, sans-serif;
+            line-height: 1.8;
+            color: #333;
+            background: #f5f7fa;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+            margin: -20px -20px 40px;
+        }
+        
+        .header h1 {
+            font-family: 'Noto Serif SC', serif;
+            font-size: 2.5em;
+            margin-bottom: 15px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+        
+        .header .subtitle {
+            font-size: 1.2em;
+            opacity: 0.9;
+            margin-bottom: 20px;
+        }
+        
+        .header .meta {
+            display: inline-flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+            font-size: 0.9em;
+            opacity: 0.8;
+        }
+        
+        .meta span {
+            background: rgba(255,255,255,0.2);
+            padding: 5px 15px;
+            border-radius: 20px;
+        }
+        
+        /* Navigation */
+        .nav-toc {
+            background: white;
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            position: sticky;
+            top: 20px;
+            z-index: 100;
+        }
+        
+        .nav-toc h2 {
+            font-size: 1.2em;
+            margin-bottom: 15px;
+            color: #667eea;
+        }
+        
+        .nav-toc ul {
+            list-style: none;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+        }
+        
+        .nav-toc a {
+            color: #555;
+            text-decoration: none;
+            padding: 8px 12px;
+            border-radius: 6px;
+            transition: all 0.2s;
+            display: block;
+            font-size: 0.95em;
+        }
+        
+        .nav-toc a:hover {
+            background: #e8eaff;
+            color: #667eea;
+        }
+        
+        /* Sections */
+        .section {
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+        
+        .section-number {
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 600;
+            font-size: 1.1em;
+        }
+        
+        .section h2 {
+            font-family: 'Noto Serif SC', serif;
+            font-size: 1.6em;
+            color: #333;
+        }
+        
+        .section h3 {
+            font-size: 1.2em;
+            margin: 25px 0 15px;
+            color: #444;
+            padding-left: 15px;
+            border-left: 3px solid #667eea;
+        }
+        
+        .section p {
+            margin-bottom: 15px;
+            color: #555;
+        }
+        
+        /* Alert boxes */
+        .alert {
+            padding: 15px 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+        }
+        
+        .alert-icon {
+            font-size: 1.3em;
+            flex-shrink: 0;
+        }
+        
+        .alert-content {
+            flex: 1;
+        }
+        
+        .alert-warning {
+            background: #fff3e0;
+            border-left: 4px solid #ff9800;
+        }
+        
+        .alert-danger {
+            background: #ffebee;
+            border-left: 4px solid #f44336;
+        }
+        
+        .alert-info {
+            background: #e3f2fd;
+            border-left: 4px solid #2196f3;
+        }
+        
+        .alert-success {
+            background: #e8f5e9;
+            border-left: 4px solid #4caf50;
+        }
+        
+        /* Code blocks */
+        pre {
+            background: #282c34;
+            border-radius: 8px;
+            padding: 20px;
+            overflow-x: auto;
+            margin: 15px 0;
+        }
+        
+        code {
+            font-family: 'Fira Code', monospace;
+            font-size: 0.9em;
+        }
+        
+        code:not(pre code) {
+            background: #f4f4f4;
+            padding: 2px 6px;
+            border-radius: 4px;
+            color: #e83e8c;
+        }
+        
+        /* Lists */
+        ul, ol {
+            margin: 15px 0;
+            padding-left: 25px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+            color: #555;
+        }
+        
+        /* Tables */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 0.95em;
+        }
+        
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        th {
+            background: #f8f9fa;
+            font-weight: 600;
+            color: #444;
+        }
+        
+        tr:hover {
+            background: #f8f9fa;
+        }
+        
+        /* Checklist */
+        .checklist {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .checklist li {
+            padding-left: 30px;
+            position: relative;
+        }
+        
+        .checklist li::before {
+            content: "☐";
+            position: absolute;
+            left: 0;
+            color: #667eea;
+            font-size: 1.2em;
+        }
+        
+        /* File path */
+        .filepath {
+            background: #f4f4f4;
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-family: 'Fira Code', monospace;
+            font-size: 0.9em;
+            color: #333;
+        }
+        
+        /* Telegram bot flow */
+        .bot-flow {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin: 30px 0;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 12px;
+        }
+        
+        .bot-box {
+            text-align: center;
+            padding: 20px 30px;
+            border-radius: 10px;
+            min-width: 180px;
+        }
+        
+        .bot-box.old {
+            background: #ffebee;
+            border: 2px solid #ef5350;
+        }
+        
+        .bot-box.new {
+            background: #e8f5e9;
+            border: 2px solid #66bb6a;
+        }
+        
+        .bot-box.moving {
+            background: #fff3e0;
+            border: 2px solid #ffa726;
+        }
+        
+        .bot-icon {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .bot-label {
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        
+        .bot-status {
+            font-size: 0.85em;
+            color: #666;
+        }
+        
+        .arrow {
+            font-size: 2em;
+            color: #999;
+        }
+        
+        /* Timeline */
+        .timeline {
+            position: relative;
+            padding-left: 30px;
+        }
+        
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 8px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: #e0e0e0;
+        }
+        
+        .timeline-item {
+            position: relative;
+            margin-bottom: 25px;
+            padding-left: 20px;
+        }
+        
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -26px;
+            top: 5px;
+            width: 12px;
+            height: 12px;
+            background: #667eea;
+            border-radius: 50%;
+            border: 3px solid white;
+            box-shadow: 0 0 0 2px #667eea;
+        }
+        
+        .timeline-title {
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 5px;
+        }
+        
+        .timeline-content {
+            color: #666;
+            font-size: 0.95em;
+        }
+        
+        /* Back to top */
+        .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            font-size: 1.5em;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+            transition: transform 0.2s;
+        }
+        
+        .back-to-top:hover {
+            transform: translateY(-3px);
+        }
+        
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            color: #999;
+            font-size: 0.9em;
+        }
+        
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 1.8em;
+            }
+            
+            .section {
+                padding: 20px;
+            }
+            
+            .nav-toc ul {
+                grid-template-columns: 1fr;
+            }
+            
+            .bot-flow {
+                flex-direction: column;
+            }
+            
+            .arrow {
+                transform: rotate(90deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1>🚀 OpenClaw 遷移指南</h1>
+            <p class="subtitle">從 Linux 伺服器遷移到 macOS (Mac Mini)</p>
+            <div class="meta">
+                <span>📅 創建日期：2026-03-11</span>
+                <span>📝 版本：v1.0</span>
+                <span>⏱️ 預估時間：2-3 小時</span>
+            </div>
+        </header>
+        
+        <!-- Navigation -->
+        <nav class="nav-toc">
+            <h2>📋 目錄導航</h2>
+            <ul>
+                <li><a href="#overview">遷移概覽</a></li>
+                <li><a href="#bot-strategy">Bot 配置策略</a></li>
+                <li><a href="#phase1">第一階段：準備工作</a></li>
+                <li><a href="#phase2">第二階段：數據遷移</a></li>
+                <li><a href="#phase3">第三階段：路徑替換</a></li>
+                <li><a href="#phase4">第四階段：Bot 配置</a></li>
+                <li><a href="#phase5">第五階段：服務遷移</a></li>
+                <li><a href="#phase6">第六階段：驗證測試</a></li>
+                <li><a href="#phase7">第七階段：切換上線</a></li>
+                <li><a href="#rollback">回滾方案</a></li>
+                <li><a href="#checklist">完整檢查清單</a></li>
+            </ul>
+        </nav>
+        
+        <!-- Overview -->
+        <section class="section" id="overview">
+            <div class="section-header">
+                <span class="section-number">📊</span>
+                <h2>遷移概覽</h2>
+            </div>
+            
+            <h3>遷移目標</h3>
+            <table>
+                <tr>
+                    <th>項目</th>
+                    <th>舊環境（Linux）</th>
+                    <th>新環境（macOS）</th>
+                </tr>
+                <tr>
+                    <td>機器</td>
+                    <td>Linux 伺服器</td>
+                    <td>Mac Mini</td>
+                </tr>
+                <tr>
+                    <td>OpenClaw 路徑</td>
+                    <td><code>/root/.openclaw</code></td>
+                    <td><code>/Users/adai/.openclaw</code></td>
+                </tr>
+                <tr>
+                    <td>用戶</td>
+                    <td>root</td>
+                    <td>adai</td>
+                </tr>
+                <tr>
+                    <td>Telegram Bot</td>
+                    <td>新 Bot</td>
+                    <td>原有 Bot（保留）</td>
+                </tr>
+            </table>
+            
+            <h3>主要挑戰</h3>
+            <div class="alert alert-warning">
+                <span class="alert-icon">⚠️</span>
+                <div class="alert-content">
+                    <strong>硬編碼路徑問題：</strong>workspace 中的多個腳本使用絕對路徑 <code>/root/.openclaw</code>，需要批量替換為 <code>/Users/adai/.openclaw</code>。
+                </div>
+            </div>
+            
+            <div class="alert alert-warning">
+                <span class="alert-icon">⚠️</span>
+                <div class="alert-content">
+                    <strong>操作系統差異：</strong>Chrome 路徑不同、服務管理方式不同（systemd → launchd）、Python 環境可能不同。
+                </div>
+            </div>
+            
+            <div class="alert alert-danger">
+                <span class="alert-icon">🚨</span>
+                <div class="alert-content">
+                    <strong>Bot Token 衝突：</strong>兩台機器不能同時使用同一個 Telegram Bot Token，必須按策略配置。
+                </div>
+            </div>
+        </section>
+        
+        <!-- Bot Strategy -->
+        <section class="section" id="bot-strategy">
+            <div class="section-header">
+                <span class="section-number">🤖</span>
+                <h2>Bot 配置策略</h2>
+            </div>
+            
+            <p>根據需求，採用以下配置方案：</p>
+            
+            <div class="bot-flow">
+                <div class="bot-box moving">
+                    <div class="bot-icon">📱</div>
+                    <div class="bot-label">原有 Bot</div>
+                    <div class="bot-status">遷移到 Mac Mini<br>Frank 繼續使用</div>
+                </div>
+                <div class="arrow">→</div>
+                <div class="bot-box new">
+                    <div class="bot-icon">🖥️</div>
+                    <div class="bot-label">新 Bot</div>
+                    <div class="bot-status">Linux 伺服器使用<br>用於過渡期/備份</div>
+                </div>
+            </div>
+            
+            <h3>為什麼不能共用 Bot？</h3>
+            <ul>
+                <li>Telegram 只允許一個 Webhook/Long polling 連接 per Bot</li>
+                <li>兩個實例會互相搶消息，導致消息丟失或重複</li>
+                <li>可能觸發 Telegram 的速率限制，導致帳號被封</li>
+            </ul>
+            
+            <h3>新 Bot 創建步驟（在 Linux 伺服器上）</h3>
+            <ol>
+                <li>在 Telegram 中搜索 <strong>@BotFather</strong></li>
+                <li>發送 <code>/newbot</code> 命令</li>
+                <li>按提示設置 Bot 名稱和用戶名（如 <code>@frank_xiaoer_backup_bot</code>）</li>
+                <li>記錄下 Bot Token（格式：<code>123456789:ABCdefGHIjklMNOpqrsTUVwxyz</code>）</li>
+                <li>（可選）設置 Bot 頭像和描述以區分</li>
+            </ol>
+            
+            <div class="alert alert-info">
+                <span class="alert-icon">💡</span>
+                <div class="alert-content">
+                    <strong>提示：</strong>新 Bot 用於 Linux 伺服器過渡期，待 Mac Mini 完全穩定後，可以選擇停用 Linux 上的 OpenClaw。
+                </div>
+            </div>
+        </section>
+        
+        <!-- Phase 1 -->
+        <section class="section" id="phase1">
+            <div class="section-header">
+                <span class="section-number">1</span>
+                <h2>第一階段：準備工作</h2>
+            </div>
+            
+            <h3>1.1 在 Mac Mini 上安裝 OpenClaw</h3>
+            <pre><code class="language-bash"># 安裝 OpenClaw（根據官方最新文檔）
+curl -fsSL https://openclaw.ai/install.sh | bash
+
+# 確認安裝路徑
+ls -la ~/.openclaw/
+# 應該是 /Users/adai/.openclaw</code></pre>
+            
+            <h3>1.2 安裝依賴軟件</h3>
+            <pre><code class="language-bash"># 安裝 Homebrew（如果還沒有）
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+# 安裝必要工具
+brew install python@3.11 git rsync
+
+# 安裝 gunicorn（用於 News API）
+pip3 install gunicorn flask
+
+# 安裝 Google Chrome（瀏覽器自動化需要）
+brew install --cask google-chrome</code></pre>
+            
+            <h3>1.3 為 Linux 創建新 Bot</h3>
+            <p>按照上方「Bot 配置策略」部分的步驟，在 Telegram 中創建新 Bot，並記錄 Token。</p>
+        </section>
+        
+        <!-- Phase 2 -->
+        <section class="section" id="phase2">
+            <div class="section-header">
+                <span class="section-number">2</span>
+                <h2>第二階段：數據遷移</h2>
+            </div>
+            
+            <h3>2.1 在 Linux 上打包數據</h3>
+            <pre><code class="language-bash"># 進入 root 家目錄
+cd /root
+
+# 方法 A：打包為壓縮檔
+tar czvf openclaw-backup-$(date +%Y%m%d).tar.gz .openclaw/
+
+# 方法 B：直接使用 rsync 傳輸（推薦，更快）
+rsync -avz --progress /root/.openclaw/ adai@mac-mini-ip:/Users/adai/.openclaw-temp/</code></pre>
+            
+            <h3>2.2 傳輸到 Mac Mini</h3>
+            <p>如果使用壓縮檔方式，將檔案傳輸到 Mac：</p>
+            <pre><code class="language-bash"># 在 Mac Mini 上執行
+scp root@linux-server-ip:/root/openclaw-backup-*.tar.gz ~/
+
+# 解壓
+cd ~
+tar xzvf openclaw-backup-*.tar.gz
+
+# 如果用了 rsync，直接移動
+mv ~/.openclaw-temp ~/.openclaw</code></pre>
+            
+            <h3>2.3 備份原始配置</h3>
+            <pre><code class="language-bash"># 在 Mac Mini 上備份，以防萬一
+cp -r ~/.openclaw ~/.openclaw-backup-before-migration</code></pre>
+        </section>
+        
+        <!-- Phase 3 -->
+        <section class="section" id="phase3">
+            <div class="section-header">
+                <span class="section-number">3</span>
+                <h2>第三階段：路徑替換（關鍵步驟）</h2>
+            </div>
+            
+            <h3>3.1 批量替換硬編碼路徑</h3>
+            <div class="alert alert-danger">
+                <span class="alert-icon">🚨</span>
+                <div class="alert-content">
+                    <strong>警告：</strong>執行前務必確認已經備份！
+                </div>
+            </div>
+            
+            <pre><code class="language-bash"># 進入 workspace 目錄
+cd /Users/adai/.openclaw/workspace
+
+# 查找所有包含 /root/.openclaw 的文件
+grep -r "/root/.openclaw" . --include="*.py" --include="*.sh" --include="*.json" --include="*.md"
+
+# 批量替換（macOS 的 sed 語法與 Linux 略有不同）
+find . -type f \( -name "*.py" -o -name "*.sh" -o -name "*.json" -o -name "*.md" \) \
+  -exec sed -i '' 's|/root/.openclaw|/Users/adai/.openclaw|g' {} +
+
+# 同時替換 /root/project（如果有引用外部項目）
+find . -type f \( -name "*.py" -o -name "*.sh" \) \
+  -exec sed -i '' 's|/root/project|/Users/adai/project|g' {} +</code></pre>
+            
+            <h3>3.2 驗證替換結果</h3>
+            <pre><code class="language-bash"># 檢查是否還有遺漏的 /root/ 路徑
+grep -r "/root/" . --include="*.py" --include="*.sh" | grep -v ".bak"
+
+# 應該沒有輸出，或只有註釋中的</code></pre>
+            
+            <h3>3.3 修改主配置文件</h3>
+            <p>編輯 <span class="filepath">/Users/adai/.openclaw/openclaw.json</span>：</p>
+            
+            <pre><code class="language-json">{
+  "browser": {
+    "enabled": true,
+    "executablePath": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+    "headless": true,
+    "noSandbox": false,
+    "defaultProfile": "openclaw",
+    "profiles": {
+      "openclaw": {
+        "cdpPort": 18801,
+        "color": "#FF4500"
+      }
+    }
+  }
+}</code></pre>
+            
+            <div class="alert alert-info">
+                <span class="alert-icon">💡</span>
+                <div class="alert-content">
+                    <strong>注意：</strong>macOS 上不需要 <code>noSandbox: true</code>，這是 Linux 特有的需求。
+                </div>
+            </div>
+            
+            <h3>3.4 需要修改的文件清單</h3>
+            <table>
+                <tr>
+                    <th>文件類型</th>
+                    <th>路徑示例</th>
+                    <th>修改內容</th>
+                </tr>
+                <tr>
+                    <td>Python 腳本</td>
+                    <td><code>workspace/monitoring/*.py</code></td>
+                    <td><code>/root/</code> → <code>/Users/adai/</code></td>
+                </tr>
+                <tr>
+                    <td>Python 腳本</td>
+                    <td><code>workspace/news-api/*.py</code></td>
+                    <td><code>/root/</code> → <code>/Users/adai/</code></td>
+                </tr>
+                <tr>
+                    <td>Python 腳本</td>
+                    <td><code>workspace/scripts/*.py</code></td>
+                    <td><code>/root/</code> → <code>/Users/adai/</code></td>
+                </tr>
+                <tr>
+                    <td>Shell 腳本</td>
+                    <td><code>workspace/ai-story/*.sh</code></td>
+                    <td><code>/root/</code> → <code>/Users/adai/</code></td>
+                </tr>
+                <tr>
+                    <td>Shell 腳本</td>
+                    <td><code>workspace/news-api/*.sh</code></td>
+                    <td><code>/root/</code> → <code>/Users/adai/</code></td>
+                </tr>
+                <tr>
+                    <td>配置文件</td>
+                    <td><code>openclaw.json</code></td>
+                    <td>Chrome 路徑更新</td>
+                </tr>
+            </table>
+        </section>
+        
+        <!-- Phase 4 -->
+        <section class="section" id="phase4">
+            <div class="section-header">
+                <span class="section-number">4</span>
+                <h2>第四階段：Bot 配置</h2>
+            </div>
+            
+            <h3>4.1 Mac Mini 配置（使用原有 Bot）</h3>
+            <p>編輯 <span class="filepath">/Users/adai/.openclaw/openclaw.json</span>，保持原有 Token 不變：</p>
+            
+            <pre><code class="language-json">{
+  "channels": {
+    "telegram": {
+      "enabled": true,
+      "dmPolicy": "pairing",
+      "bots": {
+        "main": {
+          "token": "[原有Bot的Token，保持不變]",
+          "accountId": "main"
+        }
+      },
+      "groups": {
+        "-5144282791": {
+          "requireMention": true,
+          "allowFrom": ["*"]
+        }
+      }
+    }
+  },
+  "dispatch": {
+    "rules": [
+      {
+        "agentId": "main",
+        "match": {
+          "channel": "telegram",
+          "accountId": "main"
+        }
+      },
+      {
+        "agentId": "xiaoer",
+        "match": {
+          "channel": "telegram",
+          "accountId": "xiaoer"
+        }
+      }
+    ]
+  }
+}</code></pre>
+            
+            <h3>4.2 Linux 伺服器配置（使用新 Bot）</h3>
+            <p>在 Linux 上編輯 <span class="filepath">/root/.openclaw/openclaw.json</span>，更新為新 Bot Token：</p>
+            
+            <pre><code class="language-json">{
+  "channels": {
+    "telegram": {
+      "enabled": true,
+      "dmPolicy": "pairing",
+      "bots": {
+        "main": {
+          "token": "[新創建的Bot Token]",
+          "accountId": "main_backup"
+        }
+      }
+    }
+  },
+  "dispatch": {
+    "rules": [
+      {
+        "agentId": "main",
+        "match": {
+          "channel": "telegram",
+          "accountId": "main_backup"
+        }
+      }
+    ]
+  }
+}</code></pre>
+            
+            <div class="alert alert-warning">
+                <span class="alert-icon">⚠️</span>
+                <div class="alert-content">
+                    <strong>重要：</strong>兩台機器的 <code>accountId</code> 必須不同，否則會導致路由混亂。
+                </div>
+            </div>
+        </section>
+        
+        <!-- Phase 5 -->
+        <section class="section" id="phase5">
+            <div class="section-header">
+                <span class="section-number">5</span>
+                <h2>第五階段：服務遷移</h2>
+            </div>
+            
+            <h3>5.1 創建 News API Launchd 服務</h3>
+            <p>macOS 使用 <code>launchd</code> 替代 <code>systemd</code>。</p>
+            
+            <p>創建文件 <span class="filepath">/Users/adai/Library/LaunchAgents/com.frank.news-api.plist</span>：</p>
+            
+            <pre><code class="language-xml">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" 
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd"&gt;
+&lt;plist version="1.0"&gt;
+&lt;dict&gt;
+    &lt;key&gt;Label&lt;/key&gt;
+    &lt;string&gt;com.frank.news-api&lt;/string&gt;
+    
+    &lt;key&gt;ProgramArguments&lt;/key&gt;
+    &lt;array&gt;
+        &lt;string&gt;/usr/local/bin/gunicorn&lt;/string&gt;
+        &lt;string&gt;-w&lt;/string&gt;
+        &lt;string&gt;1&lt;/string&gt;
+        &lt;string&gt;-b&lt;/string&gt;
+        &lt;string&gt;127.0.0.1:8888&lt;/string&gt;
+        &lt;string&gt;--access-logfile&lt;/string&gt;
+        &lt;string&gt;-&lt;/string&gt;
+        &lt;string&gt;--error-logfile&lt;/string&gt;
+        &lt;string&gt;-&lt;/string&gt;
+        &lt;string&gt;app:app&lt;/string&gt;
+    &lt;/array&gt;
+    
+    &lt;key&gt;WorkingDirectory&lt;/key&gt;
+    &lt;string&gt;/Users/adai/.openclaw/workspace/news-api&lt;/string&gt;
+    
+    &lt;key&gt;EnvironmentVariables&lt;/key&gt;
+    &lt;dict&gt;
+        &lt;key&gt;PATH&lt;/key&gt;
+        &lt;string&gt;/usr/local/bin:/usr/bin:/bin&lt;/string&gt;
+        &lt;key&gt;PYTHONPATH&lt;/key&gt;
+        &lt;string&gt;/Users/adai/.openclaw/workspace/news-api&lt;/string&gt;
+    &lt;/dict&gt;
+    
+    &lt;key&gt;RunAtLoad&lt;/key&gt;
+    &lt;true/&gt;
+    &lt;key&gt;KeepAlive&lt;/key&gt;
+    &lt;true/&gt;
+    
+    &lt;key&gt;StandardOutPath&lt;/key&gt;
+    &lt;string&gt;/Users/adai/.openclaw/logs/news-api.out&lt;/string&gt;
+    &lt;key&gt;StandardErrorPath&lt;/key&gt;
+    &lt;string&gt;/Users/adai/.openclaw/logs/news-api.err&lt;/string&gt;
+&lt;/dict&gt;
+&lt;/plist&gt;</code></pre>
+            
+            <h3>5.2 加載服務</h3>
+            <pre><code class="language-bash"># 創建日誌目錄
+mkdir -p /Users/adai/.openclaw/logs
+
+# 加載服務
+launchctl load ~/Library/LaunchAgents/com.frank.news-api.plist
+
+# 啟動服務
+launchctl start com.frank.news-api
+
+# 檢查狀態
+launchctl list | grep com.frank.news-api
+
+# 測試 API
+curl http://127.0.0.1:8888/health</code></pre>
+            
+            <h3>5.3 檢查 Cron 任務</h3>
+            <p>OpenClaw 內部的 Cron 存儲在 <span class="filepath">/Users/adai/.openclaw/cron/jobs.json</span>，檢查其中的路徑是否已正確更新。</p>
+        </section>
+        
+        <!-- Phase 6 -->
+        <section class="section" id="phase6">
+            <div class="section-header">
+                <span class="section-number">6</span>
+                <h2>第六階段：驗證測試</h2>
+            </div>
+            
+            <h3>6.1 驗證腳本</h3>
+            <p>創建並運行驗證腳本：</p>
+            
+            <pre><code class="language-bash">#!/bin/bash
+# save as: verify-migration.sh
+
+echo "=== OpenClaw 遷移驗證 ==="
+
+# 1. 檢查路徑
+echo "1. 檢查硬編碼路徑..."
+if grep -r "/root/.openclaw" /Users/adai/.openclaw/workspace \
+  --include="*.py" --include="*.sh" 2>/dev/null | grep -v ".bak"; then
+    echo "❌ 發現未替換的 /root/.openclaw 路徑"
+else
+    echo "✅ 路徑替換完成"
+fi
+
+# 2. 檢查瀏覽器
+echo "2. 檢查 Chrome 路徑..."
+if [ -f "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" ]; then
+    echo "✅ Chrome 已安裝"
+else
+    echo "❌ Chrome 未找到，請安裝"
+fi
+
+# 3. 檢查關鍵腳本語法
+echo "3. 檢查 Python 腳本語法..."
+for script in /Users/adai/.openclaw/workspace/scripts/*.py; do
+    if python3 -m py_compile "$script" 2>/dev/null; then
+        echo "  ✅ $(basename $script)"
+    else
+        echo "  ❌ $(basename $script) - 語法錯誤"
+    fi
+done
+
+# 4. 檢查服務
+echo "4. 檢查 News API 服務..."
+if curl -s http://127.0.0.1:8888/health 2>/dev/null; then
+    echo "✅ News API 運行中"
+else
+    echo "❌ News API 未運行"
+fi
+
+# 5. 檢查配置文件
+echo "5. 檢查配置文件..."
+if [ -f "/Users/adai/.openclaw/openclaw.json" ]; then
+    echo "✅ openclaw.json 存在"
+    # 檢查 Chrome 路徑
+    if grep -q "Google Chrome.app" /Users/adai/.openclaw/openclaw.json; then
+        echo "✅ Chrome 路徑已配置為 macOS"
+    else
+        echo "⚠️  Chrome 路徑可能需要更新"
+    fi
+else
+    echo "❌ openclaw.json 不存在"
+fi
+
+echo "=== 驗證完成 ==="</code></pre>
+            
+            <h3>6.2 功能測試清單</h3>
+            <ul class="checklist">
+                <li>發送消息給原有 Bot，確認 Mac Mini 能收到並回復</li>
+                <li>測試 <code>web_search</code> 工具</li>
+                <li>測試 <code>browser</code> 工具（打開網頁截圖）</li>
+                <li>測試自定義腳本（如天氣查詢）</li>
+                <li>測試小二（Xiaoer）是否正常運作</li>
+                <li>等待一次 Cron 任務執行（如新聞生成）</li>
+                <li>檢查 News API 是否正常響應</li>
+            </ul>
+        </section>
+        
+        <!-- Phase 7 -->
+        <section class="section" id="phase7">
+            <div class="section-header">
+                <span class="section-number">7</span>
+                <h2>第七階段：切換上線</h2>
+            </div>
+            
+            <h3>切換時間線</h3>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-title">T+0: 配置完成</div>
+                    <div class="timeline-content">Mac Mini 配置完成，使用原有 Bot Token；Linux 配置新 Bot Token。</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-title">T+1: 功能測試</div>
+                    <div class="timeline-content">測試所有功能正常，Frank 開始使用 Mac Mini 上的 Bot。</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-title">T+2: 並行運行（可選）</div>
+                    <div class="timeline-content">兩台機器同時運行，但使用不同 Bot，互不影響。</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-title">T+3: 停用舊機器（可選）</div>
+                    <div class="timeline-content">確認 Mac Mini 穩定後，停止 Linux 上的 OpenClaw。</div>
+                </div>
+            </div>
+            
+            <h3>停用 Linux OpenClaw</h3>
+            <pre><code class="language-bash"># 在 Linux 上執行
+# 停止 OpenClaw
+openclaw gateway stop
+
+# 停止 News API 服務
+sudo systemctl stop news-api
+sudo systemctl disable news-api</code></pre>
+        </section>
+        
+        <!-- Rollback -->
+        <section class="section" id="rollback">
+            <div class="section-header">
+                <span class="section-number">↩️</span>
+                <h2>回滾方案</h2>
+            </div>
+            
+            <p>如果遷移過程中出現問題，可以快速回滾：</p>
+            
+            <h3>場景 A：Mac Mini 無法正常運作</h3>
+            <pre><code class="language-bash"># 在 Linux 上快速恢復
+sudo systemctl start news-api
+openclaw gateway start
+
+# 通知 Frank 繼續使用原有 Bot（仍在 Linux 上）</code></pre>
+            
+            <h3>場景 B：數據損壞</h3>
+            <pre><code class="language-bash"># 在 Mac Mini 上恢復備份
+cp -r ~/.openclaw-backup-before-migration ~/.openclaw
+
+# 重新執行遷移步驟</code></pre>
+        </section>
+        
+        <!-- Checklist -->
+        <section class="section" id="checklist">
+            <div class="section-header">
+                <span class="section-number">✅</span>
+                <h2>完整檢查清單</h2>
+            </div>
+            
+            <h3>遷移前檢查</h3>
+            <ul class="checklist">
+                <li>已創建 Linux 伺服器的新 Telegram Bot</li>
+                <li>已記錄新 Bot Token</li>
+                <li>Mac Mini 已安裝 OpenClaw</li>
+                <li>Mac Mini 已安裝 Chrome、Python、Gunicorn</li>
+                <li>已備份 Linux 上的 <code>.openclaw</code> 目錄</li>
+            </ul>
+            
+            <h3>遷移中檢查</h3>
+            <ul class="checklist">
+                <li>數據已成功傳輸到 Mac Mini</li>
+                <li>已執行路徑批量替換</li>
+                <li>已更新 <code>openclaw.json</code> 中的 Chrome 路徑</li>
+                <li>已配置正確的 Bot Token（Mac 用舊，Linux 用新）</li>
+                <li>已創建 launchd 服務文件</li>
+                <li>已加載並啟動 News API 服務</li>
+            </ul>
+            
+            <h3>遷移後檢查</h3>
+            <ul class="checklist">
+                <li>Frank 可以正常與 Mac Mini 上的 Bot 對話</li>
+                <li>web_search 工具正常工作</li>
+                <li>browser 工具正常工作</li>
+                <li>News API 可以訪問</li>
+                <li>Cron 任務正常執行</li>
+                <li>小二（Xiaoer）正常運作</li>
+                <li>所有自定義腳本正常運行</li>
+            </ul>
+            
+            <h3>特別注意事項</h3>
+            <div class="alert alert-info">
+                <span class="alert-icon">💡</span>
+                <div class="alert-content">
+                    <ul style="margin: 0;">
+                        <li><strong>外部項目路徑：</strong>如果有引用 <code>/root/project</code> 下的項目（如博客源碼），需要在 Mac 上創建相同的目錄結構或遷移那些項目。</li>
+                        <li><strong>Git 倉庫：</strong>workspace 是 git 倉庫，遷移後檢查 remote 配置：<code>git remote -v</code></li>
+                        <li><strong>文件權限：</strong>可能需要調整腳本權限：<code>chmod +x /Users/adai/.openclaw/workspace/scripts/*.sh</code></li>
+                        <li><strong>防火牆：</strong>確保 Mac Mini 的防火牆允許所需端口（如 8888 for News API）</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Footer -->
+        <footer>
+            <p>📝 OpenClaw 遷移指南 | Created by 阿呆 for Frank</p>
+            <p>最後更新：2026-03-11</p>
+        </footer>
+    </div>
+    
+    <!-- Back to top -->
+    <a href="#" class="back-to-top">↑</a>
+    
+    <script>
+        // Highlight.js
+        hljs.highlightAll();
+        
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>

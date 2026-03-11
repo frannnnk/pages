@@ -1,0 +1,262 @@
+{
+  "title": "Frank 早報 - 2026-03-11",
+  "date": "2026-03-11",
+  "weather": {
+    "temperature": "17-22°C",
+    "condition": "初時大致多雲，日間漸轉天晴及乾燥",
+    "humidity": "78%",
+    "outlook": "明日天晴，日夜溫差較大"
+  },
+  "sections": [
+    {
+      "title": "🌍 國際新聞",
+      "items": [
+        {
+          "title": "Iran Names Mojtaba Khamenei as New Supreme Leader",
+          "title_zh": "伊朗任命穆傑塔巴·哈梅內伊為新最高領袖",
+          "desc": "Iran has officially named Mojtaba Khamenei as its new supreme leader, marking a significant transition in the country's political leadership.",
+          "desc_zh": "伊朗已正式任命穆傑塔巴·哈梅內伊為新最高領袖，標誌著該國政治領導層的重大過渡。",
+          "url": "https://www.npr.org/sections/world/",
+          "date": "2026-03-09",
+          "source": "NPR"
+        },
+        {
+          "title": "Oil Prices Soar as Middle East Conflict Escalates",
+          "title_zh": "中東衝突升級推高油價",
+          "desc": "The oil crunch will force governments to choose between rapid price rises or costly subsidies, which in Europe hit 3.7% of GDP after the Ukraine war.",
+          "desc_zh": "石油危機將迫使各國政府在價格快速上漲和昂貴補貼之間做出選擇，歐洲在烏克蘭戰爭後補貼佔 GDP 的 3.7%。",
+          "url": "https://www.reuters.com/",
+          "date": "2026-03-11",
+          "source": "Reuters"
+        },
+        {
+          "title": "America and Israel Launch Extensive Attack on Iran",
+          "title_zh": "美國和以色列對伊朗發動大規模襲擊",
+          "desc": "America and Israel launched an extensive attack on Iran, as Donald Trump promised to end the country's nuclear program.",
+          "desc_zh": "美國和以色列對伊朗發動了大規模襲擊，正如唐納德·特朗普承諾終結該國的核計劃。",
+          "url": "https://www.economist.com/the-world-this-week/2026/03/05/politics",
+          "date": "2026-03-07",
+          "source": "The Economist"
+        },
+        {
+          "title": "Geoeconomic Confrontation Tops Global Risks for 2026",
+          "title_zh": "地緣經濟對抗成為 2026 年全球首要風險",
+          "desc": "Geoeconomic confrontation is top of mind for respondents and was selected as the top risk most likely to trigger a material global crisis in 2026 by 18% of respondents.",
+          "desc_zh": "地緣經濟對抗是受訪者最關心的問題，18% 的受訪者選擇其為 2026 年最可能引發重大全球危機的首要風險。",
+          "url": "https://www.weforum.org/publications/global-risks-report-2026/digest/",
+          "date": "2026-03-10",
+          "source": "World Economic Forum"
+        },
+        {
+          "title": "US Trade Deficit and Supreme Court Tariffs Ruling",
+          "title_zh": "美國貿易逆差與最高法院關稅裁決",
+          "desc": "Middle East conflict hits shipping, oil prices, and other international trade news including US goods trade deficit and Supreme Court tariffs ruling.",
+          "desc_zh": "中東衝突影響航運、油價及其他國際貿易新聞，包括美國商品貿易逆差和最高法院關稅裁決。",
+          "url": "https://www.weforum.org/stories/2026/03/us-trade-deficit-international-trade-stories-march-2026/",
+          "date": "2026-03-10",
+          "source": "World Economic Forum"
+        }
+      ]
+    },
+    {
+      "title": "🇨🇳 中國大陸新聞",
+      "items": [
+        {
+          "title": "China Sets Lowest GDP Growth Target at 4.5-5% for 2026",
+          "title_zh": "中國設定 2026 年 GDP 增長目標為 4.5-5%，創歷史新低",
+          "desc": "China has set its target for GDP growth to a record low of 4.5-5%, the first time since 1991 that the figure has dropped below 5%, reflecting an economic strategy shifting away from export-led growth.",
+          "desc_zh": "中國將 GDP 增長目標設定為歷史新低的 4.5-5%，這是自 1991 年以來首次降至 5% 以下，反映了經濟戰略從出口導向增長的轉變。",
+          "url": "https://www.theguardian.com/world/2026/mar/05/china-gdp-growth-target-economic-slowdown",
+          "date": "2026-03-05",
+          "source": "The Guardian"
+        },
+        {
+          "title": "China's Parliament Rolls Out Economic and Political Blue-print",
+          "title_zh": "中國人大推出經濟政治藍圖",
+          "desc": "China's political elite gathered in Beijing as President Xi Jinping unveiled a sweeping roadmap for the country's economic and political development over the next five years.",
+          "desc_zh": "中國政治精英聚集北京，習近平主席公布了未來五年國家經濟和政治發展的全面路線圖。",
+          "url": "https://www.reuters.com/world/asia-pacific/chinas-parliament-rolls-out-economic-political-blue-print-heres-what-you-need-2026-03-05/",
+          "date": "2026-03-05",
+          "source": "Reuters"
+        },
+        {
+          "title": "China Plans 1.3 Trillion Yuan in Ultra-Long-Term Special Treasury Bonds",
+          "title_zh": "中國計劃發行 1.3 萬億元超長期特別國債",
+          "desc": "China plans to issue 1.3 trillion yuan ($188.5 billion) in ultra-long-term special treasury bonds in 2026, same as last year, to support economic growth.",
+          "desc_zh": "中國計劃在 2026 年發行 1.3 萬億元（1885 億美元）超長期特別國債，與去年持平，以支持經濟增長。",
+          "url": "https://www.cnbc.com/2026/03/05/china-gdp-two-sessions-.html",
+          "date": "2026-03-05",
+          "source": "CNBC"
+        },
+        {
+          "title": "China's Latest Economic Plans Highlight Tech Ambitions",
+          "title_zh": "中國最新經濟計劃突出科技雄心",
+          "desc": "Two major economic plans unveiled at the annual meeting of China's legislature outline top priorities including building a robust domestic market and accelerating technological progress.",
+          "desc_zh": "中國立法機構年會上公布的兩項重大經濟計劃概述了首要任務，包括建立強大的國內市場和加速技術進步。",
+          "url": "https://apnews.com/article/china-five-year-plan-technology-economy-7face4580fcfba44410ff2134a09d6bb",
+          "date": "2026-03-08",
+          "source": "AP News"
+        },
+        {
+          "title": "Two Sessions: China Sets Priorities for 2026 and Beyond",
+          "title_zh": "兩會：中國設定 2026 年及未來優先事項",
+          "desc": "The annual meetings of the National People's Congress (NPC) and the Chinese People's Political Consultative Conference (CPPCC), from March 4 to 12, have drawn global attention.",
+          "desc_zh": "3 月 4 日至 12 日舉行的全國人民代表大會和中國人民政治協商會議年度會議吸引了全球關注。",
+          "url": "https://www.benningtonbanner.com/online_features/press_releases/china-sets-priorities-for-2026-and-beyond-at-the-two-sessions/article_0f7fb116-aff2-5918-8702-c1bcdb2ed6bd.html",
+          "date": "2026-03-10",
+          "source": "Bennington Banner"
+        }
+      ]
+    },
+    {
+      "title": "🇭🇰 香港新聞",
+      "items": [
+        {
+          "title": "Hong Kong Budget Surplus Masks Mounting Structural Deficit",
+          "title_zh": "香港財政盈餘掩蓋日益嚴重的結構性赤字",
+          "desc": "The Hong Kong government has squeezed out an estimated surplus for the fiscal year ending March 31, 2026, supported by stronger-than-expected revenue from stock-trading stamp duties.",
+          "desc_zh": "香港政府在截至 2026 年 3 月 31 日的財政年度勉強實現盈餘，得益於超出預期的股票交易印花稅收入。",
+          "url": "https://asiatimes.com/2026/02/hong-kongs-budget-surplus-masks-mounting-structural-deficit/",
+          "date": "2026-03-04",
+          "source": "Asia Times"
+        },
+        {
+          "title": "JPMorgan Raises Hong Kong Home Price Growth Forecast to 10-15%",
+          "title_zh": "摩根大通上調香港樓價增長預測至 10-15%",
+          "desc": "JPMorgan raised its 2026 home price growth forecast to between 10 per cent and 15 per cent, up from its previous 5 per cent to 7 per cent estimate, citing faster price acceleration.",
+          "desc_zh": "摩根大通將 2026 年樓價增長預測從之前的 5-7% 上調至 10-15%，理由是價格加速上漲。",
+          "url": "https://www.scmp.com/business/article/3344361/more-banks-catch-hong-kongs-housing-rebound-upgrade-market-forecast",
+          "date": "2026-03-09",
+          "source": "SCMP"
+        },
+        {
+          "title": "Hong Kong Fiscal Reserves Projected at HKD 657.2 Billion",
+          "title_zh": "香港財政儲備預計達 6572 億港元",
+          "desc": "Hong Kong's fiscal reserves remain relatively healthy and are projected to stand at HKD 657.2 billion as at 31 March 2026.",
+          "desc_zh": "香港財政儲備保持相對健康，預計截至 2026 年 3 月 31 日將達 6572 億港元。",
+          "url": "https://kpmg.com/cn/en/insights/2026/02/hong-kong-budget-2026-2027.html",
+          "date": "2026-02-26",
+          "source": "KPMG"
+        },
+        {
+          "title": "Hong Kong Economy Expected to Grow 2.5-3.5% in 2026",
+          "title_zh": "香港經濟預計 2026 年增長 2.5-3.5%",
+          "desc": "Real GDP growth for 2026 is forecast to range from 2.5% to 3.5%, with reserves remaining at a structurally healthy level to support long-term development.",
+          "desc_zh": "2026 年實際 GDP 增長預計為 2.5% 至 3.5%，儲備保持結構性健康水平以支持長期發展。",
+          "url": "https://kpmg.com/cn/en/media/press-releases/2026/02/hong-kong-budget-2026-2027.html",
+          "date": "2026-02-26",
+          "source": "KPMG"
+        },
+        {
+          "title": "Sandy Ridge Data Facility Cluster to Enhance Computing Power",
+          "title_zh": "沙嶺數據設施群將提升計算能力",
+          "desc": "The data facility cluster at Sandy Ridge, which can provide a gross floor area of 250,000 square metres, will further enhance Hong Kong's overall computing power.",
+          "desc_zh": "沙嶺數據設施群可提供 25 萬平方米總樓面面積，將進一步提升香港整體計算能力。",
+          "url": "https://www.budget.gov.hk/2026/eng/budget07.html",
+          "date": "2026-02-26",
+          "source": "Hong Kong Budget"
+        }
+      ]
+    },
+    {
+      "title": "📈 港股關注 - 萬國數據 GDS",
+      "items": [
+        {
+          "title": "GDS Holdings Stock Price at $40.87 as of March 6, 2026",
+          "title_zh": "萬國數據股價截至 3 月 6 日為 40.87 美元",
+          "desc": "The current stock price of GDS Holdings is $40.87 as of March 6, 2026, with analysts maintaining a Strong Buy rating.",
+          "desc_zh": "截至 2026 年 3 月 6 日，萬國數據當前股價為 40.87 美元，分析師維持強烈買入評級。",
+          "url": "https://www.stocktitan.net/overview/GDS/",
+          "date": "2026-03-06",
+          "source": "StockTitan"
+        },
+        {
+          "title": "Analysts Set GDS 12-Month Price Target at $46.20",
+          "title_zh": "分析師設定 GDS 12 個月目標價 46.20 美元",
+          "desc": "According to 9 analysts, the average rating for GDS stock is 'Strong Buy.' The 12-month stock price target is $46.20, an increase of 12.90% from the latest price.",
+          "desc_zh": "根據 9 位分析師，GDS 股票平均評級為「強烈買入」。12 個月目標價為 46.20 美元，較最新價格上漲 12.90%。",
+          "url": "https://stockanalysis.com/stocks/gds/",
+          "date": "2026-03-10",
+          "source": "Stock Analysis"
+        },
+        {
+          "title": "GDS C-REIT Projected Dividend Yield for 2026 at 5.2%",
+          "title_zh": "GDS C-REIT 2026 年預計股息收益率 5.2%",
+          "desc": "At the final offering price, the implied dividend yield per unit, based on the projected cash flow available for distribution for 2026, is 5.2 per cent.",
+          "desc_zh": "按最終發售價計算，基於 2026 年預計可分派現金流，每股隐含股息收益率為 5.2%。",
+          "url": "https://investors.gds-services.com/news-releases/news-release-details/gds-announces-final-offering-price-its-c-reit-initial-public",
+          "date": "2026-03-08",
+          "source": "GDS Investors"
+        },
+        {
+          "title": "GDS to Report Q4 and Full Year 2025 Results on March 17",
+          "title_zh": "GDS 將於 3 月 17 日發布 2025 年第四季度及全年業績",
+          "desc": "GDS Holdings will report Fourth Quarter and Full Year 2025 Financial Results Before the Open of the U.S. Market on March 17, 2026.",
+          "desc_zh": "萬國數據將於 2026 年 3 月 17 日美國市場開盤前發布 2025 年第四季度及全年財務業績。",
+          "url": "https://investors.gds-services.com/",
+          "date": "2026-03-10",
+          "source": "GDS Investors"
+        },
+        {
+          "title": "GDS C-REIT Valuation at 22.0x 2026E EBITDA",
+          "title_zh": "GDS C-REIT 估值達 2026 年預期 EBITDA 的 22 倍",
+          "desc": "The C-REIT has been well-received by the market, with a valuation of approximately 22.0x 2026E EBITDA, surpassing expectations.",
+          "desc_zh": "C-REIT 獲得市場熱烈反應，估值約為 2026 年預期 EBITDA 的 22 倍，超出預期。",
+          "url": "https://www.investing.com/news/swot-analysis/gds-holdings-swot-analysis-data-center-giants-stock-poised-for-growth-93CH-4218220",
+          "date": "2025-09-01",
+          "source": "Investing.com"
+        }
+      ]
+    },
+    {
+      "title": "🤖 AI 和 OpenClaw 新聞",
+      "items": [
+        {
+          "title": "Chinese Tech Hubs Promote OpenClaw Despite Security Warnings",
+          "title_zh": "中國科技中心無視安全警告推廣 OpenClaw",
+          "desc": "Local governments in several Chinese tech and manufacturing hubs have announced measures to build an industry around OpenClaw, even as regulators warn of security risks linked to its access to personal data.",
+          "desc_zh": "中國多個科技和製造中心的当地政府宣布圍繞 OpenClaw 建立產業的措施，儘管監管機構警告其訪問個人數據的安全風險。",
+          "url": "https://www.reuters.com/world/asia-pacific/chinas-shenzhen-backs-openclaw-ai-with-subsidies-despite-beijings-security-2026-03-09/",
+          "date": "2026-03-09",
+          "source": "Reuters"
+        },
+        {
+          "title": "Critical OpenClaw Vulnerability CVE-2026-25253 Patched",
+          "title_zh": "OpenClaw 關鍵漏洞 CVE-2026-25253 已修補",
+          "desc": "CVE-2026-25253 was publicly disclosed with a CVSS score of 8.8, giving attackers a way to steal authentication tokens. Users should update to v2026.2.25 immediately.",
+          "desc_zh": "CVE-2026-25253 被公開披露，CVSS 評分 8.8，使攻擊者能夠竊取身份驗證令牌。用戶應立即更新至 v2026.2.25。",
+          "url": "https://www.darkreading.com/application-security/critical-openclaw-vulnerability-ai-agent-risks",
+          "date": "2026-03-04",
+          "source": "Dark Reading"
+        },
+        {
+          "title": "135,000+ OpenClaw Instances Still Exposed Globally",
+          "title_zh": "全球仍有超過 13.5 萬個 OpenClaw 實例暴露",
+          "desc": "Over 135,000 OpenClaw instances remain exposed globally despite security patches. The ClawJacked flaw has been patched but users must update immediately.",
+          "desc_zh": "儘管已有安全補丁，全球仍有超過 13.5 萬個 OpenClaw 實例暴露。ClawJacked 漏洞已修補，但用戶必須立即更新。",
+          "url": "https://pbxscience.com/openclaw-2026s-first-major-ai-agent-security-crisis-explained/",
+          "date": "2026-03-09",
+          "source": "PBX Science"
+        },
+        {
+          "title": "NVIDIA Launches Rubin Platform with Six New AI Chips",
+          "title_zh": "NVIDIA 推出 Rubin 平台及六款新 AI 芯片",
+          "desc": "NVIDIA today kickstarted the next generation of AI with the Rubin platform, featuring extreme codesign across hardware and software to deliver up to 10x reduction in inference token cost.",
+          "desc_zh": "NVIDIA 今日推出 Rubin 平台開啟新一代 AI，通過硬件和軟件的極致協同設計，實現推理令牌成本降低高達 10 倍。",
+          "url": "https://nvidianews.nvidia.com/news/rubin-platform-ai-supercomputer",
+          "date": "2026-03-10",
+          "source": "NVIDIA"
+        },
+        {
+          "title": "OpenClaw Security: 1,184+ Malicious Skills Detected",
+          "title_zh": "OpenClaw 安全：檢測到 1184+ 惡意技能",
+          "desc": "Updated March 1, 2026: Added ClawHavoc final campaign data (1,184+ malicious skills), six new CVEs from Endor Labs, and OpenClaw security releases through v2026.2.26.",
+          "desc_zh": "2026 年 3 月 1 日更新：添加 ClawHavoc 最終活動數據（1184+ 惡意技能）、Endor Labs 的六個新 CVE，以及 OpenClaw 安全發布至 v2026.2.26。",
+          "url": "https://blog.cyberdesserts.com/openclaw-malicious-skills-security/",
+          "date": "2026-03-05",
+          "source": "Cyber Desserts"
+        }
+      ]
+    }
+  ]
+}
