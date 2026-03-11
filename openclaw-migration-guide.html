@@ -478,7 +478,7 @@
                 <li><a href="#phase2">第二階段：數據遷移</a></li>
                 <li><a href="#phase3">第三階段：路徑替換</a></li>
                 <li><a href="#phase4">第四階段：Bot 配置</a></li>
-                <li><a href="#phase5">第五階段：服務遷移</a></li>
+                <li><a href="#phase5">第五階段：服務架構配置</a></li>
                 <li><a href="#phase6">第六階段：驗證測試</a></li>
                 <li><a href="#phase7">第七階段：切換上線</a></li>
                 <li><a href="#rollback">回滾方案</a></li>
@@ -517,10 +517,31 @@
                 </tr>
                 <tr>
                     <td>Telegram Bot</td>
-                    <td>新 Bot</td>
-                    <td>原有 Bot（保留）</td>
+                    <td>新 Bot（過渡用）</td>
+                    <td>原有 Bot（主要使用）</td>
+                </tr>
+                <tr>
+                    <td>News API</td>
+                    <td colspan="2" style="text-align: center;">保留在 Linux 運行，不改變</td>
                 </tr>
             </table>
+            
+            <h3>服務分布架構</h3>
+            <div class="bot-flow">
+                <div class="bot-box" style="background: #e8f5e9; border-color: #66bb6a;">
+                    <div class="bot-icon">🖥️</div>
+                    <div class="bot-label">Mac Mini</div>
+                    <div class="bot-status">OpenClaw 核心<br>Agent / 小二<br>主要使用</div>
+                </div>
+                <div style="text-align: center; color: #666; font-size: 0.9em;">
+                    原有 Bot Token
+                </div>
+                <div class="bot-box" style="background: #fff3e0; border-color: #ffa726;">
+                    <div class="bot-icon">🖥️</div>
+                    <div class="bot-label">Linux 伺服器</div>
+                    <div class="bot-status">News API<br>評論系統<br>Cron 任務</div>
+                </div>
+            </div>
             
             <h3>主要挑戰</h3>
             <div class="alert alert-warning">
@@ -849,77 +870,67 @@ grep -r "/root/" . --include="*.py" --include="*.sh" | grep -v ".bak"
         <section class="section" id="phase5">
             <div class="section-header">
                 <span class="section-number">5</span>
-                <h2>第五階段：服務遷移</h2>
+                <h2>第五階段：服務架構配置</h2>
             </div>
             
-            <h3>5.1 創建 News API Launchd 服務</h3>
-            <p>macOS 使用 <code>launchd</code> 替代 <code>systemd</code>。</p>
+            <div class="alert alert-info">
+                <span class="alert-icon">ℹ️</span>
+                <div class="alert-content">
+                    <strong>架構說明：</strong>News API、評論系統等 API 服務繼續在 Linux 伺服器上運行，Mac Mini 只運行 OpenClaw 核心和 Agent。
+                </div>
+            </div>
             
-            <p>創建文件 <span class="filepath">/Users/adai/Library/LaunchAgents/com.frank.news-api.plist</span>：</p>
+            <h3>5.1 服務分布架構</h3>
+            <table>
+                <tr>
+                    <th>服務</th>
+                    <th>運行位置</th>
+                    <th>說明</th>
+                </tr>
+                <tr>
+                    <td>OpenClaw 核心</td>
+                    <td>Mac Mini</td>
+                    <td>主要運行環境，處理 Frank 的消息</td>
+                </tr>
+                <tr>
+                    <td>News API</td>
+                    <td>Linux 伺服器</td>
+                    <td>新聞數據服務，保持原有配置</td>
+                </tr>
+                <tr>
+                    <td>評論系統 API</td>
+                    <td>Linux 伺服器</td>
+                    <td>博客評論服務</td>
+                </tr>
+                <tr>
+                    <td>Cron 定時任務</td>
+                    <td>Linux 伺服器</td>
+                    <td>新聞抓取、評論審核等</td>
+                </tr>
+                <tr>
+                    <td>小二 (Xiaoer)</td>
+                    <td>Mac Mini</td>
+                    <td>隨 OpenClaw 一起遷移</td>
+                </tr>
+            </table>
             
-            <pre><code class="language-xml">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
-&lt;!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" 
-  "http://www.apple.com/DTDs/PropertyList-1.0.dtd"&gt;
-&lt;plist version="1.0"&gt;
-&lt;dict&gt;
-    &lt;key&gt;Label&lt;/key&gt;
-    &lt;string&gt;com.frank.news-api&lt;/string&gt;
-    
-    &lt;key&gt;ProgramArguments&lt;/key&gt;
-    &lt;array&gt;
-        &lt;string&gt;/usr/local/bin/gunicorn&lt;/string&gt;
-        &lt;string&gt;-w&lt;/string&gt;
-        &lt;string&gt;1&lt;/string&gt;
-        &lt;string&gt;-b&lt;/string&gt;
-        &lt;string&gt;127.0.0.1:8888&lt;/string&gt;
-        &lt;string&gt;--access-logfile&lt;/string&gt;
-        &lt;string&gt;-&lt;/string&gt;
-        &lt;string&gt;--error-logfile&lt;/string&gt;
-        &lt;string&gt;-&lt;/string&gt;
-        &lt;string&gt;app:app&lt;/string&gt;
-    &lt;/array&gt;
-    
-    &lt;key&gt;WorkingDirectory&lt;/key&gt;
-    &lt;string&gt;/Users/adai/.openclaw/workspace/news-api&lt;/string&gt;
-    
-    &lt;key&gt;EnvironmentVariables&lt;/key&gt;
-    &lt;dict&gt;
-        &lt;key&gt;PATH&lt;/key&gt;
-        &lt;string&gt;/usr/local/bin:/usr/bin:/bin&lt;/string&gt;
-        &lt;key&gt;PYTHONPATH&lt;/key&gt;
-        &lt;string&gt;/Users/adai/.openclaw/workspace/news-api&lt;/string&gt;
-    &lt;/dict&gt;
-    
-    &lt;key&gt;RunAtLoad&lt;/key&gt;
-    &lt;true/&gt;
-    &lt;key&gt;KeepAlive&lt;/key&gt;
-    &lt;true/&gt;
-    
-    &lt;key&gt;StandardOutPath&lt;/key&gt;
-    &lt;string&gt;/Users/adai/.openclaw/logs/news-api.out&lt;/string&gt;
-    &lt;key&gt;StandardErrorPath&lt;/key&gt;
-    &lt;string&gt;/Users/adai/.openclaw/logs/news-api.err&lt;/string&gt;
-&lt;/dict&gt;
-&lt;/plist&gt;</code></pre>
-            
-            <h3>5.2 加載服務</h3>
-            <pre><code class="language-bash"># 創建日誌目錄
-mkdir -p /Users/adai/.openclaw/logs
-
-# 加載服務
-launchctl load ~/Library/LaunchAgents/com.frank.news-api.plist
-
-# 啟動服務
-launchctl start com.frank.news-api
-
-# 檢查狀態
-launchctl list | grep com.frank.news-api
-
-# 測試 API
-curl http://127.0.0.1:8888/health</code></pre>
+            <h3>5.2 Mac Mini 不需要配置的事項</h3>
+            <ul>
+                <li>❌ 不需要安裝 Gunicorn（News API 不需要）</li>
+                <li>❌ 不需要創建 Launchd 服務（沒有後台 API 服務）</li>
+                <li>❌ 不需要開放端口 8888（API 仍在 Linux）</li>
+                <li>✅ 只需要運行 OpenClaw gateway</li>
+            </ul>
             
             <h3>5.3 檢查 Cron 任務</h3>
             <p>OpenClaw 內部的 Cron 存儲在 <span class="filepath">/Users/adai/.openclaw/cron/jobs.json</span>，檢查其中的路徑是否已正確更新。</p>
+            
+            <div class="alert alert-warning">
+                <span class="alert-icon">⚠️</span>
+                <div class="alert-content">
+                    <strong>注意：</strong>由於 News API 仍在 Linux 上運行，Mac 上調用相關功能時需要確保能通過網絡訪問 Linux 伺服器的 API 地址。
+                </div>
+            </div>
         </section>
         
         <!-- Phase 6 -->
@@ -964,12 +975,12 @@ for script in /Users/adai/.openclaw/workspace/scripts/*.py; do
     fi
 done
 
-# 4. 檢查服務
-echo "4. 檢查 News API 服務..."
-if curl -s http://127.0.0.1:8888/health 2>/dev/null; then
-    echo "✅ News API 運行中"
+# 4. 檢查 OpenClaw 運行狀態
+echo "4. 檢查 OpenClaw gateway..."
+if pgrep -f "openclaw" > /dev/null; then
+    echo "✅ OpenClaw 正在運行"
 else
-    echo "❌ News API 未運行"
+    echo "⚠️  OpenClaw 未運行（需要手動啟動）"
 fi
 
 # 5. 檢查配置文件
@@ -986,6 +997,8 @@ else
     echo "❌ openclaw.json 不存在"
 fi
 
+echo ""
+echo "ℹ️  注意：News API 等服務在 Linux 伺服器上運行，不在 Mac Mini 上"
 echo "=== 驗證完成 ==="</code></pre>
             
             <h3>6.2 功能測試清單</h3>
@@ -995,8 +1008,7 @@ echo "=== 驗證完成 ==="</code></pre>
                 <li>測試 <code>browser</code> 工具（打開網頁截圖）</li>
                 <li>測試自定義腳本（如天氣查詢）</li>
                 <li>測試小二（Xiaoer）是否正常運作</li>
-                <li>等待一次 Cron 任務執行（如新聞生成）</li>
-                <li>檢查 News API 是否正常響應</li>
+                <li>確認可以通過網絡訪問 Linux 上的 News API</li>
             </ul>
         </section>
         
@@ -1072,7 +1084,8 @@ cp -r ~/.openclaw-backup-before-migration ~/.openclaw
                 <li>已創建 Linux 伺服器的新 Telegram Bot</li>
                 <li>已記錄新 Bot Token</li>
                 <li>Mac Mini 已安裝 OpenClaw</li>
-                <li>Mac Mini 已安裝 Chrome、Python、Gunicorn</li>
+                <li>Mac Mini 已安裝 Chrome、Python</li>
+                <li>已確認 News API 等服務將繼續在 Linux 運行</li>
                 <li>已備份 Linux 上的 <code>.openclaw</code> 目錄</li>
             </ul>
             
@@ -1082,8 +1095,7 @@ cp -r ~/.openclaw-backup-before-migration ~/.openclaw
                 <li>已執行路徑批量替換</li>
                 <li>已更新 <code>openclaw.json</code> 中的 Chrome 路徑</li>
                 <li>已配置正確的 Bot Token（Mac 用舊，Linux 用新）</li>
-                <li>已創建 launchd 服務文件</li>
-                <li>已加載並啟動 News API 服務</li>
+                <li>Linux 上的 News API 服務保持運行</li>
             </ul>
             
             <h3>遷移後檢查</h3>
@@ -1091,11 +1103,22 @@ cp -r ~/.openclaw-backup-before-migration ~/.openclaw
                 <li>Frank 可以正常與 Mac Mini 上的 Bot 對話</li>
                 <li>web_search 工具正常工作</li>
                 <li>browser 工具正常工作</li>
-                <li>News API 可以訪問</li>
-                <li>Cron 任務正常執行</li>
+                <li>可以通過網絡訪問 Linux 上的 News API</li>
                 <li>小二（Xiaoer）正常運作</li>
                 <li>所有自定義腳本正常運行</li>
             </ul>
+            
+            <h3>服務架構確認</h3>
+            <div class="alert alert-success">
+                <span class="alert-icon">✅</span>
+                <div class="alert-content">
+                    <strong>確認以下服務分布：</strong>
+                    <ul style="margin: 10px 0 0 0;">
+                        <li><strong>Mac Mini：</strong>OpenClaw 核心、Agent、小二</li>
+                        <li><strong>Linux 伺服器：</strong>News API、評論系統、Cron 定時任務</li>
+                    </ul>
+                </div>
+            </div>
             
             <h3>特別注意事項</h3>
             <div class="alert alert-info">
@@ -1105,7 +1128,7 @@ cp -r ~/.openclaw-backup-before-migration ~/.openclaw
                         <li><strong>外部項目路徑：</strong>如果有引用 <code>/root/project</code> 下的項目（如博客源碼），需要在 Mac 上創建相同的目錄結構或遷移那些項目。</li>
                         <li><strong>Git 倉庫：</strong>workspace 是 git 倉庫，遷移後檢查 remote 配置：<code>git remote -v</code></li>
                         <li><strong>文件權限：</strong>可能需要調整腳本權限：<code>chmod +x /Users/adai/.openclaw/workspace/scripts/*.sh</code></li>
-                        <li><strong>防火牆：</strong>確保 Mac Mini 的防火牆允許所需端口（如 8888 for News API）</li>
+                        <li><strong>API 訪問：</strong>確保 Mac Mini 能通過網絡訪問 Linux 上的 News API（檢查防火牆和網絡連通性）</li>
                     </ul>
                 </div>
             </div>
