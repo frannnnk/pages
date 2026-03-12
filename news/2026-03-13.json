@@ -1,0 +1,256 @@
+{
+  "title": "Frank 早報 - 2026-03-13",
+  "date": "2026-03-13",
+  "sections": [
+    {
+      "title": "🌍 國際新聞",
+      "items": [
+        {
+          "title": "U.S. military refuelling aircraft crashed in Iraq; Israel launches new strikes on Beirut, Tehran",
+          "title_zh": "美軍加油機在伊拉克墜毀；以色列對貝魯特、德黑蘭發動新一輪空襲",
+          "desc": "A U.S. military KC-135 refuelling aircraft crashed in western Iraq on Thursday, while Israel launched new wave of strikes on central Beirut and Tehran on the 13th day of fighting against Iran.",
+          "desc_zh": "一架美軍KC-135加油機周四在伊拉克西部墜毀，以色列在對伊朗作戰的第13天對貝魯特市中心和德黑蘭發動了新一輪空襲。",
+          "url": "https://www.thehindu.com/news/international/iran-israel-war-west-asia-conflict-march-12-2026-live-updates/article70733560.ece",
+          "date": "2026-03-12",
+          "source": "The Hindu"
+        },
+        {
+          "title": "U.S. Officials Say Iran Is Laying Mines in Strait of Hormuz",
+          "title_zh": "美國官員稱伊朗在霍爾木茲海峽布設水雷",
+          "desc": "Iran is using smaller boats, not naval vessels, for the operation in the Strait of Hormuz, an American official said. Israeli airstrikes pounded the Lebanese and Iranian capitals on the 13th day of fighting.",
+          "desc_zh": "美國官員表示，伊朗正在使用小型船只而非軍艦在霍爾木茲海峽部署水雷。以色列空襲在第13天繼續轟炸黎巴嫩和伊朗首都。",
+          "url": "https://www.nytimes.com/live/2026/03/12/world/iran-war-news-trump-oil-israel",
+          "date": "2026-03-12",
+          "source": "The New York Times"
+        },
+        {
+          "title": "Iran's supreme leader vows to keep up attacks as oil prices surge",
+          "title_zh": "伊朗最高領袖誓言繼續攻擊 油價飆升",
+          "desc": "Iran's secretive new supreme leader Ayatollah Mojtaba Khamenei vowed to keep up attacks on Gulf Arab countries and use the effective closure of the strategic Strait of Hormuz as leverage against the United States and Israel.",
+          "desc_zh": "伊朗新任最高領袖阿亞圖拉·霍梅尼誓言繼續對海灣阿拉伯國家發動攻擊，並利用霍爾木茲海峽的有效封鎖作為對美國和以色列的杠桿。",
+          "url": "https://apnews.com/article/iran-israel-us-march-12-2026-oil-prices-90e17dbf7354d1e9428994ab2a036506",
+          "date": "2026-03-12",
+          "source": "AP News"
+        },
+        {
+          "title": "Oil price soars past $100 as Iranian attacks impact shipping",
+          "title_zh": "油價飆破100美元 伊朗攻擊影響航運",
+          "desc": "A key oil price has exceeded $100 on the 13th day of the Iran war, as Iranian attacks continue to impact shipping through the Strait of Hormuz.",
+          "desc_zh": "在伊朗戰爭第13天，關鍵油價已突破100美元，伊朗攻擊持續影響霍爾木茲海峽的航運。",
+          "url": "https://www.fox13seattle.com/news/iran-war-live-updates-march-12-2026",
+          "date": "2026-03-12",
+          "source": "FOX 13 Seattle"
+        },
+        {
+          "title": "Abu Dhabi Airport operates under reduced schedule amid regional airspace disruptions",
+          "title_zh": "阿布扎比機場區域空域 disruption下減少航班",
+          "desc": "Zayed International Airport (AUH) continues to operate on March 13, 2026, though under a significantly reduced schedule due to ongoing regional airspace disruptions stemming from the Iran conflict.",
+          "desc_zh": "阿布扎比國際機場(AUH)在2026年3月13日繼續運營，但由於伊朗衝突導致的區域空域 disruption，航班大幅減少。",
+          "url": "https://www.ibtimes.com.au/abu-dhabi-airport-open-right-now-latest-status-march-13-2026-amid-regional-airspace-issues-1863201",
+          "date": "2026-03-13",
+          "source": "International Business Times Australia"
+        }
+      ]
+    },
+    {
+      "title": "🇨🇳 中國大陸新聞",
+      "items": [
+        {
+          "title": "China unveils world's highest strength carbon fiber T1200",
+          "title_zh": "中國發布全球最高強度碳纖維T1200",
+          "desc": "China has achieved a breakthrough in high-end carbon fiber manufacturing technology, announcing the self-developed T1200, claimed to be the world's highest strength carbon fiber.",
+          "desc_zh": "中國在高端碳纖維製造技術取得重大突破，公布了自主研發的T1200，號稱是全球最高強度的碳纖維。",
+          "url": "https://news.now.com/home/international/player?newsId=639596",
+          "date": "2026-03-11",
+          "source": "Now News"
+        },
+        {
+          "title": "U.S. stops Israel from attacking Iranian energy facilities",
+          "title_zh": "美方叫停以色列襲擊伊朗能源設施",
+          "desc": "The U.S. recently stopped Israel from attacking Iranian energy storage facilities - the first time the U.S. has restricted Israeli military action since the joint U.S.-Israeli military operation against Iran began.",
+          "desc_zh": "美國日前叫停以色列襲擊伊朗能源存儲設施，這是美以聯合對伊朗開展軍事打擊以來美方首次限制以軍行動。",
+          "url": "https://www.news.cn/20260311/60716157be674c6eb0c26a86f46f776f/c.html",
+          "date": "2026-03-11",
+          "source": "新華網"
+        },
+        {
+          "title": "A股市場經濟開局良好 聚焦兩大結構性方向",
+          "title_zh": "A股市場經濟開局良好 聚焦兩大結構性方向",
+          "desc": "A股市場在春節後呈現'主線並行、波動加大'的格局。展望3月，市場運行或由前期的結構性活躍轉向政策預期與外部擾動交織下的震蕩博弈階段。",
+          "desc_zh": "節後A股市場在人民幣資產走強、美伊衝突擾動及AI賽道景氣度增強的背景下演繹展開，整體呈現「主線並行、波動加大」的市場格局。",
+          "url": "https://finance.sina.com.cn/wm/2026-03-12/doc-inhqtuse4682301.shtml",
+          "date": "2026-03-12",
+          "source": "新浪財經"
+        },
+        {
+          "title": "Russia's Middle East resolution draft fails to pass at UN",
+          "title_zh": "俄方中東局勢決議草案未獲通過 中方表示失望",
+          "desc": "China expressed disappointment and regret after Russia's draft resolution on the Middle East situation failed to pass at the UN Security Council.",
+          "desc_zh": "俄羅斯提出的中東局勢決議草案在聯合國安理會表決未獲通過，中方表示失望和遺憾。",
+          "url": "https://www.news.cn/world/20260312/8bd4f250285b49faa4de6d8b83ceef43/c.html",
+          "date": "2026-03-12",
+          "source": "新華網"
+        },
+        {
+          "title": "兩會進入尾聲 十四屆全國人大四次會議今日閉幕",
+          "title_zh": "兩會進入尾聲 十四屆全國人大四次會議今日閉幕",
+          "desc": "2026年全國兩會進入尾聲，十四屆全國人大四次會議今日閉幕。",
+          "desc_zh": "2026年全國兩會進入尾聲，十四屆全國人大四次會議今日閉幕。",
+          "url": "",
+          "date": "2026-03-12",
+          "source": "搜狐網"
+        }
+      ]
+    },
+    {
+      "title": "🇭🇰 香港新聞",
+      "items": [
+        {
+          "title": "簡樸房條例今個月生效 當局最快明年3月開始執法",
+          "title_zh": "簡樸房條例今個月生效 當局最快明年3月開始執法",
+          "desc": "The Simplified Housing Ordinance takes effect this month, with enforcement starting as early as March 2027. Some owners were found renovating non-compliant subdivided units for rent.",
+          "desc_zh": "簡樸房條例今個月生效，當局最快明年3月開始執法。有團體發現有業主新裝修不合規格的劏房出租。",
+          "url": "",
+          "date": "2026-03-09",
+          "source": "TVB News"
+        },
+        {
+          "title": "特區政府駐倫敦經貿辦行政經理袁松彪被控違反英國國安法",
+          "title_zh": "特區政府駐倫敦經貿辦行政經理袁松彪被控違反英國國安法",
+          "desc": "The case of the HKSAR Government's London Economic and Trade Office行政經理袁松彪 charged with violating the UK National Security Law began hearing.",
+          "desc_zh": "特區政府駐倫敦經貿辦行政經理袁松彪被控違反英國國安法的案件開審。",
+          "url": "https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E9%A6%99%E6%B8%AF",
+          "date": "2026-03-05",
+          "source": "維基百科"
+        },
+        {
+          "title": "年內超500億元資金淨流入港股ETF",
+          "title_zh": "年內超500億元資金淨流入港股ETF",
+          "desc": "More than HK$50 billion in net funds have flowed into Hong Kong stock ETFs so far this year.",
+          "desc_zh": "年內超500億元資金淨流入港股ETF。",
+          "url": "https://finance.sina.com.cn/wm/2026-03-12/doc-inhqtuse4682301.shtml",
+          "date": "2026-03-12",
+          "source": "新浪財經"
+        },
+        {
+          "title": "國泰君安國際一員工被香港廉政公署拘留",
+          "title_zh": "國泰君安國際一員工被香港廉政公署拘留",
+          "desc": "A staff member of Guotai Junan International was taken away by Hong Kong's Independent Commission Against Corruption (ICAC).",
+          "desc_zh": "國泰君安國際一員工被香港廉政公署帶走，據悉涉嫌內幕交易或其他違法違規行為。",
+          "url": "https://finance.sina.com.cn/wm/2026-03-11/doc-inhqrmmp5493757.shtml",
+          "date": "2026-03-11",
+          "source": "新浪財經"
+        },
+        {
+          "title": "內地興起「養龍蝦」AI熱潮 專家指不應依賴科技做決策",
+          "title_zh": "內地興起「養龍蝦」AI熱潮 專家指不應依賴科技做決策",
+          "desc": "A new AI tool called '養龍蝦' (raising lobsters) has become popular in mainland China, helping users with document work. Experts warn against relying on technology for decision-making.",
+          "desc_zh": "內地近期興起「養龍蝦」熱潮，指的是一款人工智能軟件，可協助用戶處理文書等工作。不過專家提醒不應依賴科技代人類做決策。",
+          "url": "",
+          "date": "2026-03-11",
+          "source": "TVB News"
+        }
+      ]
+    },
+    {
+      "title": "📈 GDS 港股關注 - 萬國數據",
+      "items": [
+        {
+          "title": "Monolith Management Ltd Purchases 43,433 Shares of GDS Holdings",
+          "title_zh": "Monolith Management Ltd增持43,433股萬國數據",
+          "desc": "Monolith Management Ltd grew its position in GDS Holdings by 14.4% during the 3rd quarter, now owning 345,305 shares worth $13,363,000.",
+          "desc_zh": "Monolith Management Ltd在第三季度將其在萬國數據的持股增加了14.4%，目前持有345,305股，價值1336.3萬美元。",
+          "url": "https://www.themarketsdaily.com/2026/03/11/monolith-management-ltd-purchases-43433-shares-of-gds-holdings-gds.html",
+          "date": "2026-03-11",
+          "source": "The Markets Daily"
+        },
+        {
+          "title": "GDS Holdings Announces Q4 2025 Earnings",
+          "title_zh": "萬國數據公佈2025年第四季度財報",
+          "desc": "GDS Holdings (GDS) is scheduled to release Q4 2025 earnings, with analysts expecting strong performance driven by data center demand.",
+          "desc_zh": "萬國數據(GDS)將公佈2025年第四季度財報，分析師預計在數據中心需求推動下表現強勁。",
+          "url": "https://haikhuu.com/reports/weekly-preview-03162026",
+          "date": "2026-03-11",
+          "source": "HaiKhuu"
+        },
+        {
+          "title": "GDS Hong Kong Listing: Waivers and Exemptions Explained",
+          "title_zh": "萬國數據香港上市：豁免條款解析",
+          "desc": "Analysis of the waivers, exemptions, and shareholder protections in GDS's upcoming Hong Kong secondary listing.",
+          "desc_zh": "分析萬國數據即將在香港二次上市中的豁免條款、投資者保護等關鍵內容。",
+          "url": "https://www.minichart.com.sg/2026/03/11/gds-holdings-limited-hong-kong-listing-waivers-exemptions-and-key-provisions-explained/",
+          "date": "2026-03-11",
+          "source": "MiniChart"
+        },
+        {
+          "title": "市值超千億 全球第三大IDC運營商萬國數據回港二次上市",
+          "title_zh": "市值超千億 全球第三大IDC運營商萬國數據回港二次上市",
+          "desc": "GDS Holdings, China's largest third-party data center operator and the world's third-largest IDC operator, completed its Hong Kong secondary listing in November 2025.",
+          "desc_zh": "萬國數據為內地最大第三方數據中心運營商、全球第三大數據中心供應商，於2025年11月完成香港二次上市。",
+          "url": "https://36kr.com/p/951075041110920",
+          "date": "2025-11-02",
+          "source": "36Kr"
+        },
+        {
+          "title": "Aspex Management HK Ltd increases GDS stake by 46.4%",
+          "title_zh": "Aspex Management HK Ltd增持萬國數據46.4%",
+          "desc": "Aspex Management HK Ltd lifted its stake in GDS by 46.4% in Q2, now owning 4,406,949 shares valued at $134,720,000.",
+          "desc_zh": "Aspex Management HK Ltd在第二季度將其在萬國數據的持股增加了46.4%，現持有4,406,949股，價值1.3472億美元。",
+          "url": "https://www.themarketsdaily.com/2026/03/11/monolith-management-ltd-purchases-43433-shares-of-gds-holdings-gds.html",
+          "date": "2026-03-11",
+          "source": "The Markets Daily"
+        }
+      ]
+    },
+    {
+      "title": "🤖 AI 和 OpenClaw 新聞",
+      "items": [
+        {
+          "title": "China's tech firms race to deploy OpenClaw AI agents",
+          "title_zh": "中國科技企業競相部署OpenClaw AI助手",
+          "desc": "Chinese tech giants including Tencent and Zhipu AI are rushing to launch AI products built on OpenClaw, with usage in China surpassing the U.S.",
+          "desc_zh": "包括騰訊和智譜AI在內的中國科技巨頭正競相推出基於OpenClaw構建的AI產品，中国的使用量已超過美國。",
+          "url": "https://www.cnbc.com/2026/03/12/china-openclaw-ai-agent-adoption-tech-companies-government-support-lobster-shrimp.html",
+          "date": "2026-03-12",
+          "source": "CNBC"
+        },
+        {
+          "title": "China moves to limit OpenClaw AI at banks, government agencies",
+          "title_zh": "中國限制銀行和政府機構使用OpenClaw AI",
+          "desc": "Chinese authorities moved to restrict state-run enterprises and government agencies from running OpenClaw AI apps on office computers for security reasons.",
+          "desc_zh": "中國當局出於安全考慮，限制國有企業和政府機構在辦公電腦上運行OpenClaw AI應用。",
+          "url": "https://www.bloomberg.com/news/articles/2026-03-11/china-moves-to-limit-use-of-openclaw-ai-at-banks-government-agencies",
+          "date": "2026-03-11",
+          "source": "Bloomberg"
+        },
+        {
+          "title": "OpenClaw becomes fastest-growing open-source project in history",
+          "title_zh": "OpenClaw成為史上增長最快的開源項目",
+          "desc": "In March 2026, OpenClaw became the fastest-growing open-source project in history, surpassing 250,000 GitHub stars.",
+          "desc_zh": "2026年3月，OpenClaw成為史上增長最快的開源項目，GitHub星標超過25萬。",
+          "url": "https://news.cgtn.com/news/2026-03-11/OpenClaw-AI-tool-that-broke-every-record-and-caused-a-security-panic-1LpwvrIqQk8/p.html",
+          "date": "2026-03-11",
+          "source": "CGTN"
+        },
+        {
+          "title": "Nvidia planning OpenClaw competitor",
+          "title_zh": "Nvidia計劃推出OpenClaw競爭對手",
+          "desc": "Nvidia CEO Jensen Huang wants in on the AI agent platform game, reportedly planning an open-source competitor to OpenClaw.",
+          "desc_zh": "Nvidia首席執行官黃仁勛希望進入AI代理平台領域，據報正在計劃推出OpenClaw的開源競爭對手。",
+          "url": "https://arstechnica.com/ai/2026/03/nvidia-is-reportedly-planning-its-own-open-source-openclaw-competitor/",
+          "date": "2026-03-11",
+          "source": "Ars Technica"
+        },
+        {
+          "title": "Shenzhen Longgang District proposes policy support for OpenClaw",
+          "title_zh": "深圳龍崗區發布OpenClaw支持政策草案",
+          "desc": "The Shenzhen City Longgang District Artificial Intelligence Bureau released a draft policy proposing support measures for the use of OpenClaw.",
+          "desc_zh": "深圳市龍崗區人工智能(機器人)局發布政策草案，提議對OpenClaw的使用提供支持措施。",
+          "url": "https://en.wikipedia.org/wiki/OpenClaw",
+          "date": "2026-03-08",
+          "source": "Wikipedia"
+        }
+      ]
+    }
+  ]
+}
