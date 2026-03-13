@@ -1,0 +1,265 @@
+{
+  "title": "Frank 早報 - 2026-03-14",
+  "date": "2026-03-14",
+  "sections": [
+    {
+      "title": "🌍 國際新聞",
+      "items": [
+        {
+          "title": "Iran War Live Updates: U.S. Plane Crash in Iraq, Oil Prices Settle at 4-Year High",
+          "title_zh": "伊朗戰爭最新消息：美軍飛機在伊拉克墜毀、油價創4年新高",
+          "desc": "The price settled at more than $103 a barrel, an increase of over 40 percent since the start of the war on Feb 28. U.S. officials said another 2,500 Marines and as many as three more warships were heading to the Middle East.",
+          "desc_zh": "油價收於每桶103美元以上，較2月28日戰爭開始以來上漲超過40%。美國官員表示，另有2500名海軍陸戰隊員和三艘戰艦正在前往中東。",
+          "url": "https://www.nytimes.com/live/2026/03/13/world/iran-war-trump-oil-israel",
+          "date": "2026-03-13",
+          "source": "NY Times"
+        },
+        {
+          "title": "Al-Quds Day rally in Tehran draws thousands despite US-Israeli attacks",
+          "title_zh": "德黑蘭舉行耶路撒冷日遊行 數千人上街無視美以攻擊",
+          "desc": "Thousands of Iranians have taken to the streets of the capital Tehran for a mass protest in support of Palestinians, as the death toll from United States and Israeli attacks on the country continues to mount.",
+          "desc_zh": "數千名伊朗人走上首都德黑蘭街頭舉行大規模示威，支持巴勒斯坦人。美國和以色列對伊朗的攻擊持續進行，死亡人數不斷上升。",
+          "url": "https://www.aljazeera.com/news/2026/3/13/explosions-near-tehran-al-quds-day-march-in-solidarity-with-palestinians",
+          "date": "2026-03-13",
+          "source": "Al Jazeera"
+        },
+        {
+          "title": "What we know on the 14th day of the US and Israel's war with Iran",
+          "title_zh": "美以伊朗戰爭第14天：我們知道些什麼",
+          "desc": "A CNN analysis of satellite imagery and air quality data shows Israeli strikes at fuel facilities across Tehran last weekend spiked pollution levels, ignited fires and caused oil spills.",
+          "desc_zh": "CNN對衛星圖像和空氣質量數據的分析顯示，以色列上周末對德黑蘭燃料設施的攻擊導致污染水平飆升、引發大火並造成石油洩漏。",
+          "url": "https://www.cnn.com/2026/03/13/middleeast/us-israel-iran-middle-east-war-what-we-know-intl-hnk",
+          "date": "2026-03-13",
+          "source": "CNN"
+        },
+        {
+          "title": "Middle East crisis: Israel launches new attacks on Iran as US moves additional forces to region",
+          "title_zh": "中東危機：以色列對伊朗發動新攻擊 美國向該地區增派兵力",
+          "desc": "IDF says it has launched more strikes on Tehran; Pentagon moves additional Marines and warships as Tehran steps up its attacks on the Strait of Hormuz.",
+          "desc_zh": "以色列國防軍表示已對德黑蘭發動更多攻擊；五角大樓增派海軍陸戰隊員和戰艦，因為德黑蘭加強了對霍爾木茲海峽的攻擊。",
+          "url": "https://www.theguardian.com/world/live/2026/mar/13/iran-war-news-live-updates-us-israel-middle-east-crisis-latest",
+          "date": "2026-03-13",
+          "source": "The Guardian"
+        },
+        {
+          "title": "First 6 Days of Iran War Cost U.S. $11.3 Billion, Pentagon Says",
+          "title_zh": "五角大樓：伊朗戰爭前6天花費美國113億美元",
+          "desc": "The United States plans to release 172 million barrels of oil from its strategic reserves over four months, beginning next week, the Energy Department said Wednesday.",
+          "desc_zh": "美國能源部週三表示，美國計劃從下週開始在四個月內從戰略儲備中釋放1.72億桶石油。",
+          "url": "https://www.nytimes.com/live/2026/03/11/world/iran-war-news-trump-oil-israel",
+          "date": "2026-03-11",
+          "source": "NY Times"
+        }
+      ]
+    },
+    {
+      "title": "🇨🇳 中國大陸新聞",
+      "items": [
+        {
+          "title": "China approves 2026-2030 blueprint, maps out high-quality path toward modernization",
+          "title_zh": "中國批准2026-2030發展藍圖 規劃高質量現代化道路",
+          "desc": "China's national lawmakers on Thursday approved a development blueprint for the 2026-2030 period, marking a pivotal step in the modernization drive of nearly one-fifth of the world's population.",
+          "desc_zh": "中國全國人大代表週四批准了2026-2030年發展藍圖，這是全球近五分之一人口現代化進程中的關鍵一步。",
+          "url": "https://english.www.gov.cn/news/202603/13/content_WS69b36c11c6d00ca5f9a09d96.html",
+          "date": "2026-03-13",
+          "source": "Gov.cn"
+        },
+        {
+          "title": "China bolsters economic resilience to navigate uncertainties and risks in 2026",
+          "title_zh": "中國加強經濟韌性應對2026年的不確定性和風險",
+          "desc": "China aims to achieve a notable increase in household consumption as a share of GDP, make domestic demand play an increasingly greater role as the principal economic driver.",
+          "desc_zh": "中國目標是實現家庭消費在GDP中的比重顯著提升，使內需作為經濟主要驅動力的作用日益增強。",
+          "url": "https://english.www.gov.cn/news/202603/12/content_WS69b201d7c6d00ca5f9a09d06.html",
+          "date": "2026-03-12",
+          "source": "Gov.cn"
+        },
+        {
+          "title": "China sets priorities for 2026 and beyond at the Two Sessions",
+          "title_zh": "兩會確立2026年及未來優先政策",
+          "desc": "China will formulate and implement plans to boost incomes, rolling out practical measures to boost earnings for low-income groups, increase residents' property income, and improve social security systems.",
+          "desc_zh": "中國將制定和實施增加收入的計劃，推出切實措施提高低收入群體收入，增加居民財產收入，完善社會保障體系。",
+          "url": "https://www.benningtonbanner.com/online_features/press_releases/china-sets-priorities-for-2026-and-beyond-at-the-two-sessions/article_0f7fb116-aff2-5918-8702-c1bcdb2ed6bd.html",
+          "date": "2026-03-10",
+          "source": "Bennington Banner"
+        },
+        {
+          "title": "China Focus: China bolsters economic resilience to navigate uncertainties and risks in 2026",
+          "title_zh": "中國焦點：加強經濟韌性應對不確定性",
+          "desc": "Looking ahead, China aims to achieve a notable increase in household consumption as a share of GDP, making domestic demand play an increasingly greater role.",
+          "desc_zh": "展望未來，中国目標是實現家庭消費在GDP中的比重顯著提升，使內需發揮越來越重要的作用。",
+          "url": "https://english.news.cn/20260311/e63a213e621d4a258ca2447dc018f03a/c.html",
+          "date": "2026-03-11",
+          "source": "Xinhua"
+        },
+        {
+          "title": "China approves 'ethnic unity' law denounced by rights groups",
+          "title_zh": "中國通過「民族團結」法 權利組織譴責",
+          "desc": "China approved what it called an ethnic unity law on Thursday, which rights advocates warn could further marginalise minority groups such as the Uyghurs.",
+          "desc_zh": "中國週四通過了所謂的民族團結法，權利倡導者警告這可能會進一步邊緣化維吾爾族等少數民族群體。",
+          "url": "https://hongkongfp.com/2026/03/12/china-to-approve-ethnic-unity-law-denounced-by-rights-groups/",
+          "date": "2026-03-12",
+          "source": "HKFP"
+        }
+      ]
+    },
+    {
+      "title": "🇭🇰 香港新聞",
+      "items": [
+        {
+          "title": "HSBC, Standard Chartered Said to Be First Recipients of Stablecoin Licences in Hong Kong",
+          "title_zh": "傳匯豐、渣打將獲香港首批穩定幣牌照",
+          "desc": "A report by Reuters earlier indicated that the HKMA is preparing to issue the city's first stablecoin issuer licences in March 2026, though only a few approvals are expected in the initial batch.",
+          "desc_zh": "此前路透社報道，金管局準備在2026年3月發出香港首批穩定幣發行牌照，預計首批只會發出少數批准。",
+          "url": "https://www.gadgets360.com/cryptocurrency/news/hong-kong-may-grant-first-stablecoin-licences-to-hsbc-standard-chartered-crypto-licences-crypto-adoption-march-2026-11211282",
+          "date": "2026-03-13",
+          "source": "Gadgets 360"
+        },
+        {
+          "title": "Hong Kong's Cathay Pacific to double fuel surcharges amid Mideast war",
+          "title_zh": "國泰航空燃油附加費翻倍 因中東戰爭",
+          "desc": "Cathay Pacific has announced that fuel surcharges for all flights will more than double next week, due to soaring oil prices amid the war in the Middle East.",
+          "desc_zh": "國泰航空宣佈，由於中東戰爭導致油價飆升，下週所有航班的燃油附加費將增加一倍以上。",
+          "url": "https://hongkongfp.com/2026/03/12/hong-kongs-cathay-pacific-to-double-fuel-surcharges-amid-mideast-war/",
+          "date": "2026-03-12",
+          "source": "HKFP"
+        },
+        {
+          "title": "Fares for Lamma Island, Cheung Chau ferries set to rise 12.5%",
+          "title_zh": "南丫島、長洲渡輪加價12.5%",
+          "desc": "Ferries to Hong Kong's outlying islands are set to increase next month, with fares for routes to Lamma Island and Cheung Chau expected to rise by 12.5 per cent.",
+          "desc_zh": "香港偏遠島嶼的渡輪將於下月加價，前往南丫島和長洲的航線票價預計上漲12.5%。",
+          "url": "https://hongkongfp.com/2026/03/12/fares-for-lamma-island-cheung-chau-ferries-set-to-rise-12-5-as-hong-kong-govt-defends-moderate-fee-hike/",
+          "date": "2026-03-12",
+          "source": "HKFP"
+        },
+        {
+          "title": "Hong Kong authorities arrest 8 over alleged insider trading involving brokerages, hedge fund",
+          "title_zh": "香港當局拘捕8人 涉券商對沖基金內幕交易",
+          "desc": "HK's anti-graft watchdog and financial regulator have arrested eight people and raided the offices of three firms over suspected insider dealing and corruption worth HK$315 million in illicit profits.",
+          "desc_zh": "香港反貪污監管機構和金融監管機構拘捕了8人，並突擊搜查了3家公司，涉嫌內幕交易和腐敗，非法利潤達3.15億港元。",
+          "url": "https://hongkongfp.com/2026/03/12/hong-kong-authorities-arrest-8-over-alleged-insider-trading-involving-brokerages-hedge-fund/",
+          "date": "2026-03-12",
+          "source": "HKFP"
+        },
+        {
+          "title": "Hong Kong gov't urged to stabilise oil prices amid Middle East war",
+          "title_zh": "促港府穩定油價 應對中東戰爭",
+          "desc": "The HK gov't has been urged to negotiate with oil giants to stabilise fuel prices, as some residents have resorted to buying illicit fuel amid soaring oil costs.",
+          "desc_zh": "港府被敦促與石油巨頭談判以穩定燃油價格，因為一些居民在油價飆升的情況下轉向購買非法燃油。",
+          "url": "https://hongkongfp.com/2026/03/13/hong-kong-govt-urged-to-stabilise-oil-prices-as-some-residents-turn-to-illicit-fuel-amid-middle-east-war/",
+          "date": "2026-03-13",
+          "source": "HKFP"
+        }
+      ]
+    },
+    {
+      "title": "📈 港股關注 - 萬國數據 GDS",
+      "items": [
+        {
+          "title": "GDS holders lift Huang's Class B voting to 50 votes",
+          "title_zh": "萬國數據持有人將黃氏B類投票權提升至50票",
+          "desc": "GDS to Report Fourth Quarter and Full Year 2025 Financial Results Before the Open of the U.S. Market on March 17, 2026.",
+          "desc_zh": "萬國數據將於2026年3月17日在美國市場開盤前公佈2025年第四季度及全年財務業績。",
+          "url": "https://www.stocktitan.net/news/GDS/gds-announces-results-of-extraordinary-general-meeting-and-of-eip3bq4diz40.html",
+          "date": "2026-03-13",
+          "source": "Stock Titan"
+        },
+        {
+          "title": "GDS Holdings Ltd Stock Live Price $42.82",
+          "title_zh": "萬國數據控股有限公司股價42.82美元",
+          "desc": "The price of GDS Holdings Ltd as of 12th March 2026 is $42.82.",
+          "desc_zh": "截至2026年3月12日，萬國數據控股有限公司股價為42.82美元。",
+          "url": "https://www.livemint.com/market/market-stats/us-stocks-gds-holdings-ltd-share-price-gds",
+          "date": "2026-03-12",
+          "source": "Live Mint"
+        },
+        {
+          "title": "中国数据中心运营商万国数据拟发行美元债 扩大产能",
+          "title_zh": "萬國數據擬發美元債擴大產能",
+          "desc": "随着人工智能产业竞争持续升温，中国大型数据中心运营商万国数据正评估包括发行美元债在内的融资选项，以扩大产能。",
+          "desc_zh": "隨著AI產業競爭持續升溫，萬國數據正評估包括發行美元債在內的融資選項以擴大產能。",
+          "url": "https://www.zaobao.com.sg/news/china/story20260312-8718591",
+          "date": "2026-03-12",
+          "source": "聯合早報"
+        },
+        {
+          "title": "GDS Updates Hong Kong Disclosure and Confirms Regulatory Waivers",
+          "title_zh": "萬國數據更新香港披露 確認監管豁免",
+          "desc": "GDS Holdings has updated its public company information sheet in Hong Kong as of 10 March 2026, detailing the latest versions of its foreign laws and regulations disclosures.",
+          "desc_zh": "萬國數據截至2026年3月10日更新了香港公開公司資料表，詳列最新的外國法律法規披露。",
+          "url": "https://www.tipranks.com/news/company-announcements/gds-updates-hong-kong-disclosure-and-confirms-regulatory-waivers",
+          "date": "2026-03-11",
+          "source": "TipRanks"
+        },
+        {
+          "title": "How Investors Are Reacting To GDS Holdings Tripling CEO Super-Voting Power",
+          "title_zh": "投資者對萬國數據CEO超級投票權擴大3倍的反應",
+          "desc": "At its extraordinary general meeting, shareholders approved changes to the Articles of Association that increased the voting power of Class B ordinary shares held by CEO William Wei Huang from 20 votes per share to 50 votes per share.",
+          "desc_zh": "在特別股东大会上，股东批准了公司章程的更改，将CEO黃偉強持有的B类普通股每股投票权从20票增加到50票。",
+          "url": "https://simplywall.st/stocks/us/software/nasdaq-gds/gds-holdings/news/how-investors-are-reacting-to-gds-holdings-gds-tripling-ceo",
+          "date": "2026-03-11",
+          "source": "Simply Wall St"
+        }
+      ]
+    },
+    {
+      "title": "🤖 AI 和 OpenClaw 新聞",
+      "items": [
+        {
+          "title": "Morgan Stanley warns an AI breakthrough Is coming in 2026 — and most of the world isn't ready",
+          "title_zh": "摩根士丹利警告：AI突破將至 2026年大多數人尚未準備好",
+          "desc": "A massive AI breakthrough is coming in the first half of 2026—and Morgan Stanley says most of the world isn't ready for it. The investment bank warns that a transformative leap in artificial intelligence is imminent.",
+          "desc_zh": "2026年上半年將迎來重大的AI突破，摩根士丹利表示大多數人尚未做好準備。這家投資銀行警告，AI的變革性飛躍即將來臨。",
+          "url": "https://fortune.com/2026/03/13/elon-musk-morgan-stanley-ai-leap-2026/",
+          "date": "2026-03-13",
+          "source": "Fortune"
+        },
+        {
+          "title": "Lobster buffet: China's tech firms feast on OpenClaw as companies race to deploy AI agents",
+          "title_zh": "龍蝦盛宴：中國科技公司熱衷OpenClaw 爭相部署AI代理",
+          "desc": "China is rapidly embracing the popular artificial intelligence tool OpenClaw, with major tech companies and even local governments rushing to expand access to the lobster-themed, open-source AI agent.",
+          "desc_zh": "中國正在迅速擁抱流行的人工智慧工具OpenClaw，主要科技公司甚至地方政府都在爭相擴大對這個龍蝦主題開源AI代理的訪問。",
+          "url": "https://www.cnbc.com/2026/03/12/china-openclaw-ai-agent-adoption-tech-companies-government-support-lobster-shrimp.html",
+          "date": "2026-03-12",
+          "source": "CNBC"
+        },
+        {
+          "title": "Meta Delays Rollout of New A.I. Model After Performance Concerns",
+          "title_zh": "Meta因性能問題延遲推出新AI模型",
+          "desc": "The tech giant pushed back the timeline after spending billions to be on the cutting edge of artificial intelligence.",
+          "desc_zh": "這家科技巨頭在投入數十億美元處於人工智能前沿之後，推遲了時間表。",
+          "url": "https://www.nytimes.com/2026/03/12/technology/meta-avocado-ai-model-delayed.html",
+          "date": "2026-03-12",
+          "source": "NY Times"
+        },
+        {
+          "title": "Jim Cramer says this AI stock is in the sweet spot — plus, an Nvidia GTC preview",
+          "title_zh": "Jim Cramer：這檔AI股處於甜蜜點 Nvidia GTC預覽",
+          "desc": "When this market gauge reaches 5%, it could signal select buying opportunities. Artificial intelligence chip leader Nvidia is getting some attention ahead of its annual GPU Tech Conference (GTC) next week.",
+          "desc_zh": "當這個市場指標達到5%時，可能預示著特定的買入機會。人工智能芯片領導者Nvidia在下週的年度GPU技術大會(GTC)之前備受關注。",
+          "url": "https://www.cnbc.com/2026/03/10/cramer-this-ai-stock-is-in-the-sweet-spot-plus-an-nvidia-gtc-preview.html",
+          "date": "2026-03-10",
+          "source": "CNBC"
+        },
+        {
+          "title": "AI Legislative Update: March 13, 2026",
+          "title_zh": "AI立法更新：2026年3月13日",
+          "desc": "HB 2321 creates the AI-Generated Content Accountability and Privacy Protection Act of 2026. HB 1742 establishes provisions related to companion chatbots.",
+          "desc_zh": "HB 2321制定了2026年AI生成內容問責和隱私保護法。HB 1742建立了與伴侶聊天機器人相關的條款。",
+          "url": "https://www.transparencycoalition.ai/news/ai-legislative-update-march13-2026",
+          "date": "2026-03-13",
+          "source": "Transparency Coalition"
+        },
+        {
+          "title": "Prediction: This Artificial Intelligence Stock Will Turn $10,000 Into $15,000 by the End of 2026",
+          "title_zh": "預測：這檔AI股到2026年底將使1萬美元變成1.5萬美元",
+          "desc": "Artificial intelligence infrastructure spending is poised to grow significantly in 2026, driven by huge investments in data centers that handle massive computing demands.",
+          "desc_zh": "2026年AI基礎設施支出將大幅增長，這是由於處理大規模計算需求的數據中心巨額投資推動的。",
+          "url": "https://www.fool.com/investing/2026/03/13/prediction-this-artificial-intelligence-stock-will/",
+          "date": "2026-03-13",
+          "source": "The Motley Fool"
+        }
+      ]
+    }
+  ]
+}
