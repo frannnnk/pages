@@ -4,23 +4,23 @@
 
 ## 🌏 国际新闻
 
-**特朗普称各國將向霍爾木茲海峽派遣軍艦.** 美國總統特朗普聲稱已"殲滅伊朗"，呼籲各國幫助確保霍爾木茲海峽的安全。專家分析這可能導致與伊朗的進一步衝突升級。 ([CNN](https://www.cnn.com/2026/03/14/us/video/bremmer-hormuz-trump-countries-warships-digvid))
+**特朗普称各國將向霍爾木茲海峽派遣軍艦.** 美國總統特朗普聲稱已"殲滅伊朗"，呼籲各國幫助確保霍爾木茲海峽的安全。專家分析這可能導致與伊朗的進一步衝突升級。專家警告，這場戰爭可能會演變成一場持久戰。 ([CNN](https://www.cnn.com/2026/03/14/us/video/bremmer-hormuz-trump-countries-warships-digvid))
 
-**伊朗威脅阿聯酋的港口和碼頭.** 富查伊拉港遭無人機襲擊後部分石油裝載作業暫停，伊朗革命衛隊警告美國在阿聯酋的港口、碼頭和軍事基地是合法目標。 ([France 24](https://www.france24.com/en/iran-threatens-united-arab-emirate-s-ports-and-docks))
+**伊朗哈爾克島石油樞紐遭美軍轟炸.** 美軍轟炸伊朗哈爾克島，這是伊朗主要的石油出口樞紐，處理約90%的伊朗原油出口。特朗普聲稱已"完全摧毀"該島所有軍事目標。這是戰爭爆發以來最激烈的轟炸之一。 ([DW](https://www.dw.com/en/headlines/headlines-en))
 
-**伊朗宣佈霍爾木茲海峽將繼續關閉.** 伊朗果斷宣佈海峽將繼續關閉，指責美國數十年來導致地區不穩定。前革命衛隊指揮官警告特朗普呼籲全球軍艦保護該水道是徒勞的。 ([Times of India](https://timesofindia.indiatimes.com/videos/international/hormuz-wont-open-iran-stuns-us-with-brutal-declaration-after-trumps-warship-call-watch/videoshow/129583813.cms))
+**霍爾木茲海峽關閉威脅全球石油供應.** 伊朗宣佈霍爾木茲海峽將繼續關閉，指責美國數十年來導致地區不穩定。32個國家宣佈釋放創紀錄的石油儲備，但油價仍飆升至每桶100美元以上。這被稱為「歷史上最大的供應中斷」。 ([Le Monde](https://www.lemonde.fr/en/international/))
 
-**美國轟炸伊朗石油樞紐哈爾克島.** 美軍轟炸伊朗哈爾克島，這是伊朗主要的石油出口樞紐，處理約90%的伊朗原油出口。特朗普聲稱已"完全摧毀"該島所有軍事目標。 ([NY Times](https://www.nytimes.com/video/world/middleeast/100000010776741/us-bombs-iranian-oil-hub.html))
+**古巴爆發反政府示威.** 古巴爆發反政府示威，抗議者衝擊執政黨辦公室。近期因美國以色列對伊朗戰爭導致油價飆升，古巴面臨嚴重能源危機，全國各地頻繁斷電。 ([DW](https://www.dw.com/en/cuba-protesters-attack-ruling-partys-office-amid-blackouts/a-76363513))
 
-**伊朗警告將報復性打擊美國目標.** 伊朗警告將對美國目標進行報復性打擊，同時指責美國和以色列的襲擊導致地區緊張局勢進一步升級。中東局勢可能進一步惡化。 ([Hindustan Times](https://www.hindustantimes.com/videos/irans-fury-unleashed-after-trump-s-kharg-island-raid-irgc-turns-uae-into-missile-playground-war-101773507401515.html))
+**德國哲學家哈貝馬斯逝世，享年96歲.** 著名德國哲學家哈貝馬斯（Jürgen Habermas）於3月14日逝世，享年96歲。他是戰後德國最有影響力的思想家之一，對政治話語產生深遠影響。 ([Le Monde](https://www.lemonde.fr/en/international/))
 
 ---
 
 ## 🇭🇰 香港新闻
 
-**香港收緊放貸規則打擊債務騷擾.** 香港持牌放債人將面臨嚴格新規，8月實施，包括對低收入者的債務償還比率上限，以及完全禁止使用貸款中介。立法者表示，這將有助於減少債務催收者的騷擾行為。 ([SCMP](https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3346599/hong-kong-tighten-moneylending-rules-tackle-debt-collector-harassment))
+**香港收緊放貸規則打擊債務騷擾.** 香港持牌放債人將面臨嚴格新規，8月實施，包括對低收入者的債務償還比率上限（HK$6,000以下為35%，HK$6,000-12,000為40%），以及完全禁止使用貸款中介。立法者表示，這將有助於減少債務催收者的騷擾行為。 ([SCMP](https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3346599/hong-kong-tighten-moneylending-rules-tackle-debt-collector-harassment))
 
-**中東衝突或使新資本流向香港：財政司司長.** 財政司司長許正宇表示，由於香港的穩定性和監管確定性，中東衝突可能使新資本流向香港。他承諾在伊朗戰爭導致的能源價格衝擊中保持市場平穩運行，並表示政府將加大力度吸引家族辦公室，並使香港成為商品交易中心。 ([SCMP](https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3346640/middle-east-conflict-could-divert-new-capital-hong-kong-treasury-chief))
+**中東衝突或使新資本流向香港：財政司司長.** 財政司司長許正宇表示，由於香港的穩定性和監管確定性，中東衝突可能使新資本流向香港。政府將加大力度吸引家族辦公室，並使香港成為商品交易中心。 ([SCMP](https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3346640/middle-east-conflict-could-divert-new-capital-hong-kong-treasury-chief))
 
 ---
 
@@ -28,36 +28,42 @@
 
 **中美經貿談判五輪關鍵成果.** 中美兩國舉行了五輪高級別經貿談判，為更順暢和穩定的雙邊關係鋪平了道路。雙方將於3月14日至17日在法國舉行新一輪經貿談判。 ([CGTN](https://news.cgtn.com/news/2026-03-14/Key-outcomes-from-five-rounds-of-China-US-economic-and-trade-talks-1Lvx0ykIzug/p.html))
 
+**中國通過爭議性「民族團結」法.** 中國通過了一項爭議性的「民族團結」法，引發外界關注。這是中國在民族政策方面的新舉措。 ([DW](https://www.dw.com/en/china-passes-controversial-ethnic-unity-law/a-76331170))
+
+**中國在「兩會」期間押注新技術和內需.** 中國在全國人大政協會議期間表示，將大力發展新技術和擴大內需，以推動經濟增長。這是中國經濟轉型的重要信號。 ([DW](https://www.dw.com/en/china-bets-on-new-tech-domestic-demand-at-two-sessions/a-76293096))
+
 ---
 
 ## 💻 科技新闻
 
-**Meta與Google庭審：無限滾動和自動播放是否正在創造「癮君子」？.** 針對Meta和Google的訴訟在洛杉矶開審，專家表示裁決可能重新定義科技行業的商業模式。這些功能被指責為讓用戶沉迷。 ([The Guardian](https://www.theguardian.com/technology/2026/mar/14/meta-and-google-trial-are-infinite-scroll-and-autoplay-creating-addicts))
+**Meta與Google庭審：無限滾動是否正在創造「癮君子」？** 針對Meta和Google的訴訟在洛杉矶開審，專家表示裁決可能重新定義科技行業的商業模式。這些功能被指責為讓用戶沉迷。 ([The Guardian](https://www.theguardian.com/technology/2026/mar/14/meta-and-google-trial-are-infinite-scroll-and-autoplay-creating-addicts))
 
-**Meta計劃裁員高達20%以資助AI基礎設施.** 據報導，Meta正在計劃裁員，可能影響公司20%或更多的員工，以抵消AI基礎設施的成本。這將是該公司歷史上最大規模的裁員之一。 ([TechCrunch](https://www.techbuzz.ai/articles/meta-eyes-20-workforce-cut-to-fund-ai-infrastructure-push))
+**Meta計劃裁員高達20%以資助AI基礎設施.** 據報導，Meta正在計劃裁員，可能影響公司20%或更多的員工，以抵消AI基礎設施的成本。這將是該公司歷史上最大規模的裁員之一。同時，Meta延遲了代號為Avocado的新AI模型發布。 ([TechCrunch](https://www.techbuzz.ai/articles/meta-eyes-20-workforce-cut-to-fund-ai-infrastructure-push))
 
-**Meta延遲AI模型發布可能考慮許可Google的Gemini.** 由於性能不佳，Meta推遲了AI模型的發布，據報導正在考慮許可Google的Gemini。 ([Barron's](https://www.barrons.com/articles/meta-stock-ai-magnificent-seven-83d575b7))
+**本田警告轉向電動汽車失敗將帶來160億美元損失.** 本田汽車警告，由於轉向電動汽車的策略失誤，可能面臨高達160億美元的損失。這是傳統汽車巨頭在電動化浪潮中面臨挑擊的最新例證。 ([DW](https://www.dw.com/en/honda-warns-of-16bn-hit-on-its-pivot-away-from-evs/a-76318408))
 
 ---
 
 ## 🤖 AI 新闻
 
-**Anthropic的Claude因「前所未有需求」宕機.** Anthropic的Claude AI聊天機器人及其相關消費者應用程序在週一早間宕機，該初創公司表示由於「前所未有需求」導致服務中斷。 ([MSN](https://www.msn.com/en-us/money/other/anthropic-s-claude-chatbot-goes-down-amid-unprecedented-demand/ar-AA1Xn9a3))
+**Anthropic的Claude因「前所未有需求」宕機.** Anthropic的Claude AI聊天機器人及其相關消費者應用程序在週一早間宕機，該初創公司表示由於「前所未有需求」導致服務中斷。這顯示AI應用的快速普及帶來的挑戰。 ([MSN](https://www.msn.com/en-us/money/other/anthropic-s-claude-chatbot-goes-down-amid-unprecedented-demand/ar-AA1Xn9a3))
 
-**OpenAI的Codex用戶飆升至160萬.** OpenAI的Codex編碼工具用戶數量飆升至160萬，該公司正在將該工具定位為未來編碼的關鍵助手。 ([AOL](https://www.aol.com/finance/openai-sees-codex-users-spike-173313108.html))
+**OpenAI的Codex用戶飆升至160萬.** OpenAI的Codex編碼工具用戶數量飆升至160萬，該公司正在將該工具定位為未來編碼的關鍵助手。這顯示AI輔助編程工具的快速普及。 ([AOL](https://www.aol.com/finance/openai-sees-codex-users-spike-173313108.html))
 
-**五角大樓與Anthropic合作：Claude協助軍事任務規劃.** 據報導，Claude AI被用於幫助五角大樓規劃軍事任務。自去年7月以來，美國國防部已向多個作戰單位分發了Anthropic的AI工具。 ([Time](https://time.com/article/2026/03/11/anthropic-claude-disruptive-company-pentagon/))
+**五角大樓與Anthropic合作：Claude協助軍事任務規劃.** 據報導，Claude AI被用於幫助五角大樓規劃軍事任務。自去年7月以來，美國國防部已向多個作戰單位分發了Anthropic的AI工具。這引發了關於AI軍事應用的倫理討論。 ([Time](https://time.com/article/2026/03/11/anthropic-claude-disruptive-company-pentagon/))
+
+**AI實驗室Anthropic起訴五角大樓黑名單.** Anthropic起訴美國國防部，試圖阻止將其列入黑名單。這是AI公司與軍方之間的最新法律衝突。 ([DW](https://www.dw.com/en/ai-lab-anthropic-sues-to-block-pentagon-blacklisting/a-76283525))
 
 ---
 
 ## 📈 GDS 股票新闻
 
-**萬國數據將於3月17日發布財報.** 萬國數據（GDS）將於美東時間3月17日盤前發布2025年第四季度財報。機構預期營收29.03億元，同比增加7.89%。 ([富途](https://news.futunn.com/post/69950143/earnings-preview-gds-holdings-to-report-financial-results-pre-market))
+**萬國數據將於3月17日發布財報.** 萬國數據（GDS）將於美東時間3月17日盤前發布2025年第四季度財報。機構預期營收29.03億元，同比增加7.89%。投資者需密切關注。 ([富途](https://news.futunn.com/post/69950143/earnings-preview-gds-holdings-to-report-financial-results-pre-market))
 
-**萬國數據近期股價波動受中東戰火影響.** 近期美伊戰火持續擾動股市，萬國數據股價過去兩個月整體漲幅已超8%。投資者正在關注中東局勢對科技股的影響。 ([富途](https://news.futunn.com/en/post/69766321))
+**萬國數據近期股價波動受中東戰火影響.** 近期美伊戰火持續擾動股市，萬國數據股價過去兩個月整體漲幅已超8%。投資者正在關注中東局勢對科技股的影響。作為數據中心運營商，GDS的业务與全球科技投資趨勢密切相關。 ([富途](https://news.futunn.com/en/post/69766321))
 
 ---
 
 > **免责声明**: 本新闻简报由 AI agent 自动生成，仅供参考，不构成任何投资建议。
 
-> Generated by 阿呆 on 2026-03-15
+> Generated by 阿呆 on 2026-03-15 16:07:47
