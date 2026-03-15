@@ -4,15 +4,15 @@
 
 ## 🌏 国际新闻
 
-**特朗普称各國將向霍爾木茲海峽派遣軍艦.** 美國總統特朗普聲稱已"殲滅伊朗"，呼籲各國幫助確保霍爾木茲海峽的安全。專家分析這可能導致與伊朗的進一步衝突升級。專家警告，這場戰爭可能會演變成一場持久戰。 ([CNN](https://www.cnn.com/2026/03/14/us/video/bremmer-hormuz-trump-countries-warships-digvid))
+**特朗普称各國將向霍爾木茲海峽派遣軍艦.** 美國總統特朗普聲稱已"殲滅伊朗"，呼籲各國幫助確保霍爾木茲海峽的安全。專家分析這可能導致與伊朗的進一步衝突升級，警告這場戰爭可能會演變成一場持久戰。 ([CNN](https://www.cnn.com/2026/03/14/us/video/bremmer-hormuz-trump-countries-warships-digvid))
 
-**伊朗哈爾克島石油樞紐遭美軍轟炸.** 美軍轟炸伊朗哈爾克島，這是伊朗主要的石油出口樞紐，處理約90%的伊朗原油出口。特朗普聲稱已"完全摧毀"該島所有軍事目標。這是戰爭爆發以來最激烈的轟炸之一。 ([DW](https://www.dw.com/en/headlines/headlines-en))
+**伊朗哈爾克島石油樞紐遭美軍轟炸.** 美軍轟炸伊朗哈爾克島，這是伊朗主要的石油出口樞紐，處理約90%的伊朗原油出口。特朗普聲稱已"完全摧毀"該島所有軍事目標。這是戰爭爆發以來最激烈的轟炸之一。 ([Times of India](https://timesofindia.indiatimes.com/videos/international/hormuz-wont-open-iran-stuns-us-with-brutal-declaration-after-trumps-warship-call-watch/videoshow/129583813.cms))
 
-**霍爾木茲海峽關閉威脅全球石油供應.** 伊朗宣佈霍爾木茲海峽將繼續關閉，指責美國數十年來導致地區不穩定。32個國家宣佈釋放創紀錄的石油儲備，但油價仍飆升至每桶100美元以上。這被稱為「歷史上最大的供應中斷」。 ([Le Monde](https://www.lemonde.fr/en/international/))
+**霍爾木茲海峽關閉威脅全球石油供應.** 伊朗宣佈霍爾木茲海峽將繼續關閉。32個國家宣佈釋放創紀錄的石油儲備，但油價仍飆升至每桶100美元以上。這被稱為「歷史上最大的供應中斷」。 ([France 24](https://www.france24.com/en/iran-threatens-united-arab-emirate-s-ports-and-docks))
 
-**古巴爆發反政府示威.** 古巴爆發反政府示威，抗議者衝擊執政黨辦公室。近期因美國以色列對伊朗戰爭導致油價飆升，古巴面臨嚴重能源危機，全國各地頻繁斷電。 ([DW](https://www.dw.com/en/cuba-protesters-attack-ruling-partys-office-amid-blackouts/a-76363513))
+**伊朗威脅攻擊美國在阿聯酋目標.** 伊朗革命衛隊發出警告信號，稱美國在阿聯酋的港口、碼頭和軍事基地都是合法目標。 ([France 24](https://www.france24.com/en/iran-threatens-united-arab-emirate-s-ports-and-docks))
 
-**德國哲學家哈貝馬斯逝世，享年96歲.** 著名德國哲學家哈貝馬斯（Jürgen Habermas）於3月14日逝世，享年96歲。他是戰後德國最有影響力的思想家之一，對政治話語產生深遠影響。 ([Le Monde](https://www.lemonde.fr/en/international/))
+**古巴爆發反政府示威.** 古巴爆發反政府示威，抗議者衝擊執政黨辦公室。近期因美國以色列對伊朗戰爭導致油價飆升，古巴面臨嚴重能源危機。 ([Times of India](https://timesofindia.indiatimes.com/videos/international/us-bases-under-fire-iran-unleashes-high-tech-drones-american-sites-hit-across-region-on-cam/videoshow/129584161.cms))
 
 ---
 
@@ -26,21 +26,21 @@
 
 ## 🇨🇳 內地新闻
 
-**中美經貿談判五輪關鍵成果.** 中美兩國舉行了五輪高級別經貿談判，為更順暢和穩定的雙邊關係鋪平了道路。雙方將於3月14日至17日在法國舉行新一輪經貿談判。 ([CGTN](https://news.cgtn.com/news/2026-03-14/Key-outcomes-from-five-rounds-of-China-US-economic-and-trade-talks-1Lvx0ykIzug/p.html))
+**中國五年規劃加速工廠技術應用.** 中國第十五個五年規劃（2026-2030年）將於週四通過，旨在將實驗室技術快速應用到工廠，釋放數萬億元的機會。規劃將新一代信息技術、新能源、新材料、智能網聯新能源汽車、機器人、生物醫藥、高端裝備和航空航天列為優先發展的戰略性新興產業。 ([Xinhua](https://english.news.cn/20260315/f9bc0f36ebc240299d3b2d47a558da29/c.html))
 
-**中國通過爭議性「民族團結」法.** 中國通過了一項爭議性的「民族團結」法，引發外界關注。這是中國在民族政策方面的新舉措。 ([DW](https://www.dw.com/en/china-passes-controversial-ethnic-unity-law/a-76331170))
+**中美經貿官員將在巴黎會面.** 中美兩國經濟官員將在巴黎會面，為特朗普與習近平的峰會鋪平道路。談判將聚焦關稅、稀土、高科技出口控制和農業等議題。 ([Reuters](https://www.reuters.com/world/china/us-china-economic-chiefs-meet-paris-clear-path-trump-xi-summit-2026-03-15/))
 
-**中國在「兩會」期間押注新技術和內需.** 中國在全國人大政協會議期間表示，將大力發展新技術和擴大內需，以推動經濟增長。這是中國經濟轉型的重要信號。 ([DW](https://www.dw.com/en/china-bets-on-new-tech-domestic-demand-at-two-sessions/a-76293096))
+**中國強調技術自力更生.** 中國強調在人工智能、先進製造和供應鏈安全方面保持技術自力更生，這將是未來五年規劃的核心。 ([Xinhua](https://english.news.cn/20260315/f9bc0f36ebc240299d3b2d47a558da29/c.html))
 
 ---
 
 ## 💻 科技新闻
 
-**Meta與Google庭審：無限滾動是否正在創造「癮君子」？** 針對Meta和Google的訴訟在洛杉矶開審，專家表示裁決可能重新定義科技行業的商業模式。這些功能被指責為讓用戶沉迷。 ([The Guardian](https://www.theguardian.com/technology/2026/mar/14/meta-and-google-trial-are-infinite-scroll-and-autoplay-creating-addicts))
+**Meta與Google庭審：無限滾動是否正在創造「癮君子」？** 針對Meta和Google的訴訟在洛杉矶開審，專家表示裁決可能重新定義科技行業的商業模式。這些功能被指責為讓用戶沉迷。起訴人律師聲稱這些公司「讓兒童的大腦上癮」。 ([The Guardian](https://www.theguardian.com/technology/2026/mar/14/meta-and-google-trial-are-infinite-scroll-and-autoplay-creating-addicts))
 
-**Meta計劃裁員高達20%以資助AI基礎設施.** 據報導，Meta正在計劃裁員，可能影響公司20%或更多的員工，以抵消AI基礎設施的成本。這將是該公司歷史上最大規模的裁員之一。同時，Meta延遲了代號為Avocado的新AI模型發布。 ([TechCrunch](https://www.techbuzz.ai/articles/meta-eyes-20-workforce-cut-to-fund-ai-infrastructure-push))
+**Meta計劃裁員高達20%以資助AI基礎設施.** 據報導，Meta正在計劃裁員，可能影響公司20%或更多的員工，以抵消AI基礎設施的成本。這將是該公司歷史上最大規模的裁員之一。Meta目前擁有約79,000名員工。 ([TechCrunch](https://techcrunch.com/2026/03/14/meta-reportedly-considering-layoffs-that-could-affect-20-of-the-company/))
 
-**本田警告轉向電動汽車失敗將帶來160億美元損失.** 本田汽車警告，由於轉向電動汽車的策略失誤，可能面臨高達160億美元的損失。這是傳統汽車巨頭在電動化浪潮中面臨挑擊的最新例證。 ([DW](https://www.dw.com/en/honda-warns-of-16bn-hit-on-its-pivot-away-from-evs/a-76318408))
+**Digg裁員並關閉應用.** Digg裁減員工並關閉應用，作為公司重組的一部分。這是曾經流行的社交新聞聚合網站。 ([TechCrunch](https://techcrunch.com/2026/03/13/digg-lays-off-staff-and-shuts-down-app-as-company-retools/))
 
 ---
 
@@ -48,22 +48,22 @@
 
 **Anthropic的Claude因「前所未有需求」宕機.** Anthropic的Claude AI聊天機器人及其相關消費者應用程序在週一早間宕機，該初創公司表示由於「前所未有需求」導致服務中斷。這顯示AI應用的快速普及帶來的挑戰。 ([MSN](https://www.msn.com/en-us/money/other/anthropic-s-claude-chatbot-goes-down-amid-unprecedented-demand/ar-AA1Xn9a3))
 
-**OpenAI的Codex用戶飆升至160萬.** OpenAI的Codex編碼工具用戶數量飆升至160萬，該公司正在將該工具定位為未來編碼的關鍵助手。這顯示AI輔助編程工具的快速普及。 ([AOL](https://www.aol.com/finance/openai-sees-codex-users-spike-173313108.html))
+**OpenAI的Codex用戶飆升至160萬.** OpenAI的Codex編碼工具用戶數量飆升至160萬，該公司正在將該工具定位為未來編碼的關鍵助手。這顯示AI輔助編程工具的快速普及。Codex每週處理的token數量增長了5倍。 ([AOL/Fortune](https://www.aol.com/finance/openai-sees-codex-users-spike-173313108.html))
 
-**五角大樓與Anthropic合作：Claude協助軍事任務規劃.** 據報導，Claude AI被用於幫助五角大樓規劃軍事任務。自去年7月以來，美國國防部已向多個作戰單位分發了Anthropic的AI工具。這引發了關於AI軍事應用的倫理討論。 ([Time](https://time.com/article/2026/03/11/anthropic-claude-disruptive-company-pentagon/))
+**Claude首次超越ChatGPT成為美國移動下載第一名.** 這是首次Claude（Anthropic）在美國移動應用下載量上超越ChatGPT（OpenAI），顯示AI競爭格局正在發生變化。 ([Instagram](https://www.instagram.com/p/DV35GFhiSLz/))
 
-**AI實驗室Anthropic起訴五角大樓黑名單.** Anthropic起訴美國國防部，試圖阻止將其列入黑名單。這是AI公司與軍方之間的最新法律衝突。 ([DW](https://www.dw.com/en/ai-lab-anthropic-sues-to-block-pentagon-blacklisting/a-76283525))
+**韓國尋求與Anthropic合作.** 韓國正在尋求與Anthropic建立合作關係，在首爾推動AI發展的背景下，利用Claude等AI工具。 ([Korea Times](https://www.koreatimes.co.kr/business/tech-science/20260315/korea-seeks-partnership-with-anthropic-amid-ai-push))
 
 ---
 
 ## 📈 GDS 股票新闻
 
-**萬國數據將於3月17日發布財報.** 萬國數據（GDS）將於美東時間3月17日盤前發布2025年第四季度財報。機構預期營收29.03億元，同比增加7.89%。投資者需密切關注。 ([富途](https://news.futunn.com/post/69950143/earnings-preview-gds-holdings-to-report-financial-results-pre-market))
+**萬國數據將於3月17日發布財報.** 萬國數據（GDS）將於美東時間3月17日盤前發布2025年第四季度財報。機構預期營收29.03億元，同比增加7.89%；預期每股收益1.530元，同比減少93.2%。 ([富途](https://news.futunn.com/post/69950143/earnings-preview-gds-holdings-to-report-financial-results-pre-market))
 
-**萬國數據近期股價波動受中東戰火影響.** 近期美伊戰火持續擾動股市，萬國數據股價過去兩個月整體漲幅已超8%。投資者正在關注中東局勢對科技股的影響。作為數據中心運營商，GDS的业务與全球科技投資趨勢密切相關。 ([富途](https://news.futunn.com/en/post/69766321))
+**萬國數據近期股價波動受中東戰火影響.** 近期美伊戰火持續擾動股市，萬國數據股價過去兩個月整體漲幅已超8%。港股（09698.HK）最新收盤價為37.80港元，美股（GDS.OQ）最新收盤價為40.87美元。投資者正在關注中東局勢對科技股的影響。 ([富途](https://news.futunn.com/en/post/69766321))
 
 ---
 
 > **免责声明**: 本新闻简报由 AI agent 自动生成，仅供参考，不构成任何投资建议。
 
-> Generated by 阿呆 on 2026-03-15 16:07:47
+> Generated by 阿呆 on 2026-03-15 16:15:04
