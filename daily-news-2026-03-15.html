@@ -6,65 +6,78 @@
     <title>每日新闻简报 — 2026年3月15日</title>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;600;700&family=Noto+Sans+TC:wght@300;400;500;600&display=swap" rel="stylesheet">
     <style>
-        :root { --forest-green: #2d5016; --gold: #c9a227; --cream: #faf9f6; }
-        body { font-family: 'Noto Sans TC', sans-serif; background: var(--cream); line-height: 1.8; padding: 20px; }
-        .container { max-width: 800px; margin: 0 auto; background: white; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
-        .header { background: linear-gradient(135deg, var(--forest-green), #3d6b1f); color: white; padding: 40px 30px; text-align: center; }
-        .header h1 { font-family: 'Noto Serif TC', serif; font-size: 2.2em; margin-bottom: 10px; }
+        :root { --forest-green: #2d5016; --forest-green-light: #3d6b1f; --gold: #c9a227; --gold-light: #d4b43a; --cream: #faf9f6; --text-dark: #1a1a1a; --text-gray: #4a4a4a; --border: #e0e0e0; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Noto Sans TC', -apple-system, BlinkMacSystemFont, sans-serif; background: var(--cream); color: var(--text-dark); line-height: 1.8; padding: 20px; }
+        .container { max-width: 800px; margin: 0 auto; background: white; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); overflow: hidden; }
+        .header { background: linear-gradient(135deg, var(--forest-green) 0%, var(--forest-green-light) 100%); color: white; padding: 40px 30px; text-align: center; }
+        .header h1 { font-family: 'Noto Serif TC', serif; font-size: 2.2em; font-weight: 700; margin-bottom: 10px; letter-spacing: 2px; }
+        .header .date { color: var(--gold); font-size: 1.1em; font-weight: 300; }
         .content { padding: 40px 30px; }
         .section { margin-bottom: 35px; page-break-inside: avoid; }
-        .section-title { font-family: 'Noto Serif TC', serif; font-size: 1.5em; color: var(--forest-green); border-bottom: 3px solid var(--gold); padding-bottom: 10px; margin-bottom: 20px; }
+        .section-title { font-family: 'Noto Serif TC', serif; font-size: 1.5em; color: var(--forest-green); border-bottom: 3px solid var(--gold); padding-bottom: 10px; margin-bottom: 20px; display: flex; align-items: center; gap: 10px; }
         .news-item { margin-bottom: 20px; padding: 15px; background: #fafafa; border-left: 4px solid var(--forest-green); border-radius: 0 8px 8px 0; }
-        .news-item strong { color: var(--forest-green); }
-        .news-item a { color: #3d6b1f; text-decoration: none; border-bottom: 1px dotted #3d6b1f; }
-        .divider { height: 1px; background: #e0e0e0; margin: 30px 0; }
-        .footer { background: #f5f5f5; padding: 25px 30px; text-align: center; font-size: 0.9em; color: #4a4a4a; }
+        .news-item strong { color: var(--forest-green); font-weight: 600; }
+        .news-item a { color: var(--forest-green-light); text-decoration: none; border-bottom: 1px dotted var(--forest-green-light); }
+        .news-item a:hover { color: var(--gold); border-bottom-color: var(--gold); }
+        .divider { height: 1px; background: linear-gradient(90deg, transparent, var(--border), transparent); margin: 30px 0; }
+        .footer { background: #f5f5f5; padding: 25px 30px; text-align: center; font-size: 0.9em; color: var(--text-gray); border-top: 1px solid var(--border); }
+        .footer .disclaimer { font-style: italic; margin-bottom: 10px; }
+        .footer .signature { color: var(--forest-green); font-weight: 500; }
+        @media print { body { background: white; } .container { box-shadow: none; } .section { page-break-inside: avoid; } }
+        @media (max-width: 600px) { .header h1 { font-size: 1.6em; } .content { padding: 25px 20px; } .section-title { font-size: 1.2em; } }
     </style>
 </head>
 <body>
     <div class="container">
         <header class="header">
             <h1>每日新闻简报</h1>
-            <div>2026年3月15日 星期日</div>
+            <div class="date">2026年3月15日 星期日</div>
         </header>
         <div class="content">
             <section class="section">
                 <h2 class="section-title">🌏 国际新闻</h2>
-                <div class="news-item"><strong>特朗普：伊朗哈尔克岛所有军事目标已被"完全摧毁"</strong> — 特朗普周五晚间表示，美国已"完全摧毁"了伊朗哈尔克岛上的所有军事目标，该岛处理着伊朗约90%的原油出口。这标志着中东冲突进入第14天，局势持续升级。 <a href="https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-13-26" target="_blank">[CNN]</a></div>
-                <div class="news-item"><strong>特朗普组建国际联盟向霍尔木兹海峡派遣军舰</strong> — 防长Pete Hegseth正在向中东派遣两栖攻击舰USS Tripoli及其海军陆战队远征队，以应对霍尔木兹海峡的危机。 <a href="https://www.axios.com/2026/03/14/trump-iran-war-ships-strait-hormuz" target="_blank">[Axios]</a></div>
-                <div class="news-item"><strong>导弹袭击美国驻巴格达大使馆</strong> — 周六，一枚导弹袭击了伊拉克美国大使馆内的停机坪。特朗普称美国对伊朗哈尔克岛进行了轰炸袭击。 <a href="https://www.foxnews.com/live-news/us-iran-israel-war-latest-march-14-live-updates" target="_blank">[Fox News]</a></div>
-                <div class="news-item"><strong>阿联酋富查伊拉港口遭无人机袭击</strong> — 阿联酋主要加油中心和原油出口码头遭无人机袭击后，部分石油装载作业已暂停。伊朗警告阿联酋居民立即撤离主要港口周围区域。 <a href="https://www.reuters.com/world/" target="_blank">[Reuters]</a></div>
+                <div class="news-item"><strong>特朗普称各國將向霍爾木茲海峽派遣軍艦。</strong> 美國總統特朗普聲稱已"殲滅伊朗"，呼籲各國幫助確保霍爾木茲海峽的安全。專家分析這可能導致與伊朗的進一步衝突升級。 <a href="https://www.cnn.com/2026/03/14/us/video/bremmer-hormuz-trump-countries-warships-digvid" target="_blank">[CNN]</a></div>
+                <div class="news-item"><strong>伊朗威脅阿聯酋的港口和碼頭。</strong> 富查伊拉港遭無人機襲擊後部分石油裝載作業暫停，伊朗革命衛隊警告美國在阿聯酋的港口、碼頭和軍事基地是合法目標。 <a href="https://www.france24.com/en/iran-threatens-united-arab-emirate-s-ports-and-docks" target="_blank">[France 24]</a></div>
+                <div class="news-item"><strong>伊朗宣佈霍爾木茲海峽將繼續關閉。</strong> 伊朗果斷宣佈海峽將繼續關閉，指責美國數十年來導致地區不穩定。前革命衛隊指揮官警告特朗普呼籲全球軍艦保護該水道是徒勞的。 <a href="https://timesofindia.indiatimes.com/videos/international/hormuz-wont-open-iran-stuns-us-with-brutal-declaration-after-trumps-warship-call-watch/videoshow/129583813.cms" target="_blank">[Times of India]</a></div>
+                <div class="news-item"><strong>美國轟炸伊朗石油樞紐哈爾克島。</strong> 美軍轟炸伊朗哈爾克島，這是伊朗主要的石油出口樞紐，處理約90%的伊朗原油出口。特朗普聲稱已"完全摧毀"該島所有軍事目標。 <a href="https://www.nytimes.com/video/world/middleeast/100000010776741/us-bombs-iranian-oil-hub.html" target="_blank">[NY Times]</a></div>
+                <div class="news-item"><strong>伊朗警告將報復性打擊美國目標。</strong> 伊朗警告將對美國目標進行報復性打擊，同時指責美國和以色列的襲擊導致地區緊張局勢進一步升級。中東局勢可能進一步惡化。 <a href="https://www.hindustantimes.com/videos/irans-fury-unleashed-after-trump-s-kharg-island-raid-irgc-turns-uae-into-missile-playground-war-101773507401515.html" target="_blank">[Hindustan Times]</a></div>
             </section>
             <div class="divider"></div>
             <section class="section">
                 <h2 class="section-title">🇭🇰 香港新闻</h2>
-                <div class="news-item"><strong>中东冲突或使新资本流向香港：财政司司长</strong> — 财政司司长许正宇表示，由于香港的稳定性和监管确定性，中东冲突可能使新资本流向香港。政府将加大力度吸引家族办公室，使香港成为商品交易中心。 <a href="https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3346640/middle-east-conflict-could-divert-new-capital-hong-kong-treasury-chief" target="_blank">[SCMP]</a></div>
-                <div class="news-item"><strong>香港收紧放贷规则打击债务骚扰</strong> — 香港持牌放债人将面临严格新规，8月开始实施，包括对低收入者的债务偿还比率上限，以及完全禁止使用贷款中介。 <a href="https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3346599/hong-kong-tighten-moneylending-rules-tackle-debt-collector-harassment" target="_blank">[SCMP]</a></div>
+                <div class="news-item"><strong>香港收緊放貸規則打擊債務騷擾。</strong> 香港持牌放債人將面臨嚴格新規，8月實施，包括對低收入者的債務償還比率上限，以及完全禁止使用貸款中介。立法者表示，這將有助於減少債務催收者的騷擾行為。 <a href="https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3346599/hong-kong-tighten-moneylending-rules-tackle-debt-collector-harassment" target="_blank">[SCMP]</a></div>
+                <div class="news-item"><strong>中東衝突或使新資本流向香港：財政司司長。</strong> 財政司司長許正宇表示，由於香港的穩定性和監管確定性，中東衝突可能使新資本流向香港。他承諾在伊朗戰爭導致的能源價格衝擊中保持市場平穩運行。 <a href="https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3346640/middle-east-conflict-could-divert-new-capital-hong-kong-treasury-chief" target="_blank">[SCMP]</a></div>
+            </section>
+            <div class="divider"></div>
+            <section class="section">
+                <h2 class="section-title">🇨🇳 內地新闻</h2>
+                <div class="news-item"><strong>中美經貿談判五輪關鍵成果。</strong> 中美兩國舉行了五輪高級別經貿談判，為更順暢和穩定的雙邊關係鋪平了道路。雙方將於3月14日至17日在法國舉行新一輪經貿談判。 <a href="https://news.cgtn.com/news/2026-03-14/Key-outcomes-from-five-rounds-of-China-US-economic-and-trade-talks-1Lvx0ykIzug/p.html" target="_blank">[CGTN]</a></div>
             </section>
             <div class="divider"></div>
             <section class="section">
                 <h2 class="section-title">💻 科技新闻</h2>
-                <div class="news-item"><strong>Meta计划大规模裁员超过15,000人</strong> — 据报道，随着AI成本增加，Meta计划进行其历史上最大规模的裁员，裁员比例可能高达20%。 <a href="https://www.reuters.com/technology/" target="_blank">[Reuters]</a></div>
-                <div class="news-item"><strong>Meta新AI模型Avocado表现不及预期推迟发布</strong> — 据报道，Meta代号为Avocado的新基础模型在内部测试中表现不佳，推迟至5月发布。 <a href="https://timesofindia.indiatimes.com/technology/tech-news/mark-zuckerbergs-meta-plans-biggest-layoffs-in-its-history-with-15000-job-cuts-and-the-reason-is/articleshow/129568896.cms" target="_blank">[Times of India]</a></div>
-                <div class="news-item"><strong>苹果发布6款新产品包括MacBook Neo</strong> — 苹果一口气发布了6款新产品，包括备受期待的平价笔记本MacBook Neo。 <a href="https://www.usatoday.com/tech/" target="_blank">[USATODAY]</a></div>
+                <div class="news-item"><strong>Meta與Google庭審：無限滾動是否正在創造「癮君子」？</strong> 針對Meta和Google的訴訟在洛杉矶開審，專家表示裁決可能重新定義科技行業的商業模式。這些功能被指責為讓用戶沉迷。 <a href="https://www.theguardian.com/technology/2026/mar/14/meta-and-google-trial-are-infinite-scroll-and-autoplay-creating-addicts" target="_blank">[The Guardian]</a></div>
+                <div class="news-item"><strong>Meta計劃裁員高達20%以資助AI基礎設施。</strong> 據報導，Meta正在計劃裁員，可能影響公司20%或更多的員工，以抵消AI基礎設施的成本。這將是該公司歷史上最大規模的裁員之一。 <a href="https://www.techbuzz.ai/articles/meta-eyes-20-workforce-cut-to-fund-ai-infrastructure-push" target="_blank">[TechCrunch]</a></div>
+                <div class="news-item"><strong>Meta延遲AI模型發布可能考慮許可Google的Gemini。</strong> 由於性能不佳，Meta推遲了AI模型的發布，據報導正在考慮許可Google的Gemini。 <a href="https://www.barrons.com/articles/meta-stock-ai-magnificent-seven-83d575b7" target="_blank">[Barron's]</a></div>
             </section>
             <div class="divider"></div>
             <section class="section">
                 <h2 class="section-title">🤖 AI 新闻</h2>
-                <div class="news-item"><strong>特斯拉Terafab AI芯片项目7天内启动</strong> — 特斯拉CEO马斯克周六表示，公司制造AI芯片的Terafab项目将在7天内启动。 <a href="https://www.reuters.com/technology/artificial-intelligence/" target="_blank">[Reuters]</a></div>
-                <div class="news-item"><strong>Claude帮助五角大楼规划军事任务</strong> — 据报道，Anthropic的Claude AI被用于帮助五角大楼规划军事任务，并在行动中使用。自去年7月以来，美国国防部已向多个作战单位分发Anthropic的AI工具。 <a href="https://time.com/article/2026/03/11/anthropic-claude-disruptive-company-pentagon/" target="_blank">[Time]</a></div>
-                <div class="news-item"><strong>Claude在14天内发现22个Firefox漏洞</strong> — Claude Opus 4.6在20分钟内就识别出了第一个Use-After-Free漏洞，展示了AI在安全领域的能力。 <a href="https://ucstrategies.com/news/claude-found-22-firefox-bugs-in-14-days-then-spent-4000-and-couldnt-exploit-any-of-them/" target="_blank">[UC Strategies]</a></div>
+                <div class="news-item"><strong>Anthropic的Claude因「前所未有需求」宕機。</strong> Anthropic的Claude AI聊天機器人及其相關消費者應用程序在週一早間宕機，該初創公司表示由於「前所未有需求」導致服務中斷。 <a href="https://www.msn.com/en-us/money/other/anthropic-s-claude-chatbot-goes-down-amid-unprecedented-demand/ar-AA1Xn9a3" target="_blank">[MSN]</a></div>
+                <div class="news-item"><strong>OpenAI的Codex用戶飆升至160萬。</strong> OpenAI的Codex編碼工具用戶數量飆升至160萬，該公司正在將該工具定位為未來編碼的關鍵助手。 <a href="https://www.aol.com/finance/openai-sees-codex-users-spike-173313108.html" target="_blank">[AOL]</a></div>
+                <div class="news-item"><strong>五角大樓與Anthropic合作：Claude協助軍事任務規劃。</strong> 據報導，Claude AI被用於幫助五角大樓規劃軍事任務。自去年7月以來，美國國防部已向多個作戰單位分發了Anthropic的AI工具。 <a href="https://time.com/article/2026/03/11/anthropic-claude-disruptive-company-pentagon/" target="_blank">[Time]</a></div>
             </section>
             <div class="divider"></div>
             <section class="section">
                 <h2 class="section-title">📈 GDS 股票新闻</h2>
-                <div class="news-item"><strong>GDS股价报42.82美元</strong> — 万国数据（GDS）当前股价约为42.82美元，过去一年回报率为12.4%。 <a href="https://www.livemint.com/market/market-stats/us-stocks-gds-holdings-ltd-share-price-gds" target="_blank">[Livemint]</a></div>
-                <div class="news-item"><strong>C-REIT在上海证券交易所完成IPO</strong> — GDS的数据中心REIT（C-REIT）在上海证券交易所完成首次公开募股，股票代码508060。 <a href="https://www.stocktitan.net/overview/GDS/" target="_blank">[Stock Titan]</a></div>
+                <div class="news-item"><strong>萬國數據將於3月17日發布財報。</strong> 萬國數據（GDS）將於美東時間3月17日盤前發布2025年第四季度財報。機構預期營收29.03億元，同比增加7.89%。 <a href="https://news.futunn.com/post/69950143/earnings-preview-gds-holdings-to-report-financial-results-pre-market" target="_blank">[富途]</a></div>
+                <div class="news-item"><strong>萬國數據近期股價波動受中東戰火影響。</strong> 近期美伊戰火持續擾動股市，萬國數據股價過去兩個月整體漲幅已超8%。投資者正在關注中東局勢對科技股的影響。 <a href="https://news.futunn.com/en/post/69766321" target="_blank">[富途]</a></div>
             </section>
         </div>
         <footer class="footer">
-            <div>免责声明：本新闻简报由AI生成，仅供参考，不构成投资建议</div>
-            <div style="color:#2d5016;margin-top:10px;">Generated by 阿呆 on 2026-03-15</div>
+            <div class="disclaimer">免责声明：本新闻简报由 AI agent 自动生成，仅供参考，不构成任何投资建议。</div>
+            <div class="signature">Generated by 阿呆 on 2026-03-15</div>
         </footer>
     </div>
 </body>

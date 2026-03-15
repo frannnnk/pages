@@ -4,57 +4,57 @@
 
 ## 🌏 国际新闻
 
-**特朗普称美国已"完全摧毁"伊朗石油枢纽的所有军事目标.** 美国总统唐纳德·特朗普周五晚间表示，美国已"完全摧毁"了伊朗哈尔克岛（Kharg Island）上的所有军事目标，该岛处理着伊朗约90%的原油出口。这标志着中东冲突进入第14天，局势持续升级。 ([CNN](https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-13-26))
+**特朗普称各國將向霍爾木茲海峽派遣軍艦.** 美國總統特朗普聲稱已"殲滅伊朗"，呼籲各國幫助確保霍爾木茲海峽的安全。專家分析這可能導致與伊朗的進一步衝突升級。 ([CNN](https://www.cnn.com/2026/03/14/us/video/bremmer-hormuz-trump-countries-warships-digvid))
 
-**阿联酋富查伊拉港口遭无人机袭击后暂停部分石油装载作业.** 行业消息人士称，阿联酋富查伊拉酋长国的一个主要加油中心和原油出口码头在周六遭到无人机袭击并起火后，部分石油装载作业已暂停。伊朗警告阿联酋居民立即撤离该国三个主要港口周围的区域。 ([Reuters](https://www.reuters.com/world/))
+**伊朗威脅阿聯酋的港口和碼頭.** 富查伊拉港遭無人機襲擊後部分石油裝載作業暫停，伊朗革命衛隊警告美國在阿聯酋的港口、碼頭和軍事基地是合法目標。 ([France 24](https://www.france24.com/en/iran-threatens-united-arab-emirate-s-ports-and-docks))
 
-**美国确认6名空军在加油机坠毁中丧生.** 美国 officials 已确认在最新一起军事事故中有6名空军人员遇难。具体事故原因正在调查中。 ([USATODAY](https://www.usatoday.com/))
+**伊朗宣佈霍爾木茲海峽將繼續關閉.** 伊朗果斷宣佈海峽將繼續關閉，指責美國數十年來導致地區不穩定。前革命衛隊指揮官警告特朗普呼籲全球軍艦保護該水道是徒勞的。 ([Times of India](https://timesofindia.indiatimes.com/videos/international/hormuz-wont-open-iran-stuns-us-with-brutal-declaration-after-trumps-warship-call-watch/videoshow/129583813.cms))
+
+**美國轟炸伊朗石油樞紐哈爾克島.** 美軍轟炸伊朗哈爾克島，這是伊朗主要的石油出口樞紐，處理約90%的伊朗原油出口。特朗普聲稱已"完全摧毀"該島所有軍事目標。 ([NY Times](https://www.nytimes.com/video/world/middleeast/100000010776741/us-bombs-iranian-oil-hub.html))
+
+**伊朗警告將報復性打擊美國目標.** 伊朗警告將對美國目標進行報復性打擊，同時指責美國和以色列的襲擊導致地區緊張局勢進一步升級。中東局勢可能進一步惡化。 ([Hindustan Times](https://www.hindustantimes.com/videos/irans-fury-unleashed-after-trump-s-kharg-island-raid-irgc-turns-uae-into-missile-playground-war-101773507401515.html))
 
 ---
 
 ## 🇭🇰 香港新闻
 
-**香港将收紧放贷规则以应对债务催收骚扰.** 香港的持牌放债人将面临严格的新法规，从8月开始实施，包括对低收入者的债务偿还比率上限，以及完全禁止使用贷款中介。立法者表示，这一举措应能减少债务催收者的骚扰行为。 ([SCMP](https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3346599/hong-kong-tighten-moneylending-rules-tackle-debt-collector-harassment))
+**香港收緊放貸規則打擊債務騷擾.** 香港持牌放債人將面臨嚴格新規，8月實施，包括對低收入者的債務償還比率上限，以及完全禁止使用貸款中介。立法者表示，這將有助於減少債務催收者的騷擾行為。 ([SCMP](https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3346599/hong-kong-tighten-moneylending-rules-tackle-debt-collector-harassment))
 
-**中东冲突可能使新资本流向香港：财政司司长.** 财政司司长许正宇周日表示，由于香港的稳定性和监管确定性，中东冲突可能使新资本流向香港。他承诺在伊朗战争导致的能源价格冲击中保持市场平稳运行，并表示政府将加大力度吸引家族办公室，并使香港成为商品交易中心。 ([SCMP](https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3346640/middle-east-conflict-could-divert-new-capital-hong-kong-treasury-chief))
+**中東衝突或使新資本流向香港：財政司司長.** 財政司司長許正宇表示，由於香港的穩定性和監管確定性，中東衝突可能使新資本流向香港。他承諾在伊朗戰爭導致的能源價格衝擊中保持市場平穩運行，並表示政府將加大力度吸引家族辦公室，並使香港成為商品交易中心。 ([SCMP](https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3346640/middle-east-conflict-could-divert-new-capital-hong-kong-treasury-chief))
 
 ---
 
-## 🇨🇳 内地新闻
+## 🇨🇳 內地新闻
 
-**中国加大对科技和创新型企业的贷款支持.** 银行家表示，中国贷款机构计划将更多资金投向科技和创新型企业，以响应北京在整个经济领域积极采用人工智能并主导新兴行业的承诺。 ([Reuters](https://www.reuters.com/business/finance/))
-
-**亚洲能源短缺国家实施燃料配给.** 能源匮乏的亚洲国家正在对化石燃料供应或出口实施配给，以应对海湾冲突。分析人士指出，像中国这样的快速电气化进程本可以减少能源和粮食安全的风险。 ([Reuters](https://www.reuters.com/))
+**中美經貿談判五輪關鍵成果.** 中美兩國舉行了五輪高級別經貿談判，為更順暢和穩定的雙邊關係鋪平了道路。雙方將於3月14日至17日在法國舉行新一輪經貿談判。 ([CGTN](https://news.cgtn.com/news/2026-03-14/Key-outcomes-from-five-rounds-of-China-US-economic-and-trade-talks-1Lvx0ykIzug/p.html))
 
 ---
 
 ## 💻 科技新闻
 
-**Meta reportedly计划裁员高达20%.** 据路透社报道，Meta可能正准备裁减其员工总数的相当一部分，裁员比例可能高达20%。这将是该公司近年来最大规模的裁员行动之一。 ([Engadget](https://www.engadget.com/big-tech/meta-is-reportedly-planning-to-cut-up-to-20-percent-of-its-staff-in-upcoming-layoffs-160812304.html))
+**Meta與Google庭審：無限滾動和自動播放是否正在創造「癮君子」？.** 針對Meta和Google的訴訟在洛杉矶開審，專家表示裁決可能重新定義科技行業的商業模式。這些功能被指責為讓用戶沉迷。 ([The Guardian](https://www.theguardian.com/technology/2026/mar/14/meta-and-google-trial-are-infinite-scroll-and-autoplay-creating-addicts))
 
-**字节跳动搁置Seedance 2.0视频生成模型的全球发布.** TikTok的中国母公司字节跳动已搁置其最新视频生成模型Seedance 2.0的全球发布，此前与主要好莱坞工作室和流媒体平台发生了一系列版权纠纷。 ([Reuters](https://www.reuters.com/technology/))
+**Meta計劃裁員高達20%以資助AI基礎設施.** 據報導，Meta正在計劃裁員，可能影響公司20%或更多的員工，以抵消AI基礎設施的成本。這將是該公司歷史上最大規模的裁員之一。 ([TechCrunch](https://www.techbuzz.ai/articles/meta-eyes-20-workforce-cut-to-fund-ai-infrastructure-push))
 
-**中国App Store佣金从30%降至25%.** 苹果公司在一份声明中表示，其对中国大陆App Store的佣金将从30%降至25%，以适应当地市场环境。 ([Business Standard](https://www.business-standard.com/technology/tech-news))
+**Meta延遲AI模型發布可能考慮許可Google的Gemini.** 由於性能不佳，Meta推遲了AI模型的發布，據報導正在考慮許可Google的Gemini。 ([Barron's](https://www.barrons.com/articles/meta-stock-ai-magnificent-seven-83d575b7))
 
 ---
 
 ## 🤖 AI 新闻
 
-**马斯克称特斯拉Terafab AI芯片项目将在7天内启动.** 特斯拉首席执行官埃隆·马斯克周六表示，该公司制造人工智能芯片的Terafab项目将在7天内启动，这将大幅提升特斯拉的AI计算能力。 ([Reuters](https://www.reuters.com/technology/artificial-intelligence/))
+**Anthropic的Claude因「前所未有需求」宕機.** Anthropic的Claude AI聊天機器人及其相關消費者應用程序在週一早間宕機，該初創公司表示由於「前所未有需求」導致服務中斷。 ([MSN](https://www.msn.com/en-us/money/other/anthropic-s-claude-chatbot-goes-down-amid-unprecedented-demand/ar-AA1Xn9a3))
 
-**前Anthropic研究人员推出AI初创公司Mirendil专注于科学研究.** 一群前Anthropic研究人员推出了Mirendil，这是一家专注于推进科学研究的AI初创公司，旨在利用人工智能技术加速科学发现过程。 ([Gnoppix Forum](https://forum.gnoppix.org/t/ex-anthropic-researchers-launch-ai-startup-mirendil-to-tackle-scientific-research/5001))
+**OpenAI的Codex用戶飆升至160萬.** OpenAI的Codex編碼工具用戶數量飆升至160萬，該公司正在將該工具定位為未來編碼的關鍵助手。 ([AOL](https://www.aol.com/finance/openai-sees-codex-users-spike-173313108.html))
 
-**OpenAI与Ginkgo Bioworks合作改变科学发现.** 通过将高级AI模型与大型生物数据集相结合，OpenAI和Ginkgo Bioworks等公司正在展示人工智能如何显著加速科学发现，特别是在生物技术、医学、农业和环境科学领域。 ([Linkdood](https://linkdood.com/how-openai-and-ginkgo-bioworks-are-transforming-new-scientific-discovery/))
-
-**赞比亚在中学试点AI驱动的学习平台.** 赞比亚政府与英国Obrizum Group签署协议，在课堂中试点使用人工智能，初始阶段定于4月中旬启动。 ([iAfrica](https://iafrica.com/zambia-pilots-ai-powered-learning-platform-in-secondary-schools-with-plans-to-expand/))
+**五角大樓與Anthropic合作：Claude協助軍事任務規劃.** 據報導，Claude AI被用於幫助五角大樓規劃軍事任務。自去年7月以來，美國國防部已向多個作戰單位分發了Anthropic的AI工具。 ([Time](https://time.com/article/2026/03/11/anthropic-claude-disruptive-company-pentagon/))
 
 ---
 
 ## 📈 GDS 股票新闻
 
-**瑞银续列万国数据为行业首选.** 瑞银表示，看好万国数据潜在新订单以及DayOne C轮融资估值，继续将其列为行业首选股票。 ([新浪财经](http://stock.finance.sina.com.cn/usstock/quotes/GDS.html))
+**萬國數據將於3月17日發布財報.** 萬國數據（GDS）將於美東時間3月17日盤前發布2025年第四季度財報。機構預期營收29.03億元，同比增加7.89%。 ([富途](https://news.futunn.com/post/69950143/earnings-preview-gds-holdings-to-report-financial-results-pre-market))
 
-**分析师对GDS给予"强烈买入"评级.** 据Investing.com数据显示，分析师给予GDS Holdings的12个月平均目标价显示强烈买入评级，0位分析师建议卖出。 ([Investing.com](https://www.investing.com/equities/gds-holdings-ltd))
+**萬國數據近期股價波動受中東戰火影響.** 近期美伊戰火持續擾動股市，萬國數據股價過去兩個月整體漲幅已超8%。投資者正在關注中東局勢對科技股的影響。 ([富途](https://news.futunn.com/en/post/69766321))
 
 ---
 
