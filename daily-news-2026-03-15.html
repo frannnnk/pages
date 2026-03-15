@@ -1,576 +1,282 @@
 <!DOCTYPE html>
-<html lang="zh-Hant">
+<html lang="zh-TW">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>每日新聞簡報 - 2026年03月15日</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;500;600;700;900&family=Noto+Sans+TC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <script src="https://cdn.tailwindcss.com"></script>
+    <title>每日新闻简报 — 2026年3月15日</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;600;700&family=Noto+Sans+TC:wght@300;400;500;600&display=swap" rel="stylesheet">
     <style>
-        body { font-family: 'Noto Sans TC', sans-serif; background: oklch(0.98 0.005 80); }
-        .news-item { page-break-inside: avoid; }
-        @media print { body { -webkit-print-color-adjust: exact; } }
+        :root {
+            --forest-green: #2d5016;
+            --forest-green-light: #3d6b1f;
+            --gold: #c9a227;
+            --gold-light: #d4b43a;
+            --cream: #faf9f6;
+            --text-dark: #1a1a1a;
+            --text-gray: #4a4a4a;
+            --border: #e0e0e0;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Noto Sans TC', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--cream);
+            color: var(--text-dark);
+            line-height: 1.8;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, var(--forest-green) 0%, var(--forest-green-light) 100%);
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-family: 'Noto Serif TC', serif;
+            font-size: 2.2em;
+            font-weight: 700;
+            margin-bottom: 10px;
+            letter-spacing: 2px;
+        }
+        
+        .header .date {
+            color: var(--gold);
+            font-size: 1.1em;
+            font-weight: 300;
+        }
+        
+        .content {
+            padding: 40px 30px;
+        }
+        
+        .section {
+            margin-bottom: 35px;
+            page-break-inside: avoid;
+        }
+        
+        .section-title {
+            font-family: 'Noto Serif TC', serif;
+            font-size: 1.5em;
+            color: var(--forest-green);
+            border-bottom: 3px solid var(--gold);
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .news-item {
+            margin-bottom: 20px;
+            padding: 15px;
+            background: #fafafa;
+            border-left: 4px solid var(--forest-green);
+            border-radius: 0 8px 8px 0;
+        }
+        
+        .news-item strong {
+            color: var(--forest-green);
+            font-weight: 600;
+        }
+        
+        .news-item a {
+            color: var(--forest-green-light);
+            text-decoration: none;
+            border-bottom: 1px dotted var(--forest-green-light);
+        }
+        
+        .news-item a:hover {
+            color: var(--gold);
+            border-bottom-color: var(--gold);
+        }
+        
+        .divider {
+            height: 1px;
+            background: linear-gradient(90deg, transparent, var(--border), transparent);
+            margin: 30px 0;
+        }
+        
+        .footer {
+            background: #f5f5f5;
+            padding: 25px 30px;
+            text-align: center;
+            font-size: 0.9em;
+            color: var(--text-gray);
+            border-top: 1px solid var(--border);
+        }
+        
+        .footer .disclaimer {
+            font-style: italic;
+            margin-bottom: 10px;
+        }
+        
+        .footer .signature {
+            color: var(--forest-green);
+            font-weight: 500;
+        }
+        
+        @media print {
+            body { background: white; }
+            .container { box-shadow: none; }
+            .section { page-break-inside: avoid; }
+        }
+        
+        @media (max-width: 600px) {
+            .header h1 { font-size: 1.6em; }
+            .content { padding: 25px 20px; }
+            .section-title { font-size: 1.2em; }
+        }
     </style>
 </head>
 <body>
-    <header style="background: linear-gradient(175deg, oklch(0.22 0.04 160), oklch(0.32 0.06 160)); padding: 3rem 2rem; color: white;">
-        <h1 style="font-family: 'Noto Serif TC', serif; font-size: 2rem; margin: 0;">
-            📰 每日新聞簡報
-        </h1>
-        <p style="opacity: 0.9; margin-top: 0.5rem;">2026年03月15日</p>
-    </header>
-
-    <main style="max-width: 900px; margin: 0 auto; padding: 2rem;">
-
-        <section style="margin: 2rem 0;">
-            <h2 style="font-family: 'Noto Serif TC', serif; font-size: 1.25rem; border-bottom: 2px solid #059669; padding-bottom: 0.5rem; margin-bottom: 1rem; color: #1f2937;">
-                🌏 世界新聞 (6條)
-            </h2>
-        <div class="news-item" style="padding: 0.75rem 0; border-bottom: 1px solid #e5e7eb;">
-            <div style="font-weight: 600; color: #1f2937; font-size: 0.95rem; margin-bottom: 0.5rem; line-height: 1.4;">
-                1. 美軍襲擊伊朗石油出口樞紐　特朗普：大規模轟炸
-            </div>
-            <div style="font-size: 0.75rem; color: #6b7280; margin-bottom: 0.5rem;">美軍周五晚對伊朗主要石油出口港Kharg Island發動大規模轟炸，該港口處理約90%伊朗原油出口。特朗普表示美軍「完全摧毀了所有軍事目標」。</div>
-            <div style="font-size: 0.75rem; color: #9ca3af; margin-top: 0.5rem;">
-                <span style="color: #059669;">NYTimes</span> | 5小時前
-            </div>
-            <a href="https://www.nytimes.com/live/2026/03/13/world/iran-war-trump-oil-israel" target="_blank" style="color: #2563eb; font-size: 0.8rem; text-decoration: none; display: inline-block; margin-top: 0.5rem;">
-                📖 閱讀全文 →
-            </a>
-        </div>
-        <div class="news-item" style="padding: 0.75rem 0; border-bottom: 1px solid #e5e7eb;">
-            <div style="font-weight: 600; color: #1f2937; font-size: 0.95rem; margin-bottom: 0.5rem; line-height: 1.4;">
-                2. 中東衝突第14天　美軍完全摧毀伊朗軍事目標
-            </div>
-            <div style="font-size: 0.75rem; color: #6b7280; margin-bottom: 0.5rem;">特朗普表示美軍「完全摧毀」了伊朗石油出口設施，伊朗新任最高領袖誓言繼續戰鬥。油價持續飆升引發全球經濟擔憂。</div>
-            <div style="font-size: 0.75rem; color: #9ca3af; margin-top: 0.5rem;">
-                <span style="color: #059669;">CNN</span> | 19小時前
-            </div>
-            <a href="https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-13-26" target="_blank" style="color: #2563eb; font-size: 0.8rem; text-decoration: none; display: inline-block; margin-top: 0.5rem;">
-                📖 閱讀全文 →
-            </a>
-        </div>
-        <div class="news-item" style="padding: 0.75rem 0; border-bottom: 1px solid #e5e7eb;">
-            <div style="font-weight: 600; color: #1f2937; font-size: 0.95rem; margin-bottom: 0.5rem; line-height: 1.4;">
-                3. 伊朗戰爭威脅經濟　化肥價格飆升推高食品價格
-            </div>
-            <div style="font-size: 0.75rem; color: #6b7280; margin-bottom: 0.5rem;">伊朗戰爭正在干擾經過霍爾木茲海峽的化肥運輸，增加農民成本並推高食品價格。專家警告食品價格將進一步上漲。</div>
-            <div style="font-size: 0.75rem; color: #9ca3af; margin-top: 0.5rem;">
-                <span style="color: #059669;">NBC News</span> | 1天前
-            </div>
-            <a href="https://www.nbcnews.com/business/consumer/iran-war-fertilizer-prices-food-rcna263336" target="_blank" style="color: #2563eb; font-size: 0.8rem; text-decoration: none; display: inline-block; margin-top: 0.5rem;">
-                📖 閱讀全文 →
-            </a>
-        </div>
-        <div class="news-item" style="padding: 0.75rem 0; border-bottom: 1px solid #e5e7eb;">
-            <div style="font-weight: 600; color: #1f2937; font-size: 0.95rem; margin-bottom: 0.5rem; line-height: 1.4;">
-                4. 特朗普聲稱伊朗「即將投降」　G7峰會言論引發質疑
-            </div>
-            <div style="font-size: 0.75rem; color: #6b7280; margin-bottom: 0.5rem;">特朗普在G7電話會議中聲稱伊朗即將投降，但24小時後伊朗新任最高領袖誓言繼續戰鬥，與特朗普說法相矛盾。</div>
-            <div style="font-size: 0.75rem; color: #9ca3af; margin-top: 0.5rem;">
-                <span style="color: #059669;">Axios</span> | 2天前
-            </div>
-            <a href="https://www.axios.com/2026/03/13/trump-iran-surrender-hormuz-oil" target="_blank" style="color: #2563eb; font-size: 0.8rem; text-decoration: none; display: inline-block; margin-top: 0.5rem;">
-                📖 閱讀全文 →
-            </a>
-        </div>
-        <div class="news-item" style="padding: 0.75rem 0; border-bottom: 1px solid #e5e7eb;">
-            <div style="font-weight: 600; color: #1f2937; font-size: 0.95rem; margin-bottom: 0.5rem; line-height: 1.4;">
-                5. 美軍加油機墜毀致6人死亡　伊朗新領袖可能「毀容」
-            </div>
-            <div style="font-size: 0.75rem; color: #6b7280; margin-bottom: 0.5rem;">美國一架加油機墜毀造成6人死亡。美國國防部長赫格塞思表示伊朗新任最高領袖可能已經「毀容」。</div>
-            <div style="font-size: 0.75rem; color: #9ca3af; margin-top: 0.5rem;">
-                <span style="color: #059669;">NBC News</span> | 9小時前
-            </div>
-            <a href="https://www.nbcnews.com/world/iran/live-blog/live-updates-iran-war-trump-threat-oil-refueling-plane-israel-gulf-rcna263302" target="_blank" style="color: #2563eb; font-size: 0.8rem; text-decoration: none; display: inline-block; margin-top: 0.5rem;">
-                📖 閱讀全文 →
-            </a>
-        </div>
-        <div class="news-item" style="padding: 0.75rem 0; border-bottom: 1px solid #e5e7eb;">
-            <div style="font-weight: 600; color: #1f2937; font-size: 0.95rem; margin-bottom: 0.5rem; line-height: 1.4;">
-                6. 霍爾木茲海峽危機升級　特朗普政府面臨艱難抉擇
-            </div>
-            <div style="font-size: 0.75rem; color: #6b7280; margin-bottom: 0.5rem;">伊朗繼續攻擊油輪，特朗普政府面臨艱難選擇。國防部長赫格塞思表示正在評估各種選項以重新開放這條重要航道。</div>
-            <div style="font-size: 0.75rem; color: #9ca3af; margin-top: 0.5rem;">
-                <span style="color: #059669;">The Hill</span> | 4小時前
-            </div>
-            <a href="https://thehill.com/policy/defense/5783717-iran-threats-strait-hormuz/" target="_blank" style="color: #2563eb; font-size: 0.8rem; text-decoration: none; display: inline-block; margin-top: 0.5rem;">
-                📖 閱讀全文 →
-            </a>
-        </div></section>
-        <section style="margin: 2rem 0;">
-            <h2 style="font-family: 'Noto Serif TC', serif; font-size: 1.25rem; border-bottom: 2px solid #059669; padding-bottom: 0.5rem; margin-bottom: 1rem; color: #1f2937;">
-                🇭🇰 香港新聞 (9條)
-            </h2>
-
-        <div class="news-item" style="padding: 0.75rem 0; border-bottom: 1px solid #e5e7eb;">
-            <div style="font-weight: 600; color: #1f2937; font-size: 0.95rem; margin-bottom: 0.5rem; line-height: 1.4;">
-                1. Google Maps 近日迎來 10 年來最大更新，融合了 Gemini AI 功能，猶如有一個 AI 導遊在你身邊。
-            </div>
+    <div class="container">
+        <header class="header">
+            <h1>每日新闻简报</h1>
+            <div class="date">2026年3月15日 星期日</div>
+        </header>
+        
+        <div class="content">
+            <!-- 国际新闻 -->
+            <section class="section">
+                <h2 class="section-title">🌏 国际新闻</h2>
+                
+                <div class="news-item">
+                    <strong>特朗普称美国已"完全摧毁"伊朗石油枢纽的所有军事目标。</strong> 美国总统唐纳德·特朗普周五晚间表示，美国已"完全摧毁"了伊朗哈尔克岛（Kharg Island）上的所有军事目标，该岛处理着伊朗约90%的原油出口。这标志着中东冲突进入第14天，局势持续升级。 
+                    <a href="https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-13-26" target="_blank">[CNN]</a>
+                </div>
+                
+                <div class="news-item">
+                    <strong>阿联酋富查伊拉港口遭无人机袭击后暂停部分石油装载作业。</strong> 行业消息人士称，阿联酋富查伊拉酋长国的一个主要加油中心和原油出口码头在周六遭到无人机袭击并起火后，部分石油装载作业已暂停。伊朗警告阿联酋居民立即撤离该国三个主要港口周围的区域。 
+                    <a href="https://www.reuters.com/world/" target="_blank">[Reuters]</a>
+                </div>
+                
+                <div class="news-item">
+                    <strong>美国确认6名空军在加油机坠毁中丧生。</strong> 美国 officials 已确认在最新一起军事事故中有6名空军人员遇难。具体事故原因正在调查中。 
+                    <a href="https://www.usatoday.com/" target="_blank">[USATODAY]</a>
+                </div>
+            </section>
             
-            <div style="font-size: 0.75rem; color: #9ca3af; margin-top: 0.5rem;">
-                <span style="color: #059669;">HK01</span>
-            </div>
-            <a href="https://hk.news.yahoo.com/" target="_blank" style="color: #2563eb; font-size: 0.8rem; text-decoration: none; display: inline-block; margin-top: 0.5rem;">
-                📖 閱讀全文 →
-            </a>
-        </div>
-        <div class="news-item" style="padding: 0.75rem 0; border-bottom: 1px solid #e5e7eb;">
-            <div style="font-weight: 600; color: #1f2937; font-size: 0.95rem; margin-bottom: 0.5rem; line-height: 1.4;">
-                2. 聾人陳美華在父親去世後，遭遺囑執行人、大廈女保安員蕭榮娟逐出李鄭屋邨單位，陳入稟向對方追討單位近四成業權，周五（13 日）獲區院暫委法官劉勝欣裁定勝訴。
-            </div>
+            <div class="divider"></div>
             
-            <div style="font-size: 0.75rem; color: #9ca3af; margin-top: 0.5rem;">
-                <span style="color: #059669;">HK01</span>
-            </div>
-            <a href="https://hk.news.yahoo.com/" target="_blank" style="color: #2563eb; font-size: 0.8rem; text-decoration: none; display: inline-block; margin-top: 0.5rem;">
-                📖 閱讀全文 →
-            </a>
-        </div>
-        <div class="news-item" style="padding: 0.75rem 0; border-bottom: 1px solid #e5e7eb;">
-            <div style="font-weight: 600; color: #1f2937; font-size: 0.95rem; margin-bottom: 0.5rem; line-height: 1.4;">
-                3. [《Yahoo 新聞》報料熱線](/%E3%80%8Ayahoo-%E6%96%B0%E8%81%9E%E3%80%8B%E5%A0%B1%E6%96%99%E7%86%B1%E7%B7%9A-020236904.html)
-            </div>
+            <!-- 香港新闻 -->
+            <section class="section">
+                <h2 class="section-title">🇭🇰 香港新闻</h2>
+                
+                <div class="news-item">
+                    <strong>香港将收紧放贷规则以应对债务催收骚扰。</strong> 香港的持牌放债人将面临严格的新法规，从8月开始实施，包括对低收入者的债务偿还比率上限，以及完全禁止使用贷款中介。立法者表示，这一举措应能减少债务催收者的骚扰行为。 
+                    <a href="https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3346599/hong-kong-tighten-moneylending-rules-tackle-debt-collector-harassment" target="_blank">[SCMP]</a>
+                </div>
+                
+                <div class="news-item">
+                    <strong>中东冲突可能使新资本流向香港：财政司司长。</strong> 财政司司长许正宇周日表示，由于香港的稳定性和监管确定性，中东冲突可能使新资本流向香港。他承诺在伊朗战争导致的能源价格冲击中保持市场平稳运行，并表示政府将加大力度吸引家族办公室，并使香港成为商品交易中心。 
+                    <a href="https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3346640/middle-east-conflict-could-divert-new-capital-hong-kong-treasury-chief" target="_blank">[SCMP]</a>
+                </div>
+            </section>
             
-            <div style="font-size: 0.75rem; color: #9ca3af; margin-top: 0.5rem;">
-                <span style="color: #059669;">HK01</span>
-            </div>
-            <a href="https://hk.news.yahoo.com/" target="_blank" style="color: #2563eb; font-size: 0.8rem; text-decoration: none; display: inline-block; margin-top: 0.5rem;">
-                📖 閱讀全文 →
-            </a>
-        </div>
-        <div class="news-item" style="padding: 0.75rem 0; border-bottom: 1px solid #e5e7eb;">
-            <div style="font-weight: 600; color: #1f2937; font-size: 0.95rem; margin-bottom: 0.5rem; line-height: 1.4;">
-                4. 《Yahoo 新聞》的報料熱線已經開通。從突發事故、社會不公，到針對公私營機構的投訴，都歡迎讀者向我們提供資訊線索。
-            </div>
+            <div class="divider"></div>
             
-            <div style="font-size: 0.75rem; color: #9ca3af; margin-top: 0.5rem;">
-                <span style="color: #059669;">HK01</span>
-            </div>
-            <a href="https://hk.news.yahoo.com/" target="_blank" style="color: #2563eb; font-size: 0.8rem; text-decoration: none; display: inline-block; margin-top: 0.5rem;">
-                📖 閱讀全文 →
-            </a>
-        </div>
-        <div class="news-item" style="padding: 0.75rem 0; border-bottom: 1px solid #e5e7eb;">
-            <div style="font-weight: 600; color: #1f2937; font-size: 0.95rem; margin-bottom: 0.5rem; line-height: 1.4;">
-                5. 伊朗局勢推高國際油價，日本逾九成石油依賴中東供應，乾洗業及製造業等行業面臨成本壓力，市場憂能源風險升溫。
-            </div>
+            <!-- 内地新闻 -->
+            <section class="section">
+                <h2 class="section-title">🇨🇳 内地新闻</h2>
+                
+                <div class="news-item">
+                    <strong>中国加大对科技和创新型企业的贷款支持。</strong> 银行家表示，中国贷款机构计划将更多资金投向科技和创新型企业，以响应北京在整个经济领域积极采用人工智能并主导新兴行业的承诺。 
+                    <a href="https://www.reuters.com/business/finance/" target="_blank">[Reuters]</a>
+                </div>
+                
+                <div class="news-item">
+                    <strong>亚洲能源短缺国家实施燃料配给。</strong> 能源匮乏的亚洲国家正在对化石燃料供应或出口实施配给，以应对海湾冲突。分析人士指出，像中国这样的快速电气化进程本可以减少能源和粮食安全的风险。 
+                    <a href="https://www.reuters.com/" target="_blank">[Reuters]</a>
+                </div>
+            </section>
             
-            <div style="font-size: 0.75rem; color: #9ca3af; margin-top: 0.5rem;">
-                <span style="color: #059669;">HK01</span>
-            </div>
-            <a href="https://hk.news.yahoo.com/" target="_blank" style="color: #2563eb; font-size: 0.8rem; text-decoration: none; display: inline-block; margin-top: 0.5rem;">
-                📖 閱讀全文 →
-            </a>
-        </div>
-        <div class="news-item" style="padding: 0.75rem 0; border-bottom: 1px solid #e5e7eb;">
-            <div style="font-weight: 600; color: #1f2937; font-size: 0.95rem; margin-bottom: 0.5rem; line-height: 1.4;">
-                6. [《Yahoo新聞》報道](/topic/yahoo-news-hk?yptr=yahoo)
-            </div>
+            <div class="divider"></div>
             
-            <div style="font-size: 0.75rem; color: #9ca3af; margin-top: 0.5rem;">
-                <span style="color: #059669;">HK01</span>
-            </div>
-            <a href="https://hk.news.yahoo.com/" target="_blank" style="color: #2563eb; font-size: 0.8rem; text-decoration: none; display: inline-block; margin-top: 0.5rem;">
-                📖 閱讀全文 →
-            </a>
-        </div>
-        <div class="news-item" style="padding: 0.75rem 0; border-bottom: 1px solid #e5e7eb;">
-            <div style="font-weight: 600; color: #1f2937; font-size: 0.95rem; margin-bottom: 0.5rem; line-height: 1.4;">
-                7. 無綫電視於1994年播出的青春校園劇《阿Sir早晨》，距今已經32年，但仍不時相聚話當年。其中飾演學生的吳家樂周五（3月13日）於社交平台貼出照片...
-            </div>
+            <!-- 科技新闻 -->
+            <section class="section">
+                <h2 class="section-title">💻 科技新闻</h2>
+                
+                <div class="news-item">
+                    <strong>Meta reportedly计划裁员高达20%。</strong> 据路透社报道，Meta可能正准备裁减其员工总数的相当一部分，裁员比例可能高达20%。这将是该公司近年来最大规模的裁员行动之一。 
+                    <a href="https://www.engadget.com/big-tech/meta-is-reportedly-planning-to-cut-up-to-20-percent-of-its-staff-in-upcoming-layoffs-160812304.html" target="_blank">[Engadget]</a>
+                </div>
+                
+                <div class="news-item">
+                    <strong>字节跳动搁置Seedance 2.0视频生成模型的全球发布。</strong> TikTok的中国母公司字节跳动已搁置其最新视频生成模型Seedance 2.0的全球发布，此前与主要好莱坞工作室和流媒体平台发生了一系列版权纠纷。 
+                    <a href="https://www.reuters.com/technology/" target="_blank">[Reuters]</a>
+                </div>
+                
+                <div class="news-item">
+                    <strong>中国App Store佣金从30%降至25%。</strong> 苹果公司在一份声明中表示，其对中国大陆App Store的佣金将从30%降至25%，以适应当地市场环境。 
+                    <a href="https://www.business-standard.com/technology/tech-news" target="_blank">[Business Standard]</a>
+                </div>
+            </section>
             
-            <div style="font-size: 0.75rem; color: #9ca3af; margin-top: 0.5rem;">
-                <span style="color: #059669;">HK01</span>
-            </div>
-            <a href="https://hk.news.yahoo.com/" target="_blank" style="color: #2563eb; font-size: 0.8rem; text-decoration: none; display: inline-block; margin-top: 0.5rem;">
-                📖 閱讀全文 →
-            </a>
-        </div>
-        <div class="news-item" style="padding: 0.75rem 0; border-bottom: 1px solid #e5e7eb;">
-            <div style="font-weight: 600; color: #1f2937; font-size: 0.95rem; margin-bottom: 0.5rem; line-height: 1.4;">
-                8. 早前憑TVB劇《新聞女王2》飾演Man姐（佘詩曼）下屬Sam而彈岀的姚宏遠（Lucas），近日於IG貼岀女友Kitty的靚相，更將帖文置頂，閃盲一眾網友。
-            </div>
+            <div class="divider"></div>
             
-            <div style="font-size: 0.75rem; color: #9ca3af; margin-top: 0.5rem;">
-                <span style="color: #059669;">HK01</span>
-            </div>
-            <a href="https://hk.news.yahoo.com/" target="_blank" style="color: #2563eb; font-size: 0.8rem; text-decoration: none; display: inline-block; margin-top: 0.5rem;">
-                📖 閱讀全文 →
-            </a>
-        </div>
-        <div class="news-item" style="padding: 0.75rem 0; border-bottom: 1px solid #e5e7eb;">
-            <div style="font-weight: 600; color: #1f2937; font-size: 0.95rem; margin-bottom: 0.5rem; line-height: 1.4;">
-                9. # 中東戰爭導致油價急升，你會否減少駕車？
-            </div>
+            <!-- AI新闻 -->
+            <section class="section">
+                <h2 class="section-title">🤖 AI 新闻</h2>
+                
+                <div class="news-item">
+                    <strong>马斯克称特斯拉Terafab AI芯片项目将在7天内启动。</strong> 特斯拉首席执行官埃隆·马斯克周六表示，该公司制造人工智能芯片的Terafab项目将在7天内启动，这将大幅提升特斯拉的AI计算能力。 
+                    <a href="https://www.reuters.com/technology/artificial-intelligence/" target="_blank">[Reuters]</a>
+                </div>
+                
+                <div class="news-item">
+                    <strong>前Anthropic研究人员推出AI初创公司Mirendil专注于科学研究。</strong> 一群前Anthropic研究人员推出了Mirendil，这是一家专注于推进科学研究的AI初创公司，旨在利用人工智能技术加速科学发现过程。 
+                    <a href="https://forum.gnoppix.org/t/ex-anthropic-researchers-launch-ai-startup-mirendil-to-tackle-scientific-research/5001" target="_blank">[Gnoppix]</a>
+                </div>
+                
+                <div class="news-item">
+                    <strong>OpenAI与Ginkgo Bioworks合作改变科学发现。</strong> 通过将高级AI模型与大型生物数据集相结合，OpenAI和Ginkgo Bioworks等公司正在展示人工智能如何显著加速科学发现，特别是在生物技术、医学、农业和环境科学领域。 
+                    <a href="https://linkdood.com/how-openai-and-ginkgo-bioworks-are-transforming-new-scientific-discovery/" target="_blank">[Linkdood]</a>
+                </div>
+                
+                <div class="news-item">
+                    <strong>赞比亚在中学试点AI驱动的学习平台。</strong> 赞比亚政府与英国Obrizum Group签署协议，在课堂中试点使用人工智能，初始阶段定于4月中旬启动。 
+                    <a href="https://iafrica.com/zambia-pilots-ai-powered-learning-platform-in-secondary-schools-with-plans-to-expand/" target="_blank">[iAfrica]</a>
+                </div>
+            </section>
             
-            <div style="font-size: 0.75rem; color: #9ca3af; margin-top: 0.5rem;">
-                <span style="color: #059669;">HK01</span>
-            </div>
-            <a href="https://hk.news.yahoo.com/" target="_blank" style="color: #2563eb; font-size: 0.8rem; text-decoration: none; display: inline-block; margin-top: 0.5rem;">
-                📖 閱讀全文 →
-            </a>
-        </div></section>
-        <section style="margin: 2rem 0;">
-            <h2 style="font-family: 'Noto Serif TC', serif; font-size: 1.25rem; border-bottom: 2px solid #059669; padding-bottom: 0.5rem; margin-bottom: 1rem; color: #1f2937;">
-                🇨🇳 中國內地新聞 (10條)
-            </h2>
-
-        <div class="news-item" style="padding: 0.75rem 0; border-bottom: 1px solid #e5e7eb;">
-            <div style="font-weight: 600; color: #1f2937; font-size: 0.95rem; margin-bottom: 0.5rem; line-height: 1.4;">
-                1. 新华通讯社主办[公司官网](/company/)股票代码：*603888*
-            </div>
+            <div class="divider"></div>
             
-            <div style="font-size: 0.75rem; color: #9ca3af; margin-top: 0.5rem;">
-                <span style="color: #059669;">新華網</span>
-            </div>
-            <a href="https://www.xinhuanet.com/" target="_blank" style="color: #2563eb; font-size: 0.8rem; text-decoration: none; display: inline-block; margin-top: 0.5rem;">
-                📖 閱讀全文 →
-            </a>
+            <!-- GDS股票新闻 -->
+            <section class="section">
+                <h2 class="section-title">📈 GDS 股票新闻</h2>
+                
+                <div class="news-item">
+                    <strong>瑞银续列万国数据为行业首选。</strong> 瑞银表示，看好万国数据潜在新订单以及DayOne C轮融资估值，继续将其列为行业首选股票。 
+                    <a href="http://stock.finance.sina.com.cn/usstock/quotes/GDS.html" target="_blank">[新浪财经]</a>
+                </div>
+                
+                <div class="news-item">
+                    <strong>分析师对GDS给予"强烈买入"评级。</strong> 据Investing.com数据显示，分析师给予GDS Holdings的12个月平均目标价显示强烈买入评级，0位分析师建议卖出。 
+                    <a href="https://www.investing.com/equities/gds-holdings-ltd" target="_blank">[Investing.com]</a>
+                </div>
+            </section>
         </div>
-        <div class="news-item" style="padding: 0.75rem 0; border-bottom: 1px solid #e5e7eb;">
-            <div style="font-weight: 600; color: #1f2937; font-size: 0.95rem; margin-bottom: 0.5rem; line-height: 1.4;">
-                2. 党的十八大以来，习近平总书记每年都会身体力行，参加首都义务植树活动
-            </div>
-            
-            <div style="font-size: 0.75rem; color: #9ca3af; margin-top: 0.5rem;">
-                <span style="color: #059669;">新華網</span>
-            </div>
-            <a href="https://www.xinhuanet.com/" target="_blank" style="color: #2563eb; font-size: 0.8rem; text-decoration: none; display: inline-block; margin-top: 0.5rem;">
-                📖 閱讀全文 →
-            </a>
-        </div>
-        <div class="news-item" style="padding: 0.75rem 0; border-bottom: 1px solid #e5e7eb;">
-            <div style="font-weight: 600; color: #1f2937; font-size: 0.95rem; margin-bottom: 0.5rem; line-height: 1.4;">
-                3. 如遇到直播不能正常观看，建议使用Chrome浏览器、QQ浏览器、360极速浏览器等。
-            </div>
-            
-            <div style="font-size: 0.75rem; color: #9ca3af; margin-top: 0.5rem;">
-                <span style="color: #059669;">新華網</span>
-            </div>
-            <a href="https://www.xinhuanet.com/" target="_blank" style="color: #2563eb; font-size: 0.8rem; text-decoration: none; display: inline-block; margin-top: 0.5rem;">
-                📖 閱讀全文 →
-            </a>
-        </div>
-        <div class="news-item" style="padding: 0.75rem 0; border-bottom: 1px solid #e5e7eb;">
-            <div style="font-weight: 600; color: #1f2937; font-size: 0.95rem; margin-bottom: 0.5rem; line-height: 1.4;">
-                4. “植”此青绿 守护春天
-            </div>
-            
-            <div style="font-size: 0.75rem; color: #9ca3af; margin-top: 0.5rem;">
-                <span style="color: #059669;">新華網</span>
-            </div>
-            <a href="https://www.xinhuanet.com/" target="_blank" style="color: #2563eb; font-size: 0.8rem; text-decoration: none; display: inline-block; margin-top: 0.5rem;">
-                📖 閱讀全文 →
-            </a>
-        </div>
-        <div class="news-item" style="padding: 0.75rem 0; border-bottom: 1px solid #e5e7eb;">
-            <div style="font-weight: 600; color: #1f2937; font-size: 0.95rem; margin-bottom: 0.5rem; line-height: 1.4;">
-                5. 丹东与平壤间国际旅客列车正式开行
-            </div>
-            
-            <div style="font-size: 0.75rem; color: #9ca3af; margin-top: 0.5rem;">
-                <span style="color: #059669;">新華網</span>
-            </div>
-            <a href="https://www.xinhuanet.com/" target="_blank" style="color: #2563eb; font-size: 0.8rem; text-decoration: none; display: inline-block; margin-top: 0.5rem;">
-                📖 閱讀全文 →
-            </a>
-        </div>
-        <div class="news-item" style="padding: 0.75rem 0; border-bottom: 1px solid #e5e7eb;">
-            <div style="font-weight: 600; color: #1f2937; font-size: 0.95rem; margin-bottom: 0.5rem; line-height: 1.4;">
-                6. 总量再上新台阶 2025年我国海洋生产总值超11万亿元
-            </div>
-            
-            <div style="font-size: 0.75rem; color: #9ca3af; margin-top: 0.5rem;">
-                <span style="color: #059669;">網易163</span>
-            </div>
-            <a href="https://news.163.com/" target="_blank" style="color: #2563eb; font-size: 0.8rem; text-decoration: none; display: inline-block; margin-top: 0.5rem;">
-                📖 閱讀全文 →
-            </a>
-        </div>
-        <div class="news-item" style="padding: 0.75rem 0; border-bottom: 1px solid #e5e7eb;">
-            <div style="font-weight: 600; color: #1f2937; font-size: 0.95rem; margin-bottom: 0.5rem; line-height: 1.4;">
-                7. 一见·一部法典，“典”亮“为政之道”
-            </div>
-            
-            <div style="font-size: 0.75rem; color: #9ca3af; margin-top: 0.5rem;">
-                <span style="color: #059669;">網易163</span>
-            </div>
-            <a href="https://news.163.com/" target="_blank" style="color: #2563eb; font-size: 0.8rem; text-decoration: none; display: inline-block; margin-top: 0.5rem;">
-                📖 閱讀全文 →
-            </a>
-        </div>
-        <div class="news-item" style="padding: 0.75rem 0; border-bottom: 1px solid #e5e7eb;">
-            <div style="font-weight: 600; color: #1f2937; font-size: 0.95rem; margin-bottom: 0.5rem; line-height: 1.4;">
-                8. 70秒速览！未来五年，你我生活将这样“绘就”
-            </div>
-            
-            <div style="font-size: 0.75rem; color: #9ca3af; margin-top: 0.5rem;">
-                <span style="color: #059669;">網易163</span>
-            </div>
-            <a href="https://news.163.com/" target="_blank" style="color: #2563eb; font-size: 0.8rem; text-decoration: none; display: inline-block; margin-top: 0.5rem;">
-                📖 閱讀全文 →
-            </a>
-        </div>
-        <div class="news-item" style="padding: 0.75rem 0; border-bottom: 1px solid #e5e7eb;">
-            <div style="font-weight: 600; color: #1f2937; font-size: 0.95rem; margin-bottom: 0.5rem; line-height: 1.4;">
-                9. 春风浩荡启新程——十四届全国人大四次会议闭幕侧记
-            </div>
-            
-            <div style="font-size: 0.75rem; color: #9ca3af; margin-top: 0.5rem;">
-                <span style="color: #059669;">網易163</span>
-            </div>
-            <a href="https://news.163.com/" target="_blank" style="color: #2563eb; font-size: 0.8rem; text-decoration: none; display: inline-block; margin-top: 0.5rem;">
-                📖 閱讀全文 →
-            </a>
-        </div>
-        <div class="news-item" style="padding: 0.75rem 0; border-bottom: 1px solid #e5e7eb;">
-            <div style="font-weight: 600; color: #1f2937; font-size: 0.95rem; margin-bottom: 0.5rem; line-height: 1.4;">
-                10. 主播说联播丨从“新”与“心”，看2026年全国两会
-            </div>
-            
-            <div style="font-size: 0.75rem; color: #9ca3af; margin-top: 0.5rem;">
-                <span style="color: #059669;">網易163</span>
-            </div>
-            <a href="https://news.163.com/" target="_blank" style="color: #2563eb; font-size: 0.8rem; text-decoration: none; display: inline-block; margin-top: 0.5rem;">
-                📖 閱讀全文 →
-            </a>
-        </div></section>
-        <section style="margin: 2rem 0;">
-            <h2 style="font-family: 'Noto Serif TC', serif; font-size: 1.25rem; border-bottom: 2px solid #059669; padding-bottom: 0.5rem; margin-bottom: 1rem; color: #1f2937;">
-                💻 科技新聞 (7條)
-            </h2>
-
-        <div class="news-item" style="padding: 0.75rem 0; border-bottom: 1px solid #e5e7eb;">
-            <div style="font-weight: 600; color: #1f2937; font-size: 0.95rem; margin-bottom: 0.5rem; line-height: 1.4;">
-                1. Alt 紐西蘭 無限上網卡提供穩定的無限數據，平均速度達 100Mbps，覆蓋率高達 95%。使用博客專屬優惠碼可享 5% 的折扣，售價 HK$106.40。
-            </div>
-            
-            <div style="font-size: 0.75rem; color: #9ca3af; margin-top: 0.5rem;">
-                <span style="color: #059669;">Yahoo Tech</span>
-            </div>
-            <a href="https://hk.news.yahoo.com/tech" target="_blank" style="color: #2563eb; font-size: 0.8rem; text-decoration: none; display: inline-block; margin-top: 0.5rem;">
-                📖 閱讀全文 →
-            </a>
-        </div>
-        <div class="news-item" style="padding: 0.75rem 0; border-bottom: 1px solid #e5e7eb;">
-            <div style="font-weight: 600; color: #1f2937; font-size: 0.95rem; margin-bottom: 0.5rem; line-height: 1.4;">
-                2. Google Maps 近日迎來 10 年來最大更新，融合了 Gemini AI 功能，猶如有一個 AI 導遊在你身邊。
-            </div>
-            
-            <div style="font-size: 0.75rem; color: #9ca3af; margin-top: 0.5rem;">
-                <span style="color: #059669;">Yahoo Tech</span>
-            </div>
-            <a href="https://hk.news.yahoo.com/tech" target="_blank" style="color: #2563eb; font-size: 0.8rem; text-decoration: none; display: inline-block; margin-top: 0.5rem;">
-                📖 閱讀全文 →
-            </a>
-        </div>
-        <div class="news-item" style="padding: 0.75rem 0; border-bottom: 1px solid #e5e7eb;">
-            <div style="font-weight: 600; color: #1f2937; font-size: 0.95rem; margin-bottom: 0.5rem; line-height: 1.4;">
-                3. Alt 越南無限上網卡提供便捷的上網服務，售價 HK$38，適合短期旅客。用戶可享受無限數據，並可使用專屬優惠碼獲得折扣。
-            </div>
-            
-            <div style="font-size: 0.75rem; color: #9ca3af; margin-top: 0.5rem;">
-                <span style="color: #059669;">Yahoo Tech</span>
-            </div>
-            <a href="https://hk.news.yahoo.com/tech" target="_blank" style="color: #2563eb; font-size: 0.8rem; text-decoration: none; display: inline-block; margin-top: 0.5rem;">
-                📖 閱讀全文 →
-            </a>
-        </div>
-        <div class="news-item" style="padding: 0.75rem 0; border-bottom: 1px solid #e5e7eb;">
-            <div style="font-weight: 600; color: #1f2937; font-size: 0.95rem; margin-bottom: 0.5rem; line-height: 1.4;">
-                4. Alt Speed 中國大陸 7天無限上網電話卡提供首1GB數據速度可高達100Mbps，全中國覆蓋，適合短期旅遊。售價HK$177，無需實名認證，便捷易用。
-            </div>
-            
-            <div style="font-size: 0.75rem; color: #9ca3af; margin-top: 0.5rem;">
-                <span style="color: #059669;">Yahoo Tech</span>
-            </div>
-            <a href="https://hk.news.yahoo.com/tech" target="_blank" style="color: #2563eb; font-size: 0.8rem; text-decoration: none; display: inline-block; margin-top: 0.5rem;">
-                📖 閱讀全文 →
-            </a>
-        </div>
-        <div class="news-item" style="padding: 0.75rem 0; border-bottom: 1px solid #e5e7eb;">
-            <div style="font-weight: 600; color: #1f2937; font-size: 0.95rem; margin-bottom: 0.5rem; line-height: 1.4;">
-                5. 電競生活風格品牌 M-GAMING 宣布推出由格鬥遊戲界職業電競選手 NEMO 完全監製的「M-GAMING []
-            </div>
-            
-            <div style="font-size: 0.75rem; color: #9ca3af; margin-top: 0.5rem;">
-                <span style="color: #059669;">Yahoo Tech</span>
-            </div>
-            <a href="https://hk.news.yahoo.com/tech" target="_blank" style="color: #2563eb; font-size: 0.8rem; text-decoration: none; display: inline-block; margin-top: 0.5rem;">
-                📖 閱讀全文 →
-            </a>
-        </div>
-        <div class="news-item" style="padding: 0.75rem 0; border-bottom: 1px solid #e5e7eb;">
-            <div style="font-weight: 600; color: #1f2937; font-size: 0.95rem; margin-bottom: 0.5rem; line-height: 1.4;">
-                6. Dreame 正式投入手機市場，推出多款奢華智能手機，其設計令 Vertu 也要「行埋一邊」。
-            </div>
-            
-            <div style="font-size: 0.75rem; color: #9ca3af; margin-top: 0.5rem;">
-                <span style="color: #059669;">Yahoo Tech</span>
-            </div>
-            <a href="https://hk.news.yahoo.com/tech" target="_blank" style="color: #2563eb; font-size: 0.8rem; text-decoration: none; display: inline-block; margin-top: 0.5rem;">
-                📖 閱讀全文 →
-            </a>
-        </div>
-        <div class="news-item" style="padding: 0.75rem 0; border-bottom: 1px solid #e5e7eb;">
-            <div style="font-weight: 600; color: #1f2937; font-size: 0.95rem; margin-bottom: 0.5rem; line-height: 1.4;">
-                7. # 中東戰爭導致油價急升，你會否減少駕車？
-            </div>
-            
-            <div style="font-size: 0.75rem; color: #9ca3af; margin-top: 0.5rem;">
-                <span style="color: #059669;">Yahoo Tech</span>
-            </div>
-            <a href="https://hk.news.yahoo.com/tech" target="_blank" style="color: #2563eb; font-size: 0.8rem; text-decoration: none; display: inline-block; margin-top: 0.5rem;">
-                📖 閱讀全文 →
-            </a>
-        </div></section>
-        <section style="margin: 2rem 0;">
-            <h2 style="font-family: 'Noto Serif TC', serif; font-size: 1.25rem; border-bottom: 2px solid #059669; padding-bottom: 0.5rem; margin-bottom: 1rem; color: #1f2937;">
-                🤖 AI 新聞 (7條)
-            </h2>
-        <div class="news-item" style="padding: 0.75rem 0; border-bottom: 1px solid #e5e7eb;">
-            <div style="font-weight: 600; color: #1f2937; font-size: 0.95rem; margin-bottom: 0.5rem; line-height: 1.4;">
-                1. 特朗普政府撤回AI半導體出口管制案
-            </div>
-            <div style="font-size: 0.75rem; color: #6b7280; margin-bottom: 0.5rem;">特朗普政府撤回了AI半導體出口管制提案，這與其促進AI出口的政策方針存在矛盾，引發業界討論。</div>
-            <div style="font-size: 0.75rem; color: #9ca3af; margin-top: 0.5rem;">
-                <span style="color: #059669;">日本經濟新聞</span> | 1天前
-            </div>
-            <a href="https://www.nikkei.com/article/DGXZQOGN140JF0U6A310C2000000/" target="_blank" style="color: #2563eb; font-size: 0.8rem; text-decoration: none; display: inline-block; margin-top: 0.5rem;">
-                📖 閱讀全文 →
-            </a>
-        </div>
-        <div class="news-item" style="padding: 0.75rem 0; border-bottom: 1px solid #e5e7eb;">
-            <div style="font-weight: 600; color: #1f2937; font-size: 0.95rem; margin-bottom: 0.5rem; line-height: 1.4;">
-                2. Palantir AIP：企業AI平台的「中間層」革命
-            </div>
-            <div style="font-size: 0.75rem; color: #6b7280; margin-bottom: 0.5rem;">Palantir的核心產品AIP本質上是一個「AI中間層」，不生產智能但負責把智能與企業現有系統、數據、業務流程嵌合在一起。</div>
-            <div style="font-size: 0.75rem; color: #9ca3af; margin-top: 0.5rem;">
-                <span style="color: #059669;">36氪</span> | 1天前
-            </div>
-            <a href="https://36kr.com/p/3719627899958658" target="_blank" style="color: #2563eb; font-size: 0.8rem; text-decoration: none; display: inline-block; margin-top: 0.5rem;">
-                📖 閱讀全文 →
-            </a>
-        </div>
-        <div class="news-item" style="padding: 0.75rem 0; border-bottom: 1px solid #e5e7eb;">
-            <div style="font-weight: 600; color: #1f2937; font-size: 0.95rem; margin-bottom: 0.5rem; line-height: 1.4;">
-                3. 10億美元AI獨角獸自曝：創始人曾假扮AI
-            </div>
-            <div style="font-size: 0.75rem; color: #6b7280; margin-bottom: 0.5rem;">一家AI初創公司創始人承認早期曾謊稱已有不存在的AI技術，讓用戶誤以為服務由算法提供，引發熱議。</div>
-            <div style="font-size: 0.75rem; color: #9ca3af; margin-top: 0.5rem;">
-                <span style="color: #059669;">36氪</span> | 18小時前
-            </div>
-            <a href="https://36kr.com/p/3556265734126727" target="_blank" style="color: #2563eb; font-size: 0.8rem; text-decoration: none; display: inline-block; margin-top: 0.5rem;">
-                📖 閱讀全文 →
-            </a>
-        </div>
-        <div class="news-item" style="padding: 0.75rem 0; border-bottom: 1px solid #e5e7eb;">
-            <div style="font-weight: 600; color: #1f2937; font-size: 0.95rem; margin-bottom: 0.5rem; line-height: 1.4;">
-                4. 為什麼10年前那一步改變了今天的AI？
-            </div>
-            <div style="font-size: 0.75rem; color: #6b7280; margin-bottom: 0.5rem;">人們開始相信：給機器足夠的規則和探索空間，它可能找到人類沒想到的新路徑。這個邏輯在圍棋之後的十年裡被反覆驗證。</div>
-            <div style="font-size: 0.75rem; color: #9ca3af; margin-top: 0.5rem;">
-                <span style="color: #059669;">36氪</span> | 13小時前
-            </div>
-            <a href="https://36kr.com/p/3719207260107265" target="_blank" style="color: #2563eb; font-size: 0.8rem; text-decoration: none; display: inline-block; margin-top: 0.5rem;">
-                📖 閱讀全文 →
-            </a>
-        </div>
-        <div class="news-item" style="padding: 0.75rem 0; border-bottom: 1px solid #e5e7eb;">
-            <div style="font-weight: 600; color: #1f2937; font-size: 0.95rem; margin-bottom: 0.5rem; line-height: 1.4;">
-                5. 「人工智能+產業」發展的突破口
-            </div>
-            <div style="font-size: 0.75rem; color: #6b7280; margin-bottom: 0.5rem;">AI合同可使審查效率提升80%，語音機器人可自動處理80%以上的常見咨詢，AIGC加快劇本生成和視頻編輯創作。</div>
-            <div style="font-size: 0.75rem; color: #9ca3af; margin-top: 0.5rem;">
-                <span style="color: #059669;">數字中國建設峰會</span> | 1天前
-            </div>
-            <a href="https://www.szzg.gov.cn/2025/szzg/xyzx/202603/t20260313_5295538.htm" target="_blank" style="color: #2563eb; font-size: 0.8rem; text-decoration: none; display: inline-block; margin-top: 0.5rem;">
-                📖 閱讀全文 →
-            </a>
-        </div>
-        <div class="news-item" style="padding: 0.75rem 0; border-bottom: 1px solid #e5e7eb;">
-            <div style="font-weight: 600; color: #1f2937; font-size: 0.95rem; margin-bottom: 0.5rem; line-height: 1.4;">
-                6. AI智力成本1年暴跌128倍　萬物皆可Agent
-            </div>
-            <div style="font-size: 0.75rem; color: #6b7280; margin-bottom: 0.5rem;">當AI智力成本一年暴跌128倍，代碼開始「自主打工」……2026年，你準備好把自己和公司交給Agent了嗎？</div>
-            <div style="font-size: 0.75rem; color: #9ca3af; margin-top: 0.5rem;">
-                <span style="color: #059669;">36氪</span> | 16小時前
-            </div>
-            <a href="https://36kr.com/information/AI/" target="_blank" style="color: #2563eb; font-size: 0.8rem; text-decoration: none; display: inline-block; margin-top: 0.5rem;">
-                📖 閱讀全文 →
-            </a>
-        </div>
-        <div class="news-item" style="padding: 0.75rem 0; border-bottom: 1px solid #e5e7eb;">
-            <div style="font-weight: 600; color: #1f2937; font-size: 0.95rem; margin-bottom: 0.5rem; line-height: 1.4;">
-                7. 生成式AI：創造文本、圖像、視頻的人工智能
-            </div>
-            <div style="font-size: 0.75rem; color: #6b7280; margin-bottom: 0.5rem;">生成式AI是人工智能的分支，使用生成模型生成文本、圖像、視頻、音頻、軟件代碼或其他形式的數據。</div>
-            <div style="font-size: 0.75rem; color: #9ca3af; margin-top: 0.5rem;">
-                <span style="color: #059669;">Wikipedia</span> | 1天前
-            </div>
-            <a href="https://en.wikipedia.org/wiki/Generative_artificial_intelligence" target="_blank" style="color: #2563eb; font-size: 0.8rem; text-decoration: none; display: inline-block; margin-top: 0.5rem;">
-                📖 閱讀全文 →
-            </a>
-        </div></section>
-        <section style="margin: 2rem 0;">
-            <h2 style="font-family: 'Noto Serif TC', serif; font-size: 1.25rem; border-bottom: 2px solid #059669; padding-bottom: 0.5rem; margin-bottom: 1rem; color: #1f2937;">
-                📈 GDS 股票新聞 (4條)
-            </h2>
-        <div class="news-item" style="padding: 0.75rem 0; border-bottom: 1px solid #e5e7eb;">
-            <div style="font-weight: 600; color: #1f2937; font-size: 0.95rem; margin-bottom: 0.5rem; line-height: 1.4;">
-                1. Ghisallo Capital持有GDS Holdings 774萬美元股份
-            </div>
-            <div style="font-size: 0.75rem; color: #6b7280; margin-bottom: 0.5rem;">GDS Holdings股價52周低點為$16.92，高點為$48.61。50日均線為$43.07，200日均線為$37.94。</div>
-            <div style="font-size: 0.75rem; color: #9ca3af; margin-top: 0.5rem;">
-                <span style="color: #059669;">Daily Political</span> | 1天前
-            </div>
-            <a href="https://www.dailypolitical.com/2026/03/14/ghisallo-capital-management-llc-has-7-74-million-position-in-gds-holdings-gds.html" target="_blank" style="color: #2563eb; font-size: 0.8rem; text-decoration: none; display: inline-block; margin-top: 0.5rem;">
-                📖 閱讀全文 →
-            </a>
-        </div>
-        <div class="news-item" style="padding: 0.75rem 0; border-bottom: 1px solid #e5e7eb;">
-            <div style="font-weight: 600; color: #1f2937; font-size: 0.95rem; margin-bottom: 0.5rem; line-height: 1.4;">
-                2. Melqart Asset收購GDS Holdings 180,567股
-            </div>
-            <div style="font-size: 0.75rem; color: #6b7280; margin-bottom: 0.5rem;">GDS Holdings成立於2001年，總部位於上海，是中國領先的網絡中立數據中心服務提供商。</div>
-            <div style="font-size: 0.75rem; color: #9ca3af; margin-top: 0.5rem;">
-                <span style="color: #059669;">Daily Political</span> | 19小時前
-            </div>
-            <a href="https://www.dailypolitical.com/2026/03/14/melqart-asset-management-uk-ltd-acquires-shares-of-180567-gds-holdings-gds.html" target="_blank" style="color: #2563eb; font-size: 0.8rem; text-decoration: none; display: inline-block; margin-top: 0.5rem;">
-                📖 閱讀全文 →
-            </a>
-        </div>
-        <div class="news-item" style="padding: 0.75rem 0; border-bottom: 1px solid #e5e7eb;">
-            <div style="font-weight: 600; color: #1f2937; font-size: 0.95rem; margin-bottom: 0.5rem; line-height: 1.4;">
-                3. 2026年印度最佳數據中心股票
-            </div>
-            <div style="font-size: 0.75rem; color: #6b7280; margin-bottom: 0.5rem;">隨著數字基礎設施使用量增加，這些股票具有持續增長的潛力和長期投資價值。</div>
-            <div style="font-size: 0.75rem; color: #9ca3af; margin-top: 0.5rem;">
-                <span style="color: #059669;">Rupeezy</span> | 2天前
-            </div>
-            <a href="https://rupeezy.in/blog/best-data-center-stocks-in-india" target="_blank" style="color: #2563eb; font-size: 0.8rem; text-decoration: none; display: inline-block; margin-top: 0.5rem;">
-                📖 閱讀全文 →
-            </a>
-        </div>
-        <div class="news-item" style="padding: 0.75rem 0; border-bottom: 1px solid #e5e7eb;">
-            <div style="font-weight: 600; color: #1f2937; font-size: 0.95rem; margin-bottom: 0.5rem; line-height: 1.4;">
-                4. GDS Holdings預計每股虧損1分
-            </div>
-            <div style="font-size: 0.75rem; color: #6b7280; margin-bottom: 0.5rem;">GDS Holdings Ltd預計公佈每股收益虧損1分錢的業績。</div>
-            <div style="font-size: 0.75rem; color: #9ca3af; margin-top: 0.5rem;">
-                <span style="color: #059669;">TradingView</span> | 2天前
-            </div>
-            <a href="https://www.tradingview.com/news/reuters.com,2026:newsml_L8N4010I9:0-gds-holdings-ltd-expected-to-post-a-loss-of-1-fen-a-share-earnings-preview/" target="_blank" style="color: #2563eb; font-size: 0.8rem; text-decoration: none; display: inline-block; margin-top: 0.5rem;">
-                📖 閱讀全文 →
-            </a>
-        </div></section>
-        <footer style="text-align: center; padding: 2rem; color: #9ca3af; font-size: 0.8rem; border-top: 1px solid #e5e7eb; margin-top: 3rem;">
-            <p>📰 每日新聞簡報 | 數據來源：Brave Search, HK01, Yahoo, 新華網, 網易, orz.ai | 共 43 條新聞</p>
-            <p style="margin-top: 0.5rem;">Generated by 阿呆</p>
+        
+        <footer class="footer">
+            <div class="disclaimer">免责声明：本新闻简报由 AI agent 自动生成，仅供参考，不构成任何投资建议。</div>
+            <div class="signature">Generated by 阿呆 on 2026-03-15</div>
         </footer>
-    </main>
+    </div>
 </body>
 </html>
