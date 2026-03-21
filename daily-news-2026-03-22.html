@@ -1,377 +1,303 @@
 <!DOCTYPE html>
-<html lang="zh-TW">
+<html lang="zh-Hant">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>每日新聞簡報 2026年3月22日 | Frank's Daily News</title>
+    <title>每日新聞簡報 - 2026年03月22日</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;500;600;700;900&family=Noto+Sans+TC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "PingFang TC", "Microsoft JhengHei", "Heiti TC", sans-serif;
-            background-color: #f5f5f7;
-            color: #1d1d1f;
-            line-height: 1.8;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-
-        .header {
-            background: linear-gradient(135deg, #1d1d1f 0%, #434344 100%);
-            color: white;
-            padding: 40px 30px;
-            border-radius: 20px;
-            margin-bottom: 30px;
-            text-align: center;
-        }
-
-        .header .label {
-            font-size: 12px;
-            letter-spacing: 3px;
-            text-transform: uppercase;
-            color: #86868b;
-            margin-bottom: 10px;
-        }
-
-        .header h1 {
-            font-size: 28px;
-            font-weight: 700;
-            margin-bottom: 8px;
-        }
-
-        .header .date {
-            font-size: 14px;
-            color: #86868b;
-        }
-
-        .header .time {
-            font-size: 12px;
-            color: #6e6e73;
-            margin-top: 6px;
-        }
-
-        .category {
-            background: white;
-            border-radius: 16px;
-            padding: 24px;
-            margin-bottom: 20px;
-            box-shadow: 0 2px 12px rgba(0,0,0,0.06);
-        }
-
-        .category-header {
-            display: flex;
-            align-items: center;
-            margin-bottom: 20px;
-            padding-bottom: 14px;
-            border-bottom: 2px solid #f5f5f7;
-        }
-
-        .category-icon {
-            font-size: 28px;
-            margin-right: 14px;
-        }
-
-        .category-title {
-            font-size: 18px;
-            font-weight: 700;
-            color: #1d1d1f;
-        }
-
-        .category-subtitle {
-            font-size: 12px;
-            color: #86868b;
-            margin-top: 2px;
-        }
-
-        .news-item {
-            margin-bottom: 22px;
-            padding-left: 0;
-        }
-
-        .news-item:last-child {
-            margin-bottom: 0;
-        }
-
-        .news-title {
-            font-size: 15px;
-            font-weight: 600;
-            color: #1d1d1f;
-            margin-bottom: 6px;
-            display: flex;
-            align-items: flex-start;
-        }
-
-        .news-title::before {
-            content: "▸";
-            color: #0071e3;
-            margin-right: 8px;
-            flex-shrink: 0;
-        }
-
-        .news-content {
-            font-size: 14px;
-            color: #424245;
-            padding-left: 16px;
-            margin-bottom: 6px;
-        }
-
-        .news-bullets {
-            padding-left: 16px;
-        }
-
-        .news-bullets li {
-            font-size: 13.5px;
-            color: #424245;
-            margin-bottom: 4px;
-            list-style: none;
-            padding-left: 12px;
-            position: relative;
-        }
-
-        .news-bullets li::before {
-            content: "•";
-            color: #86868b;
-            position: absolute;
-            left: 0;
-        }
-
-        .divider {
-            border: none;
-            border-top: 1px solid #e5e5e5;
-            margin: 20px 0;
-        }
-
-        .footer {
-            text-align: center;
-            padding: 30px 20px;
-            color: #86868b;
-            font-size: 12px;
-        }
-
-        .footer a {
-            color: #0071e3;
-            text-decoration: none;
-        }
-
-        .tag {
-            display: inline-block;
-            background: #f5f5f7;
-            color: #86868b;
-            font-size: 11px;
-            padding: 2px 8px;
-            border-radius: 4px;
-            margin-left: 6px;
-            vertical-align: middle;
-        }
-
-        @media (max-width: 600px) {
-            .container {
-                padding: 12px;
-            }
-            .header h1 {
-                font-size: 22px;
-            }
-            .category {
-                padding: 18px;
-            }
-        }
+        body { font-family: 'Noto Sans TC', sans-serif; background: oklch(0.98 0.005 80); }
+        .news-item { page-break-inside: avoid; }
+        @media print { body { -webkit-print-color-adjust: exact; } }
     </style>
 </head>
 <body>
-    <div class="container">
-        <!-- Header -->
-        <div class="header">
-            <div class="label">Daily News Briefing</div>
-            <h1>📰 每日新聞簡報</h1>
-            <div class="date">2026年3月22日 · 星期日</div>
-            <div class="time">🔄 報告生成時間：2026年3月22日 07:03:35（香港時間）</div>
+    <header style="background: linear-gradient(175deg, oklch(0.22 0.04 160), oklch(0.32 0.06 160)); padding: 3rem 2rem; color: white;">
+        <h1 style="font-family: 'Noto Serif TC', serif; font-size: 2rem; margin: 0;">
+            📰 每日新聞簡報
+        </h1>
+        <p style="opacity: 0.9; margin-top: 0.5rem;">2026年03月22日</p>
+    </header>
+
+    <main style="max-width: 900px; margin: 0 auto; padding: 2rem;">
+
+        <section style="margin: 2rem 0;">
+            <h2 style="font-family: 'Noto Serif TC', serif; font-size: 1.25rem; border-bottom: 2px solid #059669; padding-bottom: 0.5rem; margin-bottom: 1rem; color: #1f2937;">
+                🌏 世界新聞 (0條)
+            </h2>
+<p style="color: #9ca3af; font-style: italic;">暫無新聞</p></section>
+        <section style="margin: 2rem 0;">
+            <h2 style="font-family: 'Noto Serif TC', serif; font-size: 1.25rem; border-bottom: 2px solid #059669; padding-bottom: 0.5rem; margin-bottom: 1rem; color: #1f2937;">
+                🇭🇰 香港新聞 (10條)
+            </h2>
+
+        <div class="news-item" style="padding: 0.75rem 0; border-bottom: 1px solid #e5e7eb;">
+            <div style="font-weight: 600; color: #1f2937; font-size: 0.95rem; margin-bottom: 0.5rem; line-height: 1.4;">
+                1. 香港01有限公司版權所有 © 2026
+            </div>
+            
+            <div style="font-size: 0.75rem; color: #9ca3af; margin-top: 0.5rem;">
+                <span style="color: #059669;">HK01</span>
+            </div>
+            <a href="https://www.hk01.com/latest" target="_blank" style="color: #2563eb; font-size: 0.8rem; text-decoration: none; display: inline-block; margin-top: 0.5rem;">
+                📖 閱讀全文 →
+            </a>
         </div>
-
-        <!-- 國際新聞 -->
-        <div class="category">
-            <div class="category-header">
-                <span class="category-icon">🌏</span>
-                <div>
-                    <div class="category-title">國際新聞</div>
-                    <div class="category-subtitle">International News</div>
-                </div>
+        <div class="news-item" style="padding: 0.75rem 0; border-bottom: 1px solid #e5e7eb;">
+            <div style="font-weight: 600; color: #1f2937; font-size: 0.95rem; margin-bottom: 0.5rem; line-height: 1.4;">
+                2. 文昌誕背景＋6個拜神最佳時間 揭家中文昌位提升運勢風水佈局
             </div>
-
-            <div class="news-item">
-                <div class="news-title">中東戰火升級：美伊局勢進入第4周　油價逼近110美元</div>
-                <div class="news-content">
-                    自2月28日美以聯軍對伊朗發動大規模空襲（行動代號「史詩怒火」）以來，戰事已持續約四周，情勢仍在惡化。伊朗革命衞隊（IRGC）本週對印度洋上英美聯合基地 Diego Garcia 發射兩枚中程彈道導彈（未命中）；伊朗納坦茲鈾濃縮設施再次遇襲；美軍F-35隱形戰機疑似被伊朗炮火擊中緊急降落（估價逾1億美元）。伊朗新最高領袖穆傑塔巴至今未公開露面，但電視台兩度播出其書面聲明，聲稱「敵人已被擊敗」，革命衞隊揚言將鎖定敵國「公園及旅遊景點」發動襲擊。
-                </div>
+            
+            <div style="font-size: 0.75rem; color: #9ca3af; margin-top: 0.5rem;">
+                <span style="color: #059669;">HK01</span>
             </div>
-
-            <hr class="divider">
-
-            <div class="news-title" style="font-size:14px;margin-bottom:8px;">關鍵進展：</div>
-            <ul class="news-bullets">
-                <li>卡塔爾重要LNG樞紐遭伊朗導彈襲擊，損壞17%出口產能，修復需3至5年</li>
-                <li>布倫特原油期貨升至108美元/桶，盤中逼近120美元，較戰前累計飆升約48%</li>
-                <li>美國考慮釋放1.72億桶戰略石油儲備，並暫停對俄伊石油制裁</li>
-                <li>特朗普抨擊北約盟友為「懦夫」，意大利、西班牙、日本等已拒絕出兵護航</li>
-                <li>英法德等六國發表聯合聲明，嚴詞譴責伊朗封鎖霍爾木茲海峽</li>
-                <li>美軍至少16架軍機被毀（含10架「死神」攻擊無人機）</li>
-            </ul>
+            <a href="https://www.hk01.com/latest" target="_blank" style="color: #2563eb; font-size: 0.8rem; text-decoration: none; display: inline-block; margin-top: 0.5rem;">
+                📖 閱讀全文 →
+            </a>
         </div>
-
-        <!-- 香港新聞 -->
-        <div class="category">
-            <div class="category-header">
-                <span class="category-icon">🇭🇰</span>
-                <div>
-                    <div class="category-title">香港新聞</div>
-                    <div class="category-subtitle">Hong Kong News</div>
-                </div>
+        <div class="news-item" style="padding: 0.75rem 0; border-bottom: 1px solid #e5e7eb;">
+            <div style="font-weight: 600; color: #1f2937; font-size: 0.95rem; margin-bottom: 0.5rem; line-height: 1.4;">
+                3. 超人氣女優突曬病房照 淚訴25年隱疾困擾 遭罵「很噁心」有陰影
             </div>
-
-            <div class="news-item">
-                <div class="news-title">紅磡金行劫案：前拍檔設局盜走1億元金條</div>
-                <div class="news-content">
-                    紅磡一家珠寶金行遭劫，損失估計約1億港元金條。據警方調查，案件涉及熟人之間精密布局，四男一女被捕。
-                </div>
+            
+            <div style="font-size: 0.75rem; color: #9ca3af; margin-top: 0.5rem;">
+                <span style="color: #059669;">HK01</span>
             </div>
-
-            <hr class="divider">
-
-            <ul class="news-bullets">
-                <li>2026年港股IPO僅用79天便突破千億港元，創2018年上市改革以來最快紀錄，合計募資約1004.72億港元，共30家新股上市</li>
-                <li>香港特區政府在北京研討會上表示將積極發揮「出海母港」角色，協助內地企業拓展全球版圖</li>
-                <li>葵涌男子持刀從草叢跳出大喊「斬死你」，被三警開五槍制服</li>
-                <li>旺角老牌手雕麻雀店「公友祥」宣佈3月28日結業，反映傳統工藝日漸凋零</li>
-                <li>觀塘明渠翠屏河水面突變泡沫河，環保議題引發網民熱議</li>
-            </ul>
+            <a href="https://www.hk01.com/latest" target="_blank" style="color: #2563eb; font-size: 0.8rem; text-decoration: none; display: inline-block; margin-top: 0.5rem;">
+                📖 閱讀全文 →
+            </a>
         </div>
-
-        <!-- 內地新聞 -->
-        <div class="category">
-            <div class="category-header">
-                <span class="category-icon">🇨🇳</span>
-                <div>
-                    <div class="category-title">內地新聞</div>
-                    <div class="category-subtitle">China News</div>
-                </div>
+        <div class="news-item" style="padding: 0.75rem 0; border-bottom: 1px solid #e5e7eb;">
+            <div style="font-weight: 600; color: #1f2937; font-size: 0.95rem; margin-bottom: 0.5rem; line-height: 1.4;">
+                4. 受賄逾1.27億 山西省政協原黨組書記、主席吳存榮一審被判無期
             </div>
-
-            <div class="news-item">
-                <div class="news-title">博鰲亞洲論壇本週登場：「十五五」开局釋放開放信號</div>
-                <div class="news-content">
-                    博鰲亞洲論壇2026年年會將於3月24日至27日在海南博鰲舉行，主題為「塑造共同未來：新形勢、新機遇、新合作」。在「十五五」开局之年，這一「亞洲主場」將向世界展示中國的機遇清單。同時，國務院總理李強將於3月22日至23日出席中國發展高層論壇並發表主旨演講，超過100位國際組織及跨國公司代表與會。
-                </div>
+            
+            <div style="font-size: 0.75rem; color: #9ca3af; margin-top: 0.5rem;">
+                <span style="color: #059669;">HK01</span>
             </div>
-
-            <hr class="divider">
-
-            <ul class="news-bullets">
-                <li>「十五五」規劃綱要設定經濟增長目標4.5%至5%，部署109項重大工程，「人工智能」一詞出現30次</li>
-                <li>外媒聚焦「十五五」：巴媒指中國更著重經濟結構健康而非單純追求增速，德媒稱規劃展現成為全球創新「實驗室」雄心</li>
-                <li>央企千億資金入疆築牢能源「雙保險」，應對中東局勢對油價的衝擊</li>
-                <li>農業農村部發布16項強農惠農補貼政策，涵蓋耕地保護、農機購置等重點領域</li>
-                <li>國際能源署警告油價可能升至130至150美元，提出降低高速限速、鼓勵公共交通等十項緊急建議</li>
-            </ul>
+            <a href="https://www.hk01.com/latest" target="_blank" style="color: #2563eb; font-size: 0.8rem; text-decoration: none; display: inline-block; margin-top: 0.5rem;">
+                📖 閱讀全文 →
+            </a>
         </div>
-
-        <!-- 科技新聞 -->
-        <div class="category">
-            <div class="category-header">
-                <span class="category-icon">💻</span>
-                <div>
-                    <div class="category-title">科技新聞</div>
-                    <div class="category-subtitle">Technology News</div>
-                </div>
+        <div class="news-item" style="padding: 0.75rem 0; border-bottom: 1px solid #e5e7eb;">
+            <div style="font-weight: 600; color: #1f2937; font-size: 0.95rem; margin-bottom: 0.5rem; line-height: 1.4;">
+                5. 美國武打明星Chuck Norris羅禮士逝世 昔與李小龍演《猛龍過江》
             </div>
-
-            <div class="news-item">
-                <div class="news-title">OpenAI員工規模年內將增至8000人　估值達8400億美元</div>
-                <div class="news-content">
-                    OpenAI計劃在2026年底前將員工從4500人翻倍至8000人，主要投向產品開發、工程、研究及銷售，並新增「技術大使」崗位協助企業使用其工具。亞馬遜、Nvidia及軟銀參與的110億美元新一輪融資已於2月完成，公司最新估值達8400億美元。
-                </div>
+            
+            <div style="font-size: 0.75rem; color: #9ca3af; margin-top: 0.5rem;">
+                <span style="color: #059669;">HK01</span>
             </div>
-
-            <hr class="divider">
-
-            <ul class="news-bullets">
-                <li>Google Maps十年来最大升級：引入Gemini驅動的「沉浸式三維導航」及「對話式提問」功能</li>
-                <li>以色列初創公司Tenzai的AI系統在六場精英網絡安全競賽中擊敗12.5萬名人類參賽者，表現優於99%</li>
-                <li>MetLife調查：83%企業認為AI提升員工生產力，但67%表示AI引發職場不信任；59%員工擔憂飯碗不保</li>
-                <li>HSB推出中小企AI責任保險，涵蓋AI系統導致的訴訟及損失</li>
-                <li>TikTok正式上線「本地信息流」功能，助小型企業吸引附近用戶</li>
-            </ul>
+            <a href="https://www.hk01.com/latest" target="_blank" style="color: #2563eb; font-size: 0.8rem; text-decoration: none; display: inline-block; margin-top: 0.5rem;">
+                📖 閱讀全文 →
+            </a>
         </div>
-
-        <!-- AI 新聞 -->
-        <div class="category">
-            <div class="category-header">
-                <span class="category-icon">🤖</span>
-                <div>
-                    <div class="category-title">AI 人工智能新聞</div>
-                    <div class="category-subtitle">Artificial Intelligence</div>
-                </div>
+        <div class="news-item" style="padding: 0.75rem 0; border-bottom: 1px solid #e5e7eb;">
+            <div style="font-weight: 600; color: #1f2937; font-size: 0.95rem; margin-bottom: 0.5rem; line-height: 1.4;">
+                6. 資深傳媒人潘小文被捕 曾與陳自瑤傳同性緋聞攬頸激咀
             </div>
-
-            <div class="news-item">
-                <div class="news-title">劍橋大學研發仿腦神經晶片　有望將AI能耗降低70%</div>
-                <div class="news-content">
-                    劍橋大學研究團隊開發的氧化鉿新型「憶阻器」（memristor），可透過模仿大腦神經元的高效連接方式，將AI硬體能耗降低達70%。這款仿神經形態晶片具有極低電流消耗及數百個穩定導電狀態，已通過數万次開關循環測試。論文發表於《Science Advances》期刊，現正研究降低製造溫度以兼容標準半導體工藝。
-                </div>
+            
+            <div style="font-size: 0.75rem; color: #9ca3af; margin-top: 0.5rem;">
+                <span style="color: #059669;">HK01</span>
             </div>
-
-            <hr class="divider">
-
-            <ul class="news-bullets">
-                <li>《衞報》調查：成千上萬人正透過應用程式出售私人聊天記錄、影片、音頻以訓練AI，但同時面臨身份被深度偽造濫用且無法撤銷授權的風險</li>
-                <li>OpenClaw等代理式AI爆火，帶動Token用量激增，摩根士丹利看好中國AI雲市場加速增長，阿里巴巴雲服務已加價34%</li>
-                <li>Autoscience完成1400萬美元種子輪融資，目標建立完全由AI驅動的自動化科研實驗室</li>
-                <li>AI公司最快今年耗盡可用的優質訓練數據，催生全球「數據零工經濟」蓬勃發展</li>
-            </ul>
+            <a href="https://www.hk01.com/latest" target="_blank" style="color: #2563eb; font-size: 0.8rem; text-decoration: none; display: inline-block; margin-top: 0.5rem;">
+                📖 閱讀全文 →
+            </a>
         </div>
-
-        <!-- GDS 新聞 -->
-        <div class="category">
-            <div class="category-header">
-                <span class="category-icon">📈</span>
-                <div>
-                    <div class="category-title">GDS 萬國數據新聞</div>
-                    <div class="category-subtitle">GDS Holdings (GDS.US / 09698.HK)</div>
-                </div>
+        <div class="news-item" style="padding: 0.75rem 0; border-bottom: 1px solid #e5e7eb;">
+            <div style="font-weight: 600; color: #1f2937; font-size: 0.95rem; margin-bottom: 0.5rem; line-height: 1.4;">
+                7. 伊朗戰爭｜特朗普批北約「紙老虎」：懦夫 我們會記住
             </div>
-
-            <div class="news-item">
-                <div class="news-title">萬國數據：AI需求帶動　2025年新訂單接近300兆瓦</div>
-                <div class="news-content">
-                    萬國數據2025年前三季度錄得240兆瓦新訂單總量，預計全年接近300兆瓦，顯著高於往年，AI推理需求的高速增長正直接拉動數據中心訂單需求。
-                </div>
+            
+            <div style="font-size: 0.75rem; color: #9ca3af; margin-top: 0.5rem;">
+                <span style="color: #059669;">HK01</span>
             </div>
-
-            <hr class="divider">
-
-            <ul class="news-bullets">
-                <li>匯豐研究報告：中資IDC行業正隨AI從訓練轉向推理階段而復甦，萬國數據與世紀互聯（VNET）均被視為主要受益者</li>
-                <li>淡馬錘子公司傳考慮出售所持萬國數據股份，短期股價或受影響，需持續關注</li>
-                <li>摩根士丹利將萬國數據列為中國AI數據中心板塊「AI首選」之一，目標受益於GPU算力需求爆發</li>
-                <li>存儲晶片公司美光（Micron）2026年以來股價累計大漲62%，與萬國數據AI數據中心需求形成正向關聯</li>
-            </ul>
+            <a href="https://www.hk01.com/latest" target="_blank" style="color: #2563eb; font-size: 0.8rem; text-decoration: none; display: inline-block; margin-top: 0.5rem;">
+                📖 閱讀全文 →
+            </a>
         </div>
-
-        <!-- Footer -->
-        <div class="footer">
-            <p>📅 報告生成時間：2026年3月22日 07:03:35（香港時間）</p>
-            <p>🔄 每日自動更新 | 數據來源：Tavily 搜索 + 深度文章提取</p>
-            <p style="margin-top:8px;">
-                <a href="https://github.com/frannnnk/pages">GitHub Pages</a> · 
-                <a href="https://www.frank.hk">Frank's Blog</a>
-            </p>
+        <div class="news-item" style="padding: 0.75rem 0; border-bottom: 1px solid #e5e7eb;">
+            <div style="font-weight: 600; color: #1f2937; font-size: 0.95rem; margin-bottom: 0.5rem; line-height: 1.4;">
+                8. 黃大仙八隻野豬被「抄家」 管浩鳴批官僚：好難睇、絕對無必要
+            </div>
+            
+            <div style="font-size: 0.75rem; color: #9ca3af; margin-top: 0.5rem;">
+                <span style="color: #059669;">HK01</span>
+            </div>
+            <a href="https://www.hk01.com/latest" target="_blank" style="color: #2563eb; font-size: 0.8rem; text-decoration: none; display: inline-block; margin-top: 0.5rem;">
+                📖 閱讀全文 →
+            </a>
         </div>
-    </div>
+        <div class="news-item" style="padding: 0.75rem 0; border-bottom: 1px solid #e5e7eb;">
+            <div style="font-weight: 600; color: #1f2937; font-size: 0.95rem; margin-bottom: 0.5rem; line-height: 1.4;">
+                9. 【01秒看娛樂】《爸爸去哪兒》星二代美國留學 傳私生活混亂搞大女同學個肚｜01娛樂｜內地藝人動向｜張亮｜張悅軒｜爸爸去哪兒
+            </div>
+            
+            <div style="font-size: 0.75rem; color: #9ca3af; margin-top: 0.5rem;">
+                <span style="color: #059669;">HK01</span>
+            </div>
+            <a href="https://www.hk01.com/latest" target="_blank" style="color: #2563eb; font-size: 0.8rem; text-decoration: none; display: inline-block; margin-top: 0.5rem;">
+                📖 閱讀全文 →
+            </a>
+        </div>
+        <div class="news-item" style="padding: 0.75rem 0; border-bottom: 1px solid #e5e7eb;">
+            <div style="font-weight: 600; color: #1f2937; font-size: 0.95rem; margin-bottom: 0.5rem; line-height: 1.4;">
+                10. ![Image 23: Company logo
+            </div>
+            
+            <div style="font-size: 0.75rem; color: #9ca3af; margin-top: 0.5rem;">
+                <span style="color: #059669;">HK01</span>
+            </div>
+            <a href="https://www.hk01.com/latest" target="_blank" style="color: #2563eb; font-size: 0.8rem; text-decoration: none; display: inline-block; margin-top: 0.5rem;">
+                📖 閱讀全文 →
+            </a>
+        </div></section>
+        <section style="margin: 2rem 0;">
+            <h2 style="font-family: 'Noto Serif TC', serif; font-size: 1.25rem; border-bottom: 2px solid #059669; padding-bottom: 0.5rem; margin-bottom: 1rem; color: #1f2937;">
+                🇨🇳 中國內地新聞 (10條)
+            </h2>
+
+        <div class="news-item" style="padding: 0.75rem 0; border-bottom: 1px solid #e5e7eb;">
+            <div style="font-weight: 600; color: #1f2937; font-size: 0.95rem; margin-bottom: 0.5rem; line-height: 1.4;">
+                1. 新华通讯社主办[公司官网](/company/)股票代码：*603888*
+            </div>
+            
+            <div style="font-size: 0.75rem; color: #9ca3af; margin-top: 0.5rem;">
+                <span style="color: #059669;">新華網</span>
+            </div>
+            <a href="https://www.xinhuanet.com/" target="_blank" style="color: #2563eb; font-size: 0.8rem; text-decoration: none; display: inline-block; margin-top: 0.5rem;">
+                📖 閱讀全文 →
+            </a>
+        </div>
+        <div class="news-item" style="padding: 0.75rem 0; border-bottom: 1px solid #e5e7eb;">
+            <div style="font-weight: 600; color: #1f2937; font-size: 0.95rem; margin-bottom: 0.5rem; line-height: 1.4;">
+                2. 对于党员领导干部来说，“以实干出政绩”，不仅是作风上的刚性要求，更是破解发展难题、回应群众期待的必答题
+            </div>
+            
+            <div style="font-size: 0.75rem; color: #9ca3af; margin-top: 0.5rem;">
+                <span style="color: #059669;">新華網</span>
+            </div>
+            <a href="https://www.xinhuanet.com/" target="_blank" style="color: #2563eb; font-size: 0.8rem; text-decoration: none; display: inline-block; margin-top: 0.5rem;">
+                📖 閱讀全文 →
+            </a>
+        </div>
+        <div class="news-item" style="padding: 0.75rem 0; border-bottom: 1px solid #e5e7eb;">
+            <div style="font-weight: 600; color: #1f2937; font-size: 0.95rem; margin-bottom: 0.5rem; line-height: 1.4;">
+                3. 如遇到直播不能正常观看，建议使用Chrome浏览器、QQ浏览器、360极速浏览器等。
+            </div>
+            
+            <div style="font-size: 0.75rem; color: #9ca3af; margin-top: 0.5rem;">
+                <span style="color: #059669;">新華網</span>
+            </div>
+            <a href="https://www.xinhuanet.com/" target="_blank" style="color: #2563eb; font-size: 0.8rem; text-decoration: none; display: inline-block; margin-top: 0.5rem;">
+                📖 閱讀全文 →
+            </a>
+        </div>
+        <div class="news-item" style="padding: 0.75rem 0; border-bottom: 1px solid #e5e7eb;">
+            <div style="font-weight: 600; color: #1f2937; font-size: 0.95rem; margin-bottom: 0.5rem; line-height: 1.4;">
+                4. 微视频丨为官一任 造福一方
+            </div>
+            
+            <div style="font-size: 0.75rem; color: #9ca3af; margin-top: 0.5rem;">
+                <span style="color: #059669;">新華網</span>
+            </div>
+            <a href="https://www.xinhuanet.com/" target="_blank" style="color: #2563eb; font-size: 0.8rem; text-decoration: none; display: inline-block; margin-top: 0.5rem;">
+                📖 閱讀全文 →
+            </a>
+        </div>
+        <div class="news-item" style="padding: 0.75rem 0; border-bottom: 1px solid #e5e7eb;">
+            <div style="font-weight: 600; color: #1f2937; font-size: 0.95rem; margin-bottom: 0.5rem; line-height: 1.4;">
+                5. 续写中国奇迹新篇章——从党的二十届四中全会到2026年全国两会
+            </div>
+            
+            <div style="font-size: 0.75rem; color: #9ca3af; margin-top: 0.5rem;">
+                <span style="color: #059669;">新華網</span>
+            </div>
+            <a href="https://www.xinhuanet.com/" target="_blank" style="color: #2563eb; font-size: 0.8rem; text-decoration: none; display: inline-block; margin-top: 0.5rem;">
+                📖 閱讀全文 →
+            </a>
+        </div>
+        <div class="news-item" style="padding: 0.75rem 0; border-bottom: 1px solid #e5e7eb;">
+            <div style="font-weight: 600; color: #1f2937; font-size: 0.95rem; margin-bottom: 0.5rem; line-height: 1.4;">
+                6. [新闻](https://news.163.com)
+            </div>
+            
+            <div style="font-size: 0.75rem; color: #9ca3af; margin-top: 0.5rem;">
+                <span style="color: #059669;">網易163</span>
+            </div>
+            <a href="https://news.163.com/" target="_blank" style="color: #2563eb; font-size: 0.8rem; text-decoration: none; display: inline-block; margin-top: 0.5rem;">
+                📖 閱讀全文 →
+            </a>
+        </div>
+        <div class="news-item" style="padding: 0.75rem 0; border-bottom: 1px solid #e5e7eb;">
+            <div style="font-weight: 600; color: #1f2937; font-size: 0.95rem; margin-bottom: 0.5rem; line-height: 1.4;">
+                7. [体育](https://sports.163.com)
+            </div>
+            
+            <div style="font-size: 0.75rem; color: #9ca3af; margin-top: 0.5rem;">
+                <span style="color: #059669;">網易163</span>
+            </div>
+            <a href="https://news.163.com/" target="_blank" style="color: #2563eb; font-size: 0.8rem; text-decoration: none; display: inline-block; margin-top: 0.5rem;">
+                📖 閱讀全文 →
+            </a>
+        </div>
+        <div class="news-item" style="padding: 0.75rem 0; border-bottom: 1px solid #e5e7eb;">
+            <div style="font-weight: 600; color: #1f2937; font-size: 0.95rem; margin-bottom: 0.5rem; line-height: 1.4;">
+                8. [娱乐](https://ent.163.com)
+            </div>
+            
+            <div style="font-size: 0.75rem; color: #9ca3af; margin-top: 0.5rem;">
+                <span style="color: #059669;">網易163</span>
+            </div>
+            <a href="https://news.163.com/" target="_blank" style="color: #2563eb; font-size: 0.8rem; text-decoration: none; display: inline-block; margin-top: 0.5rem;">
+                📖 閱讀全文 →
+            </a>
+        </div>
+        <div class="news-item" style="padding: 0.75rem 0; border-bottom: 1px solid #e5e7eb;">
+            <div style="font-weight: 600; color: #1f2937; font-size: 0.95rem; margin-bottom: 0.5rem; line-height: 1.4;">
+                9. [财经](https://money.163.com)
+            </div>
+            
+            <div style="font-size: 0.75rem; color: #9ca3af; margin-top: 0.5rem;">
+                <span style="color: #059669;">網易163</span>
+            </div>
+            <a href="https://news.163.com/" target="_blank" style="color: #2563eb; font-size: 0.8rem; text-decoration: none; display: inline-block; margin-top: 0.5rem;">
+                📖 閱讀全文 →
+            </a>
+        </div>
+        <div class="news-item" style="padding: 0.75rem 0; border-bottom: 1px solid #e5e7eb;">
+            <div style="font-weight: 600; color: #1f2937; font-size: 0.95rem; margin-bottom: 0.5rem; line-height: 1.4;">
+                10. [汽车](https://auto.163.com)
+            </div>
+            
+            <div style="font-size: 0.75rem; color: #9ca3af; margin-top: 0.5rem;">
+                <span style="color: #059669;">網易163</span>
+            </div>
+            <a href="https://news.163.com/" target="_blank" style="color: #2563eb; font-size: 0.8rem; text-decoration: none; display: inline-block; margin-top: 0.5rem;">
+                📖 閱讀全文 →
+            </a>
+        </div></section>
+        <section style="margin: 2rem 0;">
+            <h2 style="font-family: 'Noto Serif TC', serif; font-size: 1.25rem; border-bottom: 2px solid #059669; padding-bottom: 0.5rem; margin-bottom: 1rem; color: #1f2937;">
+                💻 科技新聞 (0條)
+            </h2>
+<p style="color: #9ca3af; font-style: italic;">暫無新聞</p></section>
+        <section style="margin: 2rem 0;">
+            <h2 style="font-family: 'Noto Serif TC', serif; font-size: 1.25rem; border-bottom: 2px solid #059669; padding-bottom: 0.5rem; margin-bottom: 1rem; color: #1f2937;">
+                🤖 AI 新聞 (0條)
+            </h2>
+<p style="color: #9ca3af; font-style: italic;">暫無新聞</p></section>
+        <section style="margin: 2rem 0;">
+            <h2 style="font-family: 'Noto Serif TC', serif; font-size: 1.25rem; border-bottom: 2px solid #059669; padding-bottom: 0.5rem; margin-bottom: 1rem; color: #1f2937;">
+                📈 GDS 股票新聞 (0條)
+            </h2>
+<p style="color: #9ca3af; font-style: italic;">暫無新聞</p></section>
+        <footer style="text-align: center; padding: 2rem; color: #9ca3af; font-size: 0.8rem; border-top: 1px solid #e5e7eb; margin-top: 3rem;">
+            <p>📰 每日新聞簡報 | 數據來源：Brave Search, HK01, Yahoo, 新華網, 網易, orz.ai | 共 20 條新聞</p>
+            <p style="margin-top: 0.5rem;">Generated by 阿呆</p>
+        </footer>
+    </main>
 </body>
 </html>
