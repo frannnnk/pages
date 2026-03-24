@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>每日新聞簡報 | 2026年3月25日（週三）</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "PingFang TC", "Microsoft JhengHei", sans-serif; background: #f5f5f5; color: #222; line-height: 1.7; }
+.container { max-width: 900px; margin: 0 auto; padding: 20px; }
+header { background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460); color: #fff; padding: 32px 24px; border-radius: 16px; margin-bottom: 24px; }
+header .date { font-size: 13px; letter-spacing: 2px; text-transform: uppercase; opacity: 0.7; margin-bottom: 8px; }
+header h1 { font-size: 28px; font-weight: 700; margin-bottom: 8px; }
+header .datetime { font-size: 12px; opacity: 0.6; }
+header .tagline { margin-top: 12px; font-size: 14px; opacity: 0.75; }
+section { background: #fff; border-radius: 12px; padding: 24px; margin-bottom: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+.section-title { font-size: 18px; font-weight: 700; margin-bottom: 16px; padding-bottom: 10px; border-bottom: 2px solid; display: flex; align-items: center; gap: 8px; }
+.section-title .icon { font-size: 22px; }
+.international .section-title { border-color: #e74c3c; color: #c0392b; }
+.hongkong .section-title { border-color: #e67e22; color: #d35400; }
+.china .section-title { border-color: #e74c3c; color: #c0392b; }
+.tech .section-title { border-color: #3498db; color: #2980b9; }
+.ai .section-title { border-color: #9b59b6; color: #8e44ad; }
+.gds .section-title { border-color: #27ae60; color: #219a52; }
+.card { background: #f9f9f9; border-radius: 8px; padding: 16px; margin-bottom: 12px; border-left: 4px solid #ddd; }
+.card h3 { font-size: 15px; font-weight: 600; margin-bottom: 6px; color: #333; }
+.card p { font-size: 14px; color: #555; }
+.tag { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 600; margin-right: 4px; }
+.tag-hot { background: #ffebee; color: #c62828; }
+.tag-new { background: #e3f2fd; color: #1565c0; }
+.tag-alert { background: #fff3e0; color: #e65100; }
+.highlight-box { background: #fff3cd; border: 1px solid #ffe082; border-radius: 8px; padding: 14px; margin-bottom: 16px; }
+.highlight-box strong { color: #e65100; }
+.summary-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.summary-item { background: #f0f4ff; border-radius: 8px; padding: 12px; text-align: center; }
+.summary-item .num { font-size: 24px; font-weight: 700; color: #1a237e; }
+.summary-item .label { font-size: 12px; color: #555; margin-top: 4px; }
+footer { text-align: center; padding: 20px; color: #999; font-size: 12px; }
+.toc { background: #f0f4ff; border-radius: 12px; padding: 20px; margin-bottom: 20px; }
+.toc h2 { font-size: 16px; margin-bottom: 12px; color: #1a237e; }
+.toc ul { list-style: none; display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.toc li a { color: #1565c0; text-decoration: none; font-size: 14px; padding: 6px 12px; background: #fff; border-radius: 6px; display: block; transition: background 0.2s; }
+.toc li a:hover { background: #e3f2fd; }
+.market-bar { display: flex; gap: 12px; margin-bottom: 20px; flex-wrap: wrap; }
+.market-item { flex: 1; min-width: 120px; background: #fff; border-radius: 8px; padding: 12px; text-align: center; box-shadow: 0 1px 4px rgba(0,0,0,0.06); }
+.market-item .label { font-size: 11px; color: #777; }
+.market-item .value { font-size: 16px; font-weight: 700; margin: 4px 0; }
+.up { color: #27ae60; }
+.down { color: #e74c3c; }
+.flat { color: #7f8c8d; }
+@media (max-width: 600px) {
+  .summary-grid, .toc ul { grid-template-columns: 1fr; }
+  .market-bar { flex-direction: column; }
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+<header>
+  <div class="date">Daily News Briefing</div>
+  <h1>📰 每日新聞簡報</h1>
+  <div class="datetime">2026年3月25日（週三）｜生成時間：2026-03-25 07:00:00（香港時間）</div>
+  <div class="tagline">涵蓋：國際・香港・內地・科技・AI・GDS走勢</div>
+</header>
+
+<div class="market-bar">
+  <div class="market-item">
+    <div class="label">道指</div>
+    <div class="value up">+1.38%</div>
+  </div>
+  <div class="market-item">
+    <div class="label">納指</div>
+    <div class="value up">+1.38%</div>
+  </div>
+  <div class="market-item">
+    <div class="label">滬指</div>
+    <div class="value up">+1.78%</div>
+  </div>
+  <div class="market-item">
+    <div class="label">恒指（昨日）</div>
+    <div class="value down">-488pts</div>
+  </div>
+  <div class="market-item">
+    <div class="label">現貨黃金</div>
+    <div class="value flat">$4,440+</div>
+  </div>
+  <div class="market-item">
+    <div class="label">布倫特原油</div>
+    <div class="value down">震盪</div>
+  </div>
+</div>
+
+<!-- 目錄 -->
+<div class="toc">
+  <h2>📋 快速導覽</h2>
+  <ul>
+    <li><a href="#international">🌏 國際新聞</a></li>
+    <li><a href="#hongkong">🇭🇰 香港新聞</a></li>
+    <li><a href="#china">🇨🇳 內地新聞</a></li>
+    <li><a href="#tech">💻 科技新聞</a></li>
+    <li><a href="#ai">🤖 AI 新聞</a></li>
+    <li><a href="#gds">📈 GDS 股票</a></li>
+  </ul>
+</div>
+
+<!-- ============ 國際新聞 ============ -->
+<section class="international" id="international">
+  <div class="section-title"><span class="icon">🌏</span> 國際新聞</div>
+
+  <div class="highlight-box">
+    <strong>⚠️ 今日最大變數：美伊局勢</strong><br>
+    特朗普宣布推遲打擊伊朗電力設施5天，美方聲稱已達成協議要點；伊朗否認談判，強調已有效控制霍爾木茲海峽，並準備「驚喜行動」。
+  </div>
+
+  <div class="card">
+    <h3><span class="tag tag-alert">地緣局勢</span> 美伊博弈：特朗普稱達成協議要點　伊朗否認</h3>
+    <p>美國總統特朗普於當地時間3月23日宣布，為談判留出空間，將推遲對伊朗電力設施的打擊行動5天，並聲稱美方已透過特使威特科夫及庫什納與伊方對話，形成15項共識，包括伊朗不擁有核武器、霍爾木茲海峽由美伊共同管控等。然而，伊朗武裝部隊發言人強調，已對霍爾木茲海峽實施有效控制，否認與美方展開任何談判，並警告已準備「驚喜行動」應對衝突升級。</p>
+  </div>
+
+  <div class="card">
+    <h3><span class="tag tag-alert">軍事動態</span> 伊朗第77波打擊　美軍增兵中東</h3>
+    <p>伊朗伊斯蘭革命衞隊在「真實承諾4」行動第77波打擊中，使用「佐勒法加爾」導彈和無人機，對科威特、沙特、阿聯酋境內的美軍基地及以色列目標發動攻擊。美國政府已增派數千名海軍陸戰隊員，定於3月27日（特朗普設定的「最後期限」）抵達中東。伊朗高級官員穆赫辛·雷扎伊強調，戰爭將持續至損失賠償、制裁解除及美國承諾不干涉伊朗內政。</p>
+  </div>
+
+  <div class="card">
+    <h3><span class="tag tag-hot">市場影響</span> 地緣風險衝擊全球金融市場</h3>
+    <p>地緣局勢引發大宗商品市場劇烈波動：現貨黃金日內經歷寬幅震盪，報價一度失守4370美元後反彈至突破4440美元；紐約原油期貨則在特朗普發布伊朗談判帖文前15分鐘，突現5.8億美元巨額做空交易；上海原油期貨合約日內暴跌11%。高盛將美國未來12個月經濟衰退概率上調至30%，預計年底失業率升至4.6%。</p>
+  </div>
+
+  <div class="card">
+    <h3><span class="tag tag-new">科技戰</span> 伊朗警告打擊美科技巨頭基礎設施</h3>
+    <p>伊朗將目標瞄準科技領域，威脅攻擊Google、微軟、Palantir、IBM、Nvidia和Oracle等公司的數據中心及基礎設施，指責這些企業為美國戰爭行動提供技術支援。伊朗武裝部隊發言人哈塔姆·安比亞中央司令部表示，數據中心屬「敵方技術基礎設施」。</p>
+  </div>
+
+  <div class="card">
+    <h3><span class="tag tag-new">外交動態</span> 日本自衞隊人員強闖中國使館　中方提出嚴正交涉</h3>
+    <p>中國外交部發言人林劍透露，3月24日上午，一名自稱日本自衞隊現役官員的不法之徒翻牆強行闖入中國駐日本大使館，承認自身行為非法，並威脅要以「神的名义」殺死中國外交人員。中方已向日方提出嚴正交涉和強烈抗議，指事件嚴重違反《維也納外交關係公約》，要求日方立即徹查事件並嚴懲有關人員。</p>
+  </div>
+
+  <div class="card">
+    <h3><span class="tag tag-new">歐亞關係</span> 歐盟澳貿易協議劍指中國供應鏈</h3>
+    <p>歐盟與澳大利亞簽署重要貿易協議，歐盟委員會主席馮德萊恩表示，雙方在關鍵礦產領域的合作夥伴關係至關重要，並公開批評中國靠出口拉動的增長模式和過剩產能問題。中方則回應稱，國際貿易本質上是市場雙向選擇過程，反對零和思維。</p>
+  </div>
+
+</section>
+
+<!-- ============ 香港新聞 ============ -->
+<section class="hongkong" id="hongkong">
+  <div class="section-title"><span class="icon">🇭🇰</span> 香港新聞</div>
+
+  <div class="card">
+    <h3><span class="tag tag-hot">政治</span> 李家超出席博鰲亞洲論壇　稱香港「不確定中保持開放」</h3>
+    <p>香港特首李家超在博鰲亞洲論壇2026年年會上發表演講，表示香港在環球不確定因素增加的環境下，仍致力保持開放和國際化。他強調香港作為中國境內連接世界的超級聯繫人角色，並表示對「一國兩制」框架下的長期發展充滿信心。</p>
+  </div>
+
+  <div class="card">
+    <h3><span class="tag tag-new">外交</span> 新加坡總理黃循財將訪港</h3>
+    <p>新加坡總理黃循財在結束博鰲論壇行程後，將正式訪問香港。此行被視為深化兩地官員交流、促進區域合作的重要外交安排。</p>
+  </div>
+
+  <div class="card">
+    <h3><span class="tag tag-hot">金融</span> 香港定位「家族財富安全港」　吸納中東資金</h3>
+    <p>在中東地緣衝突升級之際，香港官員於3月24日強調香港正成為家族財富和全球資金的「安全港」。據悉，多間中東家族辦公室正考慮將業務重心轉移至香港，反映出全球避險情緒升溫背景下，資金持續向亞洲金融中心集聚的趨勢。</p>
+  </div>
+
+  <div class="card">
+    <h3><span class="tag tag-new">股市</span> 港股憧憬美伊局勢緩解　大市反彈</h3>
+    <p>港股在3月24日早段曾因美伊緊張局勢大跌後，午後市場情緒有所好轉，憧憬特朗普推遲打擊伊朗的決定或許為外交談判打開空間，港股最終錄得反彈。小鵬汽車和蔚來分別大漲7.32%及7.27%，顯示新能源汽車板塊對宏觀局勢改善最為敏感。</p>
+  </div>
+
+  <div class="card">
+    <h3><span class="tag tag-alert">社會</span> 大埔致命火警進入第三日聆訊</h3>
+    <p>大埔致命火警事故的的死因裁判法庭聆訊進入第三日，居民繼續出庭作證。事件引發社會對消防安全監管的廣泛關注。</p>
+  </div>
+
+</section>
+
+<!-- ============ 內地新聞 ============ -->
+<section class="china" id="china">
+  <div class="section-title"><span class="icon">🇨🇳</span> 內地新聞</div>
+
+  <div class="highlight-box">
+    <strong>📊 A股今日走勢：滬指缩量反彈漲1.78%，創業板指數尾盤V型反轉</strong><br>
+    市場全日探底回升，黃白線分化明顯，微盤股指數大漲超5%，全市場錄得百股漲停。
+  </div>
+
+  <div class="card">
+    <h3><span class="tag tag-hot">金融市場</span> A股強勢反彈　微盤股大漲逾5%</h3>
+    <p>3月24日A股市場全天探底回升，滬深兩市均漲超1%。創業板指數尾盤成功翻紅，此前一度跌近2.5%。黃白線走勢分化明顯，微盤股指數大漲超5%，全市場錄得逾百股漲停。兩市成交額錄得一定幅度的萎縮，反映投資者情緒仍偏向謹慎。</p>
+  </div>
+
+  <div class="card">
+    <h3><span class="tag tag-hot">資本流動</span> 中東資金加速流入香港　中國資產吸引布局</h3>
+    <p>據上海證券報報道，受地緣局勢影響，中東資本正在加速重構資產配置版圖，香港成為這場資金遷徙的重要目的地。報道指出，不管是中東客戶密集查詢港股信息，還是部分中東家族辦公室考慮將業務重心轉至香港，都體現出避險需求與多元化配置邏輯正共同推動中東資本「向東看」，而中國資產在科技領域的長期競爭力是吸引布局的關鍵。</p>
+  </div>
+
+  <div class="card">
+    <h3><span class="tag tag-new">外交</span> 中國大使館東京遭闖入　北京強烈譴責</h3>
+    <p>中國外交部發言人林劍於例行記者會上披露，一名自稱日本自衞隊現役官員的男子於3月24日上午翻牆闖入中國駐日本大使館，並威脅要以「神的名义」殺害中國外交人員。中方已向日方提出嚴正交涉和強烈抗議，指出事件反映日本國內極右翼思潮猖獗，要求日方立即徹查並嚴懲有關人員，切實保障中國使領館安全。</p>
+  </div>
+
+  <div class="card">
+    <h3><span class="tag tag-alert">外交</span> 中國外交部：呼籲美伊立即停火　回到和平對話軌道</h3>
+    <p>針對美伊局勢升級，林劍表示，戰事延宕不符合任何一方利益，停火對話是唯一出路。中方對當前局勢不斷升級外溢、衝擊地區和國際和平穩定深感擔憂，呼籲相關各方立即停火止戰，盡快回到和平對話的軌道。</p>
+  </div>
+
+  <div class="card">
+    <h3><span class="tag tag-new">對外貿易</span> 中國商務部會見美中貿易全國委員會代表</h3>
+    <p>國家市場監督管理總局局長羅文會見美中貿易全國委員會會長譚森一行，雙方就全國統一大市場建設和反壟斷政策等議題深入交流。羅文強調，中方將持續優化營商環境，為外資企業提供服務保障，並重申對外開放政策不變。</p>
+  </div>
+
+  <div class="card">
+    <h3><span class="tag tag-new">體育</span> 鄭欽文邁阿密站不敵莎巴倫卡　遺憾止步16強</h3>
+    <p>WTA1000邁阿密站第四輪比賽中，中國內地選手鄭欽文以3-6、4-6直落兩盤，不敵世界排名第一的莎巴倫卡，遺憾止步16強。兩人在硬地賽場的九次交鋒中，莎巴倫卡取得八勝一負的壓倒性優勢。</p>
+  </div>
+
+</section>
+
+<!-- ============ 科技新聞 ============ -->
+<section class="tech" id="tech">
+  <div class="section-title"><span class="icon">💻</span> 科技新聞</div>
+
+  <div class="card">
+    <h3><span class="tag tag-hot">蘋果</span> Apple WWDC 2026定檔6月8日</h3>
+    <p>Apple正式宣布，WWDC 2026將於6月8日至12日舉行，開發者可通過Apple Developer應用、官方網站及YouTube頻道參與。本屆WWDC將聚焦AI相關的軟件工具更新，以及平台功能的前瞻性布局，並增設Apple Park現場環節。WWDC已成為市場評估Apple AI能力發展的關鍵指標。</p>
+  </div>
+
+  <div class="card">
+    <h3><span class="tag tag-alert">安全</span> 美FCC禁止進口外國製造的消費者路由器</h3>
+    <p>美國聯邦通信委員會（FCC）宣佈禁止進口所有外國製造的消費級路由器，將所有境外家用無線路由器納入受限名單，此舉被視為針對外國網絡設備的安全監管重大升級。此政策可能對TP-Link等主要路由器品牌的美國市場供應鏈造成重大影響。</p>
+  </div>
+
+  <div class="card">
+    <h3><span class="tag tag-new">AI芯片</span> Amazon展示Trainium AI芯片　OpenAI/Anthropic/Apple均採用</h3>
+    <p>Amazon展示了其Trainium AI芯片的研發實驗室，並確認OpenAI、Anthropic和Apple均已採用Trainium芯片進行定制模型訓練工作負載。Amazon聲稱Trainium在成本和性能方面相較通用GPU具有優勢。</p>
+  </div>
+
+  <div class="card">
+    <h3><span class="tag tag-alert">安全</span> Crunchyroll遭遇數據泄露事故</h3>
+    <p>動漫串流平台Crunchyroll正在調查一起數據泄露事故，據悉數百萬用戶的數據可能遭到洩露。事件引發用戶對個人資料安全的廣泛關注。</p>
+  </div>
+
+  <div class="card">
+    <h3><span class="tag tag-new">芯片</span> 挪威初創公司Lace融资4000萬美元研發新型光刻技術</h3>
+    <p>Lace宣布完成4000萬美元融資，開發基於氦原子束光刻技術（helium atom-beam lithography），目標是實現比現有EUV技術小約10倍的半導體設計。該公司由微軟支持，目標在2029年前建成試點芯片製造工廠。</p>
+  </div>
+
+  <div class="card">
+    <h3><span class="tag tag-new">電商</span> Amazon春季大促火熱進行中</h3>
+    <p>Amazon年度春季大促活動正如火如荼地進行，涵蓋家居、科技電子產品等多個品類。ZDNET等媒體持續追蹤最佳優惠資訊，Apple系列產品獲得顯著折扣。</p>
+  </div>
+
+</section>
+
+<!-- ============ AI 新聞 ============ -->
+<section class="ai" id="ai">
+  <div class="section-title"><span class="icon">🤖</span> AI 新聞</div>
+
+  <div class="highlight-box">
+    <strong>💡 本週AI亮點：Anthropic Claude进化為AI代理　黃仁勳稱AGI已到來</strong><br>
+    AI領域競賽加劇，Claude新增電腦操控能力，Nvidia CEO黃仁勳公開宣稱AGI已實現，引發業界熱議。
+  </div>
+
+  <div class="card">
+    <h3><span class="tag tag-hot">Anthropic</span> Claude新增電腦操控代理能力</h3>
+    <p>Anthropic於3月24日宣佈，Claude現在可以代表用戶操控電腦完成各項任務。用戶只需通過手機向Claude發送指令，AI即可自動打開應用、導航瀏覽器、填寫電子表格並完成發送郵件等操作。Anthropic演示了Claude幫助用戶來不及赴約時，自動將簡報導出為PDF並附加到會議邀請中的場景。此更新標誌著AI從聊天工具向真正意義上的自主代理邁出重要一步。</p>
+  </div>
+
+  <div class="card">
+    <h3><span class="tag tag-hot">Nvidia</span> 黃仁勳：AGI已經到來</h3>
+    <p>Nvidia CEO黃仁勳接受採訪時表示，AGI（通用人工智能）已經到來，並以OpenClaw為例說明AI已能獨立創建具有數十億美元價值的項目。他同時強調，在硬件製造領域，AI仍無法複製Nvidia本身的商業模式，「100,000個AI代理建造Nvidia的可能性是零」。黃仁勳亦表示，Nvidia正在推出開源版本的OpenClaw，以及企業級NemoClaw棧。</p>
+  </div>
+
+  <div class="card">
+    <h3><span class="tag tag-new">Nvidia GTC</span> Nvidia GTC 2026召開　擴展AI原生生態</h3>
+    <p>Nvidia年度GTC開發者大會正在舉行，黃仁勳宣佈推出OpenClaw支持，並推出NemoClaw企業棧以滿足企業安全部署需求。Nvidia同時擴展其開放模型生態系統，推出新Nemotron Coalition，匯聚六個前沿模型系列。黃仁勳表示，過去一年AI領域投資飆升至1500億美元，GPU計算需求較數年前增長了「100萬倍」。</p>
+  </div>
+
+  <div class="card">
+    <h3><span class="tag tag-alert">競爭</span> OpenAI加強私人資本市場宣傳　與Anthropic爭奪企業客戶</h3>
+    <p>據路透社報道，OpenAI正在向私人股本投資者提供比競爭對手Anthropic更優惠的條件，雙方在企業市場的爭奪日趨激烈。OpenAI已擁有超過100萬企業客戶，其最新系列AI模型在多個基準測試中表現超越Google的相應產品。</p>
+  </div>
+
+  <div class="card">
+    <h3><span class="tag tag-new">自動駕駛</span> Nvidia擴展機械人出租車平台　比亞迪、現代、日產加入合作</h3>
+    <p>Nvidia在GTC大會上透露，其機械人出租車平台正吸引新一批汽車製造商加入，包括比亞迪、現代、日產和吉利。同時宣佈與Uber達成合作夥伴關係，將自動駕駛汽車整合至Uber的網約車網絡中。</p>
+  </div>
+
+  <div class="card">
+    <h3><span class="tag tag-new">人事</span> OpenAI挖角OpenClaw創作者Peter Steinberger</h3>
+    <p>OpenAI上月聘請了OpenClaw的創作者Peter Steinberger，寄望他領導下一代個人AI代理的開發工作。OpenClaw是允許用戶在本地電腦上運行AI代理的開源平台，獲得Nvidia的大力支持。</p>
+  </div>
+
+</section>
+
+<!-- ============ GDS 股票 ============ -->
+<section class="gds" id="gds">
+  <div class="section-title"><span class="icon">📈</span> GDS Holdings（萬國數據）股票</div>
+
+  <div class="summary-grid">
+    <div class="summary-item">
+      <div class="num">9698.HK</div>
+      <div class="label">港股代號</div>
+    </div>
+    <div class="summary-item">
+      <div class="num" style="color:#e74c3c;">HK$45.58</div>
+      <div class="label">最新股價</div>
+    </div>
+    <div class="summary-item">
+      <div class="num">HK$7,306億</div>
+      <div class="label">市值（港元）</div>
+    </div>
+    <div class="summary-item">
+      <div class="num">Morgan Stanley</div>
+      <div class="label">評級機構</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3><span class="tag tag-hot">分析師觀點</span> Morgan Stanley重申「增持」評級　目標價64美元</h3>
+    <p>Morgan Stanley重申對GDS Holdings的「增持」評級，目標價定為64美元。分析師強調GDS的500MW銷售目標具有吸引力，並預期公司收入及EBITDA將持續增長。公司目標在2027年前交付大部分產能，捕捉AI基礎設施需求的高速增長期。</p>
+  </div>
+
+  <div class="card">
+    <h3><span class="tag tag-hot">分析師觀點</span> Citizens Financial Group重申評級</h3>
+    <p>Citizens Financial Group同日重申對GDS Holdings的評級，並對AI需求前景持樂觀態度。作為亞洲最大的中立第三方數據中心營運商之一，GDS在支持雲端服務提供商、大型互聯網公司及金融機構等方面的核心價值持續獲得機構投資者認可。</p>
+  </div>
+
+  <div class="card">
+    <h3><span class="tag tag-new">基本面</span> 核心數據一覽</h3>
+    <p>根據Yahoo Finance最新數據，GDS Holdings市帳率（P/B）約2.52倍，市銷率（P/S）約6.45倍，企業價值/EBITDA比率為13.12倍。負債比率（總債務/權益）為175.35%，反映數據中心重資產行業特性。毛利率維持在50%水平。</p>
+  </div>
+
+  <div class="card">
+    <h3><span class="tag tag-alert">市場環境</span> 港股科技板塊短期承壓　AI需求長期利好</h3>
+    <p>受美伊局勢升級影響，港股3月23日大跌，恒指曾下瀉488點，騰訊、阿里等科技股普遍跌逾2%。然而，分析師普遍認為，AI算力基礎設施的剛性需求將繼續支撐GDS等數據中心運營商的長期增長前景，建議投資者逢低吸納。</p>
+  </div>
+
+</section>
+
+<footer>
+  <p>📰 每日新聞簡報｜2026年3月25日（週三）｜生成時間：2026-03-25 07:00:00（香港時間）</p>
+  <p>資料來源：Tavily Search、Web Search、Bloomberg、CNBC、Reuters、SCMP、新浪財經、中國外交部</p>
+</footer>
+
+</div>
+</body>
+</html>
