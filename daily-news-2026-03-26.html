@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>每日新聞簡報 — 2026年3月26日（星期四） | 阿呆 NEWS</title>
+    <style>
+        :root {
+            --bg: #f8f7f4;
+            --card: #ffffff;
+            --text: #1a1a1a;
+            --text-light: #666;
+            --accent: #2563eb;
+            --accent-red: #dc2626;
+            --accent-green: #16a34a;
+            --border: #e5e5e5;
+            --tag-intl: #7c3aed;
+            --tag-hk: #ea580c;
+            --tag-cn: #dc2626;
+            --tag-tech: #0891b2;
+            --tag-ai: #7c3aed;
+            --tag-gds: #16a34a;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "PingFang TC", "Microsoft JhengHei", sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            padding: 24px 16px 80px;
+        }
+        .container { max-width: 780px; margin: 0 auto; }
+        .site-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 32px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid var(--text);
+        }
+        .site-title {
+            font-size: 1.4rem;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+        }
+        .site-title span { color: var(--accent); }
+        .timestamp {
+            font-size: 0.78rem;
+            color: var(--text-light);
+            text-align: right;
+            line-height: 1.4;
+        }
+        .report-date {
+            background: var(--text);
+            color: #fff;
+            padding: 20px 28px;
+            margin-bottom: 28px;
+            border-radius: 10px;
+        }
+        .report-date h1 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 6px;
+        }
+        .report-date p { font-size: 0.82rem; opacity: 0.75; }
+        .toc {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 20px 24px;
+            margin-bottom: 28px;
+        }
+        .toc h2 {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: var(--text-light);
+            margin-bottom: 14px;
+        }
+        .toc-list { list-style: none; display: flex; flex-wrap: wrap; gap: 8px; }
+        .toc-list li a {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            text-decoration: none;
+            font-weight: 500;
+            transition: opacity 0.2s;
+        }
+        .toc-list li a:hover { opacity: 0.75; }
+        .toc-intl { background: #ede9fe; color: var(--tag-intl); }
+        .toc-hk { background: #ffedd5; color: var(--tag-hk); }
+        .toc-cn { background: #fee2e2; color: var(--tag-cn); }
+        .toc-tech { background: #cffafe; color: var(--tag-tech); }
+        .toc-ai { background: #f3e8ff; color: var(--tag-ai); }
+        .toc-gds { background: #dcfce7; color: var(--tag-gds); }
+        .category { margin-bottom: 36px; }
+        .category-header {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 18px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--text);
+        }
+        .category-dot {
+            width: 10px; height: 10px;
+            border-radius: 50%;
+            flex-shrink: 0;
+        }
+        .category-title {
+            font-size: 1.1rem;
+            font-weight: 700;
+            letter-spacing: -0.3px;
+        }
+        .category-intl .category-dot { background: var(--tag-intl); }
+        .category-hk .category-dot { background: var(--tag-hk); }
+        .category-cn .category-dot { background: var(--tag-cn); }
+        .category-tech .category-dot { background: var(--tag-tech); }
+        .category-ai .category-dot { background: var(--tag-ai); }
+        .category-gds .category-dot { background: var(--tag-gds); }
+        .story { margin-bottom: 22px; padding-bottom: 22px; border-bottom: 1px solid var(--border); }
+        .story:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+        .story-title {
+            font-size: 0.97rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+            line-height: 1.4;
+        }
+        .story-meta {
+            font-size: 0.72rem;
+            color: var(--text-light);
+            margin-bottom: 10px;
+            font-style: italic;
+        }
+        .story p { font-size: 0.9rem; color: #333; margin-bottom: 8px; }
+        .story p:last-child { margin-bottom: 0; }
+        .story strong { color: var(--text); }
+        .site-footer {
+            text-align: center;
+            padding: 24px 0 0;
+            border-top: 1px solid var(--border);
+            margin-top: 48px;
+            font-size: 0.75rem;
+            color: var(--text-light);
+            line-height: 1.8;
+        }
+        @media (max-width: 480px) {
+            body { padding: 16px 12px 60px; }
+            .report-date h1 { font-size: 1.2rem; }
+            .category-title { font-size: 1rem; }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+
+<!-- HEADER -->
+<div class="site-header">
+    <div class="site-title"><span>阿呆</span> NEWS</div>
+    <div class="timestamp">
+        <div>生成時間</div>
+        <div><strong>2026-03-26 07:00:00</strong></div>
+        <div>香港時間（UTC+8）</div>
+    </div>
+</div>
+
+<!-- DATE BANNER -->
+<div class="report-date">
+    <h1>📰 每日新聞簡報</h1>
+    <p>2026年3月26日（星期四）｜涵蓋：國際 · 香港 · 內地 · 科技 · AI · GDS</p>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+<div class="toc">
+    <h2>報道分類</h2>
+    <ul class="toc-list">
+        <li><a href="#intl" class="toc-intl">🌍 國際</a></li>
+        <li><a href="#hk" class="toc-hk">🇭🇰 香港</a></li>
+        <li><a href="#cn" class="toc-cn">🇨🇳 內地</a></li>
+        <li><a href="#tech" class="toc-tech">💻 科技</a></li>
+        <li><a href="#ai" class="toc-ai">🤖 AI</a></li>
+        <li><a href="#gds" class="toc-gds">📈 GDS</a></li>
+    </ul>
+</div>
+
+<!-- INT'L NEWS -->
+<div class="category category-intl" id="intl">
+    <div class="category-header">
+        <div class="category-dot"></div>
+        <h2 class="category-title">🌍 國際新聞</h2>
+    </div>
+
+    <div class="story">
+        <div class="story-title">美透過巴基斯坦向伊朗提十五點停火方案，中東局勢現曙光？</div>
+        <div class="story-meta">Reuters · Al Jazeera · 2026-03-25</div>
+        <p><strong>伊朗戰事外溢影響加劇。</strong> 據路透社及多間通訊社報道，美國已透過巴基斯坦向伊朗提出一項十五點停火方案，建議雙方停火一個月，並以撤銷制裁換取伊朗放棄核計劃。伊朗武裝部隊總司令穆傑塔巴（Mohammad Bagheri）據報已表示願意談判，並宣佈允許「非敵對國家」的油輪通過霍爾木茲海峽，恢復部分原油出口。</p>
+        <p>中國外交部發言人林劍在例行記者會上表示，中方支持一切有利於緩局降溫、恢復對話的努力，並透露國務委員王毅已與伊朗外長阿拉格齊通話，敦促各方透過對話談判解決問題：「談起來總比打下去好。」</p>
+    </div>
+
+    <div class="story">
+        <div class="story-title">日本自衞隊軍官持刀闖入中國駐日大使館，中日外交風波升溫</div>
+        <div class="story-meta">外交部例行記者會 · 2026-03-25</div>
+        <p><strong>中日外交風波急劇升溫。</strong> 日本一名現役自衞隊三等陸尉（三佐）於3月24日攜帶刃長達18厘米的刀具，翻牆闖入中國駐日本大使館，並威脅要以「神的名義」殺死中國外交人員。日本警方已將該軍官拘捕並移交。</p>
+        <p>中國外交部發言人林劍透露，中方已在北京和東京向日方「嚴正交涉、表達強烈不滿」，指出日方未能切實履行《維也納外交關係公約》義務，並敦促日方全面徹查。林劍更批評，事件「再次反映出日本國內極右翼思潮和勢力十分猖獗，新型軍國主義成勢為患」。</p>
+    </div>
+
+    <div class="story">
+        <div class="story-title">美國軍事干預委內瑞拉，中方斥違反國際法</div>
+        <div class="story-meta">外交部例行記者會 · 2026-03-25</div>
+        <p><strong>委內瑞拉局勢成為外交焦點。</strong> 美國對委內瑞拉發動空襲侵略，導致逾百人死亡，並綁架了馬杜羅總統夫婦。中國外交部發言人林劍明確表示，「美國強行控制一國元首明顯違反《聯合國憲章》宗旨和原則，違反國際法和國際關係基本準則，中方堅決反對」，並重申支持委內瑞拉維護自身主權、尊嚴和合法權利。</p>
+    </div>
+
+    <div class="story">
+        <div class="story-title">博鰲亞洲論壇年會開幕，中方重申高水平開放</div>
+        <div class="story-meta">人民網 · 2026-03-25</div>
+        <p><strong>海南舉行博鰲亞洲論壇2026年年會。</strong> 本屆論壇以「塑造共同未來：新形勢、新機遇、新合作」為主題，慶祝論壇成立25周年。中共中央政治局常委、國務院副總理丁薛祥致辭強調，在單邊主義抬頭的背景下，「中國始終是動盪世界中的穩定、可靠、積极力量」，並重申高水平對外開放。諾華、阿斯利康等跨國藥企在論壇期間宣佈逾千億元對華新投資。</p>
+    </div>
+</div>
+
+<!-- HK NEWS -->
+<div class="category category-hk" id="hk">
+    <div class="category-header">
+        <div class="category-dot"></div>
+        <h2 class="category-title">🇭🇰 香港新聞</h2>
+    </div>
+
+    <div class="story">
+        <div class="story-title">《港區國安法》實施細則修訂：可無令狀索電子設備密碼　台陸委會發警示</div>
+        <div class="story-meta">RFI · 德國之聲 · 星島頭條 · 2026-03-25</div>
+        <p><strong>港府《國安法》細則修訂引發國際譴責。</strong> 港府於3月23日公佈《港區國安法》實施細則修訂，允許執法人員無須手令即可要求被懷疑違反國安法者交出電子設備密碼，違者最高可被判囚一年及罰款十萬港元；提供虛假或誤導性資料者，最高可被判囚三年及罰款五十萬港元。</p>
+        <p>台灣陸委會發表聲明，批評新修訂「侵犯人權」，提醒民眾赴港要慎思；香港人權資訊中心則去信 Apple、Google、Meta 等科技巨頭，敦促它們交代如何在《聯合國工商企業與人權指導原則》下保護用戶權益。保安局局長鄧炳強否認新修訂等同無限制執法，聲稱須向法庭申請手令；但他也承認，若情報顯示國安罪行即將發生，警員可在無須手令下要求提供密碼。</p>
+    </div>
+
+    <div class="story">
+        <div class="story-title">獨立書店「一拳書館」負責人及員工被捕　人權觀察：香港正變得愈來愈反烏托邦</div>
+        <div class="story-meta">德國之聲 · 路透社 · 2026-03-25</div>
+        <p><strong>再有香港出版及零售業者因國安罪名被捕。</strong> 3月24日，國安處警察搜查獨立書店「一拳書館」並拘捕負責人龐一鳴及三名職員，指他們「明知而出售具煽動意圖的刊物」，包括由壹傳媒前董事祁福德（Mark Clifford）撰寫的《黎智英傳》。祁福德表示對拘捕不知情，形容事件「令人悲哀和諷刺」。人權觀察亞洲部主任伊蓮·皮爾森警告：「先是監禁這位報業出版人，接著又逮捕販售關於他的書籍的人——香港正變得愈來愈反烏托邦。」</p>
+    </div>
+
+    <div class="story">
+        <div class="story-title">香港海關學院4.18全民國安教育日開放日　3月30日起公開登記</div>
+        <div class="story-meta">星島頭條 · 2026-03-25</div>
+        <p>香港海關宣佈將於2026年4月18日（星期六）於香港海關學院舉辦全民國家安全教育日開放日，開放日將設國家安全教育展覽、海關龍獅團表演、攤位遊戲、槍械及裝備展覽及海關搜查犬表演等活動，公眾登記系統將於2026年3月30日至4月1日以電腦抽籤形式分配入場券。</p>
+    </div>
+</div>
+
+<!-- CHINA NEWS -->
+<div class="category category-cn" id="cn">
+    <div class="category-header">
+        <div class="category-dot"></div>
+        <h2 class="category-title">🇨🇳 內地新聞</h2>
+    </div>
+
+    <div class="story">
+        <div class="story-title">外交部例行記者會：中日大使館風波、伊朗局勢成雙軸　發言人罕有點名批日本極右翼</div>
+        <div class="story-meta">外交部發言人林劍例行記者會 · 2026-03-25</div>
+        <p><strong>外交部例行記者會火藥味濃。</strong> 2026年3月25日外交部發言人林劍主持例行記者會，針對中日大使館事件，林劍反駁日方稱涉事者欲與大使交談的說法：「你見過未經允許持刀進入使館同大使交談的先例嗎？」他批評事件「再次反映出日本國內極右翼思潮和勢力十分猖獗」，暴露日方在歷史、台灣等中日關係重大核心問題上的錯誤政策。</p>
+        <p>就伊朗戰事，林劍透露王毅外長已與伊朗外長阿拉格齊通話，中方原則立場是「所有地區熱點問題都應通過對話談判解決，而不應使用武力」。針對日本教科書篡改「慰安婦」和強征勞工歷史，林劍形容此舉是「否認和歪曲自身侵略歷史的慣用伎倆」，中方對此「強烈不滿、堅決反對」，已向日方提出嚴正交涉。</p>
+    </div>
+
+    <div class="story">
+        <div class="story-title">中關村論壇年會北京開幕　丁薛祥：三大國際科技創新中心一體化</div>
+        <div class="story-meta">外交部官網 · 人民網 · 2026-03-25</div>
+        <p><strong>2026中關村論壇年會於3月25日在北京開幕。</strong> 中共中央政治局常委、國務院副總理丁薛祥出席開幕式致辭，正式宣佈北京國際科技創新中心將擴圍至京津冀，上海國際科技創新中心將擴圍至長三角，形成京津冀、長三角、粵港澳大灣區三大國際科技創新中心一體化發展格局。他強調這有利於實現資源統籌、政策疊加、力量協同、優勢互補，在中國式現代化進程中更好發揮「開路先鋒、示範引領、輻射帶動」作用。</p>
+    </div>
+
+    <div class="story">
+        <div class="story-title">內地升學名師張雪峰猝逝　終年41歲引發健康警號關注</div>
+        <div class="story-meta">星島頭條 · 2026-03-25</div>
+        <p><strong>內地知名考研及升學指導名師張雪峰於2026年3月25日猝然離世，</strong>終年41歲。張雪峰以高考志願填報指導和考研攻略影片走紅，其離世引發對中青年健康問題的廣泛關注。醫學界提醒，心臟問題往往並非全無預兆，呼籲都市人要留意身體警號。</p>
+    </div>
+</div>
+
+<!-- TECH NEWS -->
+<div class="category category-tech" id="tech">
+    <div class="category-header">
+        <div class="category-dot"></div>
+        <h2 class="category-title">💻 科技新聞</h2>
+    </div>
+
+    <div class="story">
+        <div class="story-title">NVIDIA Rubin平台發佈：1.6nm晶片、GPU成本革命性降低</div>
+        <div class="story-meta">VT NetzWelt · devFlokers · 2026-03-16</div>
+        <p><strong>NVIDIA於CES 2026發佈 Rubin 平台</strong>，採用台積電1.6nm（A16）製程，配備全新Vera CPU（88核心ARM架構）和 Rubin GPU（384GB HBM4記憶體）。NVIDIA行政總裁黃仁勳表示，Rubin平台與Blackwell相比，MoE模型推理成本降低達十倍，能以四分之一數量的GPU完成同等訓練工作量，為AI經濟的可持續發展帶來關鍵突破。</p>
+    </div>
+
+    <div class="story">
+        <div class="story-title">蘋果iOS 26震撼登場：「液態玻璃」介面 + 深度整合AI</div>
+        <div class="story-meta">TACAN · 2026-03-11</div>
+        <p><strong>蘋果於3月11日發佈iOS 26，</strong>採用全新「液態玻璃」（Liquid Glass）設計語言，並深度整合Apple Intelligence人工智能功能。另有消息指Google Gemini將整合至蘋果Siri，為iPhone用戶帶來頂級生成式AI能力。三星則尋求與Perplexity AI等建立AI聯盟抗衡Apple Intelligence生態。</p>
+    </div>
+
+    <div class="story">
+        <div class="story-title">AI影片生成工具急速崛起：Sora、Runway、Pika全面競爭</div>
+        <div class="story-meta">TACAN · 2026-03-11</div>
+        <p><strong>AI影片生成領域進入爆發期。</strong> OpenAI Sora、Runway和Pika等平台持續迭代，AI影片工具正從簡單剪輯助手進化為能從文字提示生成電影級影片的強大系統。這項技術正在徹底改變影視製作、內容創作和數碼營銷的遊戲規則。</p>
+    </div>
+</div>
+
+<!-- AI NEWS -->
+<div class="category category-ai" id="ai">
+    <div class="category-header">
+        <div class="category-dot"></div>
+        <h2 class="category-title">🤖 AI 新聞</h2>
+    </div>
+
+    <div class="story">
+        <div class="story-title">白宮向國會提交AI政策藍圖：輕觸式監管、禁止州份AI立法凌駕聯邦</div>
+        <div class="story-meta">POLITICO · 2026-03-20</div>
+        <p><strong>白宮於2026年3月20日發佈AI政策藍圖文件</strong>（National Policy Framework for Artificial Intelligence），要求國會立法將其編碼為聯邦法律，並明確要求以「聯邦法律凌駕州份AI法律」為原則。白宮在文件中要求引入年齡驗證機制、家長控制工具，並將特朗普的「電力費用承諾」編碼為法律。分析認為該方案不太可能在國會獲得兩黨支持，共和黨參議員Thune坦言需「在不侵犯州權利的同時」找到折衷方案。</p>
+    </div>
+
+    <div class="story">
+        <div class="story-title">Anthropic拒向美軍提供自主武器AI　#QuitGPT運動興起　Claude首登App Store第一</div>
+        <div class="story-meta">devFlokers · 2026-03-13</div>
+        <p><strong>Anthropic與五角大樓矛盾公開化。</strong> Anthropic拒絕移除旗下模型防止被用於自主武器的防護措施後，遭美國國防部標記為「供應鏈風險」。相比之下，OpenAI已獲價值250億美元的五角大樓合約。此戰略分歧引發#QuitGPT運動，ChatGPT在應用商店卸載量一度飆升295%，而Claude同期下載量增長51%，並首次登上美國App Store第一名。</p>
+    </div>
+
+    <div class="story">
+        <div class="story-title">OpenAI GPT-5.4：百萬Token上下文時代來臨　Agentic AI走入生產環境</div>
+        <div class="story-meta">VT NetzWelt · devFlokers · 2026-03-05</div>
+        <p><strong>AI模型軍備競賽進入新階段。</strong> OpenAI於3月5日推出GPT-5.4，支援高達一百萬Token上下文窗口，並內建原生電腦使用能力，能在桌面應用程式中自主執行多步任務。Anthropic Claude Sonnet 4.6則以編程和長上下文推理見稱，並推出Claude Partner Network，承諾投入一億美元支持企業部署。專家指出，AI已從「聊天機械人時代」進入「數碼同事時代」。</p>
+    </div>
+
+    <div class="story">
+        <div class="story-title">搜尋引擎革命：從SEO到「發現引擎優化」（DEO）</div>
+        <div class="story-meta">devFlokers · 2026-03-14</div>
+        <p><strong>傳統SEO正面臨根本性變革。</strong> 2026年零點擊搜尋已佔所有Google查詢近60%，AI平台Perplexity和Gemini優先展示「答案就緒」內容。新興的「發現引擎優化」（DEO）要求品牌以長對話式查詢為目標（AI平台平均23字 vs 傳統Google的3-4字），並提升在Reddit和LinkedIn等社區的真實討論提及率，以增加被AI引用和推薦的機會。</p>
+    </div>
+</div>
+
+<!-- GDS NEWS -->
+<div class="category category-gds" id="gds">
+    <div class="category-header">
+        <div class="category-dot"></div>
+        <h2 class="category-title">📈 GDS 股票新聞</h2>
+    </div>
+
+    <div class="story">
+        <div class="story-title">高盛維持「買入」評級　目標價大幅上調至54港元</div>
+        <div class="story-meta">富途牛牛 · 高盛研究報告 · 2026-03-25</div>
+        <p><strong>GDS Holdings（09698.HK）獲得華爾街大行青睞。</strong> 高盛在研究報告中重申對GDS的「買入」評級，將美股目標價從49美元上調至55美元，將港股目標價從48港元大幅上調至54港元。高盛認為，在AI投資加速和強勁AI需求的推動下，GDS的數據中心業務正受惠於結構性利好，並預測2026至2027年度收入和EBITDA增長率將達10%至11%，2028年進一步加速至約16%。</p>
+    </div>
+
+    <div class="story">
+        <div class="story-title">滙豐研究上調GDS目標價至68.7港元　年內新訂單超預期</div>
+        <div class="story-meta">富途牛牛 · 滙豐研究報告 · 2026-03-25</div>
+        <p><strong>滙豐研究對GDS新訂單表現感到驚喜。</strong> 滙豐報告指出，GDS年內已簽署200MW新訂單，並有500MW（主要用於GPU）的諒解備忘錄階段訂單預計於未來數季落實。滙豐認為，GDS以往主要聚焦一線城市和低延遲CPU需求，但隨著在內蒙古、寧夏和韶關獲得新土地及3000MW電力配額，未來有望受惠於AI訓練和推理所帶來的GPU需求，相關產能將從2027年起逐步投產。滙豐將GDS的H股目標價從61.1港元大幅上調至68.7港元，維持「買入」評級。</p>
+    </div>
+
+    <div class="story">
+        <div class="story-title">GDS 2025財年淨利潤9.59億元人民幣　成功扭虧為盈</div>
+        <div class="story-meta">富途牛牛 · GDS年報 · 2026-03-17</div>
+        <p><strong>GDS 2025財年業績出爐：成功扭虧為盈。</strong> GDS Holdings於2026年3月17日公佈2025年全年業績：全年淨收入114.32億元人民幣，按年增長10.8%（2024年為103.22億元）；全年淨利潤9.59億元人民幣，2024年同期為淨虧損7.71億元，成功實現扭虧為盈。第四季度淨收入29.22億元，按年增長8.6%；季度淨虧損4.63億元（2024年同期為虧損1.73億元），主要由於新項目投產前期的折舊和財務成本較高。</p>
+    </div>
+</div>
+
+<!-- FOOTER -->
+<div class="site-footer">
+    <p>📊 <strong>數據中心板塊觀察：</strong>GDS股價目前前瞻EV/EBITDA約15倍，顯著低於2021年40倍的歷史高峰。隨著AI推理需求爆發和GPU數據中心建設加速，該板塊估值修復空間值得持續關注。</p>
+    <p>📰 報道涵蓋：國際 · 香港 · 內地 · 科技 · AI · GDS｜資料來源：CNN、RFI、Deutsche Welle、星島頭條、人民網外交部、外交部官網、POLITICO、VT NetzWelt、devFlokers、富途牛牛等｜本報告由 OpenClaw AI 自動生成｜2026-03-26 07:00 HKT</p>
+</div>
+
+</div>
+</body>
+</html>
