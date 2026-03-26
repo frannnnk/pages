@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>每日新聞簡報 — 2026年3月27日</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;700&family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --forest-green: #1a4d2e;
+            --forest-green-dark: #0d2818;
+            --gold: #c9a227;
+            --gold-light: #e8c547;
+            --cream: #f9f6f0;
+            --text-dark: #1a1a1a;
+            --text-medium: #3d3d3d;
+            --text-light: #6b6b6b;
+            --border: #d4c5a0;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Noto Sans TC', sans-serif;
+            background: var(--cream);
+            color: var(--text-dark);
+            line-height: 1.8;
+            font-size: 16px;
+        }
+        .container {
+            max-width: 760px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        header {
+            text-align: center;
+            padding: 50px 20px 40px;
+            border-bottom: 3px solid var(--forest-green);
+            margin-bottom: 40px;
+            position: relative;
+        }
+        header::before {
+            content: '';
+            position: absolute;
+            bottom: -3px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 120px;
+            height: 3px;
+            background: var(--gold);
+        }
+        .header-eyebrow {
+            font-size: 12px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: var(--gold);
+            font-weight: 500;
+            margin-bottom: 12px;
+        }
+        h1 {
+            font-family: 'Noto Serif TC', serif;
+            font-size: 2.2em;
+            font-weight: 700;
+            color: var(--forest-green-dark);
+            margin-bottom: 8px;
+        }
+        .header-date {
+            font-size: 14px;
+            color: var(--text-light);
+            font-weight: 300;
+        }
+        .disclaimer {
+            background: #fff8e1;
+            border-left: 4px solid var(--gold);
+            padding: 12px 18px;
+            font-size: 13px;
+            color: var(--text-medium);
+            margin-bottom: 40px;
+            border-radius: 0 6px 6px 0;
+        }
+        .section {
+            margin-bottom: 44px;
+        }
+        .section-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid var(--border);
+        }
+        .section-emoji {
+            font-size: 1.4em;
+            margin-right: 10px;
+        }
+        .section-title {
+            font-family: 'Noto Serif TC', serif;
+            font-size: 1.15em;
+            font-weight: 700;
+            color: var(--forest-green);
+            letter-spacing: 1px;
+        }
+        .news-item {
+            margin-bottom: 22px;
+            padding-left: 0;
+        }
+        .news-item:last-child { margin-bottom: 0; }
+        .news-headline {
+            font-weight: 700;
+            color: var(--text-dark);
+            font-size: 1.02em;
+            line-height: 1.6;
+            margin-bottom: 6px;
+        }
+        .news-summary {
+            color: var(--text-medium);
+            font-size: 0.95em;
+            line-height: 1.85;
+            margin-bottom: 5px;
+        }
+        .news-source {
+            font-size: 0.82em;
+            color: var(--gold);
+            font-weight: 500;
+        }
+        .news-source a {
+            color: var(--gold);
+            text-decoration: none;
+        }
+        .news-source a:hover { text-decoration: underline; }
+        .divider {
+            border: none;
+            border-top: 1px solid var(--border);
+            margin: 36px 0;
+        }
+        .gds-highlight {
+            background: linear-gradient(135deg, #f0f7f2 0%, #e8f4e8 100%);
+            border: 1px solid #b8d4b8;
+            border-radius: 8px;
+            padding: 18px 22px;
+            margin-bottom: 16px;
+        }
+        .gds-highlight .news-headline {
+            color: var(--forest-green-dark);
+        }
+        footer {
+            text-align: center;
+            padding: 30px 20px;
+            border-top: 2px solid var(--forest-green);
+            margin-top: 50px;
+            font-size: 13px;
+            color: var(--text-light);
+        }
+        .footer-time {
+            font-family: 'Noto Serif TC', serif;
+            color: var(--forest-green);
+            font-weight: 700;
+            font-size: 12px;
+            letter-spacing: 1px;
+        }
+        @media (max-width: 480px) {
+            h1 { font-size: 1.7em; }
+            .container { padding: 24px 16px; }
+            body { font-size: 15px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-eyebrow">Frank's Daily News</div>
+            <h1>每日新聞簡報</h1>
+            <div class="header-date">2026年3月27日 · 星期五</div>
+        </header>
+
+        <div class="disclaimer">
+            <strong>免責聲明</strong>：本新聞簡報由 AI agent 自動生成，僅供參考，不構成任何投資建議。
+        </div>
+
+        <!-- 國際新聞 -->
+        <div class="section">
+            <div class="section-header">
+                <span class="section-emoji">🌏</span>
+                <h2 class="section-title">國際新聞</h2>
+            </div>
+
+            <div class="news-item">
+                <div class="news-headline">美以伊朗戰爭持續膠著，伊朗拒絕美方停火方案並提交自身談判計劃</div>
+                <div class="news-summary">
+                    伊朗國家電視台引述匿名官員表示，伊朗已拒絕經巴基斯坦轉交的美方停火提議，強調「伊朗將按自身條件及時機結束戰爭」，外長阿拉赫奇亦表明伊朗「目前無意談判」。美國總統特朗普則聲稱「伊朗領導人正在乞求達成協議」，並威脅若不接受將繼續轟炸。海灣國家對特朗普聲稱的「談判正在進行」表示質疑，卡塔爾官方否認參與任何調解工作。以色列宣稱在美軍配合下炸死伊朗革命衞隊海軍司令阿爾里扎·湯吉里。目前美以對伊朗戰爭已持續近四週，造成伊朗逾1500人死亡、黎巴嫩逾1000人死亡、以色列16人死亡。專家警告中東醫療體系已處於崩潰邊緣。
+                </div>
+                <div class="news-source">來源：<a href="https://www.theguardian.com/us-news/2026/mar/26/first-thing-iran-rejects-us-ceasefire-plan-and-submits-its-own" target="_blank">The Guardian</a></div>
+            </div>
+
+            <div class="news-item">
+                <div class="news-headline">OECD大幅下調全球經濟增長預測，美國通脹率預計升至4.2%</div>
+                <div class="news-summary">
+                    經濟合作暨發展組織（OECD）警告稱，中東衝突正在復活通脹幽靈，並在經濟剛顯復甦跡象之際拖累全球增長。油價已飆升至每桶100美元，貿易中斷被形容為80年來最嚴重。特朗普政府24日被曝向伊朗轉交一份「15點停火計劃」，伊朗視之為「偏頗及不公平」。與此同時，多個國家包括埃及、巴基斯坦及土耳其表示願意充當美伊調解人，巴基斯基至表示願意主辦談判。
+                </div>
+                <div class="news-source">來源：<a href="https://www.aljazeera.com/news/liveblog/2026/3/26/iran-war-live-us-demands-tehran-accept-defeat-israel-pounds-lebanon" target="_blank">Al Jazeera</a></div>
+            </div>
+
+            <div class="news-item">
+                <div class="news-headline">Meta及YouTube被判向社交平台成癮年輕用戶賠償600萬美元</div>
+                <div class="news-summary">
+                    洛杉矶陪審團裁定Meta和YouTube故意設計令人上癮的產品，導致一名20歲女性用戶在6歲接觸YouTube、9歲接觸Instagram後出現身體畸形障礙及社交恐懼症。陪審團裁決Meta承擔70%賠償、YouTube承擔30%。這是美國首宗社交媒體成癮案，裁決結果可能影響大量類似訴訟。Meta同日亦被新墨西哥州法院罰款3.75億美元。
+                </div>
+                <div class="news-source">來源：<a href="https://www.theguardian.com/us-news/2026/mar/26/first-thing-iran-rejects-us-ceasefire-plan-and-submits-its-own" target="_blank">The Guardian</a></div>
+            </div>
+        </div>
+
+        <hr class="divider">
+
+        <!-- 香港新聞 -->
+        <div class="section">
+            <div class="section-header">
+                <span class="section-emoji">🇭🇰</span>
+                <h2 class="section-title">香港新聞</h2>
+            </div>
+
+            <div class="news-item">
+                <div class="news-headline">香港政府擬推利得稅寬減以吸引資產及財富管理機構落戶</div>
+                <div class="news-summary">
+                    英國《金融時報》報道，香港政府即將建議修改「附带權益」制度，使資產及財富管理人更容易獲得税項寬減，以強化香港作為資產管理樞紐的吸引力。此舉反映香港在激烈競爭中努力鞏固其全球財富管理中心地位。
+                </div>
+                <div class="news-source">來源：<a href="https://www.reuters.com/world/asia-pacific/hong-kong-plans-tax-cuts-asset-managers-ft-reports-2026-03-26/" target="_blank">Reuters</a></div>
+            </div>
+
+            <div class="news-item">
+                <div class="news-headline">Art Basel Hong Kong 2026開幕，240家畫廊雲集，香港確認為亞洲唯一主辦城市五年</div>
+                <div class="news-summary">
+                    為期三天的展會假香港會議展覽中心舉行，匯聚來自41個國家及地區的240家畫廊。香港特區政府文化體育及旅遊局局長羅淑嫻在開幕禮上宣布，已與主辦方達成協議，確認香港為未來五年Art Basel在亞洲的唯一主辦城市，顯示港府銳意將香港打造成為國際高端藝術交易中心及東西方文化交流樞紐。
+                </div>
+                <div class="news-source">來源：<a href="https://english.news.cn/20260326/354f9684d4434fa9958d98b77bea691f/c.html" target="_blank">新華網</a></div>
+            </div>
+
+            <div class="news-item">
+                <div class="news-headline">港交所前董事總經理巴曙松傳失聯，據報涉非法集資案</div>
+                <div class="news-summary">
+                    市場消息指出，巴曙松疑涉非法集資案，於2026年3月12日前後被辦案機關帶走。港交所25日回覆傳媒查詢時表示，巴曙松已於2025年底離開港交所，離職前擔任非全職顧問，對其他傳聞不予置評。巴曙松曾任港交所首席中國經濟學家，其失聯消息在市場引發關注。
+                </div>
+                <div class="news-source">來源：<a href="https://finance.sina.cn/stock/ywgg/2026-03-26/detail-inhshhri9209983.d.html" target="_blank">新浪財經</a></div>
+            </div>
+        </div>
+
+        <hr class="divider">
+
+        <!-- 內地新聞 -->
+        <div class="section">
+            <div class="section-header">
+                <span class="section-emoji">🇨🇳</span>
+                <h2 class="section-title">內地新聞</h2>
+            </div>
+
+            <div class="news-item">
+                <div class="news-headline">王毅警告攻擊伊朗核設施將帶來無法估量的嚴重後果，中俄支持中東停火</div>
+                <div class="news-summary">
+                    中國政府中東問題特使翟隽26日會見俄羅斯駐華大使莫爾古洛夫，雙方就中東局勢交換意見。王毅在聯合國安理會表示，「中東戰事正在蔓延擴大，特別是如果把核設施作為打擊目標，將帶來無法估量的嚴重後果，置地區人民於水火」，呼籲各方防止對抗輪番升級。中俄兩國均明確支持中東地區停火止戰。
+                </div>
+                <div class="news-source">來源：<a href="https://sputniknews.cn/20260326/1070455631.html" target="_blank">俄羅斯衛星通訊社</a></div>
+            </div>
+
+            <div class="news-item">
+                <div class="news-headline">中國已成為全球AI專利最大擁有國，核心產業規模超1.2萬億元</div>
+                <div class="news-summary">
+                    外交部發言人林劍26日表示，當前中國已是全球人工智能專利最大擁有國，核心產業規模超1.2萬億元人民幣，企業數量超過6200家。今年《政府工作報告》首次提出「打造智能經濟新形態」。林劍指出中國AI「百花齊放」，得益於鼓勵開源開放及倡議成立世界人工智能合作組織。Seedance2.0視頻生成模型及MiniMax全模態大模型相繼獲得國際市場高度關注。
+                </div>
+                <div class="news-source">來源：<a href="https://sputniknews.cn/20260326/1070456506.html" target="_blank">俄羅斯衛星通訊社</a></div>
+            </div>
+
+            <div class="news-item">
+                <div class="news-headline">特朗普確認將於5月14日至15日訪華與習近平會晤</div>
+                <div class="news-summary">
+                    據多家媒體報道，特朗普預計在5月中旬對中國進行國事訪問，這將是特朗普第二任期首次訪華。訪問時機正值美伊戰爭膠著及中美貿易談判持續之際，備受全球市場關注。中國外交部發言人表示，中美雙方就特朗普訪華事宜保持着溝通。
+                </div>
+                <div class="news-source">來源：<a href="https://www.youtube.com/watch?v=cG4-fmYd5kA" target="_blank">有線電視</a></div>
+            </div>
+
+            <div class="news-item">
+                <div class="news-headline">中國大幅減免歐盟豬肉進口反傾銷稅，被視為對歐盟電動汽車關稅的反制</div>
+                <div class="news-summary">
+                    商務部宣布完成對歐盟豬肉反傾銷調查的最終裁決，大幅削減價值逾20億美元的歐盟豬肉進口關稅。同時，商務部再次敦促日方「切實反思糾錯」，為兩國正常經貿合作創造條件。
+                </div>
+                <div class="news-source">來源：<a href="https://www.reuters.com/business/tariffs/" target="_blank">Reuters</a></div>
+            </div>
+        </div>
+
+        <hr class="divider">
+
+        <!-- 科技新聞 -->
+        <div class="section">
+            <div class="section-header">
+                <span class="section-emoji">💻</span>
+                <h2 class="section-title">科技新聞</h2>
+            </div>
+
+            <div class="news-item">
+                <div class="news-headline">蘋果正開發獨立Siri應用程式，預計WWDC 2026亮相並整合Google Gemini</div>
+                <div class="news-summary">
+                    據彭博社報道，蘋果正在測試一款獨立Siri應用，屆時將支持多輪對話、歷史記錄及多模態輸入。配合Google Gemini，Siri將能直接訪問郵件、備忘錄等數據並執行複雜任務，從語音助手升級為系統級AI智能體。預計在6月WWDC上正式公布。
+                </div>
+                <div class="news-source">來源：<a href="https://finance.yahoo.com/news/live/tech-stocks-today-cisco-launches-security-tools-for-ai-agents-sk-hynix-places-8-billion-asml-order-144220180.html" target="_blank">Yahoo Finance</a></div>
+            </div>
+
+            <div class="news-item">
+                <div class="news-headline">ARM進軍自研晶片領域，推出AI數據中心專用AGI CPU</div>
+                <div class="news-summary">
+                    ARM宣佈推出首款自研AGI通用人工智能中央處理器，並同步推出服務器機櫃，標誌着該公司商業模式的重大戰略轉型——此前ARM僅從事晶片設計授權。AGI CPU由ARM與Meta聯合研發，Meta將率先部署，多家企業亦將用於相關應用。不過美國銀行分析師指出，CPU市場競爭激烈，ARM AGI CPU的市場空間可能有限。
+                </div>
+                <div class="news-source">來源：<a href="https://finance.sina.com.cn/headline/2026-03-26/doc-inhshhrh3051115.shtml" target="_blank">新浪財經</a></div>
+            </div>
+
+            <div class="news-item">
+                <div class="news-headline">白宮成立總統科技顧問委員會，黃仁勳、扎克伯格等科技巨頭入選</div>
+                <div class="news-summary">
+                    白宮公佈新成立的總統科技顧問委員會名單，成員包括Meta創辦人扎克伯格、著名投資人馬克·安德森、甲骨文創辦人拉里·埃里森、NVIDIA行政總裁黃仁勳、Google聯合創辦人謝爾蓋·布林及戴爾行政總裁Michael Dell等。委員會由白宮AI和加密事務主管David Sacks共同主持，重點關注AI政策及科學議題。
+                </div>
+                <div class="news-source">來源：<a href="https://finance.sina.com.cn/headline/2026-03-26/doc-inhshhrh3051115.shtml" target="_blank">新浪財經</a></div>
+            </div>
+        </div>
+
+        <hr class="divider">
+
+        <!-- AI 新聞 -->
+        <div class="section">
+            <div class="section-header">
+                <span class="section-emoji">🤖</span>
+                <h2 class="section-title">AI 新聞</h2>
+            </div>
+
+            <div class="news-item">
+                <div class="news-headline">OpenAI宣佈停止Sora視頻生成服務，上線僅六個月即告終止</div>
+                <div class="news-summary">
+                    OpenAI於去年9月底推出Sora獨立應用程序，承諾讓用戶生成並分享逼真的AI視頻，一度迅速登頂蘋果App Store排行榜，惟其後排名持續回落。OpenAI表示此舉旨在「簡化產品線」，同時終止了與迪士尼價值10億美元的合作協議。分析指Sora的失敗反映AI視頻生成在商業化路上仍面臨艱巨挑戰。
+                </div>
+                <div class="news-source">來源：<a href="https://36kr.com/p/3739006287216903" target="_blank">36氪</a></div>
+            </div>
+
+            <div class="news-item">
+                <div class="news-headline">數學家陶哲軒論文關鍵不等式由ChatGPT證明，AI邁向數學研究前沿</div>
+                <div class="news-summary">
+                    被譽為在世最偉大數學家的陶哲軒（Terence Tao）3月23日在arXiv發表論文，其中一個關鍵不等式經由ChatGPT證明，引發學術界廣泛關注。這是AI首次在純數學核心領域發揮證明作用，標誌着人工智能在數學研究領域邁出重要一步。
+                </div>
+                <div class="news-source">來源：<a href="https://aihola.com/article/tao-chatgpt-proof-bernstein-paper" target="_blank">Aihola</a></div>
+            </div>
+
+            <div class="news-item">
+                <div class="news-headline">模型上下文協議（MCP）突破9700萬次安裝，成為智能體基礎設施標準</div>
+                <div class="news-summary">
+                    截至2026年3月，MCP已累計獲得逾9700萬次安裝，標誌其從實驗性標準正式邁向基礎設施層面。OpenRouter數據顯示，2026年3月第二週OpenClaw貢獻了平台內20%的Token消耗量，單週消耗量已相當於2025年第四季全平台週均Token消耗量的60%，顯示AI Agent應用正在迅速普及。
+                </div>
+                <div class="news-source">來源：<a href="https://www.digitalapplied.com/blog/march-2026-ai-roundup-month-that-changed-everything" target="_blank">Digital Applied</a></div>
+            </div>
+
+            <div class="news-item">
+                <div class="news-headline">Google AI壓縮技術突破，內存晶片製造商股價承壓</div>
+                <div class="news-summary">
+                    MIT與Symbotic研究人員開發的全新AI系統在壓縮技術上取得重大突破，被形容為「零準確率損失下實現6倍內存削減及8倍加速」，引發投資者對內存晶片需求的疑慮，多檔晶片製造商股價面臨下行壓力。這顯示AI硬效率提升可能對傳統硬件供應鏈造成結構性影響。
+                </div>
+                <div class="news-source">來源：<a href="https://opendatascience.com/google-ai-compression-breakthrough-pressures-memory-chip-stocks/" target="_blank">Open Data Science</a></div>
+            </div>
+        </div>
+
+        <hr class="divider">
+
+        <!-- GDS 股票新聞 -->
+        <div class="section">
+            <div class="section-header">
+                <span class="section-emoji">📈</span>
+                <h2 class="section-title">GDS 股票新聞</h2>
+            </div>
+
+            <div class="gds-highlight">
+                <div class="news-item">
+                    <div class="news-headline">麥格理維持GDS「跑贏大市」評級，目標價上調至67.5美元</div>
+                    <div class="news-summary">
+                        麥格理於2026年3月18日維持GDS Holdings（09698.HK）「跑贏大市」評級，並將目標價上調至67.5美元，主要理由是中國雲端服務商（hyperscaler）持續加大資本支出承諾，提升了數據中心需求的可見度及收入前景。同日（3月17日），摩根士丹利亦維持「增持」評級及「首選股」地位，強調2026年預測中國EV/EBITDA約11倍的估值水平具有吸引力。
+                    </div>
+                    <div class="news-source">來源：<a href="https://meyka.com/blog/macquarie-maintains-outperform-on-gds-holdings-gds-march-2026-2603/" target="_blank">Meyka</a></div>
+                </div>
+            </div>
+
+            <div class="news-item">
+                <div class="news-headline">GDS市值約87億美元，多家大行維持正面評級</div>
+                <div class="news-summary">
+                    摩根士丹利分析師指出，以2026年中國業務預測EV/EBITDA約11倍計算，GDS當前估值水平對長線投資者具有吸引力。GDS當前市值約87.4億美元。近期股價在宏觀因素（美伊戰爭、油價波動）及AI數據中心需求增長的夾縫中區間震盪，多家大行維持正面評級顯示專業機構對其中線走勢仍有信心。
+                </div>
+                <div class="news-source">來源：<a href="https://meyka.com/blog/macquarie-maintains-outperform-on-gds-holdings-gds-march-2026-2603/" target="_blank">Meyka</a></div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="footer-time">📅 2026-03-27 07:00:03 HKT</div>
+            <div style="margin-top: 8px;">Generated by OpenClaw AI Agent · <a href="https://frannnnk.github.io/pages/" style="color: var(--forest-green);">Frank's Daily News Archive</a></div>
+        </footer>
+    </div>
+</body>
+</html>
