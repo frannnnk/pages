@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>每日新聞簡報｜2026年3月28日（週六）｜Frank's Daily News</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "PingFang TC", "Microsoft JhengHei", sans-serif;
+            background: #f5f5f7;
+            color: #1d1d1f;
+            line-height: 1.7;
+            font-size: 16px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        .header {
+            background: linear-gradient(135deg, #0a84ff 0%, #5e5ce6 100%);
+            color: white;
+            padding: 50px 40px;
+            border-radius: 20px;
+            margin-bottom: 30px;
+            text-align: center;
+            box-shadow: 0 10px 40px rgba(10, 132, 255, 0.3);
+        }
+        .header .date {
+            font-size: 14px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            opacity: 0.85;
+            margin-bottom: 12px;
+        }
+        .header h1 {
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+        .header .timestamp {
+            font-size: 13px;
+            opacity: 0.7;
+            margin-top: 15px;
+        }
+        .nav {
+            background: white;
+            border-radius: 12px;
+            padding: 15px 25px;
+            margin-bottom: 30px;
+            display: flex;
+            gap: 20px;
+            overflow-x: auto;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        .nav a {
+            color: #0a84ff;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 600;
+            white-space: nowrap;
+            padding: 8px 16px;
+            border-radius: 8px;
+            transition: all 0.2s;
+        }
+        .nav a:hover { background: #f0f7ff; }
+        .section {
+            background: white;
+            border-radius: 16px;
+            margin-bottom: 24px;
+            overflow: hidden;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.06);
+        }
+        .section-header {
+            padding: 22px 30px;
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            border-bottom: 1px solid #f0f0f5;
+        }
+        .section-icon {
+            width: 44px;
+            height: 44px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 22px;
+            color: white;
+            flex-shrink: 0;
+        }
+        .section-title {
+            font-size: 20px;
+            font-weight: 700;
+        }
+        .section-subtitle {
+            font-size: 13px;
+            color: #86868b;
+        }
+        .international .section-icon { background: linear-gradient(135deg, #ff375f, #ff2d55); }
+        .hongkong .section-icon { background: linear-gradient(135deg, #30d158, #34c759); }
+        .mainland .section-icon { background: linear-gradient(135deg, #ff9f0a, #ff9500); }
+        .tech .section-icon { background: linear-gradient(135deg, #0a84ff, #007aff); }
+        .ai .section-icon { background: linear-gradient(135deg, #bf5af2, #af52de); }
+        .gds .section-icon { background: linear-gradient(135deg, #64d2ff, #5ac8fa); }
+        .section-content { padding: 28px 30px; }
+        .news-item {
+            padding: 22px 0;
+            border-bottom: 1px solid #f0f0f5;
+        }
+        .news-item:last-child { border-bottom: none; padding-bottom: 0; }
+        .news-item:first-child { padding-top: 0; }
+        .news-title {
+            font-size: 17px;
+            font-weight: 700;
+            color: #1d1d1f;
+            margin-bottom: 10px;
+            line-height: 1.5;
+        }
+        .news-title.hot { color: #ff3b30; }
+        .news-title.hot::before { content: "🔥 "; }
+        .news-body {
+            font-size: 15px;
+            color: #3d3d3f;
+            margin-bottom: 10px;
+        }
+        .news-bullets {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .news-bullets li {
+            padding: 4px 0 4px 18px;
+            position: relative;
+            color: #3d3d3f;
+            font-size: 15px;
+        }
+        .news-bullets li::before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: #0a84ff;
+            font-weight: bold;
+        }
+        .footer {
+            text-align: center;
+            padding: 30px;
+            color: #86868b;
+            font-size: 13px;
+        }
+        .footer a { color: #0a84ff; text-decoration: none; }
+        @media (max-width: 600px) {
+            .container { padding: 20px 15px; }
+            .header { padding: 35px 25px; }
+            .header h1 { font-size: 24px; }
+            .section-content { padding: 20px; }
+            .section-header { padding: 18px 20px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="date">Frank's Daily News</div>
+            <h1>每日新聞簡報</h1>
+            <div>2026年3月28日（週六）</div>
+            <div class="timestamp">報告生成時間：2026-03-28 07:00:00（香港時間）</div>
+        </div>
+
+        <nav class="nav">
+            <a href="#international">🌍 國際</a>
+            <a href="#hongkong">🇭🇰 香港</a>
+            <a href="#mainland">🇨🇳 內地</a>
+            <a href="#tech">💻 科技</a>
+            <a href="#ai">🤖 AI</a>
+            <a href="#gds">📈 GDS</a>
+        </nav>
+
+        <!-- 國際新聞 -->
+        <div class="section international" id="international">
+            <div class="section-header">
+                <div class="section-icon">🌍</div>
+                <div>
+                    <div class="section-title">國際新聞</div>
+                    <div class="section-subtitle">International News</div>
+                </div>
+            </div>
+            <div class="section-content">
+                <div class="news-item">
+                    <div class="news-title hot">美以伊戰事「滿月」：停火談判陷入僵局，霍爾木茲海峽持續封鎖</div>
+                    <div class="news-body">
+                        2026年3月27日，美以伊戰事正式邁入第27天。據新華社及BBC中文網報道，伊朗於26日宣布拒絕美國提出的「15點停火方案」，並開出反建議條件，要求美方作出戰爭賠償、承認伊朗對霍爾木茲海峽行使主權，並廢除所有制裁。
+                    </div>
+                    <div class="news-body">
+                        美國方面，特朗普週三表示談判取得「重大進展」，宣布暫停攻擊伊朗能源設施10天，但以色列國防部長則表明將升級打擊行動，與美國立場形成明顯分歧。伊朗軍方同時傳出高層內鬥，議長卡利巴夫公開批評革命衞隊，顯示權力核心出現裂痕。
+                    </div>
+                    <ul class="news-bullets">
+                        <li><strong>經貿影響：</strong>OECD發布報告指出，中東局勢升級將使美國通脹率升至4.2%，全球經濟增速面臨下行壓力</li>
+                        <li><strong>能源市場：</strong>布倫特原油價格週四維持每桶92美元高位，霍爾木茲海峽封鎖持續影響全球能源供應</li>
+                        <li><strong>談判前景：</strong>伊朗談判團隊要求由美國副總統萬斯主導直接會談，專家分析短期內達成協議的可能性偏低</li>
+                    </ul>
+                </div>
+                <div class="news-item">
+                    <div class="news-title">俄羅斯-烏克蘭：俄軍發動大規模無人機襲擊</div>
+                    <div class="news-body">俄羅斯軍隊於當地時間26日凌晨對烏克蘭多地發動大規模無人機襲擊，烏克蘭防空系統攔截了超過140架來襲無人機。襲擊造成基輔及多個中部城市電力設施受損。烏克蘭總統澤連斯基譴責俄羅斯「刻意瞄準民用基礎設施」。</div>
+                </div>
+                <div class="news-item">
+                    <div class="news-title">BTS 宣告回歸：7人完整體將發行新專輯</div>
+                    <div class="news-body">韓國天團防彈少年團（BTS）於26日正式宣布，隨著成員相繼完成兵役，7人完整體將於今年上半年回歸歌壇。新專輯將是他們自2022年以來的首張完整正規專輯，所屬公司HYBE股價當日急升逾8%。</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 香港新聞 -->
+        <div class="section hongkong" id="hongkong">
+            <div class="section-header">
+                <div class="section-icon">🇭🇰</div>
+                <div>
+                    <div class="section-title">香港新聞</div>
+                    <div class="section-subtitle">Hong Kong News</div>
+                </div>
+            </div>
+            <div class="section-content">
+                <div class="news-item">
+                    <div class="news-title">香港2月出入口貿易雙位數增長　AI電子產品需求暢旺</div>
+                    <div class="news-body">
+                        據新華社報道，香港特區政府統計處26日公布，2026年2月香港出入口貿易額雙雙錄得雙位數按年增長：出口增長24.7%，進口增長29.9%。今年首兩個月合計，出口增長29.6%，進口增長34.1%。
+                    </div>
+                    <ul class="news-bullets">
+                        <li>首兩月錄得貿易逆差790億港元，相當於進口貨值的7.8%</li>
+                        <li>特區政府發言人：AI相關電子產品需求持續旺盛，繼續支持香港貿易表現</li>
+                        <li>警示：中東地緣政治局勢升溫及主要經濟體貿易政策不確定性，可能為全球經濟前景增添變數</li>
+                    </ul>
+                </div>
+                <div class="news-item">
+                    <div class="news-title">JPEX加密貨幣騙案再添10名被告　累計起訴達26人</div>
+                    <div class="news-body">香港法院再度還押10名JPEX加密貨幣案被告，年齡介乎26至47歲，涉嫌洗黑錢金額由400萬至1400萬港元不等。案件涉及2023年爆出的16億港元騙局，累計起訴人數已達26人。</div>
+                </div>
+                <div class="news-item">
+                    <div class="news-title">夏寶龍完成大灣區五天考察　強調深化香港融入國家發展戰略</div>
+                    <div class="news-body">北京掌管港澳事務的最高官員夏寶龍，於3月23日至27日考察廣州、肇慶、佛山三個大灣區城市，探索深化香港融入國家發展大局的路徑，重點研究香港參與「十五五」規劃的具體方式。</div>
+                </div>
+                <div class="news-item">
+                    <div class="news-title">英國施壓釋放黎智英　港府強烈譴責干預</div>
+                    <div class="news-body">香港特區政府就英國政客呼籲釋放黎智英一事發表聲明，嚴厲譴責英方「干預香港法治、插手本地事務」，重申香港司法制度公開透明，絕不接受外國政府施壓。</div>
+                </div>
+                <div class="news-item">
+                    <div class="news-title">香港樓市：新盤推出222伙　市場觀望情緒濃</div>
+                    <div class="news-body">多家香港發展商於26日合共推出222個新住宅單位，為近期最大規模單日推盤量。在美國利率走向不明朗的背景下，買家普遍持觀望態度。</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 內地新聞 -->
+        <div class="section mainland" id="mainland">
+            <div class="section-header">
+                <div class="section-icon">🇨🇳</div>
+                <div>
+                    <div class="section-title">內地新聞</div>
+                    <div class="section-subtitle">Mainland China News</div>
+                </div>
+            </div>
+            <div class="section-content">
+                <div class="news-item">
+                    <div class="news-title">內地工業利潤首兩月急升15.2%　高科技製造業表現亮麗</div>
+                    <div class="news-body">
+                        據國家統計局數據，2026年1至2月，全國規模以上工業企業利潤按年增長15.2%，增速遠超市場預期。高科技製造業利潤按年飆升58.7%，無人機及半導體企業表現尤其突出。
+                    </div>
+                    <ul class="news-bullets">
+                        <li>非鐵金屬行業利潤增長148.2%，化工行業增長35.9%</li>
+                        <li>統計局官員警告「地緣政治局勢升溫」可能對經濟前景構成下行壓力</li>
+                        <li>中國已上調零售汽油及柴油價格上限，但增幅僅為往常的一半，以緩解消費者壓力</li>
+                    </ul>
+                </div>
+                <div class="news-item">
+                    <div class="news-title">比亞迪上市以來首錄年度利潤下滑　全球新能源車王座面臨考驗</div>
+                    <div class="news-body">
+                        比亞迪26日公布2025年全年業績：營收按年增長3.5%至8040億元人民幣，再創歷史新高，但年度利潤按年下跌19%至326億元，為2021年以來首次錄得年度利潤下滑。集團董事長王傳福坦言「新能源汽車行業競爭已進入淘汰賽的野蠻階段」。
+                    </div>
+                    <ul class="news-bullets">
+                        <li>1至2月銷量按年下跌36%至40萬輛，國內需求持續疲弱</li>
+                        <li>公司正押注新一代快充技術，目標9分鐘充滿電，期望以技術領導力重新奪回市場份額</li>
+                        <li>海外目標2026年售出約130萬輛，較去年的105萬輛進一步增長</li>
+                    </ul>
+                </div>
+                <div class="news-item">
+                    <div class="news-title">A股3月橫盤震盪格局　機構看好藍籌核心資產</div>
+                    <div class="news-body">多位基金經理在最新月報中指出，A股市場在經歷2月春節躁動行情後，3月進入橫盤震盪的可能性較大。配置建議看好滬深300、中證A500等藍籌寬基指數防守價值，同時持續關注科創50、半導體材料設備等科技細分領域的機會。</div>
+                </div>
+                <div class="news-item">
+                    <div class="news-title">中國AI相關產業規模　料2026年突破10萬億元</div>
+                    <div class="news-body">國家數據局局長劉烈宏在中國發展高層論壇2026年年會上表示，預計到「十五五」末期中國人工智能相關產業規模可突破10萬億元。AI發展正呈現五大新趨勢，包括大模型能力持續提升、AI Agent應用場景加速落地、算力需求爆發式增長、國產替代加速，以及AI與製造業深度融合。</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 科技新聞 -->
+        <div class="section tech" id="tech">
+            <div class="section-header">
+                <div class="section-icon">💻</div>
+                <div>
+                    <div class="section-title">科技新聞</div>
+                    <div class="section-subtitle">Technology News</div>
+                </div>
+            </div>
+            <div class="section-content">
+                <div class="news-item">
+                    <div class="news-title">Arm 發布史上首款自研數據中心 CPU　聯手Meta顛覆AI算力格局</div>
+                    <div class="news-body">
+                        Arm Holdings於24日宣布重大戰略轉型，正式將計算平台業務從IP授權擴展至自研芯片產品。全新Arm AGI CPU是公司成立30多年來首款自行設計的數據中心芯片，專為AI代理工作負載而設，與Meta共同開發。
+                    </div>
+                    <ul class="news-bullets">
+                        <li>單機架性能較x86平台提升超過2倍，可節省高達100億美元資本開支</li>
+                        <li>單CPU最多136核心，300W TDP，每核心6GB/s內存帶寬</li>
+                        <li>Meta為主要合作夥伴，其AI工廠將率先部署</li>
+                    </ul>
+                </div>
+                <div class="news-item">
+                    <div class="news-title">蘋果WWDC 2026泄露：iOS 27將大幅強化Siri AI能力</div>
+                    <div class="news-body">距離蘋果WWDC尚有三個月，有關iOS 27及新產品的消息已提前曝光。iOS 27將為Siri帶來「革命性的AI升級」，使其具備更強的自然語言理解及自主執行多步任務的能力。預計將發布全新M5 Mac Studio、HomePod mini 2及智能家居中樞設備。</div>
+                </div>
+                <div class="news-item">
+                    <div class="news-title">Meta、Google接連敗訴　美國230條款面臨根本性挑戰</div>
+                    <div class="news-body">加州及新墨西哥州的兩個陪審團，分別就Meta及Google旗下平台對青少年心理健康影響的案件作出不利裁決。全美目前有超過2400宗類似案件在聯邦法院排期待審，法律界人士警告一旦上訴失敗，將重塑整個互聯網行業的商業模式。</div>
+                </div>
+                <div class="news-item">
+                    <div class="news-title">MIT開發AI系統優化倉庫機器人調度　吞吐量提升25%</div>
+                    <div class="news-body">麻省理工學院研究人員與倉庫自動化公司Symbotic合作，開發出混合AI系統，可實時協調數百台自主移動機器人的交通流量，較傳統人工專家算法提升約25%的倉庫吞吐量。</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- AI新聞 -->
+        <div class="section ai" id="ai">
+            <div class="section-header">
+                <div class="section-icon">🤖</div>
+                <div>
+                    <div class="section-title">AI 人工智能新聞</div>
+                    <div class="section-subtitle">AI News</div>
+                </div>
+            </div>
+            <div class="section-content">
+                <div class="news-item">
+                    <div class="news-title hot">OpenClaw 引發AI Agent革命　NVIDIA CEO形容為「下一個ChatGPT」</div>
+                    <div class="news-body">
+                        開源AI Agent框架OpenClaw横空出世，實現AI Agent完全在本地電腦運行無需雲端API的突破。NVIDIA CEO黃仁勳將其比作1990年代的Windows，稱其為AI行業等待已久的「Agent操作系統」，並被形容為「人類歷史上最受歡迎的開源項目」。NVIDIA同時宣布推出企業級安全服務NemoClaw。
+                    </div>
+                    <ul class="news-bullets">
+                        <li>OpenClaw可通過WhatsApp、Telegram、Slack、Discord等現有通訊渠道構建AI Agent</li>
+                        <li>NemoClaw提供内核級沙箱隔離及隱私路由，實時監控所有對外通信</li>
+                        <li>從「被動聊天機器人」向「主動執行的AI代理」的範式轉變正在加速</li>
+                    </ul>
+                </div>
+                <div class="news-item">
+                    <div class="news-title">GPT-5.4登場：百萬Token上下文窗口　AI能力再上台階</div>
+                    <div class="news-body">
+                        OpenAI於3月5日發布GPT-5.4及GPT-5.4 Pro，引入100萬Token的上下文窗口，為此前版本的50至100倍，並具備原生計算機使用能力，可自主導航軟件界面。在OSWorld桌面基準測試中，GPT-5.4得分75%，超越人類基線72.4%。
+                    </div>
+                    <ul class="news-bullets">
+                        <li>Google推出Gemini 3.1 Flash-Lite，輸入成本僅$0.25/百萬Token，速度快2.5倍</li>
+                        <li>阿里巴巴發布Qwen 3.5 Small，9B參數模型在研究生推理基準測試中擊敗13倍規模模型</li>
+                        <li>NVIDIA Rubin平台亮相，訓練成本較Blackwell降低10倍</li>
+                    </ul>
+                </div>
+                <div class="news-item">
+                    <div class="news-title">2026年全球AI支出料達2.5萬億美元　科技巨頭爭相押注</div>
+                    <div class="news-body">據Gartner預測，2026年全球AI支出將達到2.5萬億美元，按年增長44%。Alphabet資本開支預算1750至1850億美元，Meta為1150至1350億美元，OpenAI年化營收已突破250億美元並籌備公開上市。</div>
+                </div>
+                <div class="news-item">
+                    <div class="news-title">AI應用加速落地：亞馬遜推免費AI醫療助手　製藥巨頭部署AI超算</div>
+                    <div class="news-body">亞馬遜宣布為Prime會員提供免費24/7 AI虛擬醫療服務，可解讀化驗報告、管理處方、預約門診。禮來藥廠啟用制藥業最強AI超算LillyPod，可模擬數十億個分子假設以加速藥物研發。</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- GDS股票 -->
+        <div class="section gds" id="gds">
+            <div class="section-header">
+                <div class="section-icon">📈</div>
+                <div>
+                    <div class="section-title">GDS 股票新聞</div>
+                    <div class="section-subtitle">GDS Holdings Stock News</div>
+                </div>
+            </div>
+            <div class="section-content">
+                <div class="news-item">
+                    <div class="news-title">GDS獲大行唱好：Macquarie上調目標價至67.5美元　Morgan Stanley重申首選</div>
+                    <div class="news-body">
+                        2026年3月中旬，GDS Holdings先後獲得兩家大行更新評級。麥格理於3月18日維持「跑贏大市」評級，並將目標價由62美元上調至67.5美元；摩根士丹利於3月17日維持「增持」評級，重申GDS為首選股，並指出其2026年預測EV/EBITDA約為11倍。
+                    </div>
+                    <ul class="news-bullets">
+                        <li>麥格理：中國雲端及AI企業資本開支持續上升，為數據中心需求提供支撐</li>
+                        <li>摩根士丹利：當前估值約11倍2026年預測EV/EBITDA，吸引力吸引</li>
+                        <li>公司市值約87.4億美元，Meyka AI評級B+</li>
+                    </ul>
+                </div>
+                <div class="news-item">
+                    <div class="news-title">美以伊局勢拖累　GDS股價近周承壓</div>
+                    <div class="news-body">受美以伊戰事談判陷入僵局影響，避險情緒升溫，美股及中概股普遍受壓。GDS於26日跟隨大市下跌約6.6%。市場分析指，數據中心類股短期內或維持高波動性，但長線基本面依然穩健。</div>
+                </div>
+                <div class="news-item">
+                    <div class="news-title">Panasonic大舉擴產數據中心後備電源电池</div>
+                    <div class="news-body">在AI熱潮推動下，數據中心備用電力需求激增。Panasonic宣布大幅擴充數據中心UPS电池產能。據Mordor Intelligence數據，2026年全球數據中心UPS市場規模約44.8億美元，預計到2031年將增至64.6億美元。</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>📌 本報告基於2026年3月26日至27日公開資訊整理</p>
+            <p>🤖 由阿呆代為生成 | 版權所有：Frank's Daily News</p>
+            <p style="margin-top:12px; color:#bebebe;">報告生成時間：2026-03-28 07:00:00（香港時間）</p>
+        </div>
+    </div>
+</body>
+</html>
