@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>每日新聞簡報｜2026年3月29日｜07:00:12 HKT</title>
+    <style>
+        :root {
+            --bg-primary: #0f172a;
+            --bg-secondary: #1e293b;
+            --bg-card: #334155;
+            --text-primary: #f8fafc;
+            --text-secondary: #94a3b8;
+            --accent-blue: #38bdf8;
+            --accent-green: #4ade80;
+            --accent-red: #f87171;
+            --accent-yellow: #fbbf24;
+            --accent-purple: #c084fc;
+            --accent-orange: #fb923c;
+            --accent-pink: #f472b6;
+            --border-color: #475569;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            border-bottom: 1px solid var(--border-color);
+            margin-bottom: 30px;
+        }
+
+        header h1 {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+            background: linear-gradient(135deg, var(--accent-blue), var(--accent-purple));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        header .date {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+
+        header .timestamp {
+            color: var(--accent-yellow);
+            font-size: 0.85rem;
+            margin-top: 5px;
+            font-family: monospace;
+        }
+
+        .category-section {
+            margin-bottom: 35px;
+        }
+
+        .category-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 18px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--border-color);
+        }
+
+        .category-icon {
+            font-size: 1.5rem;
+        }
+
+        .category-title {
+            font-size: 1.3rem;
+            font-weight: 600;
+        }
+
+        .news-card {
+            background: var(--bg-secondary);
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 15px;
+            border: 1px solid var(--border-color);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .news-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+        }
+
+        .news-card h3 {
+            font-size: 1.05rem;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+        }
+
+        .news-card h3::before {
+            content: "●";
+            color: var(--accent-blue);
+            font-size: 0.6rem;
+            margin-top: 6px;
+            flex-shrink: 0;
+        }
+
+        .news-card p {
+            color: var(--text-secondary);
+            font-size: 0.92rem;
+            padding-left: 16px;
+        }
+
+        .news-card.international h3::before { color: var(--accent-red); }
+        .news-card.hongkong h3::before { color: var(--accent-orange); }
+        .news-card.china h3::before { color: var(--accent-yellow); }
+        .news-card.tech h3::before { color: var(--accent-blue); }
+        .news-card.ai h3::before { color: var(--accent-purple); }
+        .news-card.gds h3::before { color: var(--accent-green); }
+
+        .footer {
+            text-align: center;
+            padding: 30px;
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+            border-top: 1px solid var(--border-color);
+            margin-top: 40px;
+        }
+
+        .footer a {
+            color: var(--accent-blue);
+            text-decoration: none;
+        }
+
+        @media (max-width: 600px) {
+            .container { padding: 15px; }
+            header h1 { font-size: 1.5rem; }
+            .news-card { padding: 15px; }
+            .news-card p { font-size: 0.88rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📰 每日新聞簡報</h1>
+            <div class="date">2026年3月29日（星期日）</div>
+            <div class="timestamp">生成時間：2026-03-29 07:00:12 HKT</div>
+        </header>
+
+        <section class="category-section">
+            <div class="category-header">
+                <span class="category-icon">🌍</span>
+                <h2 class="category-title">國際新聞</h2>
+            </div>
+
+            <div class="news-card international">
+                <h3>美伊衝突：伊朗襲擊沙特美軍基地　最少十二名美軍受傷</h3>
+                <p>美軍與伊朗的軍事衝突持續升級。伊朗武裝力量於周五（3月27日）向位於沙特阿拉伯的蘇丹王子空軍基地發動導彈襲擊，造成至少12至15名美軍士兵受傷，其中兩人傷勢嚴重。伊朗軍隊使用了沙赫德無人機發動攻擊，基地內最少兩架美軍空中加油機受損。此次襲擊發生在以色列與美國對伊朗開戰一個月之際，沙特阿拉伯據報已呼籲美國加強對伊朗的打擊力度。</p>
+            </div>
+
+            <div class="news-card international">
+                <h3>特朗普簽名將首次出現在美元紙幣上</h3>
+                <p>美國財政部宣布，總統特朗普的簽名將首次出現在美國紙幣上，這是美國歷史上首次有在任總統的簽名出現在法定貨幣上。首批印有特朗普簽名的100美元鈔票將於今年6月正式印製，其他面額的鈔票將在隨後幾個月陸續推出。財政部表示，此舉是為了慶祝美國建國250週年。</p>
+            </div>
+
+            <div class="news-card international">
+                <h3>尼泊爾前總理奧利因青年示威鎮壓事件被捕</h3>
+                <p>尼泊爾前總理卡帕爾·普拉薩德·夏爾馬·奧利（KP Sharma Oli）於周六（3月28日）凌晨在加德滿都被捕，警方正調查他在去年青年反政府示威活動中涉嫌瀆職、導致數十人死亡的角色。事件涉及去年9月由Gen Z主導的反腐敗示威活動，警方在清場行動中射殺超過70人。</p>
+            </div>
+
+            <div class="news-card international">
+                <h3>經合組織下調全球經濟增長預測至2.9%</h3>
+                <p>經濟合作與發展組織（OECD）下調2026年全球經濟增長預測至2.9%，2027年微升至3.0%，主要反映了中東衝突對全球經濟的負面影響。英國的GDP增長預測更是從1.2%大幅下調至0.7%，而通脹預測則從2.5%上調至4.0%。</p>
+            </div>
+        </section>
+
+        <section class="category-section">
+            <div class="category-header">
+                <span class="category-icon">🇭🇰</span>
+                <h2 class="category-title">香港新聞</h2>
+            </div>
+
+            <div class="news-card hongkong">
+                <h3>大埔工業區回收場爆炸四人危殆</h3>
+                <p>周四下午，大埔工業區一間回收場發生爆炸及火警，四名傷者仍然情況危殆，回收場的運營已暫停。爆炸發生後引發大火，救援人員到場時需動用大量消防設備，事件中無人死亡但導致多人受傷。</p>
+            </div>
+
+            <div class="news-card hongkong">
+                <h3>Art Basel Hong Kong 2026隆重揭幕　亞洲藏家參與踴躍</h3>
+                <p>香港巴塞爾藝術展2026於3月27日至29日舉行，雲集來自41個國家和地區的240間畫廊，規模為歷屆最大。今屆展會迎來全新數碼藝術展區「Zero 10」，在開放日吸引大量數碼藝術愛好者入場。畫廊普遍反映亞洲區藏家參與度踴躍，多間畫廊在VIP首日已完成主要銷售。</p>
+            </div>
+
+            <div class="news-card hongkong">
+                <h3>香港交易所與馬來西亞交易所簽署合作備忘錄</h3>
+                <p>香港交易所（0388）宣布與馬來西亞交易所簽署合作備忘錄，雙方將共同推出新的聯合品牌基準指數「HKEX Bursa Malaysia Large Cap Index」，標誌著兩地金融市場合作的重要里程碑。</p>
+            </div>
+
+            <div class="news-card hongkong">
+                <h3>北都會區大型人工智能數據中心項目落實</h3>
+                <p>香港北部都會區發展再有新進展，特區政府宣布落實大型人工智能數據中心項目，預計將大幅提升香港的運算能力。財政司司長領導的「人工智能+與產業發展策略委員會」正制定策略，推動人工智能與產業發展的深度融合。</p>
+            </div>
+        </section>
+
+        <section class="category-section">
+            <div class="category-header">
+                <span class="category-icon">🇨🇳</span>
+                <h2 class="category-title">內地新聞</h2>
+            </div>
+
+            <div class="news-card china">
+                <h3>中國首兩月工業利潤增長15.2%　高端製造表現亮眼</h3>
+                <p>中國國家統計局公布，今年首兩月全國規模以上工業企業利潤按年增長15.2%，達1.02萬億元人民幣，反映經濟復蘇勢頭持續。其中，高科技製造業利潤增長58.7%，無人機及半導體行業表現最為突出。私營企業利潤增長37.2%，國有企業增長5.3%。</p>
+            </div>
+
+            <div class="news-card china">
+                <h3>中國商務部長王文濤：願與美國加強經貿合作</h3>
+                <p>中國商務部部長王文濤表示，中方願意與美國加強經濟和貿易合作。在中美貿易關係持續緊張的背景下，王文濤的表態被視為北京釋放善意信號，雙方或在經贸領域尋求更多共識。</p>
+            </div>
+
+            <div class="news-card china">
+                <h3>中國開源人工智能模型佔據全球使用量五強三席</h3>
+                <p>全球使用量最高的人工智能模型中，中国模型佔據五強中的三席，分別是MiniMax的M2.5、月之暗面的Kimi K2.5，以及DeepSeek的V3.2，這些模型主要以其高性價比取勝。中國正積極推動全球人工智能治理，並通過開源生態協助全球南方的國家發展自主人工智能能力。</p>
+            </div>
+
+            <div class="news-card china">
+                <h3>德國企業擴大在華投資　寶馬整合DeepSeek、保時捷設上海研發中心</h3>
+                <p>德國企業持續擴大在中國的投資和創新布局。寶馬中國宣布將DeepSeek整合至旗下產品；保時捷則在上海設立首個海外戰略研發中心，凸顯中國市場對德國高端汽車制造商的重要性。</p>
+            </div>
+        </section>
+
+        <section class="category-section">
+            <div class="category-header">
+                <span class="category-icon">💻</span>
+                <h2 class="category-title">科技新聞</h2>
+            </div>
+
+            <div class="news-card tech">
+                <h3>蘋果挖角谷歌高管領導人工智能產品營銷</h3>
+                <p>蘋果公司宣布任命谷歌前高管Lilian Rincon為人工智能產品營銷副總裁，標誌著蘋果在人工智能領域的戰略布局正在加強。此舉被視為蘋果希望在人工智能市場與谷歌、OpenAI等競爭對手縮小差距的重要舉措。</p>
+            </div>
+
+            <div class="news-card tech">
+                <h3>蘋果Siri將整合Google Gemini人工智能</h3>
+                <p>蘋果已與谷歌達成協議，未來的Siri將使用Google Gemini模型驅動聊天功能及相關特性。蘋果計劃在iOS 27中引入這些功能，同時允許Siri將查詢路由至外部人工智能模型。</p>
+            </div>
+
+            <div class="news-card tech">
+                <h3>蘋果全球開發者大會WWDC 2026定於6月8日起舉行</h3>
+                <p>蘋果宣布WWDC 2026將於6月8日起一連數天以網上形式舉行，預計將展示最新的蘋果軟件和技術。外界預期蘋果將在今次大會上公布更多人工智能相關的功能更新。</p>
+            </div>
+
+            <div class="news-card tech">
+                <h3>軟銀獲400億美元貸款支持OpenAI投資</h3>
+                <p>軟銀集團宣布已成功籌集400億美元贷款，用於加大對OpenAI的投資力度。這筆巨額資金將進一步推動人工智能基礎設施的建設和發展。</p>
+            </div>
+        </section>
+
+        <section class="category-section">
+            <div class="category-header">
+                <span class="category-icon">🤖</span>
+                <h2 class="category-title">人工智能新聞</h2>
+            </div>
+
+            <div class="news-card ai">
+                <h3>谷歌研究人員揭示人工智能智能從模擬多智能體交互中涌現</h3>
+                <p>谷歌研究人員發表研究挑戰了人工智能領域長期以來的單一智能體觀念，揭示智能是從多個智能體之間的模擬交互中涌現而來。這一發現對理解人工智能的發展路徑具有重要意義。</p>
+            </div>
+
+            <div class="news-card ai">
+                <h3>谷歌TurboQuant記憶壓縮技術被譽為「谷歌的DeepSeek時刻」</h3>
+                <p>谷歌最新推出的TurboQuant人工智能記憶壓縮技術引發業界轟動，Cloudflare行政總裁將其比作「谷歌的DeepSeek時刻」，指的是中國DeepSeek模型以低成本和低算力實現與西方頂級模型相當性能的突破性成就。</p>
+            </div>
+
+            <div class="news-card ai">
+                <h3>2026年人工智能趨勢：記錄投資、突破性模型和各行業變革</h3>
+                <p>2026年被形容為人工智能的爆發年，從制藥、金融到製造和創意產業，人工智能正在以前所未有的速度重塑每一個行業。大型語言模型的持續迭代、推理能力的提升，以及人工智能代理（AI Agent）的普及成為三大核心趨勢。</p>
+            </div>
+
+            <div class="news-card ai">
+                <h3>人工智能藝術家作品在Art Basel Hong Kong備受矚目</h3>
+                <p>人工智能創作的藝術品在Art Basel Hong Kong 2026中引發關注，有作品售出數百萬美元，標誌著人工智能藝術正逐步進入主流藝術市場。</p>
+            </div>
+        </section>
+
+        <section class="category-section">
+            <div class="category-header">
+                <span class="category-icon">📈</span>
+                <h2 class="category-title">GDS股票新聞</h2>
+            </div>
+
+            <div class="news-card gds">
+                <h3>GDS公佈2025年第四季度及全年業績</h3>
+                <p>萬國數據（GDS Holdings）公佈2025年第四季度及全年業績，期內錄得6680萬美元虧損。公司同時發布2026年收入指引，預計為124億至129億元人民幣，按年增長8.5%至12.8%。</p>
+            </div>
+
+            <div class="news-card gds">
+                <h3>麥格理重申GDS「跑贏大市」評級</h3>
+                <p>麥格理發表研究報告，重申對GDS的「跑贏大市」評級。摩根士丹利強調GDS的中國業務估值具有吸引力，目前水平約為2026年預測EV/EBITDA的11倍，維持其為首選股。</p>
+            </div>
+
+            <div class="news-card gds">
+                <h3>GDS 2026年新訂單目標500MW</h3>
+                <p>GDS披露2025年取得超過300兆瓦的新訂單，2026年目標是取得超過500兆瓦的新訂單，並加快交付速度及延長合約期限。分析師認為人工智能需求持續旺盛，將推動數據中心行業高速增長。</p>
+            </div>
+
+            <div class="news-card gds">
+                <h3>GDS股價在業績後下跌　機構投資者仍大舉增持</h3>
+                <p>GDS在業績及2026年指引公布後股價反應負面，單日下跌6.69%，一周累計下跌5.75%。不過，Infini Capital Management在第三季度大舉增持GDS持股，增長幅度達13,000%，反映機構投資者對GDS長遠發展充滿信心。</p>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <p>📰 每日新聞簡報 | 2026年3月29日 07:00 HKT</p>
+            <p>新聞來源：Reuters, BBC, Al Jazeera, NPR, The Guardian, CNBC, Bloomberg, 人民網, 新華網, The Standard, SCMP, Observer, Forbes, 及其他</p>
+        </footer>
+    </div>
+</body>
+</html>
