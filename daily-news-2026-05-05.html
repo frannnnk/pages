@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>每日新聞簡報 — 2026年5月5日</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Noto+Serif+TC:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --forest-green: #1B4332;
+            --forest-green-light: #2D6A4F;
+            --forest-green-lighter: #40916C;
+            --gold: #C9A84C;
+            --gold-light: #E0C978;
+            --bg-cream: #FDF8F0;
+            --bg-white: #FFFFFF;
+            --text-dark: #1A1A1A;
+            --text-body: #333333;
+            --text-muted: #666666;
+            --border-light: #E8E0D4;
+            --shadow: rgba(27, 67, 50, 0.08);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Noto Sans TC', sans-serif;
+            background-color: var(--bg-cream);
+            color: var(--text-body);
+            line-height: 1.8;
+            font-size: 16px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, var(--forest-green) 0%, var(--forest-green-light) 100%);
+            color: white;
+            padding: 40px 30px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -20%;
+            width: 300px;
+            height: 300px;
+            background: radial-gradient(circle, rgba(201, 168, 76, 0.15) 0%, transparent 70%);
+            border-radius: 50%;
+        }
+
+        .header h1 {
+            font-family: 'Noto Serif TC', serif;
+            font-size: 28px;
+            font-weight: 900;
+            margin-bottom: 8px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .header .date {
+            font-size: 16px;
+            color: var(--gold-light);
+            font-weight: 300;
+            position: relative;
+            z-index: 1;
+        }
+
+        .header .gen-time {
+            font-size: 13px;
+            color: rgba(255,255,255,0.7);
+            margin-top: 4px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .gold-line {
+            width: 60px;
+            height: 3px;
+            background: var(--gold);
+            margin: 12px 0;
+            border-radius: 2px;
+        }
+
+        /* Section */
+        .section {
+            background: var(--bg-white);
+            border-radius: 12px;
+            padding: 30px;
+            margin-bottom: 24px;
+            box-shadow: 0 2px 12px var(--shadow);
+            border-left: 4px solid var(--forest-green);
+        }
+
+        .section-title {
+            font-family: 'Noto Serif TC', serif;
+            font-size: 22px;
+            font-weight: 700;
+            color: var(--forest-green);
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .section-title .emoji {
+            font-size: 26px;
+        }
+
+        /* News item */
+        .news-item {
+            margin-bottom: 20px;
+            padding-bottom: 18px;
+            border-bottom: 1px solid var(--border-light);
+        }
+
+        .news-item:last-child {
+            margin-bottom: 0;
+            padding-bottom: 0;
+            border-bottom: none;
+        }
+
+        .news-item .headline {
+            font-family: 'Noto Serif TC', serif;
+            font-size: 17px;
+            font-weight: 700;
+            color: var(--text-dark);
+            margin-bottom: 8px;
+            line-height: 1.6;
+        }
+
+        .news-item .summary {
+            font-size: 15px;
+            color: var(--text-body);
+            line-height: 1.85;
+            font-weight: 300;
+        }
+
+        .news-item .source {
+            display: inline-block;
+            margin-top: 8px;
+            color: var(--forest-green-lighter);
+            text-decoration: none;
+            font-size: 13px;
+            font-weight: 500;
+            border: 1px solid var(--forest-green-lighter);
+            padding: 2px 10px;
+            border-radius: 20px;
+            transition: all 0.2s ease;
+        }
+
+        .news-item .source:hover {
+            background: var(--forest-green-lighter);
+            color: white;
+        }
+
+        /* Disclaimer */
+        .disclaimer {
+            background: var(--bg-white);
+            border-radius: 12px;
+            padding: 20px 30px;
+            margin-top: 10px;
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 13px;
+            border: 1px dashed var(--border-light);
+        }
+
+        .disclaimer strong {
+            color: var(--text-body);
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .container {
+                padding: 12px;
+            }
+
+            .header {
+                padding: 28px 20px;
+            }
+
+            .header h1 {
+                font-size: 22px;
+            }
+
+            .section {
+                padding: 20px;
+            }
+
+            .section-title {
+                font-size: 19px;
+            }
+
+            .news-item .headline {
+                font-size: 15.5px;
+            }
+
+            .news-item .summary {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <h1>每日新聞簡報</h1>
+            <div class="date">2026年5月5日（星期一）</div>
+            <div class="gold-line"></div>
+            <div class="gen-time">生成時間：2026-05-05 10:25:51 HKT</div>
+        </div>
+
+        <!-- 國際新聞 -->
+        <div class="section">
+            <div class="section-title"><span class="emoji">🌏</span> 國際新聞</div>
+
+            <div class="news-item">
+                <div class="headline">美伊霍爾木茲海峽軍事對峙持續升級，全球能源供應面臨威脅</div>
+                <div class="summary">美國與伊朗在霍爾木茲海峽的軍事緊張局勢持續升溫，伊朗方面聲稱美國已回應其最新和平提案，但雙方尚未達成實質性停火協議。霍爾木茲海峽是全球石油運輸的關鍵航道，若衝突進一步升級，可能對全球能源供應和航運造成嚴重衝擊。報導指出，海峽關閉已開始影響全球肥料供應鏈。</div>
+                <a class="source" href="https://www.cnn.com/2026/05/04/world/live-news/iran-war-hormuz-trump" target="_blank">CNN</a>
+            </div>
+
+            <div class="news-item">
+                <div class="headline">烏克蘭宣布5月5日起停火，局勢出現緩和跡象</div>
+                <div class="summary">烏克蘭政府宣布自5月5日起實施停火，這是持續數月的衝突中一個重要的外交進展。國際社會對此表示歡迎，但各方仍在觀察停火能否持久。</div>
+                <a class="source" href="https://www.bbc.com/zhongwen/articles/c5y8glgjwq1o/trad" target="_blank">BBC中文</a>
+            </div>
+
+            <div class="news-item">
+                <div class="headline">美國計劃從德國撤軍5000人，引發北約內部爭議</div>
+                <div class="summary">特朗普政府計劃從德國撤出約5000名駐軍，此舉引發德國新任總理默茨的強烈反對。美國共和黨高層亦警告，削減駐德美軍將向俄羅斯發出錯誤訊號，可能削弱北約的威懾力量。</div>
+                <a class="source" href="https://www.bbc.com/zhongwen/articles/c052z9d4q8ro/trad" target="_blank">BBC中文</a>
+            </div>
+
+            <div class="news-item">
+                <div class="headline">歐洲政治共同體會議在亞美尼亞舉行</div>
+                <div class="summary">歐洲政治共同體（EPC）峰會在亞美尼亞首都埃里溫召開，數十位歐洲領導人出席會議，討論地區安全、能源合作和歐洲未來架構等議題。</div>
+                <a class="source" href="https://www.voachinese.com/a/voatoday-20260504/8146467.html" target="_blank">VOA中文</a>
+            </div>
+
+            <div class="news-item">
+                <div class="headline">朝鮮否認「網絡威脅」指控，稱之為美國抹黑</div>
+                <div class="summary">朝鮮官方媒體否認美國關於其從事網絡攻擊的指控，稱這是華盛頓的「惡意誹謗」，旨在為制裁尋找藉口。</div>
+                <a class="source" href="https://finance.sina.com.cn/headline/2026-05-03/doc-inhwqkzr1787669.shtml" target="_blank">新浪財經</a>
+            </div>
+        </div>
+
+        <!-- 香港新聞 -->
+        <div class="section">
+            <div class="section-title"><span class="emoji">🇭🇰</span> 香港新聞</div>
+
+            <div class="news-item">
+                <div class="headline">財政司長表示香港有望創五年最強季度增長</div>
+                <div class="summary">財政司司長陳茂波表示，香港經濟表現優於預期，有望錄得五年來最強的季度增長數據。這主要得益於金融服務業的強勁表現、跨境資金流入以及旅遊業的復甦。</div>
+                <a class="source" href="https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3352258/finance-chief-says-hong-kong-track-strongest-quarterly-growth-5-years" target="_blank">SCMP</a>
+            </div>
+
+            <div class="news-item">
+                <div class="headline">國安法後大學生處境引發關注</div>
+                <div class="summary">BBC中文網報導，國安法實施後，香港大學校園的自由空間持續收窄，學生組織活動受到嚴格限制，許多學生表示在表達意見時感到猶豫和擔憂。報導指出，大學已不再提供過去那樣的「保護傘」角色。</div>
+                <a class="source" href="https://www.bbc.com/zhongwen/articles/cyv2p482r16o/trad" target="_blank">BBC中文</a>
+            </div>
+
+            <div class="news-item">
+                <div class="headline">前警察發言人謝振中將出任政府高層媒體職位</div>
+                <div class="summary">前香港警察公共關係科總警司謝振中（John Tse）將轉任政府高層媒體職位，負責統籌政府公共信息傳播策略。此任命引發社會各界關注和討論。</div>
+                <a class="source" href="https://www.scmp.com/news/hong-kong/politics/article/3352301/police-turned-pr-adviser-john-tse-set-top-government-media-role" target="_blank">SCMP</a>
+            </div>
+
+            <div class="news-item">
+                <div class="headline">法定最低工資上調至每小時43.10港元</div>
+                <div class="summary">香港法定最低工資水平正式上調至每小時43.10港元，影響數以萬計的低收入勞工。勞工團體認為增幅仍然不足以應付生活成本，但僱主團體則擔心對中小企營運帶來壓力。</div>
+                <a class="source" href="https://www.scmp.com/news/hong-kong" target="_blank">SCMP</a>
+            </div>
+        </div>
+
+        <!-- 內地新聞 -->
+        <div class="section">
+            <div class="section-title"><span class="emoji">🇨🇳</span> 內地新聞</div>
+
+            <div class="news-item">
+                <div class="headline">中國商務部發布禁令：不得執行美國對五家中企的「長臂管轄」</div>
+                <div class="summary">中國商務部5月2日緊急發布禁令，規定不得承認、執行和遵守美國以參與伊朗石油交易為由對中國五家煉廠的「長臂管轄」。這是中國首次發布阻斷禁令以制衡美國制裁，涉及恒力石化等五家企業。此舉意在明確阻斷美國「二級制裁」和沒有美國連接點的業務。</div>
+                <a class="source" href="https://companies.caixin.com/2026-05-03/102440377.html" target="_blank">財新網</a>
+            </div>
+
+            <div class="news-item">
+                <div class="headline">中國取消對非洲國家關稅，僅排除一國</div>
+                <div class="summary">中國自5月1日起取消對所有53個非洲國家的關稅（與台灣維持外交關係的史瓦帝尼除外），為期至2028年4月30日。然而分析人士指出，中非貿易逆差巨大（去年激增65%至約1020億美元），關稅並非非洲出口商面臨的主要障礙。</div>
+                <a class="source" href="https://www.bbc.com/zhongwen/articles/c70vz20zlvlo/trad" target="_blank">BBC中文</a>
+            </div>
+
+            <div class="news-item">
+                <div class="headline">五一假期全國出行人次創歷史新高</div>
+                <div class="summary">2026年五一假期期間，全社會跨區域人員流動量預計達15.2億人次，日均3.04億人次，單日人流、客流、車流均有望創歷史同期新高。多地中小學與五一假期銜接形成「加長版」假期，進一步釋放家庭出行需求。</div>
+                <a class="source" href="https://www.sxdaily.com.cn/2026-05/01/content_20017896.html" target="_blank">陝西日報</a>
+            </div>
+
+            <div class="news-item">
+                <div class="headline">五一假期南方多地遭遇極端天氣</div>
+                <div class="summary">五一假期期間，中國南方多省市遭遇暴雨、大暴雨，局地有雷暴大風或冰雹等極端天氣，多條中小河流可能發生超警戒水位。氣象部門持續發布地質災害預警。</div>
+                <a class="source" href="https://www.epochtimes.com/gb/26/5/1/n14754487.htm" target="_blank">大紀元</a>
+            </div>
+
+            <div class="news-item">
+                <div class="headline">外國遊客五一假期湧入中國三四線城市</div>
+                <div class="summary">大量外國遊客在五一假期深入中國三線城市與鄉村，在海外社交平台上，「夜間騎行」和「街頭燒烤」等日常場景持續走紅，展現中國消費活力的另一面。</div>
+                <a class="source" href="https://www.chinanews.com.cn/dxw/2026/05-04/10615601.shtml" target="_blank">中新網</a>
+            </div>
+        </div>
+
+        <!-- 科技新聞 -->
+        <div class="section">
+            <div class="section-title"><span class="emoji">💻</span> 科技新聞</div>
+
+            <div class="news-item">
+                <div class="headline">Cerebras Systems目標35億美元IPO，估值達266億美元</div>
+                <div class="summary">AI晶片製造商Cerebras Systems提交更新後的IPO文件，計劃在納斯達克上市，最高籌集35億美元。該公司以晶圓級晶片挑戰Nvidia的GPU壟斷地位，第四季度營收5.1億美元（同比增長76%），並已與OpenAI簽署價值超200億美元的多年期算力供應協議。</div>
+                <a class="source" href="https://techstartups.com/2026/05/04/top-tech-news-today-may-4-2026/" target="_blank">TechStartups</a>
+            </div>
+
+            <div class="news-item">
+                <div class="headline">KKR推出100億美元AI基礎設施公司Helix</div>
+                <div class="summary">私募巨頭KKR已獲得超過100億美元承諾資金，成立Helix Digital Infrastructure，由前AWS執行長Adam Selipsky領導，專門設計、建設和運營AI基礎設施，解決AI擴展中的物理層瓶頸。</div>
+                <a class="source" href="https://techstartups.com/2026/05/01/top-tech-news-today-may-1-2026/" target="_blank">TechStartups</a>
+            </div>
+
+            <div class="news-item">
+                <div class="headline">美國五角大樓與七大AI公司簽署機密網絡合作協議</div>
+                <div class="summary">美國國防部宣布與Amazon、Google、Microsoft等七大AI公司達成協議，將在軍方機密網絡中部署AI工具。值得注意的是，Anthropic未被列入合作名單。此舉標誌著AI技術與軍事應用的深度融合邁出重要一步。</div>
+                <a class="source" href="https://www.cnn.com/2026/05/01/tech/pentagon-ai-anthropic" target="_blank">CNN</a>
+            </div>
+
+            <div class="news-item">
+                <div class="headline">Apple上調業績指引，大型科技股AI受益分化明顯</div>
+                <div class="summary">Apple股價在業績展望上調後大漲。Bloomberg分析指出，大型科技股的AI受益者與落後者之間出現明顯分化，Google Cloud的AI業務推動母公司股價年初至今上漲23%，在「七巨頭」中表現最佳。</div>
+                <a class="source" href="https://www.bloomberg.com/news/articles/2026-05-03/big-tech-earnings-show-split-between-ai-trade-winners-and-losers" target="_blank">Bloomberg</a>
+            </div>
+
+            <div class="news-item">
+                <div class="headline">SanDisk受惠AI存儲需求爆發，季度營收遠超預期</div>
+                <div class="summary">SanDisk受AI存儲需求推動，季度營收達59.5億美元，遠超分析師預期。公司同時宣布60億美元回購計劃，並表示五項長期供應合約中有三項價值420億美元。</div>
+                <a class="source" href="https://techstartups.com/2026/05/01/top-tech-news-today-may-1-2026/" target="_blank">TechStartups</a>
+            </div>
+
+            <div class="news-item">
+                <div class="headline">Motorola Razr Ultra 2026首搭矽碳電池技術</div>
+                <div class="summary">Motorola最新折疊手機Razr Ultra 2026在美國市場率先引入矽碳電池技術，有望大幅提升手機續航能力，在電池密度方面超越Apple和Samsung的同類產品。</div>
+                <a class="source" href="https://www.forbes.com/sites/davidphelan/2026/05/03/motorola-beats-apple-and-samsung-the-razr-ultra-2026-debuts-game-changing-battery-tech/" target="_blank">Forbes</a>
+            </div>
+        </div>
+
+        <!-- AI 新聞 -->
+        <div class="section">
+            <div class="section-title"><span class="emoji">🤖</span> AI 新聞</div>
+
+            <div class="news-item">
+                <div class="headline">DeepSeek發布V4模型，再次衝擊AI行業格局</div>
+                <div class="summary">中國AI公司DeepSeek推出V4系列模型，以更低的成本和更高的效率挑戰OpenAI和Anthropic等西方對手。DeepSeek持續以開源策略推動AI民主化，在國際AI競爭中佔據重要一席。</div>
+                <a class="source" href="https://www.aiandnews.com/blog/latest-ai-news-may-2026/" target="_blank">AI and News</a>
+            </div>
+
+            <div class="news-item">
+                <div class="headline">OpenAI發布GPT-5.5，Meta加大AI資本開支</div>
+                <div class="summary">OpenAI推出GPT-5.5模型，在推理能力和多模態處理方面實現顯著提升。Meta Platforms宣布增加AI擴張的資本支出，並結束了與Microsoft的獨家合作協議，為AI競爭格局帶來新變數。</div>
+                <a class="source" href="https://blog.mean.ceo/new-ai-model-releases-news-may-2026/" target="_blank">Mean CEO Blog</a>
+            </div>
+
+            <div class="news-item">
+                <div class="headline">Anthropic推出Opus 4.7模型</div>
+                <div class="summary">Anthropic發布Opus 4.7模型，在安全性和可靠性方面獲得業內認可。該模型強調負責任的AI部署和企業級應用場景。</div>
+                <a class="source" href="https://blog.mean.ceo/new-ai-model-releases-news-may-2026/" target="_blank">Mean CEO Blog</a>
+            </div>
+
+            <div class="news-item">
+                <div class="headline">Elon Musk承認xAI曾蒸餾OpenAI模型</div>
+                <div class="summary">Elon Musk在法庭上承認，xAI在某種程度上使用了OpenAI模型的輸出來訓練自家模型。這一「蒸餾」做法在業內日益普遍但也日益具爭議，可能成為AI行業下一個重大法律爭議焦點。</div>
+                <a class="source" href="https://techstartups.com/2026/05/04/top-tech-news-today-may-4-2026/" target="_blank">TechStartups</a>
+            </div>
+
+            <div class="news-item">
+                <div class="headline">MIT與IBM聯合成立計算研究實驗室</div>
+                <div class="summary">MIT和IBM宣布聯合成立MIT-IBM Computing Research Lab，將AI、算法和量子計算相結合，推動下一代計算技術的研發。</div>
+                <a class="source" href="https://news.mit.edu/2026/mit-ibm-computing-research-lab-launches-0429" target="_blank">MIT News</a>
+            </div>
+
+            <div class="news-item">
+                <div class="headline">史丹福大學發布2026年AI指數報告</div>
+                <div class="summary">史丹福大學人本AI研究院發布年度AI指數報告，指出AI在多項創造力測試中已超越普通人類水平，但AI對就業的實際影響仍存在巨大爭議。</div>
+                <a class="source" href="https://hai.stanford.edu/ai-index" target="_blank">Stanford HAI</a>
+            </div>
+
+            <div class="news-item">
+                <div class="headline">美國銀行業嚴陣以待AI驅動的網絡攻擊</div>
+                <div class="summary">美國財政部長Bessent表示，銀行和科技公司正在加強防禦AI驅動的網絡威脅。AI風險已從模型安全辯論延伸至核心金融基礎設施安全。</div>
+                <a class="source" href="https://techstartups.com/2026/05/04/top-tech-news-today-may-4-2026/" target="_blank">TechStartups</a>
+            </div>
+        </div>
+
+        <!-- GDS 股票新聞 -->
+        <div class="section">
+            <div class="section-title"><span class="emoji">📈</span> GDS 股票新聞</div>
+
+            <div class="news-item">
+                <div class="headline">交銀國際上調GDS目標價至56.65港元，維持買入評級</div>
+                <div class="summary">交銀國際發表研究報告，指出全球數據中心正經歷前所未有的擴張階段，AI超級投資週期正在加速這一增長。據JLL預測，2026至2030年間全球數據中心行業容量可能翻倍至200GW，總支出可能接近3萬億美元。報告將GDS（09698.HK）列為內地首選，目標價從47.64港元上調至56.65港元。</div>
+                <a class="source" href="http://www.aastocks.com/en/usq/news/comment.aspx?id=NOW.1521902&catg=1" target="_blank">AAStocks</a>
+            </div>
+
+            <div class="news-item">
+                <div class="headline">GDS發布2025年年報，數據中心版圖持續擴張</div>
+                <div class="summary">GDS Holdings已向美國證券交易委員會提交2025財政年度20-F年報。作為中國領先的高性能數據中心開發運營商，GDS的設施戰略性分佈於需求集中的核心樞紐，客戶群涵蓋超大規模雲服務商、大型互聯網企業及金融機構。公司同時持有DayOne Data Centers Limited少數股權。</div>
+                <a class="source" href="https://www.globenewswire.com/news-release/2026/04/29/3283870/0/en/GDS-Files-2025-Annual-Report-on-Form-20-F.html" target="_blank">GlobeNews</a>
+            </div>
+
+            <div class="news-item">
+                <div class="headline">中國「十五五」規劃首次設立「數智」專章，算力基礎設施提升至戰略層面</div>
+                <div class="summary">交銀國際報告指出，「十五五」規劃綱要首次單獨設立「數智」專章，將算力基礎設施提升至新的戰略高度。近年來各類數據中心的租金和資產價值快速增長，雲服務的強勁需求有力支撐了行業基本面。定價權和高出租率正在推動數據中心運營商淨營業收入和EBITDA的快速增長。</div>
+                <a class="source" href="http://www.aastocks.com/en/usq/news/comment.aspx?id=NOW.1521902&catg=1" target="_blank">AAStocks</a>
+            </div>
+
+            <div class="news-item">
+                <div class="headline">GDS及新意網獲交銀國際分別列為內地及香港首選</div>
+                <div class="summary">交銀國際將GDS（09698.HK）列為內地數據中心首選，新意網（01686.HK）列為香港首選，兩者均獲買入評級。新意網目標價維持8.58港元。此外，交銀國際首次覆蓋VNET Group（VNET.US），給予買入評級及15.76美元目標價。</div>
+                <a class="source" href="http://www.aastocks.com/en/usq/news/comment.aspx?id=NOW.1521902&catg=1" target="_blank">AAStocks</a>
+            </div>
+        </div>
+
+        <!-- Disclaimer -->
+        <div class="disclaimer">
+            <strong>免責聲明</strong>：本新聞簡報由 AI agent 自動生成，僅供參考，不構成任何投資建議。<br>
+            生成時間：2026-05-05 10:25:51 HKT
+        </div>
+    </div>
+</body>
+</html>
