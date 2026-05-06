@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>每日新聞簡報 — 2026-05-06</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Noto+Serif+TC:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --green-dark: #1a5632;
+            --green-light: #2a7a4a;
+            --gold: #c9a84c;
+            --gold-light: #e0c97a;
+            --bg: #fafaf7;
+            --card-bg: #ffffff;
+            --text: #2c2c2c;
+            --text-secondary: #5a5a5a;
+            --border: #e0ddd5;
+            --shadow: 0 2px 12px rgba(26,86,50,0.08);
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Noto Sans TC', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.8;
+            -webkit-font-smoothing: antialiased;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px 16px 60px;
+        }
+        /* Header */
+        .header {
+            text-align: center;
+            padding: 40px 20px 30px;
+            margin-bottom: 30px;
+            background: linear-gradient(135deg, var(--green-dark) 0%, var(--green-light) 100%);
+            border-radius: 16px;
+            color: #fff;
+            box-shadow: var(--shadow);
+        }
+        .header h1 {
+            font-family: 'Noto Serif TC', serif;
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+            letter-spacing: 2px;
+        }
+        .header .date {
+            font-size: 0.95rem;
+            color: var(--gold-light);
+            font-weight: 300;
+        }
+        .header .gen-time {
+            font-size: 0.8rem;
+            color: rgba(255,255,255,0.6);
+            margin-top: 6px;
+        }
+        /* Section */
+        .section {
+            margin-bottom: 28px;
+        }
+        .section-title {
+            font-family: 'Noto Serif TC', serif;
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: var(--green-dark);
+            padding: 12px 0 8px;
+            border-bottom: 3px solid var(--gold);
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .section-title .emoji { font-size: 1.4rem; }
+        /* News item */
+        .news-item {
+            background: var(--card-bg);
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 14px;
+            box-shadow: var(--shadow);
+            border-left: 4px solid var(--green-dark);
+            transition: transform 0.15s ease;
+        }
+        .news-item:hover { transform: translateY(-1px); }
+        .news-item h3 {
+            font-family: 'Noto Serif TC', serif;
+            font-size: 1.05rem;
+            font-weight: 600;
+            color: var(--green-dark);
+            margin-bottom: 8px;
+            line-height: 1.5;
+        }
+        .news-item h3 a {
+            color: var(--green-dark);
+            text-decoration: none;
+        }
+        .news-item h3 a:hover {
+            color: var(--gold);
+            text-decoration: underline;
+        }
+        .news-item p {
+            font-size: 0.93rem;
+            color: var(--text-secondary);
+            line-height: 1.85;
+        }
+        .source-link {
+            display: inline-block;
+            margin-top: 8px;
+            font-size: 0.82rem;
+            color: var(--gold);
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .source-link:hover { text-decoration: underline; }
+        .source-link::before { content: "📎 "; }
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 30px 20px;
+            margin-top: 40px;
+            border-top: 1px solid var(--border);
+            color: var(--text-secondary);
+            font-size: 0.82rem;
+        }
+        .footer strong { color: var(--green-dark); }
+        /* Responsive */
+        @media (max-width: 600px) {
+            .container { padding: 12px 10px 40px; }
+            .header { padding: 28px 16px 22px; border-radius: 12px; }
+            .header h1 { font-size: 1.4rem; }
+            .section-title { font-size: 1.1rem; }
+            .news-item { padding: 14px; }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+
+    <div class="header">
+        <h1>📰 每日新聞簡報</h1>
+        <div class="date">2026 年 5 月 6 日（星期三）</div>
+        <div class="gen-time">生成時間：2026-05-06 10:24:53 HKT</div>
+    </div>
+
+    <!-- 🌏 國際新聞 -->
+    <div class="section">
+        <div class="section-title"><span class="emoji">🌏</span> 國際新聞</div>
+
+        <div class="news-item">
+            <h3><a href="https://sundayguardianlive.com/business/us-stock-market-today-06-may-2026-dow-falls-nasdaq-sp-500-edge-higher-as-oil-surges-110-on-us-iran-tensions-gold-silver-climb-bitcoin-retreats-81k-what-investors-should-watch-189522/" target="_blank" rel="noopener">美伊荷姆茲海峽衝突升級，油價飆升至每桶 114.5 美元</a></h3>
+            <p>美伊戰爭進入第 66 天，美軍在「自由計劃」護航行動中與伊朗在荷姆茲海峽交火。川普稱美軍擊沉 7 艘伊朗快艇，伊朗則聲稱以飛彈擊中美軍艦艇。兩艘美國商船在美軍護航下成功穿越海峽，但主要航運公司表示將等待停火後才恢復通行。韓國外交部證實一艘韓國貨船在海峽爆炸起火。布倫特原油攀升至每桶 114.5 美元，美國汽油均價升至每加侖 4.46 美元。</p>
+            <a class="source-link" href="https://www.chinatimes.com/realtimenews/20260505001709-260408" target="_blank" rel="noopener">中時新聞</a>
+        </div>
+
+        <div class="news-item">
+            <h3><a href="https://big5.sputniknews.cn/20260505/1071103768.html" target="_blank" rel="noopener">俄羅斯報復性打擊烏克蘭國防工業及能源設施，普京威脅動用「榛樹」導彈</a></h3>
+            <p>俄軍對烏克蘭多座城市的國防工業設施和能源基礎設施發動大規模打擊。普京公開警告，若西方持續升級對烏軍援，俄方將動用「榛樹」新型中程彈道導彈進行回應。俄烏衝突再度呈現升級態勢。</p>
+            <a class="source-link" href="https://big5.sputniknews.cn/20260505/1071105762.html" target="_blank" rel="noopener">Sputnik</a>
+        </div>
+
+        <div class="news-item">
+            <h3><a href="https://www.bbc.com/news/articles/c8xwjx54zggo" target="_blank" rel="noopener">印度泰米爾納德邦選舉震撼：影星 Vijay 首次參選即大勝</a></h3>
+            <p>印度泰米爾影星 Vijay 領導的 TVK 黨在首次參加的邦議會選舉中奪得 108 席，打破 DMK 與 AIADMK 長達近 60 年的德拉維達政黨壟斷格局。Vijay 將成為自 1977 年 MGR 以來首位從影星轉任的首席部長。</p>
+            <a class="source-link" href="https://www.ndtv.com/india-news/tamil-nadu-assembly-election-2026-results-actor-vijay-tvk-wins-tamil-nadu-election-vijay-driver-r-sabarinathan-11447808" target="_blank" rel="noopener">NDTV</a>
+        </div>
+
+        <div class="news-item">
+            <h3><a href="https://www.chinatimes.com/realtimenews/20260505002009-260410" target="_blank" rel="noopener">黃仁勳與美國官員激辯對華晶片出口管制</a></h3>
+            <p>輝達執行長黃仁勳與白宮官員帕特爾就對中國晶片出口管制展開激烈交鋒。帕特爾將出售晶片給中國比喻為「出售濃縮鈾」，黃仁勳則強硬回擊稱此比喻「不合邏輯」，呼籲讓研究人員進行跨國對話。</p>
+        </div>
+    </div>
+
+    <!-- 🇭🇰 香港新聞 -->
+    <div class="section">
+        <div class="section-title"><span class="emoji">🇭🇰</span> 香港新聞</div>
+
+        <div class="news-item">
+            <h3><a href="https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3352495/hong-kong-posts-strongest-quarterly-economic-growth-almost-5-years-59" target="_blank" rel="noopener">香港 Q1 GDP 增長 5.9%，創近五年最快增速</a></h3>
+            <p>2026 年第一季度實質 GDP 按年增長 5.9%，為自 2021 年第二季度以來最快增速。政府發言人警告，中東戰爭帶來的下行風險值得關注，尤其對全球貿易及金融市場的潛在衝擊。</p>
+            <a class="source-link" href="https://asia.nikkei.com/economy/hong-kong-posts-fastest-growth-in-nearly-five-years" target="_blank" rel="noopener">Nikkei Asia</a>
+        </div>
+
+        <div class="news-item">
+            <h3><a href="https://www.scmp.com/business/article/3352506/hong-kong-home-sales-surge-2-year-high-boosting-overall-transactions" target="_blank" rel="noopener">香港 4 月住宅銷售創兩年新高，整體物業交易創四個月新高</a></h3>
+            <p>受惠於政府放寬樓市政策及市場情緒改善，4 月份住宅銷售宗數創下兩年新高，整體物業交易量創四個月新高。分析師指市場正呈現穩步復甦跡象。</p>
+        </div>
+
+        <div class="news-item">
+            <h3><a href="https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3352395/golden-week-hong-kong-draws-more-mainland-chinese-visitors-spending-uneven" target="_blank" rel="noopener">黃金周內地訪港旅客首三天增 4.8%，但消費分布不均</a></h3>
+            <p>五一黃金周期間，內地訪港旅客首三天按年增加 4.8%，但人均消費未見顯著提升，呈現「旺丁不旺財」的趨勢。零售餐飲業表示高端消費增長放緩，平民化消費則維持穩定。</p>
+        </div>
+
+        <div class="news-item">
+            <h3><a href="https://www.scmp.com/news/hong-kong/health-environment/article/3352496/hong-kong-researchers-develop-world-first-nasal-spray-rapid-stroke-aid" target="_blank" rel="noopener">港大研發全球首創鼻噴式中風急救藥物</a></h3>
+            <p>香港大學研究團隊成功研發全球首款鼻噴式中風急救藥物，可在黃金救援時間內快速給藥，大幅降低中風致死率及致殘率。該技術已進入臨床試驗階段。</p>
+        </div>
+
+        <div class="news-item">
+            <h3><a href="https://meyka.com/blog/hsbc-holdings-0005hk-drops-27-on-q1-earnings-miss-may-5-0505/" target="_blank" rel="noopener">匯豐控股 Q1 業績不及預期，股價下跌 2.7%</a></h3>
+            <p>匯豐控股公布第一季度業績，稅前利潤低於市場預期，股價收跌 2.7%。銀行表示淨利息收入受減息周期壓縮，但財富管理業務保持增長。</p>
+        </div>
+    </div>
+
+    <!-- 🇨🇳 內地新聞 -->
+    <div class="section">
+        <div class="section-title"><span class="emoji">🇨🇳</span> 內地新聞</div>
+
+        <div class="news-item">
+            <h3><a href="https://news.sina.com.cn/c/2026-05-05/doc-inhwvivp4243027.shtml" target="_blank" rel="noopener">中國首次啟用《阻斷辦法》，發布禁令反制美國制裁</a></h3>
+            <p>中國商務部首次啟用 2021 年頒布的《阻斷外國法律與措施不當域外適用辦法》，發布禁令要求中國企業不得承認、不得執行、不得遵守美國針對五家涉伊朗石油交易中企的制裁措施。彭博社稱此舉「史無前例」，標誌中國從口頭譴責轉向實質性反制。專家指此為「精準反制」，為後續談判保留空間。</p>
+            <a class="source-link" href="https://www.chinatimes.com/realtimenews/20260505002343-260409" target="_blank" rel="noopener">中時新聞</a>
+        </div>
+
+        <div class="news-item">
+            <h3><a href="https://www.bbc.com/zhongwen/articles/cjrp2g758pdo/trad" target="_blank" rel="noopener">AI 蒸餾技術成美中科技競爭新戰場</a></h3>
+            <p>AI 知識蒸餾技術正從工程優化領域走向地緣政治前線。美國指控中國企業透過蒸餾技術「複製」美國先進 AI 模型能力，中國則強調技術進步來自自主研發。川普表示將於本月稍後與習近平會面討論 AI 競爭問題。布魯金斯學會研究員指出美國政策正從僅限制晶片出口擴展至演算法與數據層面。</p>
+        </div>
+
+        <div class="news-item">
+            <h3><a href="https://www.news.cn/fortune/20260506/1a24ef045de24cff8342dca30148349e/c.html" target="_blank" rel="noopener">五一假期上海接待遊客 1690 萬人次，展現經濟活力</a></h3>
+            <p>新華社報導，五一黃金周期間上海共接待國內外遊客 1690 萬人次，消費總額大幅增長，反映內需市場持續回暖。各地旅遊數據整體表現亮眼，文旅產業成為拉動經濟增長的重要引擎。</p>
+        </div>
+
+        <div class="news-item">
+            <h3><a href="https://udn.com/news/story/6809/9483554" target="_blank" rel="noopener">川普擴大制裁古巴，中方強烈反對</a></h3>
+            <p>美國總統川普簽署行政令擴大對古巴制裁，中國外交部發言人表示堅決反對干涉古巴內政，敦促美方立即終止封鎖制裁，稱相關措施嚴重侵犯古巴人民生存權和發展權。</p>
+        </div>
+    </div>
+
+    <!-- 💻 科技新聞 -->
+    <div class="section">
+        <div class="section-title"><span class="emoji">💻</span> 科技新聞</div>
+
+        <div class="news-item">
+            <h3><a href="https://www.reuters.com/business/alphabet-closes-nvidias-spot-worlds-biggest-company-2026-05-05/" target="_blank" rel="noopener">Alphabet 市值逼近全球第一，即將超越 Nvidia</a></h3>
+            <p>Google 母公司 Alphabet 的市值已接近超越 Nvidia，有望成為全球市值最高公司。受 AI 業務持續增長及雲端收入攀升推動，Alphabet 股價持續走高。分析師認為 AI 基礎設施投資潮正從純硬體公司向軟體服務巨頭擴散。</p>
+        </div>
+
+        <div class="news-item">
+            <h3><a href="https://www.politico.com/news/2026/05/04/elon-musk-settles-sec-lawsuit-over-twitter-stock-disclosures-00905836" target="_blank" rel="noopener">Elon Musk 與 SEC 和解，支付 150 萬美元罰款</a></h3>
+            <p>馬斯克就 2022 年延遲披露 Twitter 持股一事與 SEC 達成和解，以其信託名義支付 150 萬美元民事罰款，不承認違規。SEC 原本索賠 2 億美元，最終和解金額遠低於此。前 SEC 官員稱此結果「令政府尷尬」。</p>
+            <a class="source-link" href="https://www.washingtonpost.com/technology/2026/05/04/elon-musk-sec-settlement/" target="_blank" rel="noopener">Washington Post</a>
+        </div>
+
+        <div class="news-item">
+            <h3><a href="https://www.androidheadlines.com/2026/05/samsung-chairman-strike-chip-plants-2026.html" target="_blank" rel="noopener">三星董事長介入平澤晶片廠工會罷工危機</a></h3>
+            <p>三星電子董事長李在鎔親自介入韓國平澤半導體工廠的工會罷工危機。此次罷工涉及三星最先進的記憶體晶片產線，若持續升級可能影響全球 NAND Flash 及 HBM 供應。</p>
+        </div>
+
+        <div class="news-item">
+            <h3><a href="https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/" target="_blank" rel="noopener">Google 發布四月 AI 更新：Gemini 模型全面升級</a></h3>
+            <p>Google 發布四月 AI 更新摘要，涵蓋 Gemini 模型系列的多項改進，包括更強的多模態推理能力、程式碼生成優化，以及企業版 API 的新功能。</p>
+        </div>
+    </div>
+
+    <!-- 🤖 AI 新聞 -->
+    <div class="section">
+        <div class="section-title"><span class="emoji">🤖</span> AI 新聞</div>
+
+        <div class="news-item">
+            <h3><a href="https://www.politico.com/news/2026/05/05/microsoft-xai-google-caisi-safety-testing-00906529" target="_blank" rel="noopener">美國政府與微軟、xAI、Google DeepMind 簽署 AI 安全審查協議</a></h3>
+            <p>美國商務部宣布與微軟、xAI、Google DeepMind 達成協議，允許政府在新 AI 模型正式發布前進行國家安全風險審查。此舉標誌著美國 AI 監管從自願承諾走向制度化審查，是聯邦政府介入 AI 模型開發流程的重大里程碑。</p>
+        </div>
+
+        <div class="news-item">
+            <h3><a href="https://www.anthropic.com/news/enterprise-ai-services-company" target="_blank" rel="noopener">Anthropic 攜手 Blackstone、Goldman Sachs 成立企業 AI 服務合資公司</a></h3>
+            <p>Anthropic 與私募巨頭 Blackstone、Hellman & Friedman 及高盛成立全新企業 AI 服務公司，為大型企業提供定制化的 AI 諮詢與部署服務。AI 實驗室正從技術供應商角色擴展至直接服務企業客戶的諮詢業務。</p>
+            <a class="source-link" href="https://fortune.com/2026/05/04/anthropic-claude-consulting-industry-joint-venture-blackstone-goldman-sachs/" target="_blank" rel="noopener">Fortune</a>
+        </div>
+
+        <div class="news-item">
+            <h3><a href="https://techcrunch.com/2026/05/04/anthropic-and-openai-are-both-launching-joint-ventures-for-enterprise-ai-services/" target="_blank" rel="noopener">OpenAI 同步推出企業 AI 合資公司</a></h3>
+            <p>在 Anthropic 公布企業服務計劃的同一天，OpenAI 也宣布推出類似的企業 AI 服務合資項目，兩家 AI 巨頭在企業市場的競爭正式白熱化。</p>
+        </div>
+
+        <div class="news-item">
+            <h3><a href="https://www.bbc.com/zhongwen/articles/cjrp2g758pdo/trad" target="_blank" rel="noopener">AI 蒸餾技術引發美中知識產權爭議升級</a></h3>
+            <p>AI 知識蒸餾技術已成為美中科技競爭的最新焦點。美國認為僅限制晶片出口已不足以保持領先，正將管控範圍擴展至演算法和數據層面，此舉可能深刻影響全球 AI 開源生態與跨境技術合作。</p>
+        </div>
+    </div>
+
+    <!-- 📈 GDS 股票新聞 -->
+    <div class="section">
+        <div class="section-title"><span class="emoji">📈</span> GDS 股票新聞</div>
+
+        <div class="news-item">
+            <h3><a href="https://www.globenewswire.com/news-release/2026/04/29/3283870/0/en/GDS-Files-2025-Annual-Report-on-Form-20-F.html" target="_blank" rel="noopener">GDS Holdings 提交 2025 年度 20-F 報告，數據中心收入持續增長</a></h3>
+            <p>萬國數據（NASDAQ: GDS / HKEX: 9698）於 4 月 29 日向 SEC 提交 2025 財年年報。報告顯示數據中心業務收入持續增長，但總負債達 462 億人民幣。公司持有 DayOne Data Centers（新加坡）少數股權，提供中國大陸以外的業務敞口。</p>
+            <a class="source-link" href="https://www.stocktitan.net/sec-filings/GDS/20-f-gds-holdings-ltd-files-annual-report-foreign-issuer-0c93e28d9b77.html" target="_blank" rel="noopener">StockTitan</a>
+        </div>
+
+        <div class="news-item">
+            <h3><a href="https://finance.yahoo.com/markets/stocks/articles/look-gds-holdings-nasdaqgm-gds-190331451.html" target="_blank" rel="noopener">分析師上調 GDS 目標價至 56.89 美元，維持「強力買入」評級</a></h3>
+            <p>多名分析師將 GDS 目標價從 53.72 美元上調至 56.89 美元，基於 AI 數據中心需求增長及公司資本回收計劃。GDS 目前股價約 41.81 美元，52 週區間為 22.53 至 48.61 美元。估值差距主要反映市場對長期 AI 數據中心需求的預期。</p>
+            <a class="source-link" href="https://simplywall.st/community/narratives/us/software/nasdaq-gds/gds-holdings/mifg4mn6-900mw-land-in-china-will-expand-ai-data-centers-x15r/updates/16-analysts-have-raised-their-price-target-for-gds-holdings-to" target="_blank" rel="noopener">SimplyWall.St</a>
+        </div>
+
+        <div class="news-item">
+            <h3><a href="https://www.stocktitan.net/sec-filings/GDS/20-f-gds-holdings-ltd-files-annual-report-foreign-issuer-0c93e28d9b77.html" target="_blank" rel="noopener">中東戰爭與監管收緊或影響數據中心行業前景</a></h3>
+            <p>隨著中東衝突持續升溫，能源價格波動可能推高數據中心運營成本。GDS 在年報中亦提及中國境內針對數據中心、能源及 AI 領域的監管政策正在收緊，構成潛在合規風險。</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <strong>⚠️ 免責聲明</strong><br>
+        本新聞簡報由 AI agent 自動生成，僅供參考，不構成任何投資建議。
+    </div>
+
+</div>
+</body>
+</html>
