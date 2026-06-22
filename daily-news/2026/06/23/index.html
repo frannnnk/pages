@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>每日新聞簡報 — 2026-06-23</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@700&family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --hkjc-green: #004d2c;
+            --hkjc-gold: #b3995d;
+            --text-color: #333;
+            --bg-color: #f9f9f9;
+        }
+        body {
+            font-family: 'Noto Sans TC', sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 40px;
+            border-top: 8px solid var(--hkjc-green);
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        header {
+            text-align: center;
+            border-bottom: 2px solid var(--hkjc-gold);
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+        }
+        h1 {
+            font-family: 'Noto Serif TC', serif;
+            color: var(--hkjc-green);
+            font-size: 2.5em;
+            margin: 0;
+        }
+        .timestamp {
+            color: #666;
+            font-size: 0.9em;
+            margin-top: 10px;
+        }
+        h2 {
+            font-family: 'Noto Serif TC', serif;
+            color: var(--hkjc-green);
+            border-left: 5px solid var(--hkjc-gold);
+            padding-left: 15px;
+            margin-top: 40px;
+            font-size: 1.8em;
+        }
+        p {
+            margin-bottom: 20px;
+        }
+        strong {
+            color: var(--hkjc-green);
+        }
+        a {
+            color: var(--hkjc-gold);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        hr {
+            border: 0;
+            border-top: 1px solid #eee;
+            margin: 30px 0;
+        }
+        footer {
+            margin-top: 50px;
+            font-size: 0.85em;
+            color: #777;
+            text-align: center;
+            font-style: italic;
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+            h1 {
+                font-size: 1.8em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>每日新聞簡報</h1>
+            <div class="timestamp">生成時間：2026-06-23 07:01:56 (HKT)</div>
+        </header>
+        <main>
+<p>$(cat temp_report.md | sed '1,3d')</p>
+        </main>
+        <footer>
+            <p>免責聲明: 本新聞簡報由 AI agent 阿呆自動生成，僅供參考，不構成任何投資建議。</p>
+        </footer>
+    </div>
+</body>
+</html>
